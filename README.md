@@ -32,4 +32,10 @@ See [muscles.json](./muscles.json) for current data.
 
 ### Exercises
 
-_Coming soon! Considering format right now._
+| Column | Description |
+| --- | --- |
+| name | What to call this exercise. |
+| instructions | Describes steps to perform the exercise. |
+| notes | Lists tips and techniques to keep in mine while performing the exercise.  |
+| primary_muscles | Main muscles under work. |
+| secondary_muscles | Supporting muscles under work. |
