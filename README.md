@@ -28,7 +28,7 @@ See [muscles.json](./muscles.json) for current data.
 
 | Column | Description |
 | --- | --- |
-| name | Muscle under work. _Note_: Use the english name of the muscles rather than the Latin name. This may lead to some simplification in muscle targets. For example, our exercises target "Chest" rather than "Pectoralis Major". This simplification appeals to a wider audience of fitness experience levels and lowers the barrier to contributions.  |
+| name | Muscle under work. _Note_: Use the english name of the muscles rather than the Latin name. This may lead to some simplification in muscle targets. For example, our exercises target "Chest" rather than "Pectoralis Major". This simplification appeals to a wider audience of fitness experience levels and lowers the barrier to contributions. |
 
 ### Exercises
 
@@ -36,6 +36,6 @@ See [muscles.json](./muscles.json) for current data.
 | --- | --- |
 | name | What to call this exercise. |
 | instructions | Describes steps to perform the exercise. |
-| notes | Lists tips and techniques to keep in mine while performing the exercise.  |
-| primary_muscles | Main muscles under work. |
-| secondary_muscles | Supporting muscles under work. |
+| notes | Lists tips and techniques to keep in mine while performing the exercise. |
+| primary_muscles | Main muscles under work. Represents many-to-many relationship with [Muscles](#muscles) |
+| secondary_muscles | Supporting muscles under work. Represents many-to-many relationship with [Muscles](#muscles) |

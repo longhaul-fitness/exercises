@@ -1,0 +1,24 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "hads -o",
+    "format": "prettier --write --prose-wrap never ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/longhaul-fitness/exercises.git"
+  },
+  "author": "Bill Amberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wamberg/lhf/issues"
+  },
+  "homepage": "https://github.com/longhaul-fitness/exercises/blob/main/README.md",
+  "devDependencies": {
+    "hads": "^3",
+    "prettier": "^2"
+  }
+}
