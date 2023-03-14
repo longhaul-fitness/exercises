@@ -1,5 +1,7 @@
 # Exercises
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Introduction
 
 Staying fit and healthy is crucial for leading a happy and fulfilling life. However, with so many different exercise routines and workout plans, keeping track of exercises and learning new ones can be challenging.
