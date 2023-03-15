@@ -32,10 +32,12 @@ See [muscles.json](./muscles.json) for current data.
 
 ### Exercises
 
+See [exercises.json](./exercises.json) for current data.
+
 | Column | Description |
 | --- | --- |
 | name | What to call this exercise. |
-| instructions | Describes steps to perform the exercise. |
-| notes | Lists tips and techniques to keep in mine while performing the exercise. |
+| instructions | Describes steps to perform the exercise. _Note_: Stored as HTML. |
+| notes | Lists tips and techniques to keep in mine while performing the exercise. _Note_: Stored as HTML. |
 | primary_muscles | Main muscles under work. Represents many-to-many relationship with [Muscles](#muscles) |
 | secondary_muscles | Supporting muscles under work. Represents many-to-many relationship with [Muscles](#muscles) |
