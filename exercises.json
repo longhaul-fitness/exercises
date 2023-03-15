@@ -1,0 +1,22 @@
+[
+  {
+    "pk": 1,
+    "fields": {
+      "name": "Pull-Up",
+      "instructions": "<ol><li>Begin by finding a sturdy horizontal bar high enough off the ground that you can hang from it with your feet off the floor.</li><li>Stand underneath the bar and jump up, grabbing onto the bar with an overhand grip (palms facing away from you) and your hands slightly wider than shoulder-width apart. Your arms should be fully extended.</li><li>Engage your core and retract your shoulder blades as you pull your body up towards the bar. Keep your elbows pointed downwards and your head in a neutral position.</li><li>Continue pulling your body up until your chin is above the bar. Keep your core tight and your shoulders engaged throughout the movement.</li><li>Pause briefly at the top of the movement, then slowly lower yourself back down to the starting position with control. Make sure to maintain a controlled descent and avoid letting your body swing or drop.</li><li>Repeat the movement for your desired number of repetitions.</li></ol>",
+      "notes": "Try assisted variations using resistance bands or an assisted pull-up machine until you build the necessary strength.",
+      "primary_muscles": [9],
+      "secondary_muscles": [2, 5, 13, 14, 15]
+    }
+  },
+  {
+    "pk": 2,
+    "fields": {
+      "name": "Squat",
+      "instructions": "<ol><li>Begin by standing with your feet shoulder-width apart and your toes pointing forward. Hold a barbell behind your neck, resting it on your shoulders with your elbows pointing down and your palms facing forward.</li><li>Engage your core and keep your chest lifted as you bend your knees and lower your hips back and down as if sitting in a chair. Make sure to keep your weight on your heels and your knees tracking in line with your toes.</li><li>As you descend into the squat, inhale and maintain proper form. Lean forward so that your chest is over your thighs. Keep your back straight and your core engaged. Lower your body until your thighs parallel the ground, and your hips should align with your knees.</li><li>Pause briefly at the bottom of the movement, then exhale and push through your heels to stand back up to the starting position. Keep your core engaged and your chest lifted until you're fully standing.</li><li>Repeat the movement for your desired number of repetitions.</li><li>Place the barbell on the rack after you've finished your set.</li></ol>",
+      "notes": "",
+      "primary_muscles": [7, 10, 12, 18],
+      "secondary_muscles": [3]
+    }
+  }
+]
