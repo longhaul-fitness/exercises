@@ -18,5 +18,15 @@
       "primary_muscles": [7, 10, 12, 18],
       "secondary_muscles": [3]
     }
+  },
+  {
+    "pk": 3,
+    "fields": {
+      "name": "Push-Up",
+      "instructions": "<ol><li>Start in a plank position, with your hands shoulder-width apart and your fingers pointing forward.</li><li>Keep your core engaged, your back straight, and your hips in line with your shoulders.</li><li>Lower your body towards the ground by bending your elbows, keeping your upper arms close to your sides.</li><li>Keep your elbows at a 45-degree angle to your body, and continue lowering until your chest touches the ground.</li><li>Push back up to the starting position by straightening your arms, keeping your core engaged and your body in a straight line throughout the movement.</li><li>Repeat</li></ol>",
+      "notes": "",
+      "primary_muscles": [4, 16],
+      "secondary_muscles": [1, 21]
+    }
   }
 ]
