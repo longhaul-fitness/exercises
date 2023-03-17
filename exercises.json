@@ -28,5 +28,35 @@
       "primary_muscles": [4, 16],
       "secondary_muscles": [1, 21]
     }
+  },
+  {
+    "pk": 4,
+    "fields": {
+      "name": "Romanian Deadlift",
+      "instructions": "<ol><li>Stand with your feet shoulder-width apart and your toes pointing forward. Hold a barbell with an overhand grip in front of your thighs .</li><li>Brace your core, keep your chest up, and slowly bend your knees while hinging at your hips. As you hinge, push your hips back and lower the weight toward the floor. Keep your back straight and your shoulders down.</li><li>Continue lowering the weight until you feel a stretch in your hamstrings. Your knees should be slightly bent but not locked. You can lower the weight until it touches the floor or stops just below your knees.</li><li>Pause briefly at the bottom of the movement, then slowly reverse the motion by driving your hips forward and standing up tall. As you stand up, squeeze your glutes and hamstrings.</li><li>Repeat.</li><ol>",
+      "notes": "",
+      "primary_muscles": [7, 8, 10],
+      "secondary_muscles": [5, 18, 20]
+    }
+  },
+  {
+    "pk": 5,
+    "fields": {
+      "name": "Dumbbell Romanian Deadlift",
+      "instructions": "<ol><li>Stand with your feet shoulder-width apart and your toes pointing forward. Hold a pair of dumbbells with an overhand grip in front of your thighs .</li><li>Brace your core, keep your chest up, and slowly bend your knees while hinging at your hips. As you hinge, push your hips back and lower the weight toward the floor. Keep your back straight and your shoulders down.</li><li>Continue lowering the weight until you feel a stretch in your hamstrings. Your knees should be slightly bent but not locked. You can lower the weight until it touches the floor or stops just below your knees.</li><li>Pause briefly at the bottom of the movement, then slowly reverse the motion by driving your hips forward and standing up tall. As you stand up, squeeze your glutes and hamstrings.</li><li>Repeat.</li><ol>",
+      "notes": "",
+      "primary_muscles": [7, 8, 10],
+      "secondary_muscles": [5, 18, 20]
+    }
+  },
+  {
+    "pk": 6,
+    "fields": {
+      "name": "Single-Leg Romanian Deadlift",
+      "instructions": "<ol><li>Begin by standing on one leg, with a slight bend in the knee. Keep your other leg off the ground and behind you.</li><li>Hold a dumbbell or kettlebell in the opposite hand of the leg you are standing on.</li><li>Brace your core, keep your chest up, and slowly hinge forward at the hips, keeping your back straight and your shoulders down. As you hinge, lift your non-standing leg behind you, keeping it in line with your torso.</li><li>Continue lowering the weight until you feel a stretch in your hamstring. Your standing knee should be slightly bent but not locked.</li><li>Pause briefly at the bottom of the movement, then slowly reverse the motion by driving your hips forward and standing up tall while bringing your lifted leg back down to the ground.</li><li>Repeat for the desired number of repetitions on one leg before switching to the other.</li><ol>",
+      "notes": "",
+      "primary_muscles": [7, 8, 10],
+      "secondary_muscles": [5, 18, 20]
+    }
   }
 ]
