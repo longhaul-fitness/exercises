@@ -58,5 +58,15 @@
       "primary_muscles": [7, 8, 10],
       "secondary_muscles": [5, 18, 20]
     }
+  },
+  {
+    "pk": 7,
+    "fields": {
+      "name": "Air Squat",
+      "instructions": "<ol><li>Stand with your feet shoulder-width apart and point your toes slightly outward.</li><li>Keep your chest up, shoulders back, and core engaged.</li><li>Lower your body by bending your knees and pushing your hips back as if you were sitting in a chair.</li><li>Keep your weight on your heels and your knees behind your toes.</li><li>Lower yourself until your thighs are parallel to the ground or as low as you can comfortably go while maintaining good form.</li><li>Pause briefly at the bottom of the squat.</li><li>Push through your heels to stand back up, driving your hips forward as you do.</li><li>Stand up straight and repeat.</li></ol>",
+      "notes": "",
+      "primary_muscles": [7, 12, 18],
+      "secondary_muscles": [3]
+    }
   }
 ]
