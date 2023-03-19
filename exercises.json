@@ -68,5 +68,15 @@
       "primary_muscles": [7, 12, 18],
       "secondary_muscles": [3]
     }
+  },
+  {
+    "pk": 8,
+    "fields": {
+      "name": "Face Pull",
+      "instructions": "",
+      "notes": "",
+      "primary_muscles": [13, 14, 15],
+      "secondary_muscles": [17, 20]
+    }
   }
 ]
