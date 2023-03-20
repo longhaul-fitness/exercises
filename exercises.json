@@ -73,8 +73,8 @@
     "pk": 8,
     "fields": {
       "name": "Face Pull",
-      "instructions": "",
-      "notes": "",
+      "instructions": "<ol><li>Start by attaching a rope to a high pulley on a cable machine.</li><li>Grasp the rope or cable with both hands using an overhand grip, with your palms facing each other.</li><li>Step back a few feet from the cable machine, so there is tension in the rope or cable.</li><li>Stand with your feet shoulder-width apart, and engage your core muscles to maintain good posture throughout the exercise.</li><li>Pull the rope or cable towards your face, leading with your elbows.</li><li>Keep your elbows high and out to the sides as you pull the rope towards your face until your hands reach your temples or the sides of your head.</li><li>Hold the position for a second, then slowly lower the rope back to the starting position.</li><li>Repeat for the desired number of repetitions.</li></ol>",
+      "notes": "Focus on using your back muscles to perform the movement rather than relying on your arms or shoulders.",
       "primary_muscles": [13, 14, 15],
       "secondary_muscles": [17, 20]
     }
