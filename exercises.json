@@ -78,5 +78,45 @@
       "primary_muscles": [13, 14, 15],
       "secondary_muscles": [17, 20]
     }
+  },
+  {
+    "pk": 9,
+    "fields": {
+      "name": "Bench Press",
+      "steps": "",
+      "notes": "",
+      "primary_muscles": [4, 16],
+      "secondary_muscles": [21]
+    }
+  },
+  {
+    "pk": 10,
+    "fields": {
+      "name": "Dumbbell Squat",
+      "steps": "",
+      "notes": "",
+      "primary_muscles": [7, 10, 12, 18],
+      "secondary_muscles": [3]
+    }
+  },
+  {
+    "pk": 11,
+    "fields": {
+      "name": "Deadlift",
+      "steps": "",
+      "notes": "",
+      "primary_muscles": [7, 10],
+      "secondary_muscles": [5, 8, 12, 18, 20]
+    }
+  },
+  {
+    "pk": 12,
+    "fields": {
+      "name": "Plank",
+      "steps": "",
+      "notes": "",
+      "primary_muscles": [1],
+      "secondary_muscles": [11]
+    }
   }
 ]
