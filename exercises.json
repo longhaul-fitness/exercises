@@ -83,8 +83,8 @@
     "pk": 9,
     "fields": {
       "name": "Bench Press",
-      "steps": "",
-      "notes": "",
+      "steps": "<ol><li>Lie on a flat bench with your feet firmly planted on the ground.</li><li>Grip the barbell with your hands slightly wider than shoulder-width apart, with your palms facing away from your body.</li><li>Lift the bar off the rack and hold it directly above your chest with extended arms.</li><li>Slowly lower the bar down to your chest, keeping your elbows close to your body.</li><li>Pause briefly when the bar touches your chest.</li><li>Push the bar back up to the starting position by extending your arms.</li><li>Repeat.</li></ol>",
+      "notes": "<ul><li>Ensure your back is flat against the bench, and your feet are firmly planted on the ground.</li><li>Keep your core tight, and your elbows close to your body throughout the movement.</li><li>Exhale as you push the bar away from your chest, and inhale as you lower it down.</li></ul>",
       "primary_muscles": [4, 16],
       "secondary_muscles": [21]
     }
