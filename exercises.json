@@ -93,8 +93,8 @@
     "pk": 10,
     "fields": {
       "name": "Dumbbell Squat",
-      "steps": "",
-      "notes": "",
+      "steps": "<ol><li>Stand with your feet shoulder-width apart, with your toes pointing slightly outward.</li><li>Hold a dumbbell in each hand by your sides, with your palms facing inward.</li><li>Engage your core and keep your chest lifted throughout the movement.</li><li>Lower your body by bending at the hips and knees as if sitting on a chair.</li><li>Keep your weight in your heels, and make sure your knees are tracking over your toes.</li><li>Lower your body until your thighs are parallel to the ground or until you reach your desired depth.</li><li>Push through your heels to stand back up to the starting position.</li><li>Repeat.</li></ol>",
+      "notes": "Keep your knees in line with your toes throughout the movement.",
       "primary_muscles": [7, 10, 12, 18],
       "secondary_muscles": [3]
     }
