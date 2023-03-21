@@ -118,5 +118,15 @@
       "primary_muscles": [1],
       "secondary_muscles": [11]
     }
+  },
+  {
+    "pk": 13,
+    "fields": {
+      "name": "Leg Press",
+      "steps": "<ol><li>Adjust the seat of the leg press machine so that your knees are at a ~90-degree angle when your feet are on the footplate.</li><li>Sit on the machine and place your feet shoulder-width apart on the footplate.</li><li>Push the footplate away from your body by extending your legs.</li><li>Lower the footplate back towards your body by bending your legs and keeping your feet flat on the plate.</li><li>Repeat.</li></ol>",
+      "notes": "<ol><li>Keep your back flat against the seat throughout the movement.</li><li>Keep your feet flat on the footplate, and make sure your knees are tracking in line with your toes.</li><li>Exhale as you push the footplate away from your body, and inhale as you lower it back down.</li><li>Avoid locking out your knees at the top of the movement, as this can put unnecessary stress on the joint.</li></ol>",
+      "primary_muscles": [7, 12, 18],
+      "secondary_muscles": [8]
+    }
   }
 ]
