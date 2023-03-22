@@ -128,5 +128,15 @@
       "primary_muscles": [7, 12, 18],
       "secondary_muscles": [8]
     }
+  },
+  {
+    "pk": 14,
+    "fields": {
+      "name": "Cross-body Dumbbell Curl",
+      "steps": "<ol><li>Stand up, leaning slightly forward from a straight position, feet shoulder-width apart, and your knees slightly bent.</li><li>Hold a dumbbell in each hand, with your palms facing your body and arms fully extended at your sides.</li><li>Keeping your elbows close to your body, slowly curl one dumbbell up toward your opposite shoulder.</li><li>Pause at the top of the curl, squeezing your bicep before slowly lowering the weight to the starting position.</li><li>Repeat the curl on the opposite side, curling the other dumbbell toward the opposite shoulder while rotating your torso.</li><li>Continue alternating curls on each side for the desired number of repetitions.</li></ol>",
+      "notes": "",
+      "primary_muscles": [2],
+      "secondary_muscles": [5]
+    }
   }
 ]
