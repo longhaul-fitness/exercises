@@ -138,5 +138,15 @@
       "primary_muscles": [2],
       "secondary_muscles": [5]
     }
+  },
+  {
+    "pk": 15,
+    "fields": {
+      "name": "Frog Pumps",
+      "steps": "<ol><li>Lie on your back with your knees bent and your feet flat on the ground. Keep your feet close together and your heels touching.</li><li>Bring your feet up towards your hips along the ground until they're about 6 inches apart, and then let your knees fall out to the sides so that your feet are touching each other. This is the starting position.</li><li>Engage your glutes and lift your hips up towards the ceiling as high as you can, making sure to keep your feet and knees in the same position.</li><li>Hold the top position for 1-2 seconds, then slowly lower your hips to the starting position.</li><li>Repeat.</li></ol>",
+      "notes": "",
+      "primary_muscles": [7],
+      "secondary_muscles": [8, 18]
+    }
   }
 ]
