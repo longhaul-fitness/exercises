@@ -148,5 +148,15 @@
       "primary_muscles": [7],
       "secondary_muscles": [8, 18]
     }
+  },
+  {
+    "pk": 16,
+    "fields": {
+      "name": "Lying Windshield Wiper",
+      "steps": "<ol><li>Lie flat on your back with your arms extended out to the sides, palms down, and your legs extended straight up towards the ceiling.</li><li>Keep your feet together and engage your core muscles by drawing your navel towards your spine.</li><li>Lower your legs to one side, keeping them straight and close to the floor without touching it.</li><li>Pause briefly and then lift your legs back up to the starting position.</li><li>Repeat the movement, this time lowering your legs to the opposite side.</li><li>Continue alternating sides for the desired number of reps or time.</li></ol>",
+      "notes": "Avoid swinging or using momentum to perform the movement; instead, control the action with your core muscles.",
+      "primary_muscles": [11],
+      "secondary_muscles": [1]
+    }
   }
 ]
