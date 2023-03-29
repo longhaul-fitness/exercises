@@ -158,5 +158,15 @@
       "primary_muscles": [11],
       "secondary_muscles": [1]
     }
+  },
+  {
+    "pk": 17,
+    "fields": {
+      "name": "Bar Dip",
+      "steps": "<ol><li>Start by approaching a set of parallel bars or dip bars approximately shoulder-width apart. Grab each bar with an overhand grip and hoist yourself up so your arms are fully extended, and your feet are off the ground.</li><li>Slightly lean forward and keep your elbows slightly bent to engage your chest, shoulders, and triceps muscles.</li><li>Lower your body by bending your elbows and leaning forward while keeping your back straight and your legs behind you. Keep your elbows close to your body throughout the entire exercise.</li><li>Continue lowering yourself until your arms are parallel to the ground, or slightly below parallel, while inhaling.</li><li>Push back up by straightening your arms while exhaling. Be sure to push with your triceps, chest, and shoulder muscles to return to your starting position.</li><li>Repeat.</li></ol>",
+      "notes": "You can also add variations to the dip, such as weighted dips or assisted dips, to increase or decrease the intensity of the exercise.",
+      "primary_muscles": [4, 16],
+      "secondary_muscles": [21]
+    }
   }
 ]
