@@ -168,5 +168,15 @@
       "primary_muscles": [4, 16],
       "secondary_muscles": [21]
     }
+  },
+  {
+    "pk": 18,
+    "fields": {
+      "name": "Arnold Press",
+      "steps": "<ol><li>Hold a dumbbell in each hand and sit or stand with your feet shoulder-width apart.</li><li>Start with your arms bent so that your palms face your body and the dumbbells are at shoulder height.</li><li>As you press the dumbbells overhead, rotate your palms to face forward.</li><li>Continue to press the dumbbells overhead until your arms are fully extended.</li><li>Lower the dumbbells back down to the starting position, rotating your palms back to face your body as you do so.</li><li>Repeat.</li></ol>",
+      "notes": "",
+      "primary_muscles": [15, 17],
+      "secondary_muscles": []
+    }
   }
 ]
