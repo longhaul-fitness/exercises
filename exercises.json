@@ -178,5 +178,15 @@
       "primary_muscles": [15, 17],
       "secondary_muscles": []
     }
+  },
+  {
+    "pk": 19,
+    "fields": {
+      "name": "Back Extension",
+      "steps": "<ol><li>Adjust the back extension bench so that the pads at the thigh are snug against your thighs and your feet are securely held in place by the footpads.</li><li>Cross your arms over your chest or hold them behind your head.</li><li>Keep your back straight and your neck in a neutral position. Hang your body forward over the thigh pads. This is the starting position.</li><li>Engage your lower back muscles and slowly lift your upper body off the bench until it aligns with your legs.</li><li>Hold this position for up to a few seconds, squeezing your glutes and lower back muscles at the top of the movement.</li><li>Slowly lower your upper body back down to the starting position.</li><li>Repeat.</li></ol>",
+      "notes": "Hold weights such as plates to your chest to increase the exercise difficulty.",
+      "primary_muscles": [7, 10],
+      "secondary_muscles": [8]
+    }
   }
 ]
