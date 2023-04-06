@@ -188,5 +188,115 @@
       "primary_muscles": [7, 10],
       "secondary_muscles": [8]
     }
+  },
+  {
+    "pk": 20,
+    "fields": {
+      "name": "One-Legged Glute Bridge",
+      "steps": "<ol>\n  <li>Start by lying on your back with your knees bent and feet flat on the ground.</li>\n  <li>Lift your right leg off the ground and extend it straight up towards the ceiling.</li>\n  <li>Press your left foot into the ground and lift your hips up towards the ceiling.</li>\n  <li>Pause at the top of the movement and squeeze your glutes.</li>\n  <li>Lower your hips back down to the ground and repeat for the desired number of reps.</li>\n  <li>Switch legs and repeat the exercise on the other side.</li>\n</ol>",
+      "notes": "For increased difficult, hold your leg parallel with your torso instead of extending your leg to the ceiling.",
+      "primary_muscles": [7, 8],
+      "secondary_muscles": [18]
+    }
+  },
+  {
+    "pk": 21,
+    "fields": {
+      "name": "Bodyweight Curl",
+      "steps": "<ol>\n  <li>Adjust the height of the rings or TRX to waist height and stand facing them.</li>\n  <li>Hold the rings or TRX handles with an underhand grip and lean back, extending your arms straight in front of you.</li>\n  <li>Keep your feet shoulder-width apart and your body in a straight line from head to heels.</li>\n  <li>Engage your biceps and bend your elbows, pulling your body up towards the rings or TRX handles.</li>\n  <li>As you pull your body up, keep your elbows close to your body and your wrists straight.</li>\n  <li>When your hands reach your chest, pause for a moment and then slowly lower your body back down to the starting position.</li>\n  <li>Repeat the exercise for the desired number of reps.</li>\n  </ol>",
+      "notes": "",
+      "primary_muscles": [2, 9],
+      "secondary_muscles": [5]
+    }
+  },
+  {
+    "pk": 22,
+    "fields": {
+      "name": "Hanging Leg Raise",
+      "steps": "<ol>\n  <li>Hang from a pull-up bar with your arms straight and your feet off the ground.</li>\n  <li>Engage your core muscles and lift your legs up towards your chest, keeping them straight.</li>\n  <li>Pause briefly at the top of the movement, then slowly lower your legs back down to the starting position.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [1],
+      "secondary_muscles": [11]
+    }
+  },
+  {
+    "pk": 23,
+    "fields": {
+      "name": "Chair Squat",
+      "steps": "<ol>\n  <li>Start by standing in front of a chair with your feet shoulder-width apart.</li>\n  <li>Slowly lower your body towards the chair by bending your knees and pushing your hips back.</li>\n  <li>Keep your chest up and your weight on your heels.</li>\n  <li>Lower your body until your buttocks touch the chair.</li>\n  <li>Pause for a moment, then push through your heels to stand back up.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 12, 18],
+      "secondary_muscles": [3]
+    }
+  },
+  {
+    "pk": 24,
+    "fields": {
+      "name": "BOSU Burpee",
+      "steps": "<ol>\n  <li>Start in a standing position with the BOSU ball on the ground (inflated-side down) in front of you.</li>\n  <li>Place your hands on the BOSU ball and jump your feet back into a plank position.</li>\n  <li>Perform a push-up while keeping your hands on the BOSU ball.</li>\n  <li>Jump your feet back towards the BOSU ball and stand up.</li>\n  <li>Lift the BOSU ball overhead and jump up, extending your arms towards the ceiling.</li>\n  <li>Land softly and repeat the exercise for desired number of reps.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4, 12, 16, 17],
+      "secondary_muscles": [1, 20]
+    }
+  },
+  {
+    "pk": 25,
+    "fields": {
+      "name": "Machine Shoulder Press",
+      "steps": "<ol>\n  <li>Adjust the seat height so that the handles are at shoulder level.</li>\n  <li>Sit on the machine with your back against the pad and your feet flat on the floor.</li>\n  <li>Grasp the handles with an overhand grip and push them upward until your arms are fully extended.</li>\n  <li>Slowly lower the handles back down to shoulder level, keeping your elbows slightly bent.</li>\n  <li>Repeat for desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [16],
+      "secondary_muscles": [17, 21]
+    }
+  },
+  {
+    "pk": 26,
+    "fields": {
+      "name": "Leg Extension",
+      "steps": "<ol>\n  <li>Adjust the machine to fit your body and select the appropriate weight.</li>\n  <li>Sit on the machine with your back against the backrest and your feet or ankle flat against the supporting pad.</li>\n  <li>Grasp the handles on the side of the machine for stability.</li>\n  <li>Extend your legs out in front of you until they are parallel to the floor, keeping your feet flexed and your knees slightly bent.</li>\n  <li>Hold for a moment, then slowly lower the weight back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [12],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 27,
+    "fields": {
+      "name": "Close-Grip Feet-Up Bench Press",
+      "steps": "<ol>\n  <li>Lie flat on a bench with your feet up and your back pressed against the bench.</li>\n  <li>Grasp the barbell with a close grip, with your hands shoulder-width apart.</li>\n  <li>Unrack the barbell and hold it above your chest with your arms extended.</li>\n  <li>Lower the barbell to your chest, keeping your elbows close to your body.</li>\n  <li>Pause briefly at the bottom of the movement, then press the barbell back up to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [21],
+      "secondary_muscles": [4, 16]
+    }
+  },
+  {
+    "pk": 28,
+    "fields": {
+      "name": "Barbell Rear Delt Row",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Hold a barbell with an overhand grip, hands shoulder-width apart.</li>\n  <li>Lean forward at the hips, keeping your back straight and your abs engaged.</li>\n  <li>Bring the barbell up towards your chest, keeping your elbows close to your body.</li>\n  <li>Squeeze your shoulder blades together at the top of the movement.</li>\n  <li>Lower the barbell back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [15, 20],
+      "secondary_muscles": [2, 5, 13, 14]
+    }
+  },
+  {
+    "pk": 29,
+    "fields": {
+      "name": "Hip Abduction Machine",
+      "steps": "<ol>\n  <li>Adjust the machine to fit your height and leg length.</li>\n  <li>Sit on the machine with your back against the backrest and your feet on the footrests.</li>\n  <li>Press your legs outward against the resistance of the machine.</li>\n  <li>With your knees at their farthest point, hold the weight for a moment before slowly releasing the resistance and returning to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [19],
+      "secondary_muscles": [7]
+    }
+  },
+  {
+    "pk": 30,
+    "fields": {
+      "name": "Cable Curl With Rope",
+      "steps": "<ol>\n  <li>Attach a rope to a low pulley cable machine.</li>\n  <li>Stand facing the machine with feet shoulder-width apart and knees slightly bent.</li>\n  <li>Grasp the rope with an underhand grip, palms facing each other.</li>\n  <li>Keep elbows close to your sides and curl the rope towards your shoulders.</li>\n  <li>Pause briefly at the top of the movement, then slowly lower the rope back to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [2],
+      "secondary_muscles": [5]
+    }
   }
 ]
