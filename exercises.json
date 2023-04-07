@@ -298,5 +298,105 @@
       "primary_muscles": [2],
       "secondary_muscles": [5]
     }
+  },
+  {
+    "pk": 31,
+    "fields": {
+      "name": "Plank - BOSU",
+      "steps": "<ol>\n  <li>Place a BOSU ball on the ground with the flat side facing up.</li>\n  <li>Assume a plank position with your forearms on the BOSU ball and your toes on the ground.</li>\n  <li>Engage your core and keep your body in a straight line from head to heels.</li>\n  <li>Hold the position for the desired amount of time.</li>\n  <li>Release the position by lowering your knees to the ground.</li>\n</ol>",
+      "notes": "Instead of placing your forearms on the flat side of the BOSU, you can grab the edges with both hands and plank from a straight-armed position.",
+      "primary_muscles": [1],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 32,
+    "fields": {
+      "name": "Machine Glute Kickbacks",
+      "steps": "<ol>\n  <li>Adjust the machine to fit your body height</li>\n  <li>Position yourself in the machine with your hands on the handles and one ankle on the padding.</li>\n  <li>Keeping your core engaged, exhale and extend your leg back as far as possible while squeezing your glutes.</li>\n  <li>Inhale and slowly return your leg to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7],
+      "secondary_muscles": [8, 18]
+    }
+  },
+  {
+    "pk": 33,
+    "fields": {
+      "name": "Pause Squat",
+      "steps": "<ol>\n  <li>Start with your feet shoulder-width apart, your toes pointing slightly outward, and the barbell on your shoulders.</li>\n  <li>Lower your body into a squat position, keeping your back straight and your knees tracking with your toes.</li>\n  <li>Pause at the bottom of the squat for 2-3 seconds.</li>\n  <li>Slowly rise back up to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 10, 12, 18],
+      "secondary_muscles": [3]
+    }
+  },
+  {
+    "pk": 34,
+    "fields": {
+      "name": "Barbell Walking Lunge",
+      "steps": "<ol>\n  <li>Start with your feet hip-width apart and the barbell on your shoulders.</li>\n  <li>Take a large step forward with your right foot, lowering your body until your right thigh is parallel to the ground and your left knee is hovering just above the floor.</li>\n  <li>Push through your right heel to stand back up, bringing your left foot forward to meet your right foot.</li>\n  <li>Repeat the lunge on the other side by stepping forward with your left foot.</li>\n  <li>Continue alternating lunges for the desired number of reps or distance.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 12, 18],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 35,
+    "fields": {
+      "name": "Medicine Ball Rotational Throw",
+      "steps": "<ol>\n  <li>Start by standing about arms-length away from the wall with your feet shoulder-width apart.</li>\n  <li>Hold a medicine ball with both hands at chest height.</li>\n  <li>Rotating your core and upper body towards the wall, explosively throw the ball against the wall.</li>\n  <li>Catch the ball as it rebounds off the wall and rotate your body away from the wall.</li>\n  <li>Repeat for the desired number of reps and then switch sides.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [11],
+      "secondary_muscles": [1, 16]
+    }
+  },
+  {
+    "pk": 36,
+    "fields": {
+      "name": "T-Bar Row",
+      "steps": "<ol>\n  <li>Load the desired weight onto the T-Bar machine.</li>\n  <li>Stand facing the T-Bar machine with your feet shoulder-width apart.</li>\n  <li>Bend your knees slightly and hinge forward at the hips, keeping your back straight.</li>\n  <li>Grasp the handles of the T-Bar with an overhand grip.</li>\n  <li>Pull the T-Bar towards your chest, keeping your elbows close to your body.</li>\n  <li>Pause briefly at the top of the movement, squeezing your shoulder blades together.</li>\n  <li>Slowly lower the T-Bar back to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [9, 15, 20],
+      "secondary_muscles": [2, 5, 10, 13, 14]
+    }
+  },
+  {
+    "pk": 37,
+    "fields": {
+      "name": "Dumbbell Shoulder Press",
+      "steps": "<ol>\n  <li>Start by sitting on a bench with a dumbbell in each hand, resting on your thighs.</li>\n  <li>Raise the dumbbells to shoulder height, palms facing forward, and elbows bent.</li>\n  <li>Press the dumbbells upward until your arms are fully extended above your head.</li>\n  <li>Pause for a moment at the top of the movement, then slowly lower the dumbbells back down to shoulder height.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [16],
+      "secondary_muscles": [17, 21]
+    }
+  },
+  {
+    "pk": 38,
+    "fields": {
+      "name": "Barbell Upright Row",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Grasp the barbell with an overhand grip, hands narrower than shoulder-width apart.</li>\n  <li>Hold the barbell in front of your thighs with your arms extended.</li>\n  <li>Exhale and lift the barbell straight up towards your chin, keeping it close to your body.</li>\n  <li>Pause for a moment at the top of the movement, then inhale and slowly lower the barbell back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [17],
+      "secondary_muscles": [2, 16, 20]
+    }
+  },
+  {
+    "pk": 39,
+    "fields": {
+      "name": "Dumbbell Rear Delt Row",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and hold a dumbbell in each hand.</li>\n  <li>Bend your knees slightly and hinge forward at the hips, keeping your back straight.</li>\n  <li>Bring the dumbbells up to your chest, keeping your elbows close to your body.</li>\n  <li>Slowly lower the dumbbells back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [15, 20],
+      "secondary_muscles": [2, 5, 13, 14]
+    }
+  },
+  {
+    "pk": 40,
+    "fields": {
+      "name": "Dumbbell Floor Press",
+      "steps": "<ol>\n  <li>Lie flat on your back on the floor with your knees bent and feet flat on the ground.</li>\n  <li>Hold a dumbbell in each hand with your palms facing towards your feet.</li>\n  <li>Extend your arms straight up towards the ceiling, with your elbows slightly bent.</li>\n  <li>Slowly lower the dumbbells down towards your chest, keeping your elbows close to your body.</li>\n  <li>Pause when your upper arms touch the ground.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4, 16],
+      "secondary_muscles": [21]
+    }
   }
 ]
