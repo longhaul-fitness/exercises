@@ -398,5 +398,105 @@
       "primary_muscles": [4, 16],
       "secondary_muscles": [21]
     }
+  },
+  {
+    "pk": 41,
+    "fields": {
+      "name": "Incline Dumbbell Curl",
+      "steps": "<ol>\n  <li>Adjust the bench to a 45-degree angle.</li>\n  <li>Grab a pair of dumbbells and sit on the bench with your back straight.</li>\n  <li>Let your arms hang down by your sides with your palms facing forward.</li>\n  <li>Slowly curl the dumbbells up towards your shoulders while keeping your elbows close to your body.</li>\n  <li>Pause for a moment at the top of the movement, then slowly lower the dumbbells back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [2],
+      "secondary_muscles": [5]
+    }
+  },
+  {
+    "pk": 42,
+    "fields": {
+      "name": "Eccentric Heel Drop",
+      "steps": "<ol>\n  <li>Stand on a raised platform or step with the balls of your feet on the edge and your heels hanging off.</li>\n  <li>Raise your heels up as high as possible.</li>\n  <li>Shift your weight onto one foot and slowly lower your heel down below the platform.</li>\n  <li>Use your other foot to push yourself back up to the starting position.</li>\n  <li>Repeat for the desired number of repetitions on one leg before switching to the other.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [3],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 43,
+    "fields": {
+      "name": "Belt Squat",
+      "steps": "<ol>\n  <li>Add your desired weight to the machine.</li>\n  <li>Attach a belt or harness around your waist.</li>\n  <li>Attach a cable or chain to the belt or harness.</li>\n  <li>Stand on a platform or box with feet shoulder-width apart.</li>\n  <li>Hold onto a stable object for balance.</li>\n  <li>Squat by bending the knees and hips while keeping the back straight.</li>\n  <li>Pause at the bottom of the squat and then push up through the legs to return to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 12, 18],
+      "secondary_muscles": [3]
+    }
+  },
+  {
+    "pk": 44,
+    "fields": {
+      "name": "Hang Power Clean",
+      "steps": "<ol>\n  <li>Start with feet shoulder-width apart, toes pointing forward, and grip a weighted barbell with an overhand grip just outside of your legs.</li>\n  <li>Lower your hips and bend your knees, keeping your back straight and your chest up.</li>\n  <li>Drive your hips forward and explosively pull the barbell up towards your shoulders, keeping it close to your body.</li>\n  <li>As the barbell reaches your chest, quickly drop your elbows underneath it and catch it on your shoulders in a front rack position.</li>\n  <li>Stand up straight, keeping the barbell close to your body, and then lower it back down to the starting position.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 10],
+      "secondary_muscles": [5, 8, 18, 20]
+    }
+  },
+  {
+    "pk": 45,
+    "fields": {
+      "name": "Teaser Sit-Up",
+      "steps": "<ol>\n  <li>Start by lying on your back with your arms extended above your head and your legs straight out in front of you.</li>\n  <li>Engage your core muscles and lift your legs up to a 45-degree angle while simultaneously lifting your upper body off the ground.</li>\n  <li>Reach your arms forward and try to touch your toes with your fingertips.</li>\n  <li>Hold the position for a few seconds, then slowly lower your body back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [1],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 46,
+    "fields": {
+      "name": "Barbell Hack Squat",
+      "steps": "<ol>\n  <li>Stand in front of the barbell with your feet shoulder-width apart. The barbell will be by the back of your calves.</li>\n  <li>Bend down and grip the barbell with an overhand grip, with your palms facing behind you.</li>\n  <li>Stand up straight, lifting the barbell off the ground and holding it behind your legs.</li>\n  <li>Keeping your back straight, lower your body by bending your knees and hips, as if you were sitting down on a chair, until your thighs are parallel to the ground.</li>\n  <li>Push through your heels to stand back up to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [12],
+      "secondary_muscles": [3, 5, 7, 10, 18, 20]
+    }
+  },
+  {
+    "pk": 47,
+    "fields": {
+      "name": "Straight Arm Lat Pulldown",
+      "steps": "<ol>\n  <li>Adjust the cable machine to a high position and attach a straight bar to the cable.</li>\n  <li>Stand facing the machine with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Grasp the bar with both hands using an overhand grip, with your hands slightly wider than shoulder-width apart.</li>\n  <li>Engage your core and keep your arms straight as you pull the bar down towards your thighs, using your lats to initiate the movement.</li>\n  <li>Pause for a moment at the bottom of the movement, then slowly release the bar back up to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [9],
+      "secondary_muscles": [13, 14, 15]
+    }
+  },
+  {
+    "pk": 48,
+    "fields": {
+      "name": "Lying Dumbbell Internal Shoulder Rotation",
+      "steps": "<ol>\n  <li>Begin by lying on your side on a flat bench with your arm extended straight out in front of you and your elbow bent at a 90-degree angle.</li>\n  <li>Hold a dumbbell in your hand with your palm facing up towards the ceiling.</li>\n  <li>Slowly rotate your arm inwards towards your body, keeping your elbow bent and your upper arm stationary.</li>\n  <li>Pause for a moment at the top of the movement, then slowly lower the dumbbell back to the starting position.</li>\n  <li>Repeat for the desired number of repetitions, then switch sides and repeat the exercise with your other arm.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [14],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 49,
+    "fields": {
+      "name": "Landmine Squat",
+      "steps": "<ol>\n  <li>Start by placing a barbell into a landmine attachment or securely anchor it into a corner.</li>\n  <li>Stand facing the barbell with your feet shoulder-width apart and your toes pointing slightly outward.</li>\n  <li>Grab the end of the barbell with both hands and lift it up to your chest.</li>\n  <li>Lower your hips down and back, keeping your chest up and your back straight.</li>\n  <li>Bend your knees and lower your body until your thighs are parallel to the ground.</li>\n  <li>Push through your heels and stand back up to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 12, 18],
+      "secondary_muscles": [3]
+    }
+  },
+  {
+    "pk": 50,
+    "fields": {
+      "name": "Push-Ups With Feet in Rings",
+      "steps": "<ol>\n  <li>Start in a plank position with your feet in the rings and your hands shoulder-width apart on the ground.</li>\n  <li>Lower your body towards the ground by bending your elbows and keeping your body straight.</li>\n  <li>Push yourself back up to the starting position by straightening your arms.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4, 16],
+      "secondary_muscles": [1, 21]
+    }
   }
 ]
