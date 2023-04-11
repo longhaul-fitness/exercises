@@ -498,5 +498,105 @@
       "primary_muscles": [4, 16],
       "secondary_muscles": [1, 21]
     }
+  },
+  {
+    "pk": 51,
+    "fields": {
+      "name": "Lateral Walk With Band",
+      "steps": "<ol>\n  <li>Place a resistance band around your ankles and stand with your feet hip-width apart.</li>\n  <li>Take a step to the right with your right foot, keeping tension on the band.</li>\n  <li>Bring your left foot to meet your right foot, maintaining tension on the band.</li>\n  <li>Take another step to the right with your right foot, again keeping tension on the band.</li>\n  <li>Repeat this lateral movement for a desired number of steps to the right.</li>\n  <li>Then, reverse the movement and take the same number of steps to the left.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [19],
+      "secondary_muscles": [7]
+    }
+  },
+  {
+    "pk": 52,
+    "fields": {
+      "name": "Sit-Up",
+      "steps": "<ol>\n  <li>Start by lying on your back with your knees bent and feet flat on the ground.</li>\n  <li>Place your hands behind your head or cross them over your chest.</li>\n  <li>Engage your core muscles and lift your upper body off the ground towards your knees.</li>\n  <li>Exhale as you lift your body up and inhale as you lower it back down to the ground.</li>\n  <li>Lower your body back down to the ground with control, keeping your core engaged throughout the movement.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [1],
+      "secondary_muscles": [11]
+    }
+  },
+  {
+    "pk": 53,
+    "fields": {
+      "name": "Smith Machine Incline Bench Press",
+      "steps": "<ol>\n  <li>Adjust the height of the Smith machine bar to a comfortable level for the incline bench press.</li>\n  <li>Select the desired weight and load it onto the bar.</li>\n  <li>Lie down on the incline bench and position yourself under the bar.</li>\n  <li>Grip the bar with a slightly wider than shoulder-width grip and lift it off the rack.</li>\n  <li>Lower the bar down to your chest while keeping your elbows tucked in.</li>\n  <li>Push the bar back up to the starting position, keeping your core engaged and your back flat on the bench.</li>\n  <li>Repeat.</li>\n  <li>When finished, carefully rack the bar back onto the Smith machine.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4, 16],
+      "secondary_muscles": [21]
+    }
+  },
+  {
+    "pk": 54,
+    "fields": {
+      "name": "Dumbbell Chest Fly",
+      "steps": "<ol>\n  <li>Start by lying flat on a bench with your feet firmly on the ground and your head, shoulders, and buttocks touching the bench.</li>\n  <li>Hold a dumbbell in each hand with your palms facing each other and your arms extended above your chest.</li>\n  <li>Slowly lower the dumbbells out to the sides of your body, keeping your elbows slightly bent and your palms facing up.</li>\n  <li>Lower the dumbbells until your arms are parallel to the ground or until you feel a stretch in your chest muscles.</li>\n  <li>Pause for a moment, then slowly bring the dumbbells back up to the starting position, keeping your elbows slightly bent and your palms facing each other.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4],
+      "secondary_muscles": [16]
+    }
+  },
+  {
+    "pk": 55,
+    "fields": {
+      "name": "Mountain Climbers",
+      "steps": "<ol>\n  <li>Start in a high plank position with your hands shoulder-width apart and your wrists directly under your shoulders.</li>\n  <li>Engage your core and bring your right knee towards your chest, keeping your foot off the ground.</li>\n  <li>Quickly switch legs, bringing your left knee towards your chest while extending your right leg back.</li>\n  <li>Continue alternating legs at a quick pace, as if you are running in place while in a plank position.</li>\n  <li>Keep your hips low and your shoulders over your wrists throughout the exercise.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [1],
+      "secondary_muscles": [11]
+    }
+  },
+  {
+    "pk": 56,
+    "fields": {
+      "name": "Tricep Pushdown With Bar",
+      "steps": "<ol>\n  <li>Attach a straight bar to the high pulley of a cable machine.</li>\n  <li>Stand facing the machine with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Grasp the bar with an overhand grip, with your hands shoulder-width apart.</li>\n  <li>Keep your elbows close to your sides and your upper arms stationary.</li>\n  <li>Exhale and push the bar down until your arms are fully extended.</li>\n  <li>Pause for a moment, then inhale and slowly return the bar to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [21],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 57,
+    "fields": {
+      "name": "Dumbbell Horizontal External Shoulder Rotation",
+      "steps": "<ol>\n  <li>Start by lying on your side on a bench or mat, with your arm extended straight out in front of you and holding a dumbbell in your hand.</li>\n  <li>Keep your elbow bent at a 90-degree angle and your upper arm pressed against your side.</li>\n  <li>Slowly rotate your arm outwards, away from your body, until your forearm points towards the ceiling.</li>\n  <li>Hold this position for a few seconds, then slowly lower your arm back to the starting position.</li>\n  <li>Repeat for the desired number of repetitions, then switch sides and repeat the exercise with your other arm.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [13],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 58,
+    "fields": {
+      "name": "Lat Pulldown With Supinated Grip",
+      "steps": "<ol>\n  <li>Adjust the weight on the lat pulldown machine to a comfortable level.</li>\n  <li>Stand facing the machine and grasp the bar with an underhand grip, with your hands shoulder-width apart.</li>\n  <li>Sit down on the bench and adjust the knee pad so that it fits snugly against your thighs.</li>\n  <li>Lean back slightly and keep your chest up and your shoulders down.</li>\n  <li>Exhale and pull the bar down towards your chest, keeping your elbows close to your body.</li>\n  <li>Pause for a moment and squeeze your shoulder blades together.</li>\n  <li>Inhale and slowly release the bar back to the starting position, keeping your arms straight but not locked.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [9],
+      "secondary_muscles": [2, 5, 13, 14, 15]
+    }
+  },
+  {
+    "pk": 59,
+    "fields": {
+      "name": "Barbell Wrist Curl Behind the Back",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Hold a barbell with an overhand grip behind your back, with your palms facing away from your body.</li>\n  <li>Keep your elbows close to your body and your upper arms stationary.</li>\n  <li>Curl the barbell up towards your forearms, keeping your wrists straight.</li>\n  <li>Pause at the top of the movement and squeeze your forearms.</li>\n  <li>Slowly lower the barbell back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [5],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 60,
+    "fields": {
+      "name": "Incline Push-Up",
+      "steps": "<ol>\n  <li>Start in a plank position with your hands on an elevated surface, such as a bench or step.</li>\n  <li>Place your hands slightly wider than shoulder-width apart and keep your fingers pointing forward.</li>\n  <li>Engage your core and glutes to maintain a straight line from your head to your heels.</li>\n  <li>Lower your chest towards the bench, keeping your elbows close to your body.</li>\n  <li>Pause when your chest is just above the bench.</li>\n  <li>Push back up to the starting position, fully extending your arms.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4, 16],
+      "secondary_muscles": [1, 21]
+    }
   }
 ]
