@@ -818,5 +818,35 @@
       "primary_muscles": [2],
       "secondary_muscles": [5]
     }
+  },
+  {
+    "pk": 83,
+    "fields": {
+      "name": "Band External Shoulder Rotation",
+      "steps": "<ol>\n  <li>Attach a resistance band to a stable object at waist height.</li>\n  <li>Stand perpendicular to the anchor point with your right arm farthest away from it, and your feet shoulder-width apart.</li>\n  <li>Reach across your body with your right hand and grab the band.</li>\n  <li>Create resistance in the band by bringing your right elbow close to your right side where it hangs naturally.</li>\n  <li>This starting position has you with your right forearm across the front of your body, at a 90-degree angle to your right upper-arm.</li>\n  <li>Keep your core engaged and your shoulders relaxed.</li>\n  <li>Slowly rotate your arms outward, away from your body, until your right hand is in line with your right shoulder.</li>\n  <li>Pause for a moment, then slowly return to the starting position.</li>\n  <li>Repeat for the desired number of repetitions and then switch sides.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [13],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 84,
+    "fields": {
+      "name": "Band Internal Shoulder Rotation",
+      "steps": "<ol>\n  <li>Attach a resistance band to a stable object at waist height.</li>\n  <li>Stand perpendicular to the anchor point with your right arm closest to it, and your feet shoulder-width apart.</li>\n  <li>Reach your right hand and grab the band.</li>\n  <li>Create resistance in the band by side-stepping away from the anchor point.</li>\n  <li>This starting position has your right forearm at a 90-degree angle to your right upper-arm. Your right forearm points to your right.</li>\n  <li>Keep your core engaged and your shoulders relaxed.</li>\n  <li>Slowly rotate your arms inward, toward your body, until your right hand is in line with your right shoulder.</li>\n  <li>Pause for a moment, then slowly return to the starting position.</li>\n  <li>Repeat for the desired number of repetitions and then switch sides.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [14],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 85,
+    "fields": {
+      "name": "Good Morning",
+      "steps": "<ol>\n  <li>Start by standing with your feet shoulder-width apart and your toes pointing forward.</li>\n  <li>Place your hands behind your head, or on a weighted barbell on your shoulders, with your elbows pointing out to the sides.</li>\n  <li>Keeping your back straight and your core engaged, hinge forward at your hips, pushing your butt back as far as possible.</li>\n  <li>Lower your torso until it is nearly parallel to the ground, or until you feel a stretch in your hamstrings.</li>\n  <li>Pause for a moment, then slowly return to the starting position by squeezing your glutes and pushing your hips forward.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 8, 10],
+      "secondary_muscles": [18]
+    }
   }
 ]
