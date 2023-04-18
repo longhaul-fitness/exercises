@@ -848,5 +848,35 @@
       "primary_muscles": [7, 8, 10],
       "secondary_muscles": [18]
     }
+  },
+  {
+    "pk": 86,
+    "fields": {
+      "name": "Chin-Up",
+      "steps": "<ol>\n  <li>Stand underneath a chin-up bar with your feet shoulder-width apart.</li>\n  <li>Reach up and grasp the bar with an underhand grip, with your palms facing towards you and your hands shoulder-width apart.</li>\n  <li>Hang from the bar with your arms fully extended and your shoulders relaxed.</li>\n  <li>Engage your back muscles and pull your body up towards the bar, keeping your elbows close to your body.</li>\n  <li>Continue pulling until your chin is above the bar.</li>\n  <li>Pause briefly at the top of the movement, then slowly lower yourself back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [9],
+      "secondary_muscles": [2, 5, 13, 14, 15]
+    }
+  },
+  {
+    "pk": 87,
+    "fields": {
+      "name": "Barbell Wrist Extension",
+      "steps": "<ol>\n  <li>Hold a barbell with an overhand grip, with your hands shoulder-width apart.</li>\n  <li>Sit on a bench with your feet shoulder-width apart.</li>\n  <li>Rest the barbell on the top of your thighs, with your palms facing down.</li>\n  <li>Slowly lift the barbell by extending your wrists, keeping your elbows stationary. Focus on bringing your knuckles back towards the top of your forearms.</li>\n  <li>Hold the barbell at the top of the movement for a moment.</li>\n  <li>Lower the barbell back down to the starting position by flexing your wrists.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [6],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 88,
+    "fields": {
+      "name": "Rack Pull",
+      "steps": "<ol>\n  <li>Set up a barbell in a power rack at knee height or slightly above.</li>\n  <li>Stand with your feet shoulder-width apart and your shins touching the bar.</li>\n  <li>Grasp the bar with an overhand grip, slightly wider than shoulder-width apart.</li>\n  <li>Engage your core and lift the bar by extending your hips and knees.</li>\n  <li>Keep your back straight and your shoulders pulled back throughout the movement.</li>\n  <li>Lower the bar back down to the starting position by bending your hips and knees.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "With its elevated starting point, the Rack Pull is an easier version of the Deadlift.",
+      "primary_muscles": [7, 10],
+      "secondary_muscles": [5, 8, 18, 20]
+    }
   }
 ]
