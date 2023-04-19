@@ -878,5 +878,35 @@
       "primary_muscles": [7, 10],
       "secondary_muscles": [5, 8, 18, 20]
     }
+  },
+  {
+    "pk": 89,
+    "fields": {
+      "name": "Dumbbell Front Raise",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and hold a dumbbell in each hand with your palms facing your thighs.</li>\n  <li>Keeping your arms straight, lift the dumbbells in front of you until they reach shoulder height.</li>\n  <li>Hold the position for a second, then slowly lower the dumbbells back down to your thighs.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [16],
+      "secondary_muscles": [17]
+    }
+  },
+  {
+    "pk": 90,
+    "fields": {
+      "name": "Standing Glute Kickback in Machine",
+      "steps": "<ol>\n  <li>Adjust the machine to the appropriate height for your body.</li>\n  <li>Stand facing the machine with your feet shoulder-width apart and your hands holding onto the handles.</li>\n  <li>Engage your glutes and lift one leg straight back behind you, keeping it in line with your body.</li>\n  <li>Pause at the top of the movement and squeeze your glutes.</li>\n  <li>Lower your leg back down to the starting position and repeat on the other side.</li>\n  <li>Complete the desired number of repetitions on each leg.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7],
+      "secondary_muscles": [8, 18]
+    }
+  },
+  {
+    "pk": 91,
+    "fields": {
+      "name": "Hang Snatch",
+      "steps": "<ol>\n  <li>Start standing up with the barbell in an overhand grip, hands slightly wider than shoulder-width apart, resting against your thighs.</li>\n  <li>Quickly drop down into a quarter squat, then explosively extend your hips, knees, and ankles to jump upwards.</li>\n  <li>As you jump, pull the bar upwards with your arms, keeping it close to your body and using your momentum to bring it up to shoulder height.</li>\n  <li>Rotate your elbows around and under the bar, catching it in an overhead squat position with your arms fully extended and your feet shoulder-width apart.</li>\n  <li>Stand up to complete the lift</li>\n   <li>Lower the bar back down to the ground with control.</li>\n   <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 10, 12, 18],
+      "secondary_muscles": [3, 5, 8, 20]
+    }
   }
 ]
