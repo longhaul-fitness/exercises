@@ -908,5 +908,95 @@
       "primary_muscles": [7, 10, 12, 18],
       "secondary_muscles": [3, 5, 8, 20]
     }
+  },
+  {
+    "pk": 92,
+    "fields": {
+      "name": "Kneeling Ab Wheel Roll-Out",
+      "steps": "<ol>\n  <li>Kneel on the floor with an ab wheel in front of you.</li>\n  <li>Place your hands on the ab wheel handles, shoulder-width apart.</li>\n  <li>Engage your core and slowly roll the ab wheel forward, keeping your arms straight and your back flat.</li>\n  <li>Continue rolling out until your body is fully extended and your arms are overhead.</li>\n  <li>Pause for a moment, then slowly roll the ab wheel back towards your knees.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [1],
+      "secondary_muscles": [11]
+    }
+  },
+  {
+    "pk": 93,
+    "fields": {
+      "name": "Band Pull-Apart",
+      "steps": "<ol>\n  <li>Stand with feet shoulder-width apart and hold a resistance band with both hands.</li>\n  <li>Extend your arms straight out in front of you, keeping your palms facing down.</li>\n  <li>Begin pulling the band apart by squeezing your shoulder blades together.</li>\n  <li>Continue pulling until your hands are at shoulder height and the band is stretched tight.</li>\n  <li>Hold for a moment, then slowly release the tension and return to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [13, 14, 15],
+      "secondary_muscles": [13, 14]
+    }
+  },
+  {
+    "pk": 94,
+    "fields": {
+      "name": "Dumbbell Frog Pumps",
+      "steps": "<ol>\n  <li>Start by lying on your back with your knees bent and feet flat on the ground.</li>\n  <li>Place a dumbbell on your lower abdomen and hold it in place with both hands.</li>\n  <li>Bring the soles of your feet together and allow your knees to fall out to the sides, creating a diamond shape with your legs.</li>\n  <li>Press your feet together and lift your hips up towards the ceiling, squeezing your glutes at the top of the movement.</li>\n  <li>Lower your hips back down to the ground.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7],
+      "secondary_muscles": [8, 18]
+    }
+  },
+  {
+    "pk": 95,
+    "fields": {
+      "name": "Monkey Row",
+      "steps": "<ol>\n  <li>Start in a standing position with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Hold a dumbbell in each hand with your palms facing each other and your arms extended by your sides.</li>\n  <li>Bend your elbows and pull the dumbbells up towards your armpits, keeping your elbows close to your body.</li>\n  <li>Pause at the top of the movement and squeeze your shoulder blades together.</li>\n  <li>Lower the dumbbells back down to the starting position.</li>\n   <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [17],
+      "secondary_muscles": [2, 16, 20]
+    }
+  },
+  {
+    "pk": 96,
+    "fields": {
+      "name": "Dumbbell Decline Chest Press",
+      "steps": "<ol>\n  <li>Set up a decline bench at a 45-degree angle.</li>\n  <li>Grab a pair of dumbbells and lie down on the bench with your feet secured at the end.</li>\n  <li>Hold the dumbbells at chest level with your palms facing forward.</li>\n  <li>Lower the dumbbells slowly towards your chest, keeping your elbows at a 45-degree angle.</li>\n  <li>Pause for a moment, then push the dumbbells back up to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4, 16],
+      "secondary_muscles": [21]
+    }
+  },
+  {
+    "pk": 97,
+    "fields": {
+      "name": "Barbell Lying Triceps Extension",
+      "steps": "<ol>\n  <li>Start by lying flat on a bench with your feet firmly on the ground and your head at the end of the bench.</li>\n  <li>Hold a barbell with an overhand grip, with your hands shoulder-width apart and your arms extended straight up at an angle that brings the barbell above your head.</li>\n  <li>Slowly lower the barbell towards the top of your head by bending your elbows, keeping your upper arms stationary and tension on your triceps.</li>\n  <li>Pause when the barbell is just above the top of your head, then slowly raise it back to the starting position by extending your arms.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [21],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 98,
+    "fields": {
+      "name": "One-Legged Hip Thrust",
+      "steps": "<ol>\n  <li>Begin by lying on your back with your knees bent and feet flat on the ground.</li>\n  <li>Extend one leg straight out, keeping it in line with your hip.</li>\n  <li>Place your hands on the ground by your sides for support.</li>\n  <li>Engage your glutes and lift your hips up towards the ceiling, keeping your extended leg straight.</li>\n  <li>Pause at the top of the movement, then slowly lower your hips back down to the ground.</li>\n  <li>Repeat for the desired number of reps, then switch legs.</li>\n</ol>",
+      "notes": "Consider variations of this exercises where your back is on a bench and your feet are still on the floor, or adding weight to your hips.",
+      "primary_muscles": [7],
+      "secondary_muscles": [8, 18]
+    }
+  },
+  {
+    "pk": 99,
+    "fields": {
+      "name": "Reverse Dumbbell Flyes",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and hold a dumbbell in each hand with your palms facing each other.</li>\n  <li>Bend forward at your hips, keeping your back straight and your core engaged.</li>\n  <li>Extend your arms straight down towards the floor, with your elbows slightly bent.</li>\n  <li>Keeping your arms straight, lift the dumbbells out to the sides until they reach shoulder height.</li>\n  <li>Pause for a moment, then slowly lower the dumbbells back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [13, 14, 15],
+      "secondary_muscles": [20]
+    }
+  },
+  {
+    "pk": 100,
+    "fields": {
+      "name": "Dumbbell Curl",
+      "steps": "<ol>\n  <li>Stand up straight with your feet shoulder-width apart and your arms at your sides, holding a dumbbell in each hand.</li>\n  <li>Keeping your elbows close to your sides, slowly lift the dumbbells up towards your shoulders, rotating your palms to face your shoulders as you lift.</li>\n  <li>Pause for a moment at the top of the movement, squeezing your biceps.</li>\n  <li>Slowly lower the dumbbells back down to the starting position, rotating your palms back to face your thighs as you lower.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [2],
+      "secondary_muscles": [5]
+    }
   }
 ]
