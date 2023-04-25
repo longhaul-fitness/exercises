@@ -998,5 +998,65 @@
       "primary_muscles": [2],
       "secondary_muscles": [5]
     }
+  },
+  {
+    "pk": 101,
+    "fields": {
+      "name": "Torso Rotation Machine",
+      "steps": "<ol>\n  <li>Adjust the seat and chest pad.</li>\n  <li>Kneel on the knee pad with your chest against the chest pad.</li>\n  <li>Grasp the handles with both hands and keep your elbows bent.</li>\n  <li>Rotate your torso to the left as far as you comfortably can, while keeping your hips and legs stationary.</li>\n  <li>Pause briefly at the end of the range of motion, then rotate your torso back to the starting position.</li>\n  <li>Repeat the rotation to the right side, and continue alternating sides for the desired number of repetitions or time.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [11],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 102,
+    "fields": {
+      "name": "Seated Machine Row",
+      "steps": "<ol>\n  <li>Adjust the seat height so that the handles are at chest level.</li>\n  <li>Sit on the machine with your feet flat on the footrests and your knees slightly bent.</li>\n  <li>Grasp the handles with an overhand grip and keep your back straight.</li>\n  <li>Pull the handles towards your chest while keeping your elbows close to your body.</li>\n  <li>Pause for a moment and then slowly release the handles back to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [9, 15, 20],
+      "secondary_muscles": [2, 5, 13, 14]
+    }
+  },
+  {
+    "pk": 103,
+    "fields": {
+      "name": "Dumbbell Pullover",
+      "steps": "<ol>\n  <li>Begin by lying flat on a bench with your feet firmly planted on the ground.</li>\n  <li>Hold a dumbbell by the weight on one side with both hands and extend your arms straight above your chest.</li>\n  <li>Slowly lower the dumbbell behind your head, keeping your arms straight and your core engaged.</li>\n  <li>Pause when the dumbbell is parallel to the ground, then slowly lift it back to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4],
+      "secondary_muscles": [9]
+    }
+  },
+  {
+    "pk": 104,
+    "fields": {
+      "name": "Farmers Walk",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and your core engaged.</li>\n  <li>Pick up a heavy weight in each hand, such as dumbbells or kettlebells.</li>\n  <li>Keep your shoulders down and your chest up as you walk forward, taking small, quick steps.</li>\n  <li>Make sure to keep your back straight and avoid leaning forward or backward.</li>\n  <li>Continue walking for a set distance or time, then carefully set the weights down.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [5, 7, 11, 20],
+      "secondary_muscles": [1, 3, 10, 12, 17]
+    }
+  },
+  {
+    "pk": 105,
+    "fields": {
+      "name": "Body Weight Lunge",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and your hands on your hips.</li>\n  <li>Step forward with one leg, bending your knee until your thigh is parallel to the ground.</li>\n  <li>Keep your back straight and your core engaged.</li>\n  <li>Push through your front heel to return to the starting position.</li>\n  <li>Repeat with the other leg.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 12, 18],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 106,
+    "fields": {
+      "name": "Barbell Curl",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Hold the barbell with an underhand grip, palms facing up, and your hands shoulder-width apart.</li>\n  <li>Keep your elbows close to your sides and curl the barbell up towards your chest, exhaling as you lift.</li>\n  <li>Pause at the top of the movement and squeeze your biceps.</li>\n  <li>Lower the barbell back down to the starting position, inhaling as you lower.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [2],
+      "secondary_muscles": [5]
+    }
   }
 ]
