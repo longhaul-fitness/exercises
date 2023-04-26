@@ -1003,7 +1003,7 @@
     "pk": 101,
     "fields": {
       "name": "Torso Rotation Machine",
-      "steps": "<ol>\n  <li>Adjust the seat and chest pad.</li>\n  <li>Kneel on the knee pad with your chest against the chest pad.</li>\n  <li>Grasp the handles with both hands and keep your elbows bent.</li>\n  <li>Rotate your torso to the left as far as you comfortably can, while keeping your hips and legs stationary.</li>\n  <li>Pause briefly at the end of the range of motion, then rotate your torso back to the starting position.</li>\n  <li>Repeat the rotation to the right side, and continue alternating sides for the desired number of repetitions or time.</li>\n</ol>",
+      "steps": "<ol>\n  <li>Adjust the seat and chest pad of the machine.</li>\n  <li>Kneel on the knee pad with your chest against the chest pad.</li>\n  <li>Grasp the handles with both hands and keep your elbows bent.</li>\n  <li>Rotate your torso to the left as far as you comfortably can, while keeping your hips and legs stationary.</li>\n  <li>Pause briefly at the end of the range of motion, then rotate your torso back to the starting position.</li>\n  <li>Repeat the rotation to the right side, and continue alternating sides for the desired number of repetitions or time.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [11],
       "secondary_muscles": []
@@ -1057,6 +1057,46 @@
       "notes": "",
       "primary_muscles": [2],
       "secondary_muscles": [5]
+    }
+  },
+  {
+    "pk": 107,
+    "fields": {
+      "name": "Bench Dip",
+      "steps": "<ol>\n  <li>Find a stable bench or chair and sit on the edge with your hands next to your hips, fingers pointing forward.</li>\n  <li>Slide your feet forward and lower your hips off the bench. Straighten or bend your knees to make the exercise more or less difficult.</li>\n  <li>Lower your body by bending your elbows until your upper arms are parallel to the ground.</li>\n  <li>Push yourself back up to the starting position by straightening your arms.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [21],
+      "secondary_muscles": [4, 16]
+    }
+  },
+  {
+    "pk": 108,
+    "fields": {
+      "name": "Dumbbell Horizontal Internal Shoulder Rotation",
+      "steps": "<ol>\n  <li>Lie on your back on a flat surface with a dumbbell nearby.</li>\n  <li>Raise one arm at the shoulder joint to your side so that your upper arm is perpendicular to your body. Bend your elbow at a 90-degree angle bringing your forearm perpendicular to the upper arm so that your hand is above your head on your supporting surface. This position is commonly known as as a single-arm \"cactus pose\".</li>\n  <li>Hold a dumbbell in your hand with your palm facing up towards the ceiling.</li>\n  <li>Slowly rotate your arm up towards the ceiling until it's perpendicular to the ground, keeping your elbow bent and your upper arm stationary.</li>\n  <li>Pause for a moment at the top of the movement, then slowly lower the dumbbell back to the starting position.</li>\n  <li>Repeat for the desired number of repetitions, then switch sides and repeat the exercise with your other arm.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [14],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 109,
+    "fields": {
+      "name": "Bar Hang",
+      "steps": "<ol>\n  <li>Find a sturdy horizontal bar that can support your body weight.</li>\n  <li>Stand facing the bar and reach up to grab it with both hands, palms facing away from your body.</li>\n  <li>Jump or step up to lift your feet off the ground and hang from the bar with your arms fully extended.</li>\n  <li>Engage your shoulder blades and core muscles to maintain a stable position.</li>\n  <li>Hold the position for a desired amount of time.</li>\n  <li>To release, slowly lower your body down and step or jump off the bar.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [5],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 110,
+    "fields": {
+      "name": "Cable Rear Delt Row",
+      "steps": "<ol>\n  <li>Attach a straight bar to a cable machine.</li>\n  <li>Sit facing the cable machine with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Grasp the bar with an overhand grip, with your hands slightly more than shoulder-width apart.</li>\n  <li>Lean forward slightly, keeping your back straight and your core engaged.</li>\n  <li>Pull the bar towards your upper chest, keeping your elbows out to the sides.</li>\n  <li>Squeeze your shoulder blades together at the top of the movement.</li>\n  <li>Slowly release the bar back to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [13, 14, 15],
+      "secondary_muscles": [2, 20]
     }
   }
 ]
