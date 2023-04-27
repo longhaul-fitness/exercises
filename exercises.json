@@ -1098,5 +1098,45 @@
       "primary_muscles": [13, 14, 15],
       "secondary_muscles": [2, 20]
     }
+  },
+  {
+    "pk": 111,
+    "fields": {
+      "name": "Goblet Squat",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and hold a dumbbell or kettlebell vertically against your chest with both hands, elbows pointing down.</li>\n  <li>Brace your core and lower your body as far as you can by pushing your hips back and bending your knees.</li>\n  <li>Pause, then push yourself back up to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 12, 18],
+      "secondary_muscles": [3, 10]
+    }
+  },
+  {
+    "pk": 112,
+    "fields": {
+      "name": "Seated Dumbbell Shoulder Press",
+      "steps": "<ol>\n  <li>Start by sitting on a bench with a backrest, holding a dumbbell in each hand at shoulder level.</li>\n  <li>Ensure that your feet are firmly planted on the ground and your back is straight.</li>\n  <li>Press the dumbbells up above your head, extending your arms fully.</li>\n  <li>Pause briefly at the top of the movement, then slowly lower the dumbbells back down to shoulder level.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [16],
+      "secondary_muscles": [17, 21]
+    }
+  },
+  {
+    "pk": 113,
+    "fields": {
+      "name": "Trap Bar Deadlift With High Handles",
+      "steps": "<ol>\n  <li>Begin by standing in the center of the trap bar with your feet shoulder-width apart.</li>\n  <li>Grab the high handles of the trap bar with an overhand grip.</li>\n  <li>Brace your core and lift the trap bar by extending your hips and knees.</li>\n  <li>Keep your back straight and your shoulders pulled back throughout the lift.</li>\n  <li>Once you reach a standing position, slowly lower the trap bar back down to the ground.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 10, 12],
+      "secondary_muscles": [5, 18, 20]
+    }
+  },
+  {
+    "pk": 114,
+    "fields": {
+      "name": "Shallow Body Weight Lunge",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and your hands on your hips.</li>\n  <li>Step forward with one leg, bending your knee until your thigh is parallel to the ground.</li>\n  <li>Keep your back straight and your core engaged.</li>\n  <li>Push through your front heel to return to the starting position.</li>\n  <li>Repeat with the other leg.</li>\n</ol>",
+      "notes": "Remember to keep the lunge shallow. Your back knee should stay several inches above the ground. This exercise is an easier version of the Body Weight Lunge.",
+      "primary_muscles": [7, 12, 18],
+      "secondary_muscles": [8]
+    }
   }
 ]
