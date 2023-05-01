@@ -1138,5 +1138,15 @@
       "primary_muscles": [7, 12, 18],
       "secondary_muscles": [8]
     }
+  },
+  {
+    "pk": 115,
+    "fields": {
+      "name": "Sumo Deadlift",
+      "steps": "<ol>\n  <li>Stand with feet wider than shoulder-width apart and toes pointed outwards.</li>\n  <li>Place hands on the barbell with a grip wider than shoulder-width apart and palms facing down.</li>\n  <li>Engage core and lift the barbell off the ground, keeping back straight and knees bent.</li>\n  <li>As you lift, push hips forward and straighten legs.</li>\n  <li>Lower the barbell back down to the ground, keeping back straight and knees bent.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 10],
+      "secondary_muscles": [5, 8, 12, 18, 20]
+    }
   }
 ]
