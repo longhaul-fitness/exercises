@@ -1148,5 +1148,15 @@
       "primary_muscles": [7, 10],
       "secondary_muscles": [5, 8, 12, 18, 20]
     }
+  },
+  {
+    "pk": 116,
+    "fields": {
+      "name": "Cable Twist",
+      "steps": "<ol>\n  <li>Stand with your left foot in front of your right, knees slightly bent, facing away from the cable machine.</li>\n  <li>Rotate and reach to your right, behind you, and grab the cable handle with both hands. Your left arm should be straight across your body and behind you.</li>\n  <li>Rotate your torso left until you're facing forward, pulling the cable across your body.</li>\n  <li>Pause briefly at the end of the movement, then slowly rotate back to the starting position.</li>\n  <li>Repeat for the desired number of reps and then switch sides.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [11],
+      "secondary_muscles": [1]
+    }
   }
 ]
