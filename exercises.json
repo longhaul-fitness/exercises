@@ -1158,5 +1158,65 @@
       "primary_muscles": [11],
       "secondary_muscles": [1]
     }
+  },
+  {
+    "pk": 117,
+    "fields": {
+      "name": "Seated Leg Curl",
+      "steps": "<ol>\n  <li>Adjust the machine to fit your body size and leg length.</li>\n  <li>Sit on the machine with your back against the backrest and your legs straight out in front of you.</li>\n  <li>Place your ankles over the padded bar and grasp the handles on the sides of the seat for support.</li>\n  <li>Bend your knees and curl your legs towards your buttocks, keeping your back straight and your feet flexed.</li>\n  <li>Pause briefly at the bottom of the movement, then slowly straighten your legs back to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [8],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 118,
+    "fields": {
+      "name": "Hanging Knee Raise",
+      "steps": "<ol>\n  <li>Hang from a pull-up bar with your arms straight and your palms facing away from your body.</li>\n  <li>Engage your core muscles and lift your knees up towards your chest, keeping your legs together.</li>\n  <li>Pause briefly at the top of the movement, squeezing your abs.</li>\n  <li>Slowly lower your legs back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [1],
+      "secondary_muscles": [11]
+    }
+  },
+  {
+    "pk": 119,
+    "fields": {
+      "name": "Dumbbell Push Press",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and hold a dumbbell in each hand at shoulder level with your palms facing your head.</li>\n  <li>Bend your knees slightly and dip your body down.</li>\n  <li>Quickly straighten your legs and use the momentum to push the dumbbells overhead.</li>\n  <li>Lock out your arms at the top of the movement.</li>\n  <li>Lower the dumbbells back down to shoulder level and repeat for desired number of reps.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [16],
+      "secondary_muscles": [1, 7, 9, 10, 12, 20, 21]
+    }
+  },
+  {
+    "pk": 120,
+    "fields": {
+      "name": "Barbell Push Press",
+      "steps": "<ol>\n  <li>Start with the barbell resting on your front shoulders, with your feet shoulder-width apart.</li>\n  <li>Bend your knees slightly and dip your hips down, then explosively extend your legs and push the barbell up overhead.</li>\n  <li>As the barbell reaches the top of the movement, press it up and lock out your arms.</li>\n  <li>Lower the barbell back down to your shoulders and repeat for the desired number of reps.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [16],
+      "secondary_muscles": [7, 10, 12, 17, 20, 21]
+    }
+  },
+  {
+    "pk": 121,
+    "fields": {
+      "name": "Tricep Bodyweight Extension",
+      "steps": "<ol>\n  <li>Set a stationary bar (ex. Smith Machine) at hip height</li>\n  <li>Stand with your feet shoulder-width, lean forward, and grab the bar with your arms in front of you.</li>\n  <li>Bend your elbows and lower your head forward and below the bar. Keep your elbows close to your ears.</li>\n  <li>Squeeze your triceps to extend your arms to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [21],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 122,
+    "fields": {
+      "name": "Horizontal Wood Chop with Band",
+      "steps": "<ol>\n  <li>Attach a resistance band to a sturdy anchor point at waist height.</li>\n  <li>Stand perpendicular to the anchor point with feet shoulder-width apart and knees slightly bent.</li>\n  <li>Hold the resistance band with both hands and extend arms out in front of the body.</li>\n  <li>Rotate the torso and pull the band across the body towards the opposite hip.</li>\n  <li>Keep the arms straight and engage the core muscles throughout the movement.</li>\n  <li>Slowly return to the starting position</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [11],
+      "secondary_muscles": []
+    }
   }
 ]
