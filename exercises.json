@@ -1218,5 +1218,35 @@
       "primary_muscles": [11],
       "secondary_muscles": []
     }
+  },
+  {
+    "pk": 123,
+    "fields": {
+      "name": "Kneeling Push-Up",
+      "steps": "<ol>\n  <li>Start on your hands and knees, with your hands shoulder-width apart and your knees hip-width apart.</li>\n  <li>Extend your legs behind you, so that your body forms a straight line from your head to your heels.</li>\n  <li>Engage your core and glutes to keep your body in a straight line.</li>\n  <li>Lower your body towards the ground by bending your elbows, keeping them close to your body.</li>\n  <li>Pause when your chest is just above the ground.</li>\n  <li>Push yourself back up to the starting position by straightening your arms.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4, 16],
+      "secondary_muscles": [1, 21]
+    }
+  },
+  {
+    "pk": 124,
+    "fields": {
+      "name": "Banded Side Kicks",
+      "steps": "<ol>\n  <li>Stand with your feet hip-width apart and a resistance band around your ankles.</li>\n  <li>Engage your core and lift one leg out to the side, keeping it straight and the foot flexed.</li>\n  <li>Pause at the top of the movement, then slowly lower the leg back down to the starting position.</li>\n  <li>Repeat for the desired number of reps, then switch sides.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [19],
+      "secondary_muscles": [7]
+    }
+  },
+  {
+    "pk": 125,
+    "fields": {
+      "name": "Dumbbell Lateral Raise",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and hold a dumbbell in each hand with your palms facing inward.</li>\n  <li>Keep your arms straight and lift them out to the sides until they are parallel to the floor.</li>\n  <li>Pause for a moment, then slowly lower the dumbbells back down to your sides.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [17],
+      "secondary_muscles": [16]
+    }
   }
 ]
