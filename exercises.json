@@ -12,7 +12,7 @@
   {
     "pk": 2,
     "fields": {
-      "name": "Squat",
+      "name": "Squat — Barbell",
       "steps": "<ol><li>Begin by standing with your feet shoulder-width apart and your toes pointing forward. Hold a barbell behind your neck, resting it on your shoulders with your elbows pointing down and your palms facing forward.</li><li>Engage your core and keep your chest lifted as you bend your knees and lower your hips back and down as if sitting in a chair. Make sure to keep your weight on your heels and your knees tracking in line with your toes.</li><li>As you descend into the squat, inhale and maintain proper form. Lean forward so that your chest is over your thighs. Keep your back straight and your core engaged. Lower your body until your thighs parallel the ground, and your hips should align with your knees.</li><li>Pause briefly at the bottom of the movement, then exhale and push through your heels to stand back up to the starting position. Keep your core engaged and your chest lifted until you're fully standing.</li><li>Repeat the movement for your desired number of repetitions.</li><li>Place the barbell on the rack after you've finished your set.</li></ol>",
       "notes": "",
       "primary_muscles": [7, 10, 12, 18],
@@ -32,7 +32,7 @@
   {
     "pk": 4,
     "fields": {
-      "name": "Romanian Deadlift",
+      "name": "Romanian Deadlift — Barbell",
       "steps": "<ol><li>Stand with your feet shoulder-width apart and your toes pointing forward. Hold a barbell with an overhand grip in front of your thighs .</li><li>Brace your core, keep your chest up, and slowly bend your knees while hinging at your hips. As you hinge, push your hips back and lower the weight toward the floor. Keep your back straight and your shoulders down.</li><li>Continue lowering the weight until you feel a stretch in your hamstrings. Your knees should be slightly bent but not locked. You can lower the weight until it touches the floor or stops just below your knees.</li><li>Pause briefly at the bottom of the movement, then slowly reverse the motion by driving your hips forward and standing up tall. As you stand up, squeeze your glutes and hamstrings.</li><li>Repeat.</li><ol>",
       "notes": "",
       "primary_muscles": [7, 8, 10],
@@ -42,7 +42,7 @@
   {
     "pk": 5,
     "fields": {
-      "name": "Dumbbell Romanian Deadlift",
+      "name": "Romanian Deadlift — Dumbbell",
       "steps": "<ol><li>Stand with your feet shoulder-width apart and your toes pointing forward. Hold a pair of dumbbells with an overhand grip in front of your thighs .</li><li>Brace your core, keep your chest up, and slowly bend your knees while hinging at your hips. As you hinge, push your hips back and lower the weight toward the floor. Keep your back straight and your shoulders down.</li><li>Continue lowering the weight until you feel a stretch in your hamstrings. Your knees should be slightly bent but not locked. You can lower the weight until it touches the floor or stops just below your knees.</li><li>Pause briefly at the bottom of the movement, then slowly reverse the motion by driving your hips forward and standing up tall. As you stand up, squeeze your glutes and hamstrings.</li><li>Repeat.</li><ol>",
       "notes": "",
       "primary_muscles": [7, 8, 10],
@@ -52,7 +52,7 @@
   {
     "pk": 6,
     "fields": {
-      "name": "Single-Leg Romanian Deadlift",
+      "name": "Single-Leg Romanian Deadlift — Dumbbell",
       "steps": "<ol><li>Begin by standing on one leg, with a slight bend in the knee. Keep your other leg off the ground and behind you.</li><li>Hold a dumbbell or kettlebell in the opposite hand of the leg you are standing on.</li><li>Brace your core, keep your chest up, and slowly hinge forward at the hips, keeping your back straight and your shoulders down. As you hinge, lift your non-standing leg behind you, keeping it in line with your torso.</li><li>Continue lowering the weight until you feel a stretch in your hamstring. Your standing knee should be slightly bent but not locked.</li><li>Pause briefly at the bottom of the movement, then slowly reverse the motion by driving your hips forward and standing up tall while bringing your lifted leg back down to the ground.</li><li>Repeat for the desired number of repetitions on one leg before switching to the other.</li><ol>",
       "notes": "",
       "primary_muscles": [7, 8, 10],
@@ -62,7 +62,7 @@
   {
     "pk": 7,
     "fields": {
-      "name": "Air Squat",
+      "name": "Squat — Bodyweight",
       "steps": "<ol><li>Stand with your feet shoulder-width apart and point your toes slightly outward.</li><li>Keep your chest up, shoulders back, and core engaged.</li><li>Lower your body by bending your knees and pushing your hips back as if you were sitting in a chair.</li><li>Keep your weight on your heels and your knees behind your toes.</li><li>Lower yourself until your thighs are parallel to the ground or as low as you can comfortably go while maintaining good form.</li><li>Pause briefly at the bottom of the squat.</li><li>Push through your heels to stand back up, driving your hips forward as you do.</li><li>Stand up straight and repeat.</li></ol>",
       "notes": "",
       "primary_muscles": [7, 12, 18],
@@ -82,7 +82,7 @@
   {
     "pk": 9,
     "fields": {
-      "name": "Bench Press",
+      "name": "Bench Press — Barbell",
       "steps": "<ol><li>Lie on a flat bench with your feet firmly planted on the ground.</li><li>Grip the barbell with your hands slightly wider than shoulder-width apart, with your palms facing away from your body.</li><li>Lift the bar off the rack and hold it directly above your chest with extended arms.</li><li>Slowly lower the bar down to your chest, keeping your elbows close to your body.</li><li>Pause briefly when the bar touches your chest.</li><li>Push the bar back up to the starting position by extending your arms.</li><li>Repeat.</li></ol>",
       "notes": "<ul><li>Ensure your back is flat against the bench, and your feet are firmly planted on the ground.</li><li>Keep your core tight, and your elbows close to your body throughout the movement.</li><li>Exhale as you push the bar away from your chest, and inhale as you lower it down.</li></ul>",
       "primary_muscles": [4, 16],
@@ -92,7 +92,7 @@
   {
     "pk": 10,
     "fields": {
-      "name": "Dumbbell Squat",
+      "name": "Squat — Dumbbell",
       "steps": "<ol><li>Stand with your feet shoulder-width apart, with your toes pointing slightly outward.</li><li>Hold a dumbbell in each hand by your sides, with your palms facing inward.</li><li>Engage your core and keep your chest lifted throughout the movement.</li><li>Lower your body by bending at the hips and knees as if sitting on a chair.</li><li>Keep your weight in your heels, and make sure your knees are tracking over your toes.</li><li>Lower your body until your thighs are parallel to the ground or until you reach your desired depth.</li><li>Push through your heels to stand back up to the starting position.</li><li>Repeat.</li></ol>",
       "notes": "Keep your knees in line with your toes throughout the movement.",
       "primary_muscles": [7, 10, 12, 18],
@@ -102,7 +102,7 @@
   {
     "pk": 11,
     "fields": {
-      "name": "Deadlift",
+      "name": "Deadlift — Barbell",
       "steps": "",
       "notes": "",
       "primary_muscles": [7, 10],
@@ -132,7 +132,7 @@
   {
     "pk": 14,
     "fields": {
-      "name": "Cross-body Dumbbell Curl",
+      "name": "Cross-body Curl",
       "steps": "<ol><li>Stand up, leaning slightly forward from a straight position, feet shoulder-width apart, and your knees slightly bent.</li><li>Hold a dumbbell in each hand, with your palms facing your body and arms fully extended at your sides.</li><li>Keeping your elbows close to your body, slowly curl one dumbbell up toward your opposite shoulder.</li><li>Pause at the top of the curl, squeezing your bicep before slowly lowering the weight to the starting position.</li><li>Repeat the curl on the opposite side, curling the other dumbbell toward the opposite shoulder while rotating your torso.</li><li>Continue alternating curls on each side for the desired number of repetitions.</li></ol>",
       "notes": "",
       "primary_muscles": [2],
@@ -142,7 +142,7 @@
   {
     "pk": 15,
     "fields": {
-      "name": "Frog Pumps",
+      "name": "Frog Pumps — Bodyweight",
       "steps": "<ol><li>Lie on your back with your knees bent and your feet flat on the ground. Keep your feet close together and your heels touching.</li><li>Bring your feet up towards your hips along the ground until they're about 6 inches apart, and then let your knees fall out to the sides so that your feet are touching each other. This is the starting position.</li><li>Engage your glutes and lift your hips up towards the ceiling as high as you can, making sure to keep your feet and knees in the same position.</li><li>Hold the top position for 1-2 seconds, then slowly lower your hips to the starting position.</li><li>Repeat.</li></ol>",
       "notes": "",
       "primary_muscles": [7],
@@ -202,7 +202,7 @@
   {
     "pk": 21,
     "fields": {
-      "name": "Bodyweight Curl",
+      "name": "Curl — Bodyweight",
       "steps": "<ol>\n  <li>Adjust the height of the rings or TRX to waist height and stand facing them.</li>\n  <li>Hold the rings or TRX handles with an underhand grip and lean back, extending your arms straight in front of you.</li>\n  <li>Keep your feet shoulder-width apart and your body in a straight line from head to heels.</li>\n  <li>Engage your biceps and bend your elbows, pulling your body up towards the rings or TRX handles.</li>\n  <li>As you pull your body up, keep your elbows close to your body and your wrists straight.</li>\n  <li>When your hands reach your chest, pause for a moment and then slowly lower your body back down to the starting position.</li>\n  <li>Repeat the exercise for the desired number of reps.</li>\n  </ol>",
       "notes": "",
       "primary_muscles": [2, 9],
@@ -232,7 +232,7 @@
   {
     "pk": 24,
     "fields": {
-      "name": "BOSU Burpee",
+      "name": "Burpee — BOSU",
       "steps": "<ol>\n  <li>Start in a standing position with the BOSU ball on the ground (inflated-side down) in front of you.</li>\n  <li>Place your hands on the BOSU ball and jump your feet back into a plank position.</li>\n  <li>Perform a push-up while keeping your hands on the BOSU ball.</li>\n  <li>Jump your feet back towards the BOSU ball and stand up.</li>\n  <li>Lift the BOSU ball overhead and jump up, extending your arms towards the ceiling.</li>\n  <li>Land softly and repeat the exercise for desired number of reps.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [4, 12, 16, 17],
@@ -262,7 +262,7 @@
   {
     "pk": 27,
     "fields": {
-      "name": "Close-Grip Feet-Up Bench Press",
+      "name": "Close-Grip Feet-Up Bench Press — Barbell",
       "steps": "<ol>\n  <li>Lie flat on a bench with your feet up and your back pressed against the bench.</li>\n  <li>Grasp the barbell with a close grip, with your hands shoulder-width apart.</li>\n  <li>Unrack the barbell and hold it above your chest with your arms extended.</li>\n  <li>Lower the barbell to your chest, keeping your elbows close to your body.</li>\n  <li>Pause briefly at the bottom of the movement, then press the barbell back up to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [21],
@@ -272,7 +272,7 @@
   {
     "pk": 28,
     "fields": {
-      "name": "Barbell Rear Delt Row",
+      "name": "Rear Delt Row — Barbell",
       "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Hold a barbell with an overhand grip, hands shoulder-width apart.</li>\n  <li>Lean forward at the hips, keeping your back straight and your abs engaged.</li>\n  <li>Bring the barbell up towards your chest, keeping your elbows close to your body.</li>\n  <li>Squeeze your shoulder blades together at the top of the movement.</li>\n  <li>Lower the barbell back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [15, 20],
@@ -292,7 +292,7 @@
   {
     "pk": 30,
     "fields": {
-      "name": "Cable Curl With Rope",
+      "name": "Cable Curl — Rope",
       "steps": "<ol>\n  <li>Attach a rope to a low pulley cable machine.</li>\n  <li>Stand facing the machine with feet shoulder-width apart and knees slightly bent.</li>\n  <li>Grasp the rope with an underhand grip, palms facing each other.</li>\n  <li>Keep elbows close to your sides and curl the rope towards your shoulders.</li>\n  <li>Pause briefly at the top of the movement, then slowly lower the rope back to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [2],
@@ -322,7 +322,7 @@
   {
     "pk": 33,
     "fields": {
-      "name": "Pause Squat",
+      "name": "Pause Squat — Barbell",
       "steps": "<ol>\n  <li>Start with your feet shoulder-width apart, your toes pointing slightly outward, and the barbell on your shoulders.</li>\n  <li>Lower your body into a squat position, keeping your back straight and your knees tracking with your toes.</li>\n  <li>Pause at the bottom of the squat for 2-3 seconds.</li>\n  <li>Slowly rise back up to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [7, 10, 12, 18],
@@ -332,7 +332,7 @@
   {
     "pk": 34,
     "fields": {
-      "name": "Barbell Walking Lunge",
+      "name": "Walking Lunge — Barbell",
       "steps": "<ol>\n  <li>Start with your feet hip-width apart and the barbell on your shoulders.</li>\n  <li>Take a large step forward with your right foot, lowering your body until your right thigh is parallel to the ground and your left knee is hovering just above the floor.</li>\n  <li>Push through your right heel to stand back up, bringing your left foot forward to meet your right foot.</li>\n  <li>Repeat the lunge on the other side by stepping forward with your left foot.</li>\n  <li>Continue alternating lunges for the desired number of reps or distance.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [7, 12, 18],
@@ -342,7 +342,7 @@
   {
     "pk": 35,
     "fields": {
-      "name": "Medicine Ball Rotational Throw",
+      "name": "Rotational Throw — Medicine Ball",
       "steps": "<ol>\n  <li>Start by standing about arms-length away from the wall with your feet shoulder-width apart.</li>\n  <li>Hold a medicine ball with both hands at chest height.</li>\n  <li>Rotating your core and upper body towards the wall, explosively throw the ball against the wall.</li>\n  <li>Catch the ball as it rebounds off the wall and rotate your body away from the wall.</li>\n  <li>Repeat for the desired number of reps and then switch sides.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [11],
@@ -352,7 +352,7 @@
   {
     "pk": 36,
     "fields": {
-      "name": "T-Bar Row",
+      "name": "Row — T-Bar",
       "steps": "<ol>\n  <li>Load the desired weight onto the T-Bar machine.</li>\n  <li>Stand facing the T-Bar machine with your feet shoulder-width apart.</li>\n  <li>Bend your knees slightly and hinge forward at the hips, keeping your back straight.</li>\n  <li>Grasp the handles of the T-Bar with an overhand grip.</li>\n  <li>Pull the T-Bar towards your chest, keeping your elbows close to your body.</li>\n  <li>Pause briefly at the top of the movement, squeezing your shoulder blades together.</li>\n  <li>Slowly lower the T-Bar back to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [9, 15, 20],
@@ -362,7 +362,7 @@
   {
     "pk": 37,
     "fields": {
-      "name": "Dumbbell Shoulder Press",
+      "name": "Shoulder Press — Dumbbell",
       "steps": "<ol>\n  <li>Start by sitting on a bench with a dumbbell in each hand, resting on your thighs.</li>\n  <li>Raise the dumbbells to shoulder height, palms facing forward, and elbows bent.</li>\n  <li>Press the dumbbells upward until your arms are fully extended above your head.</li>\n  <li>Pause for a moment at the top of the movement, then slowly lower the dumbbells back down to shoulder height.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [16],
@@ -372,7 +372,7 @@
   {
     "pk": 38,
     "fields": {
-      "name": "Barbell Upright Row",
+      "name": "Upright Row — Barbell",
       "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Grasp the barbell with an overhand grip, hands narrower than shoulder-width apart.</li>\n  <li>Hold the barbell in front of your thighs with your arms extended.</li>\n  <li>Exhale and lift the barbell straight up towards your chin, keeping it close to your body.</li>\n  <li>Pause for a moment at the top of the movement, then inhale and slowly lower the barbell back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [17],
@@ -382,7 +382,7 @@
   {
     "pk": 39,
     "fields": {
-      "name": "Dumbbell Rear Delt Row",
+      "name": "Rear Delt Row — Dumbbell",
       "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and hold a dumbbell in each hand.</li>\n  <li>Bend your knees slightly and hinge forward at the hips, keeping your back straight.</li>\n  <li>Bring the dumbbells up to your chest, keeping your elbows close to your body.</li>\n  <li>Slowly lower the dumbbells back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [15, 20],
@@ -392,7 +392,7 @@
   {
     "pk": 40,
     "fields": {
-      "name": "Dumbbell Floor Press",
+      "name": "Floor Press — Dumbbell",
       "steps": "<ol>\n  <li>Lie flat on your back on the floor with your knees bent and feet flat on the ground.</li>\n  <li>Hold a dumbbell in each hand with your palms facing towards your feet.</li>\n  <li>Extend your arms straight up towards the ceiling, with your elbows slightly bent.</li>\n  <li>Slowly lower the dumbbells down towards your chest, keeping your elbows close to your body.</li>\n  <li>Pause when your upper arms touch the ground.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [4, 16],
@@ -402,7 +402,7 @@
   {
     "pk": 41,
     "fields": {
-      "name": "Incline Dumbbell Curl",
+      "name": "Incline Curl — Dumbbell",
       "steps": "<ol>\n  <li>Adjust the bench to a 45-degree angle.</li>\n  <li>Grab a pair of dumbbells and sit on the bench with your back straight.</li>\n  <li>Let your arms hang down by your sides with your palms facing forward.</li>\n  <li>Slowly curl the dumbbells up towards your shoulders while keeping your elbows close to your body.</li>\n  <li>Pause for a moment at the top of the movement, then slowly lower the dumbbells back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [2],
@@ -452,7 +452,7 @@
   {
     "pk": 46,
     "fields": {
-      "name": "Barbell Hack Squat",
+      "name": "Hack Squat — Barbell",
       "steps": "<ol>\n  <li>Stand in front of the barbell with your feet shoulder-width apart. The barbell will be by the back of your calves.</li>\n  <li>Bend down and grip the barbell with an overhand grip, with your palms facing behind you.</li>\n  <li>Stand up straight, lifting the barbell off the ground and holding it behind your legs.</li>\n  <li>Keeping your back straight, lower your body by bending your knees and hips, as if you were sitting down on a chair, until your thighs are parallel to the ground.</li>\n  <li>Push through your heels to stand back up to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [12],
@@ -472,7 +472,7 @@
   {
     "pk": 48,
     "fields": {
-      "name": "Lying Dumbbell Internal Shoulder Rotation",
+      "name": "Lying Internal Shoulder Rotation — Dumbbell",
       "steps": "<ol>\n  <li>Begin by lying on your side on a flat bench with your arm extended straight out in front of you and your elbow bent at a 90-degree angle.</li>\n  <li>Hold a dumbbell in your hand with your palm facing up towards the ceiling.</li>\n  <li>Slowly rotate your arm inwards towards your body, keeping your elbow bent and your upper arm stationary.</li>\n  <li>Pause for a moment at the top of the movement, then slowly lower the dumbbell back to the starting position.</li>\n  <li>Repeat for the desired number of repetitions, then switch sides and repeat the exercise with your other arm.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [14],
@@ -492,7 +492,7 @@
   {
     "pk": 50,
     "fields": {
-      "name": "Push-Ups With Feet in Rings",
+      "name": "Push-Up — Feet in Rings",
       "steps": "<ol>\n  <li>Start in a plank position with your feet in the rings and your hands shoulder-width apart on the ground.</li>\n  <li>Lower your body towards the ground by bending your elbows and keeping your body straight.</li>\n  <li>Push yourself back up to the starting position by straightening your arms.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [4, 16],
@@ -502,7 +502,7 @@
   {
     "pk": 51,
     "fields": {
-      "name": "Lateral Walk With Band",
+      "name": "Lateral Walk — Band",
       "steps": "<ol>\n  <li>Place a resistance band around your ankles and stand with your feet hip-width apart.</li>\n  <li>Take a step to the right with your right foot, keeping tension on the band.</li>\n  <li>Bring your left foot to meet your right foot, maintaining tension on the band.</li>\n  <li>Take another step to the right with your right foot, again keeping tension on the band.</li>\n  <li>Repeat this lateral movement for a desired number of steps to the right.</li>\n  <li>Then, reverse the movement and take the same number of steps to the left.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [19],
@@ -522,7 +522,7 @@
   {
     "pk": 53,
     "fields": {
-      "name": "Smith Machine Incline Bench Press",
+      "name": "Incline Bench Press — Smith Machine",
       "steps": "<ol>\n  <li>Adjust the height of the Smith machine bar to a comfortable level for the incline bench press.</li>\n  <li>Select the desired weight and load it onto the bar.</li>\n  <li>Lie down on the incline bench and position yourself under the bar.</li>\n  <li>Grip the bar with a slightly wider than shoulder-width grip and lift it off the rack.</li>\n  <li>Lower the bar down to your chest while keeping your elbows tucked in.</li>\n  <li>Push the bar back up to the starting position, keeping your core engaged and your back flat on the bench.</li>\n  <li>Repeat.</li>\n  <li>When finished, carefully rack the bar back onto the Smith machine.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [4, 16],
@@ -532,7 +532,7 @@
   {
     "pk": 54,
     "fields": {
-      "name": "Dumbbell Chest Fly",
+      "name": "Chest Fly — Dumbbell",
       "steps": "<ol>\n  <li>Start by lying flat on a bench with your feet firmly on the ground and your head, shoulders, and buttocks touching the bench.</li>\n  <li>Hold a dumbbell in each hand with your palms facing each other and your arms extended above your chest.</li>\n  <li>Slowly lower the dumbbells out to the sides of your body, keeping your elbows slightly bent and your palms facing up.</li>\n  <li>Lower the dumbbells until your arms are parallel to the ground or until you feel a stretch in your chest muscles.</li>\n  <li>Pause for a moment, then slowly bring the dumbbells back up to the starting position, keeping your elbows slightly bent and your palms facing each other.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [4],
@@ -552,7 +552,7 @@
   {
     "pk": 56,
     "fields": {
-      "name": "Tricep Pushdown With Bar",
+      "name": "Tricep Pushdown — Bar",
       "steps": "<ol>\n  <li>Attach a straight bar to the high pulley of a cable machine.</li>\n  <li>Stand facing the machine with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Grasp the bar with an overhand grip, with your hands shoulder-width apart.</li>\n  <li>Keep your elbows close to your sides and your upper arms stationary.</li>\n  <li>Exhale and push the bar down until your arms are fully extended.</li>\n  <li>Pause for a moment, then inhale and slowly return the bar to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [21],
@@ -562,7 +562,7 @@
   {
     "pk": 57,
     "fields": {
-      "name": "Dumbbell Horizontal External Shoulder Rotation",
+      "name": "Horizontal External Shoulder Rotation — Dumbbell",
       "steps": "<ol>\n  <li>Start by lying on your side on a bench or mat, with your arm extended straight out in front of you and holding a dumbbell in your hand.</li>\n  <li>Keep your elbow bent at a 90-degree angle and your upper arm pressed against your side.</li>\n  <li>Slowly rotate your arm outwards, away from your body, until your forearm points towards the ceiling.</li>\n  <li>Hold this position for a few seconds, then slowly lower your arm back to the starting position.</li>\n  <li>Repeat for the desired number of repetitions, then switch sides and repeat the exercise with your other arm.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [13],
@@ -572,7 +572,7 @@
   {
     "pk": 58,
     "fields": {
-      "name": "Lat Pulldown With Supinated Grip",
+      "name": "Supinated Grip Lat Pulldown",
       "steps": "<ol>\n  <li>Adjust the weight on the lat pulldown machine to a comfortable level.</li>\n  <li>Stand facing the machine and grasp the bar with an underhand grip, with your hands shoulder-width apart.</li>\n  <li>Sit down on the bench and adjust the knee pad so that it fits snugly against your thighs.</li>\n  <li>Lean back slightly and keep your chest up and your shoulders down.</li>\n  <li>Exhale and pull the bar down towards your chest, keeping your elbows close to your body.</li>\n  <li>Pause for a moment and squeeze your shoulder blades together.</li>\n  <li>Inhale and slowly release the bar back to the starting position, keeping your arms straight but not locked.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [9],
@@ -582,7 +582,7 @@
   {
     "pk": 59,
     "fields": {
-      "name": "Barbell Wrist Curl Behind the Back",
+      "name": "Wrist Curl Behind the Back — Barbell",
       "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Hold a barbell with an overhand grip behind your back, with your palms facing away from your body.</li>\n  <li>Keep your elbows close to your body and your upper arms stationary.</li>\n  <li>Curl the barbell up towards your forearms, keeping your wrists straight.</li>\n  <li>Pause at the top of the movement and squeeze your forearms.</li>\n  <li>Slowly lower the barbell back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [5],
@@ -602,7 +602,7 @@
   {
     "pk": 61,
     "fields": {
-      "name": "High to Low Wood Chop with Cable",
+      "name": "High to Low Wood Chop — Cable",
       "steps": "<ol>\n  <li>Attach a cable to a high pulley and select the desired weight.</li>\n  <li>Stand perpendicular to the cable with feet shoulder-width apart and knees slightly bent.</li>\n  <li>Grasp the handle with both hands and extend arms overhead, keeping them straight.</li>\n  <li>Engage core muscles and rotate torso diagonally downwards, pulling the cable down towards the opposite hip.</li>\n  <li>Bend knees and pivot back foot as needed to maintain balance and stability.</li>\n  <li>Pause briefly at the bottom of the movement, then reverse the motion and return to starting position.</li>\n  <li>Repeat for desired number of repetitions, then switch sides and repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [11],
@@ -612,7 +612,7 @@
   {
     "pk": 62,
     "fields": {
-      "name": "Dumbbell Deadlift",
+      "name": "Deadlift — Dumbbell",
       "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart, with a dumbbell in each hand.</li>\n  <li>Hold the dumbbells about halfway between the front and side of your quads, with your palms facing your body.</li>\n  <li>Bend your knees, hinge and lean forward at the hips, keeping your back straight and your chest up.</li>\n  <li>Lower the dumbbells towards the ground, keeping them close to your body.</li>\n  <li>Pause when your dumbbells are just below your knees.</li>\n  <li>Push through your heels and stand up, keeping your back straight and your chest up.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [7, 10],
@@ -642,7 +642,7 @@
   {
     "pk": 65,
     "fields": {
-      "name": "Cable Chest Press",
+      "name": "Chest Press — Cable",
       "steps": "<ol>\n  <li>Adjust the cable machine to chest height and attach the handles to the cables.</li>\n  <li>Stand facing away from the machine and grasp the handles with an overhand grip.</li>\n  <li>Step forward to create tension in the cables and position your feet shoulder-width apart.</li>\n  <li>Engage your core and keep your chest up as you push the handles forward until your arms are fully extended.</li>\n  <li>Hold the position for a moment and then slowly release the handles back to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [4],
@@ -662,7 +662,7 @@
   {
     "pk": 67,
     "fields": {
-      "name": "Hip Thrust With Band Around Knees",
+      "name": "Hip Thrust — Band",
       "steps": "<ol>\n  <li>Place a resistance band below your knees.</li>\n  <li>Sit on the ground with your back against a bench, your feet flat on the ground, and position a barbell across your hips.</li>\n  <li>Engage your core and glute muscles, and slowly lift your hips up off the ground until your body forms a straight line from your knees to your shoulders.</li>\n  <li>Hold for a second or two at the top of the movement, then lower your hips back down to the ground.</li>\n  <li>Repeat.</li>\n<ol>",
       "notes": "",
       "primary_muscles": [7],
@@ -672,7 +672,7 @@
   {
     "pk": 68,
     "fields": {
-      "name": "Dumbbell Row",
+      "name": "Row — Dumbbell",
       "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and hold a dumbbell in each hand.</li>\n  <li>Bend your knees slightly and hinge forward at the hips, keeping your back straight.</li>\n  <li>Bring the dumbbells up towards your chest, keeping your elbows close to your body.</li>\n  <li>Pause at the top of the movement and squeeze your shoulder blades together.</li>\n  <li>Lower the dumbbells back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [9, 15, 20],
@@ -682,7 +682,7 @@
   {
     "pk": 69,
     "fields": {
-      "name": "Stiff-Legged Deadlift",
+      "name": "Stiff-Legged Deadlift — Barbell",
       "steps": "<ol>\n  <li>Stand with feet hip-width apart and toes pointing forward.</li>\n  <li>Hold a barbell in front of your thighs with an overhand grip.</li>\n  <li>Engage your core and keep your back straight as you hinge forward at the hips, pushing your glutes back.</li>\n  <li>Lower the weight towards the ground, keeping your legs straight but not locked.</li>\n  <li>Pause when you feel a stretch in your hamstrings, then use your glutes and hamstrings to lift the weight back up to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [7, 8, 10],
@@ -692,7 +692,7 @@
   {
     "pk": 70,
     "fields": {
-      "name": "Incline Dumbbell Press",
+      "name": "Incline Bench Press — Dumbbell",
       "steps": "<ol>\n  <li>Set up an incline bench at a 45-degree angle.</li>\n  <li>Choose two dumbbells of equal weight and sit on the bench with them resting on your thighs.</li>\n  <li>Lie back on the bench and bring the dumbbells up to your chest, palms facing forward.</li>\n  <li>Push the dumbbells up and away from your chest, extending your arms fully but not locking your elbows.</li>\n  <li>Slowly lower the dumbbells back down to your chest, keeping your elbows at a 45-degree angle to your body.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [4, 16],
@@ -712,7 +712,7 @@
   {
     "pk": 72,
     "fields": {
-      "name": "Smith Machine Squat",
+      "name": "Squat — Smith Machine",
       "steps": "<ol>\n  <li>Adjust the bar height to your desired position.</li>\n  <li>Load the bar with an appropriate weight.</li>\n  <li>Stand facing the bar with your feet shoulder-width apart.</li>\n  <li>Step forward and position the bar on your shoulders, resting on the back of your neck.</li>\n  <li>Grasp the bar with both hands, keeping your elbows pointed down and your chest up.</li>\n  <li>Lower your body by bending at the knees and hips, keeping your back straight and your head up.</li>\n  <li>Lower until your thighs are parallel to the ground, then push back up to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [7, 10, 12, 18],
@@ -732,7 +732,7 @@
   {
     "pk": 74,
     "fields": {
-      "name": "Barbell Preacher Curl",
+      "name": "Preacher Curl — Barbell",
       "steps": "<ol>\n  <li>Set up a preacher curl bench with the appropriate weight on the barbell.</li>\n  <li>Adjust the seat height so that your armpits are resting comfortably on the top of the bench.</li>\n  <li>Grab the barbell with an underhand grip, hands shoulder-width apart.</li>\n  <li>Place your upper arms on the bench pad, keeping your elbows close to your body.</li>\n  <li>Exhale and curl the barbell up towards your shoulders, keeping your upper arms stationary.</li>\n  <li>Pause briefly at the top of the movement, squeezing your biceps.</li>\n  <li>Inhale and slowly lower the barbell back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [2],
@@ -772,7 +772,7 @@
   {
     "pk": 78,
     "fields": {
-      "name": "Incline Bench Press",
+      "name": "Incline Bench Press — Barbell",
       "steps": "<ol>\n  <li>Set up the incline bench at a 45-degree angle.</li>\n  <li>Lie down on the bench with your feet flat on the ground.</li>\n  <li>Grip the barbell with your hands slightly wider than shoulder-width apart.</li>\n  <li>Unrack the barbell and lower it towards your chest, keeping your elbows tucked in.</li>\n  <li>Pause briefly at the bottom of the movement, then press the barbell back up to the starting position.</li>\n  <li>Repeat for desired number of reps.</li>\n  <li>Rack the barbell once you have completed your set.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [4, 16],
@@ -802,7 +802,7 @@
   {
     "pk": 81,
     "fields": {
-      "name": "Hip Thrust",
+      "name": "Hip Thrust — Barbell",
       "steps": "<ol>\n  <li>Sit on the ground with your back against a bench, your feet flat on the ground, and position a barbell across your hips.</li>\n  <li>Engage your core and glute muscles, and slowly lift your hips up off the ground until your body forms a straight line from your knees to your shoulders.</li>\n  <li>Hold for a second or two at the top of the movement, then lower your hips back down to the ground.</li>\n  <li>Repeat.</li>\n<ol>",
       "notes": "",
       "primary_muscles": [7],
@@ -812,7 +812,7 @@
   {
     "pk": 82,
     "fields": {
-      "name": "Dumbbell Preacher Curl",
+      "name": "Preacher Curl — Dumbbell",
       "steps": "<ol>\n  <li>Adjust the preacher bench to the appropriate height and secure the weight plate at the bottom.</li>\n  <li>Choose the appropriate dumbbell weight and sit on the preacher bench with your chest against the pad and your arms extended over the pad.</li>\n  <li>Grasp the dumbbell with an underhand grip and curl it towards your shoulders, keeping your upper arms stationary against the pad.</li>\n  <li>Pause at the top of the movement and squeeze your biceps.</li>\n  <li>Lower the dumbbell back down to the starting position in a controlled manner.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [2],
@@ -822,7 +822,7 @@
   {
     "pk": 83,
     "fields": {
-      "name": "Band External Shoulder Rotation",
+      "name": "External Shoulder Rotation — Band",
       "steps": "<ol>\n  <li>Attach a resistance band to a stable object at waist height.</li>\n  <li>Stand perpendicular to the anchor point with your right arm farthest away from it, and your feet shoulder-width apart.</li>\n  <li>Reach across your body with your right hand and grab the band.</li>\n  <li>Create resistance in the band by bringing your right elbow close to your right side where it hangs naturally.</li>\n  <li>This starting position has you with your right forearm across the front of your body, at a 90-degree angle to your right upper-arm.</li>\n  <li>Keep your core engaged and your shoulders relaxed.</li>\n  <li>Slowly rotate your arms outward, away from your body, until your right hand is in line with your right shoulder.</li>\n  <li>Pause for a moment, then slowly return to the starting position.</li>\n  <li>Repeat for the desired number of repetitions and then switch sides.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [13],
@@ -832,7 +832,7 @@
   {
     "pk": 84,
     "fields": {
-      "name": "Band Internal Shoulder Rotation",
+      "name": "Internal Shoulder Rotation — Band",
       "steps": "<ol>\n  <li>Attach a resistance band to a stable object at waist height.</li>\n  <li>Stand perpendicular to the anchor point with your right arm closest to it, and your feet shoulder-width apart.</li>\n  <li>Reach your right hand and grab the band.</li>\n  <li>Create resistance in the band by side-stepping away from the anchor point.</li>\n  <li>This starting position has your right forearm at a 90-degree angle to your right upper-arm. Your right forearm points to your right.</li>\n  <li>Keep your core engaged and your shoulders relaxed.</li>\n  <li>Slowly rotate your arms inward, toward your body, until your right hand is in line with your right shoulder.</li>\n  <li>Pause for a moment, then slowly return to the starting position.</li>\n  <li>Repeat for the desired number of repetitions and then switch sides.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [14],
@@ -862,7 +862,7 @@
   {
     "pk": 87,
     "fields": {
-      "name": "Barbell Wrist Extension",
+      "name": "Wrist Extension — Barbell",
       "steps": "<ol>\n  <li>Hold a barbell with an overhand grip, with your hands shoulder-width apart.</li>\n  <li>Sit on a bench with your feet shoulder-width apart.</li>\n  <li>Rest the barbell on the top of your thighs, with your palms facing down.</li>\n  <li>Slowly lift the barbell by extending your wrists, keeping your elbows stationary. Focus on bringing your knuckles back towards the top of your forearms.</li>\n  <li>Hold the barbell at the top of the movement for a moment.</li>\n  <li>Lower the barbell back down to the starting position by flexing your wrists.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [6],
@@ -882,7 +882,7 @@
   {
     "pk": 89,
     "fields": {
-      "name": "Dumbbell Front Raise",
+      "name": "Front Raise — Dumbbell",
       "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and hold a dumbbell in each hand with your palms facing your thighs.</li>\n  <li>Keeping your arms straight, lift the dumbbells in front of you until they reach shoulder height.</li>\n  <li>Hold the position for a second, then slowly lower the dumbbells back down to your thighs.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [16],
@@ -892,7 +892,7 @@
   {
     "pk": 90,
     "fields": {
-      "name": "Standing Glute Kickback in Machine",
+      "name": "Standing Glute Kickback Machine",
       "steps": "<ol>\n  <li>Adjust the machine to the appropriate height for your body.</li>\n  <li>Stand facing the machine with your feet shoulder-width apart and your hands holding onto the handles.</li>\n  <li>Engage your glutes and lift one leg straight back behind you, keeping it in line with your body.</li>\n  <li>Pause at the top of the movement and squeeze your glutes.</li>\n  <li>Lower your leg back down to the starting position and repeat on the other side.</li>\n  <li>Complete the desired number of repetitions on each leg.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [7],
@@ -922,7 +922,7 @@
   {
     "pk": 93,
     "fields": {
-      "name": "Band Pull-Apart",
+      "name": "Pull-Apart — Band",
       "steps": "<ol>\n  <li>Stand with feet shoulder-width apart and hold a resistance band with both hands.</li>\n  <li>Extend your arms straight out in front of you, keeping your palms facing down.</li>\n  <li>Begin pulling the band apart by squeezing your shoulder blades together.</li>\n  <li>Continue pulling until your hands are at shoulder height and the band is stretched tight.</li>\n  <li>Hold for a moment, then slowly release the tension and return to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [13, 14, 15],
@@ -932,7 +932,7 @@
   {
     "pk": 94,
     "fields": {
-      "name": "Dumbbell Frog Pumps",
+      "name": "Frog Pumps — Dumbbell",
       "steps": "<ol>\n  <li>Start by lying on your back with your knees bent and feet flat on the ground.</li>\n  <li>Place a dumbbell on your lower abdomen and hold it in place with both hands.</li>\n  <li>Bring the soles of your feet together and allow your knees to fall out to the sides, creating a diamond shape with your legs.</li>\n  <li>Press your feet together and lift your hips up towards the ceiling, squeezing your glutes at the top of the movement.</li>\n  <li>Lower your hips back down to the ground.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [7],
@@ -952,7 +952,7 @@
   {
     "pk": 96,
     "fields": {
-      "name": "Dumbbell Decline Chest Press",
+      "name": "Decline Chest Press — Dumbbell",
       "steps": "<ol>\n  <li>Set up a decline bench at a 45-degree angle.</li>\n  <li>Grab a pair of dumbbells and lie down on the bench with your feet secured at the end.</li>\n  <li>Hold the dumbbells at chest level with your palms facing forward.</li>\n  <li>Lower the dumbbells slowly towards your chest, keeping your elbows at a 45-degree angle.</li>\n  <li>Pause for a moment, then push the dumbbells back up to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [4, 16],
@@ -962,7 +962,7 @@
   {
     "pk": 97,
     "fields": {
-      "name": "Barbell Lying Triceps Extension",
+      "name": "Pullover — Barbell",
       "steps": "<ol>\n  <li>Start by lying flat on a bench with your feet firmly on the ground and your head at the end of the bench.</li>\n  <li>Hold a barbell with an overhand grip, with your hands shoulder-width apart and your arms extended straight up at an angle that brings the barbell above your head.</li>\n  <li>Slowly lower the barbell towards the top of your head by bending your elbows, keeping your upper arms stationary and tension on your triceps.</li>\n  <li>Pause when the barbell is just above the top of your head, then slowly raise it back to the starting position by extending your arms.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [21],
@@ -982,7 +982,7 @@
   {
     "pk": 99,
     "fields": {
-      "name": "Reverse Dumbbell Flyes",
+      "name": "Reverse Flys — Dumbbell",
       "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and hold a dumbbell in each hand with your palms facing each other.</li>\n  <li>Bend forward at your hips, keeping your back straight and your core engaged.</li>\n  <li>Extend your arms straight down towards the floor, with your elbows slightly bent.</li>\n  <li>Keeping your arms straight, lift the dumbbells out to the sides until they reach shoulder height.</li>\n  <li>Pause for a moment, then slowly lower the dumbbells back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [13, 14, 15],
@@ -992,7 +992,7 @@
   {
     "pk": 100,
     "fields": {
-      "name": "Dumbbell Curl",
+      "name": "Curl — Dumbbell",
       "steps": "<ol>\n  <li>Stand up straight with your feet shoulder-width apart and your arms at your sides, holding a dumbbell in each hand.</li>\n  <li>Keeping your elbows close to your sides, slowly lift the dumbbells up towards your shoulders, rotating your palms to face your shoulders as you lift.</li>\n  <li>Pause for a moment at the top of the movement, squeezing your biceps.</li>\n  <li>Slowly lower the dumbbells back down to the starting position, rotating your palms back to face your thighs as you lower.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [2],
@@ -1022,7 +1022,7 @@
   {
     "pk": 103,
     "fields": {
-      "name": "Dumbbell Pullover",
+      "name": "Pullover — Dumbbell",
       "steps": "<ol>\n  <li>Begin by lying flat on a bench with your feet firmly planted on the ground.</li>\n  <li>Hold a dumbbell by the weight on one side with both hands and extend your arms straight above your chest.</li>\n  <li>Slowly lower the dumbbell behind your head, keeping your arms straight and your core engaged.</li>\n  <li>Pause when the dumbbell is parallel to the ground, then slowly lift it back to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [4],
@@ -1042,7 +1042,7 @@
   {
     "pk": 105,
     "fields": {
-      "name": "Body Weight Lunge",
+      "name": "Lunge — Bodyweight",
       "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and your hands on your hips.</li>\n  <li>Step forward with one leg, bending your knee until your thigh is parallel to the ground.</li>\n  <li>Keep your back straight and your core engaged.</li>\n  <li>Push through your front heel to return to the starting position.</li>\n  <li>Repeat with the other leg.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [7, 12, 18],
@@ -1052,7 +1052,7 @@
   {
     "pk": 106,
     "fields": {
-      "name": "Barbell Curl",
+      "name": "Curl — Barbell",
       "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Hold the barbell with an underhand grip, palms facing up, and your hands shoulder-width apart.</li>\n  <li>Keep your elbows close to your sides and curl the barbell up towards your chest, exhaling as you lift.</li>\n  <li>Pause at the top of the movement and squeeze your biceps.</li>\n  <li>Lower the barbell back down to the starting position, inhaling as you lower.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [2],
@@ -1072,7 +1072,7 @@
   {
     "pk": 108,
     "fields": {
-      "name": "Dumbbell Horizontal Internal Shoulder Rotation",
+      "name": "Horizontal Internal Shoulder Rotation — Dumbbell",
       "steps": "<ol>\n  <li>Lie on your back on a flat surface with a dumbbell nearby.</li>\n  <li>Raise one arm at the shoulder joint to your side so that your upper arm is perpendicular to your body. Bend your elbow at a 90-degree angle bringing your forearm perpendicular to the upper arm so that your hand is above your head on your supporting surface. This position is commonly known as as a single-arm \"cactus pose\".</li>\n  <li>Hold a dumbbell in your hand with your palm facing up towards the ceiling.</li>\n  <li>Slowly rotate your arm up towards the ceiling until it's perpendicular to the ground, keeping your elbow bent and your upper arm stationary.</li>\n  <li>Pause for a moment at the top of the movement, then slowly lower the dumbbell back to the starting position.</li>\n  <li>Repeat for the desired number of repetitions, then switch sides and repeat the exercise with your other arm.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [14],
@@ -1092,7 +1092,7 @@
   {
     "pk": 110,
     "fields": {
-      "name": "Cable Rear Delt Row",
+      "name": "Rear Delt Row — Cable",
       "steps": "<ol>\n  <li>Attach a straight bar to a cable machine.</li>\n  <li>Sit facing the cable machine with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Grasp the bar with an overhand grip, with your hands slightly more than shoulder-width apart.</li>\n  <li>Lean forward slightly, keeping your back straight and your core engaged.</li>\n  <li>Pull the bar towards your upper chest, keeping your elbows out to the sides.</li>\n  <li>Squeeze your shoulder blades together at the top of the movement.</li>\n  <li>Slowly release the bar back to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [13, 14, 15],
@@ -1112,7 +1112,7 @@
   {
     "pk": 112,
     "fields": {
-      "name": "Seated Dumbbell Shoulder Press",
+      "name": "Seated Shoulder Press — Dumbbell",
       "steps": "<ol>\n  <li>Start by sitting on a bench with a backrest, holding a dumbbell in each hand at shoulder level.</li>\n  <li>Ensure that your feet are firmly planted on the ground and your back is straight.</li>\n  <li>Press the dumbbells up above your head, extending your arms fully.</li>\n  <li>Pause briefly at the top of the movement, then slowly lower the dumbbells back down to shoulder level.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [16],
@@ -1122,7 +1122,7 @@
   {
     "pk": 113,
     "fields": {
-      "name": "Trap Bar Deadlift With High Handles",
+      "name": "Deadlift With High Handles — Trap Bar",
       "steps": "<ol>\n  <li>Begin by standing in the center of the trap bar with your feet shoulder-width apart.</li>\n  <li>Grab the high handles of the trap bar with an overhand grip.</li>\n  <li>Brace your core and lift the trap bar by extending your hips and knees.</li>\n  <li>Keep your back straight and your shoulders pulled back throughout the lift.</li>\n  <li>Once you reach a standing position, slowly lower the trap bar back down to the ground.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [7, 10, 12],
@@ -1132,7 +1132,7 @@
   {
     "pk": 114,
     "fields": {
-      "name": "Shallow Body Weight Lunge",
+      "name": "Shallow Lunge — Bodyweight",
       "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and your hands on your hips.</li>\n  <li>Step forward with one leg, bending your knee until your thigh is parallel to the ground.</li>\n  <li>Keep your back straight and your core engaged.</li>\n  <li>Push through your front heel to return to the starting position.</li>\n  <li>Repeat with the other leg.</li>\n</ol>",
       "notes": "Remember to keep the lunge shallow. Your back knee should stay several inches above the ground. This exercise is an easier version of the Body Weight Lunge.",
       "primary_muscles": [7, 12, 18],
@@ -1142,7 +1142,7 @@
   {
     "pk": 115,
     "fields": {
-      "name": "Sumo Deadlift",
+      "name": "Sumo Deadlift — Barbell",
       "steps": "<ol>\n  <li>Stand with feet wider than shoulder-width apart and toes pointed outwards.</li>\n  <li>Place hands on the barbell with a grip wider than shoulder-width apart and palms facing down.</li>\n  <li>Engage core and lift the barbell off the ground, keeping back straight and knees bent.</li>\n  <li>As you lift, push hips forward and straighten legs.</li>\n  <li>Lower the barbell back down to the ground, keeping back straight and knees bent.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [7, 10],
@@ -1152,7 +1152,7 @@
   {
     "pk": 116,
     "fields": {
-      "name": "Cable Twist",
+      "name": "Twist — Cable",
       "steps": "<ol>\n  <li>Stand with your left foot in front of your right, knees slightly bent, facing away from the cable machine.</li>\n  <li>Rotate and reach to your right, behind you, and grab the cable handle with both hands. Your left arm should be straight across your body and behind you.</li>\n  <li>Rotate your torso left until you're facing forward, pulling the cable across your body.</li>\n  <li>Pause briefly at the end of the movement, then slowly rotate back to the starting position.</li>\n  <li>Repeat for the desired number of reps and then switch sides.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [11],
@@ -1182,7 +1182,7 @@
   {
     "pk": 119,
     "fields": {
-      "name": "Dumbbell Push Press",
+      "name": "Push Press — Dumbbell",
       "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and hold a dumbbell in each hand at shoulder level with your palms facing your head.</li>\n  <li>Bend your knees slightly and dip your body down.</li>\n  <li>Quickly straighten your legs and use the momentum to push the dumbbells overhead.</li>\n  <li>Lock out your arms at the top of the movement.</li>\n  <li>Lower the dumbbells back down to shoulder level and repeat for desired number of reps.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [16],
@@ -1192,7 +1192,7 @@
   {
     "pk": 120,
     "fields": {
-      "name": "Barbell Push Press",
+      "name": "Push Press — Barbell",
       "steps": "<ol>\n  <li>Start with the barbell resting on your front shoulders, with your feet shoulder-width apart.</li>\n  <li>Bend your knees slightly and dip your hips down, then explosively extend your legs and push the barbell up overhead.</li>\n  <li>As the barbell reaches the top of the movement, press it up and lock out your arms.</li>\n  <li>Lower the barbell back down to your shoulders and repeat for the desired number of reps.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [16],
@@ -1202,7 +1202,7 @@
   {
     "pk": 121,
     "fields": {
-      "name": "Tricep Bodyweight Extension",
+      "name": "Tricep Extension — Bodyweight",
       "steps": "<ol>\n  <li>Set a stationary bar (ex. Smith Machine) at hip height</li>\n  <li>Stand with your feet shoulder-width, lean forward, and grab the bar with your arms in front of you.</li>\n  <li>Bend your elbows and lower your head forward and below the bar. Keep your elbows close to your ears.</li>\n  <li>Squeeze your triceps to extend your arms to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [21],
@@ -1212,7 +1212,7 @@
   {
     "pk": 122,
     "fields": {
-      "name": "Horizontal Wood Chop with Band",
+      "name": "Horizontal Wood Chop — Band",
       "steps": "<ol>\n  <li>Attach a resistance band to a sturdy anchor point at waist height.</li>\n  <li>Stand perpendicular to the anchor point with feet shoulder-width apart and knees slightly bent.</li>\n  <li>Hold the resistance band with both hands and extend arms out in front of the body.</li>\n  <li>Rotate the torso and pull the band across the body towards the opposite hip.</li>\n  <li>Keep the arms straight and engage the core muscles throughout the movement.</li>\n  <li>Slowly return to the starting position</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [11],
@@ -1232,7 +1232,7 @@
   {
     "pk": 124,
     "fields": {
-      "name": "Banded Side Kicks",
+      "name": "Side Kicks — Band",
       "steps": "<ol>\n  <li>Stand with your feet hip-width apart and a resistance band around your ankles.</li>\n  <li>Engage your core and lift one leg out to the side, keeping it straight and the foot flexed.</li>\n  <li>Pause at the top of the movement, then slowly lower the leg back down to the starting position.</li>\n  <li>Repeat for the desired number of reps, then switch sides.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [19],
@@ -1242,7 +1242,7 @@
   {
     "pk": 125,
     "fields": {
-      "name": "Dumbbell Lateral Raise",
+      "name": "Lateral Raise — Dumbbell",
       "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and hold a dumbbell in each hand with your palms facing inward.</li>\n  <li>Keep your arms straight and lift them out to the sides until they are parallel to the floor.</li>\n  <li>Pause for a moment, then slowly lower the dumbbells back down to your sides.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [17],

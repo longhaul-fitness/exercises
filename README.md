@@ -41,3 +41,23 @@ See [exercises.json](./exercises.json) for current data.
 | notes | Lists tips and techniques to keep in mine while performing the exercise. _Note_: Stored as HTML. |
 | primary_muscles | Main muscles under work. Represents many-to-many relationship with [Muscles](#muscles) |
 | secondary_muscles | Supporting muscles under work. Represents many-to-many relationship with [Muscles](#muscles) |
+
+#### On Naming Exercises
+
+Exercise names follow the following format:
+
+```
+<Variation - Optional> Exercise Name — <Equipment - Optional>
+```
+
+Let's go through some examples:
+
+1. Shrugs
+
+Using our naming convention, we can identify many shrug moves:
+
+- Shrug — Barbell _-- These first three show different equipment for the same movement_
+- Shrug — Dumbbell
+- Shrug — Trap Bar
+- Wide-Grip Shrug — Barbell _-- These final two show variations_
+- Overhead Shrug — Barbell
