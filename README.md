@@ -55,9 +55,9 @@ Let's go through some examples:
 1. Shrugs
 
 Using our naming convention, we can identify many shrug moves:
-- **Shrug — Barbell** -- These first three show different equipment for the same movement
-- **Shrug — Dumbbell**
-- **Shrug — Trap Bar**
-- **Wide-Grip Shrug — Barbell** -- These final two show variations
-- **Overhead Shrug — Barbell**
 
+- Shrug — Barbell _-- These first three show different equipment for the same movement_
+- Shrug — Dumbbell
+- Shrug — Trap Bar
+- Wide-Grip Shrug — Barbell _-- These final two show variations_
+- Overhead Shrug — Barbell
