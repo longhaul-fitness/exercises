@@ -17,17 +17,5 @@ dev:
 .PHONY: dev
 
 clean:
-	rm -rf node_modules out
+	rm -rf node_modules
 .PHONY: clean
-
-format: out/.format.prettier.sentinel
-.PHONY: format
-
-############
-# Sentinels
-############
-
-out/.format.prettier.sentinel: $(shell find ./ -type f \( -iname \*.md -o -iname \*.json \))
-	npm run format
-	mkdir -p $(@D)
-	touch $@
