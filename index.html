@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="content-security-policy" content="">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.74cdff74.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.ccd4248b.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.6e626957.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.36ef2f79.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.2cd74735.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.c57165ac.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+
+
+<h1>Welcome to SvelteKit</h1>
+<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+
+			
+			<script>
+				{
+					__sveltekit_1jdyszi = {
+						assets: "/sveltekit-gh-pages",
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.74cdff74.js"),
+						import("./_app/immutable/entry/app.36ef2f79.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
