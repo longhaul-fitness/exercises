@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	export let data;
+</script>
+
+<h1>Long Haul Fitness Exercise Directory</h1>
+<ol>
+	{#each data.exercises as exercise}
+		<li>{exercise.fields.name}</li>
+	{/each}
+</ol>
