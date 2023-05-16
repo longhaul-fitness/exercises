@@ -3,7 +3,15 @@ import { SvelteKitPWA } from '@vite-pwa/sveltekit';
 import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
-	plugins: [sveltekit(), SvelteKitPWA()],
+	plugins: [
+		sveltekit(),
+		SvelteKitPWA({
+			registerType: 'autoUpdate',
+			devOptions: {
+				enabled: true
+			}
+		})
+	],
 	server: {
 		fs: {
 			// Allow serving files from one level up to the project root
