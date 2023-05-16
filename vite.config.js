@@ -9,6 +9,24 @@ export default defineConfig({
 			registerType: 'autoUpdate',
 			devOptions: {
 				enabled: true
+			},
+			manifest: {
+				name: 'Long Haul Fitness',
+				short_name: 'LHF',
+				description: 'Free and open source list of fitness exercises',
+				theme_color: '#1c4b82',
+				icons: [
+					{
+						src: 'pwa-192x192.png',
+						sizes: '192x192',
+						type: 'image/png'
+					},
+					{
+						src: 'pwa-512x512.png',
+						sizes: '512x512',
+						type: 'image/png'
+					}
+				]
 			}
 		})
 	],
