@@ -96,7 +96,7 @@ define(['./workbox-6e567876'], (function (workbox) { 'use strict';
     "url": "_app/immutable/chunks/index.9d1d7ce4.js",
     "revision": null
   }, {
-    "url": "_app/immutable/chunks/paths.3eae459a.js",
+    "url": "_app/immutable/chunks/paths.8c115874.js",
     "revision": null
   }, {
     "url": "_app/immutable/chunks/preload-helper.41c905a7.js",
@@ -105,7 +105,7 @@ define(['./workbox-6e567876'], (function (workbox) { 'use strict';
     "url": "_app/immutable/chunks/ReloadPrompt.51eca629.js",
     "revision": null
   }, {
-    "url": "_app/immutable/chunks/singletons.2482d60c.js",
+    "url": "_app/immutable/chunks/singletons.cd557909.js",
     "revision": null
   }, {
     "url": "_app/immutable/chunks/ui.ce99e1d2.js",
@@ -114,22 +114,22 @@ define(['./workbox-6e567876'], (function (workbox) { 'use strict';
     "url": "_app/immutable/chunks/workbox-window.prod.es5.dc90f814.js",
     "revision": null
   }, {
-    "url": "_app/immutable/entry/app.bf62946f.js",
+    "url": "_app/immutable/entry/app.262f577a.js",
     "revision": null
   }, {
-    "url": "_app/immutable/entry/start.e6a6d71e.js",
+    "url": "_app/immutable/entry/start.b39c0dc8.js",
     "revision": null
   }, {
     "url": "_app/immutable/nodes/0.b16efeb6.js",
     "revision": null
   }, {
-    "url": "_app/immutable/nodes/1.0b4c0c21.js",
+    "url": "_app/immutable/nodes/1.f9b4ff53.js",
     "revision": null
   }, {
-    "url": "_app/immutable/nodes/2.e8b4460e.js",
+    "url": "_app/immutable/nodes/2.2d9de097.js",
     "revision": null
   }, {
-    "url": "_app/immutable/nodes/3.7d3d1444.js",
+    "url": "_app/immutable/nodes/3.7ffd19ae.js",
     "revision": null
   }, {
     "url": "apple-touch-icon.png",
@@ -154,385 +154,385 @@ define(['./workbox-6e567876'], (function (workbox) { 'use strict';
     "revision": "1c257ab0706bd73a11b393668b0a73e5"
   }, {
     "url": "exercises/1",
-    "revision": "332c2767c247ab58ddfc96d0e5dbdc1f"
+    "revision": "38a439cfa86ea0955baf3f21a177b600"
   }, {
     "url": "exercises/10",
-    "revision": "fe629c33337a128a4d3f84e67b950609"
+    "revision": "98e4baf15e5612a65a7cbd105fdd33a4"
   }, {
     "url": "exercises/100",
-    "revision": "1d84596464c52fc435a0d25da94a4318"
+    "revision": "9a80a7e6dcdb22ac1fa8a6844f719f1a"
   }, {
     "url": "exercises/101",
-    "revision": "22f66d0d90a8a869a0079d4bdc91d844"
+    "revision": "6ccfb95203f1445b8ff9407652e84f8d"
   }, {
     "url": "exercises/102",
-    "revision": "3bc03fce28ada5e2d022380e2df5c84a"
+    "revision": "faef6497732eb79c07c40480826fd6ee"
   }, {
     "url": "exercises/103",
-    "revision": "1b8a36b02251e3b9992634059656285a"
+    "revision": "960c797889fee2fee927af7fe40e4807"
   }, {
     "url": "exercises/104",
-    "revision": "14eefacc8f085b41d801f4279f03b0dd"
+    "revision": "0b0e479b907ac95187951bd9aad9dbb1"
   }, {
     "url": "exercises/105",
-    "revision": "cd9bd25378db7994f55ce3de12936671"
+    "revision": "f99b6ac6b43bd177f96db9915685484a"
   }, {
     "url": "exercises/106",
-    "revision": "f922f068a81641ecfc5585a21fffc50c"
+    "revision": "64ddaf781ef00bdcbf3d808b2e4e58ce"
   }, {
     "url": "exercises/107",
-    "revision": "ec68ad0399db2cbfcd75f84671982257"
+    "revision": "83fb2adf2fd9c42b81f56344d1499f20"
   }, {
     "url": "exercises/108",
-    "revision": "fd4616e494085877dca6b3a1f1a83326"
+    "revision": "7ac8981b21888f227de3962ad9400e76"
   }, {
     "url": "exercises/109",
-    "revision": "c644785be163637a95f25d2f9cdd4e4c"
+    "revision": "af330b9c4e630e3c7d6bd890bb4666fd"
   }, {
     "url": "exercises/11",
-    "revision": "75dae3c1a18078a13f9196f2ed2d0c19"
+    "revision": "b5b481c27e800f8f1addec34090708b1"
   }, {
     "url": "exercises/110",
-    "revision": "8b006327f659dfa8455fa8fa39f59d3d"
+    "revision": "f7d03ac2c64e6d53a3b64955a997484e"
   }, {
     "url": "exercises/111",
-    "revision": "1dbdb9d25fd9eba04864eb55e9a5c60f"
+    "revision": "c3bcf3d5d7c0d86a81fbef019dbe7386"
   }, {
     "url": "exercises/112",
-    "revision": "c4f43709895c22efdd72cd9ed5ab2dc2"
+    "revision": "e15caf4d28308ebcba14408d894cf936"
   }, {
     "url": "exercises/113",
-    "revision": "77c778e41cf07d31eba2bee5816c2c81"
+    "revision": "511d1321ded41ef59aa9dc24542165d2"
   }, {
     "url": "exercises/114",
-    "revision": "bad55b572b0f3b3f94f6969493385ada"
+    "revision": "17a4a46dd4b95ce29f6684e0a94bd5ef"
   }, {
     "url": "exercises/115",
-    "revision": "81ceea20a01ddedcca15faa7600768ed"
+    "revision": "ed0ed75e1941fc5a14ba13e671d8bea6"
   }, {
     "url": "exercises/116",
-    "revision": "bddb39960d56349493745ef7213badba"
+    "revision": "1c0b1115f21036a00e9de99f941ad39c"
   }, {
     "url": "exercises/117",
-    "revision": "aefc661978e080f58a39faefee4e7422"
+    "revision": "2ab7b56f5744ef36d5330c3bc441a93d"
   }, {
     "url": "exercises/118",
-    "revision": "aca8c66eaa2d02959f8d367a1ad65fa3"
+    "revision": "5e60ca4e939cad4b3b14582e3fde2e11"
   }, {
     "url": "exercises/119",
-    "revision": "9f0c2406f9fcf00b871d12c0f2ceb2b9"
+    "revision": "b0b7687c35e68658ed654e73b1b923fb"
   }, {
     "url": "exercises/12",
-    "revision": "9370fd2fc67227c435ece309c8f242fc"
+    "revision": "d644fa89d630610bd425c2e59e8ffb26"
   }, {
     "url": "exercises/120",
-    "revision": "d477db1b1bdcb2167dbcfdceb938d5bc"
+    "revision": "1a993da35c46b2647ac198489b9554c5"
   }, {
     "url": "exercises/121",
-    "revision": "cd3a68a6c4f1625570884436bc17a649"
+    "revision": "82cbea30e061860007528f80f51f3a8f"
   }, {
     "url": "exercises/122",
-    "revision": "b1bde4bafd123ba7a8577b883b08a934"
+    "revision": "4d903692e52582ae1ba2a493ca1563ac"
   }, {
     "url": "exercises/123",
-    "revision": "596af492a44ce0c81782180416ccfe11"
+    "revision": "aa0d55c333e4ecb7d1aaed8bfc71fc64"
   }, {
     "url": "exercises/124",
-    "revision": "1a916edd1fd484c33c97cced5ede27e4"
+    "revision": "3209a3199d40dd2b89fee399d847ce1d"
   }, {
     "url": "exercises/125",
-    "revision": "a0c97d5f4478f09481a4ff8ec2ff7055"
+    "revision": "fc28f48d60cf9ed1a5d52c1cdfdf251a"
   }, {
     "url": "exercises/13",
-    "revision": "466506b7727a4f31e475e4b7e2433bef"
+    "revision": "ad92de0fb5a1488e62eecfe0e7cfed72"
   }, {
     "url": "exercises/14",
-    "revision": "a346ef870a9f0e388c1fddebc0680898"
+    "revision": "78183c1fdd0f7e15506d573e92fc2d65"
   }, {
     "url": "exercises/15",
-    "revision": "cd1a08aaf0fa4aeea121ba0b0ef04ccb"
+    "revision": "eb9c7b03b785b453081d76ad5d504282"
   }, {
     "url": "exercises/16",
-    "revision": "0c0e7915dd9314de5fa4e5f91e10a71d"
+    "revision": "51b1d666cfe77da175281672a2667afd"
   }, {
     "url": "exercises/17",
-    "revision": "cd36f3b4a69b1713465e1e1a410e4712"
+    "revision": "4699c96364d35e80504779ad53c7f4ec"
   }, {
     "url": "exercises/18",
-    "revision": "a00d16ba85505b7f3411e613803aad31"
+    "revision": "f5a3b270d7bb4cf8f88c2e1f07034f74"
   }, {
     "url": "exercises/19",
-    "revision": "1978e21e53bbd3b8c83248aff67dee07"
+    "revision": "34c254ca6d90213b624e2fc3c4b6e9be"
   }, {
     "url": "exercises/2",
-    "revision": "8580d04395783e7f09da3050387c773c"
+    "revision": "8076a6fc7791df31b1c4e2fa43b2245c"
   }, {
     "url": "exercises/20",
-    "revision": "9047c2c9ad5137fd10f09b35cd3d7c09"
+    "revision": "52953c1a29929f07ecb12346c12860c4"
   }, {
     "url": "exercises/21",
-    "revision": "daa76a35d26850d6c90da0a41d80b313"
+    "revision": "b0e18c55acf9d351eae8501b6089f7e9"
   }, {
     "url": "exercises/22",
-    "revision": "f2188492b4af7fe7208fb14efb088415"
+    "revision": "f039216b2a11a071e8f9078e18917fd7"
   }, {
     "url": "exercises/23",
-    "revision": "7959ef06591c6240169aec8ca52362bb"
+    "revision": "dee85f58f300471b8d3641763ad4af0b"
   }, {
     "url": "exercises/24",
-    "revision": "e15847cf30932848cb151b6758e7445f"
+    "revision": "92d5bfd4cc68d82a8e2d65dd5d196ad6"
   }, {
     "url": "exercises/25",
-    "revision": "e115b61828243a961bedd91e9f8773b4"
+    "revision": "8ea796814c1596feb565d746bc5c7fda"
   }, {
     "url": "exercises/26",
-    "revision": "d5b258528998b039fd71f0c849941418"
+    "revision": "6938c95c765a865f993c5dc658c6147c"
   }, {
     "url": "exercises/27",
-    "revision": "be700ec1b7c2efcec333dfbd7454ce50"
+    "revision": "67d3948d3ee401cec6327b847207e46f"
   }, {
     "url": "exercises/28",
-    "revision": "e0f8b6f03d002aa974ab7a0471ba0929"
+    "revision": "8e8c4c54c6f5ebbbf48af5df091c2d29"
   }, {
     "url": "exercises/29",
-    "revision": "57e3b1d802b01abb6e74373549bf9406"
+    "revision": "c676d41e8b53b53f4efe4bb6785ef182"
   }, {
     "url": "exercises/3",
-    "revision": "4cefc93b56e4c5fe8677afccd6c92553"
+    "revision": "df73452723ba88fa68ab0fec09889b3b"
   }, {
     "url": "exercises/30",
-    "revision": "f17f0e06bbc98997bd9fefd379025611"
+    "revision": "a5aac555398251892849044e7e4eb93d"
   }, {
     "url": "exercises/31",
-    "revision": "0ddf6142b1b0a307af874912702ef20f"
+    "revision": "9e86d4986b39e8c0de9e07654f220e20"
   }, {
     "url": "exercises/32",
-    "revision": "fb32285879f4ed045203358c1f50804d"
+    "revision": "e579316b3ae98d92464a8e1a7dfa6ec1"
   }, {
     "url": "exercises/33",
-    "revision": "d782cbe39ab9df0752a07c2d02344838"
+    "revision": "031affd7292f9d90737b69ab6b375d09"
   }, {
     "url": "exercises/34",
-    "revision": "97928f78b1023456aaf81d60aa3cf6a3"
+    "revision": "c5861efe17265e850498da2492be2d9f"
   }, {
     "url": "exercises/35",
-    "revision": "64bc822fe438865f40086beb02d19dd6"
+    "revision": "4e5ba63ae1f529b49748a408a252f8a6"
   }, {
     "url": "exercises/36",
-    "revision": "20d518b56351b84ff36c1b8cebb3216a"
+    "revision": "923626ce6cf0e6100809c4be61f7bd52"
   }, {
     "url": "exercises/37",
-    "revision": "763c602cb7ac316ab2d46cb986b41ba0"
+    "revision": "1872a5f10c0bad5852eb934677ce2ee6"
   }, {
     "url": "exercises/38",
-    "revision": "71cc901311d27223f640e450886dcf2c"
+    "revision": "58584f72750eb8cd40a8036a8d6a83ed"
   }, {
     "url": "exercises/39",
-    "revision": "6190a09e307436af6b2fd2ba70ee4f59"
+    "revision": "a7b105955b9a0beb9cdf325988cce170"
   }, {
     "url": "exercises/4",
-    "revision": "c79085ec37d0b2151ab6f909523a67de"
+    "revision": "bc8297ae6a04a8078429a060b1cc3815"
   }, {
     "url": "exercises/40",
-    "revision": "1fa48c64617b258cc7280073551c3275"
+    "revision": "7fc4e61b6c71b898704e06ad33a87aaf"
   }, {
     "url": "exercises/41",
-    "revision": "d6e2a43ecd0cd08a84e7e40dcc03b929"
+    "revision": "cfb967f662e1fa158dce65a669155a4d"
   }, {
     "url": "exercises/42",
-    "revision": "8d740841ff7a1b585a2ef6b7a16f62ff"
+    "revision": "3a13d1e05ba4c2a699ecaaf8d46bef60"
   }, {
     "url": "exercises/43",
-    "revision": "ef151f8d6b8b13174a6c8231386c899d"
+    "revision": "a3bf1206e36cf7bd965458822ce0e7d4"
   }, {
     "url": "exercises/44",
-    "revision": "7ff9cfc133d70e52d03bf58f958dfcb1"
+    "revision": "8abfac11697a6eefcf06b26b32bff11d"
   }, {
     "url": "exercises/45",
-    "revision": "9fd74f72e43490f52b164766eb51a5c5"
+    "revision": "86a943a48fff6184ad614b4b34c5c04e"
   }, {
     "url": "exercises/46",
-    "revision": "ac41f0d6c9fe268a086c83b204dd6d8f"
+    "revision": "35ac8286cd8c564ad2944bd450dca0ab"
   }, {
     "url": "exercises/47",
-    "revision": "8ccb4692bb68a0f1e7801e48b5556fa3"
+    "revision": "e2ed4a25a2ea2e7ddd8f1d6c24aaae8b"
   }, {
     "url": "exercises/48",
-    "revision": "e81e6b309b676858573eb04b2d61d5c1"
+    "revision": "03067d3539af37111cc617482e838933"
   }, {
     "url": "exercises/49",
-    "revision": "aff27320a9154975121899e4ae3c7f73"
+    "revision": "0c7d0c27164fd601072dae8321357fdc"
   }, {
     "url": "exercises/5",
-    "revision": "a03febc15e242881f39bb3c8a70b7e86"
+    "revision": "6bf97a20e8fc010a75dce72a23b7b1b9"
   }, {
     "url": "exercises/50",
-    "revision": "3d7fe5a36a119cbe2afc5fe6d7cd0253"
+    "revision": "63b2003592708e095739ddbf948537c3"
   }, {
     "url": "exercises/51",
-    "revision": "0c146ab243cf9b8bcf32a212f7ea2c70"
+    "revision": "9022a8dbdab217b523954d2654efef10"
   }, {
     "url": "exercises/52",
-    "revision": "15f37100b3ea150ea9a6f90df8ada629"
+    "revision": "849891ae4654cd0505a91a6fe719865c"
   }, {
     "url": "exercises/53",
-    "revision": "81ac44a8843461c209f504bfcdf6b1ae"
+    "revision": "121e40afe97a1e99d2cbdcffae90cafd"
   }, {
     "url": "exercises/54",
-    "revision": "591cd846001e23145f3f1246e81c04ae"
+    "revision": "b9f76e3a5d2e3d03af93d822282ed6cf"
   }, {
     "url": "exercises/55",
-    "revision": "84785c675c2cc836fbd3a4a4060bf738"
+    "revision": "bc4ced0d7bc5e982a5cc2b52b3a89528"
   }, {
     "url": "exercises/56",
-    "revision": "14b293c15c8edfddc10dcac552f75ac1"
+    "revision": "4f40d8927fe6a9f1a0e0017079d68d3f"
   }, {
     "url": "exercises/57",
-    "revision": "572ab7a36d4f5914c30281b6f7b246ed"
+    "revision": "b17834883e1c558fc166ce1382311010"
   }, {
     "url": "exercises/58",
-    "revision": "9b0c7a04322ed08034904bae5c432842"
+    "revision": "aadfff41278dda5aefe71b9c40d0fb17"
   }, {
     "url": "exercises/59",
-    "revision": "10194c95d6bc15c405f0cc95e3f66d12"
+    "revision": "b5d6c141657813fdb848d0ef8c383ec2"
   }, {
     "url": "exercises/6",
-    "revision": "86f3442ca02154b9489cc370ef39706e"
+    "revision": "307328116710a4d2d7a4a7cb7fdea280"
   }, {
     "url": "exercises/60",
-    "revision": "8dcefe8a781d4cad031a29dd7e40d37b"
+    "revision": "6eca12afd7cf8265b008aa468dc217df"
   }, {
     "url": "exercises/61",
-    "revision": "f2afb289f64c591f18c10c614e0e327f"
+    "revision": "d8612571359b67b112808adc11434fc2"
   }, {
     "url": "exercises/62",
-    "revision": "2161ef98159841507bd996815ae36148"
+    "revision": "0aaa324765e8990b8ce9d858caf31db6"
   }, {
     "url": "exercises/63",
-    "revision": "ef9b2379b3fdc6b5b82e1bf648ab5f4b"
+    "revision": "df6447a0ace5aded215ce124f8ad4fca"
   }, {
     "url": "exercises/64",
-    "revision": "f72cde5aa1470bb522eb0f3b4478c510"
+    "revision": "83c6f2690ad576f5f2997e606eec0ca2"
   }, {
     "url": "exercises/65",
-    "revision": "64173ba87383a4b075f4c088b8e843c4"
+    "revision": "588a49cab4cae2b3f2e64a15e2197feb"
   }, {
     "url": "exercises/66",
-    "revision": "73332948926b737aa12cbd201ad751ee"
+    "revision": "5588ccf07a55daa5820c22b9251dfca4"
   }, {
     "url": "exercises/67",
-    "revision": "dcbe9799d7bffdead5fda55c30d3784b"
+    "revision": "05f9e007be7945c3fa3855b072ccfc22"
   }, {
     "url": "exercises/68",
-    "revision": "d71040fb0f02ad40da7b9d6f9777cc1e"
+    "revision": "260cf919e732bfd9e00483b64dc415dc"
   }, {
     "url": "exercises/69",
-    "revision": "cdb4add180e575c4640295c796c8c206"
+    "revision": "d46d97f91b30e3de61f75ab46ed06170"
   }, {
     "url": "exercises/7",
-    "revision": "e46e1bd43d77fa74d47ba2e980c25372"
+    "revision": "a545052e341ba57b80bccdfbf9c10af3"
   }, {
     "url": "exercises/70",
-    "revision": "e4d832ad2e550a4303f2fc55a30d5a25"
+    "revision": "e90e8b5d6fc5f3f04c1fedc4f9609fb4"
   }, {
     "url": "exercises/71",
-    "revision": "182921be8a5004645ae10cbc5016db1d"
+    "revision": "89c780ad824ef888a27c5b3bc8d07ccc"
   }, {
     "url": "exercises/72",
-    "revision": "7d65273e276a574a6f1ac59efc7c79fe"
+    "revision": "10f7bb4214589e19f58695f028cab771"
   }, {
     "url": "exercises/73",
-    "revision": "6f27c5160431d3bc7646412339379de6"
+    "revision": "b4f56e99dda6e3a4087dc65b318c6761"
   }, {
     "url": "exercises/74",
-    "revision": "e8bd049b54b77e839ae6dc441a4a0204"
+    "revision": "eb2506a28992af3d7d117bddd6f611d1"
   }, {
     "url": "exercises/75",
-    "revision": "23be6e35830dd6b432e1772dfcad0c64"
+    "revision": "f82cd52172b4991e3e3d8ac1e55871d0"
   }, {
     "url": "exercises/76",
-    "revision": "62e221a32c35289ced2bed1486b68f67"
+    "revision": "b687c436db524ca441e53e64eed9f8df"
   }, {
     "url": "exercises/77",
-    "revision": "92a07b4bb2d967b1c03e825113ab4225"
+    "revision": "533d31d4de11b87681a1019916c727e6"
   }, {
     "url": "exercises/78",
-    "revision": "ed62617e08bc9dca5afb5375cb3a233a"
+    "revision": "f451f126d4af187784f2d38ace58e915"
   }, {
     "url": "exercises/79",
-    "revision": "a585a4fade23f7cb4aa86f11ffe48d69"
+    "revision": "1c19d7f4d7f049adceecc7fa864e9398"
   }, {
     "url": "exercises/8",
-    "revision": "de7961a48343d27e7cd181049bb6d179"
+    "revision": "3cc68dfdc241e47bec06e2a892635172"
   }, {
     "url": "exercises/80",
-    "revision": "cf8f95ae2f505d6e70c10ba9be6e94c9"
+    "revision": "5a80e0d5bcbafe2493c6c2170ff3bcc5"
   }, {
     "url": "exercises/81",
-    "revision": "b61f204e148e371da882624f58c6cd31"
+    "revision": "dbbd51046b2e6869739906782fd283e9"
   }, {
     "url": "exercises/82",
-    "revision": "5cc23cda840e2774fec6ecd3fa761307"
+    "revision": "5e72685cd5f22eb14684d299edb2c7f9"
   }, {
     "url": "exercises/83",
-    "revision": "d11e83bdb4863fba56625d5da3873bb9"
+    "revision": "4b90b92489d24052a3e9df40d4766bad"
   }, {
     "url": "exercises/84",
-    "revision": "b4d1918a92937c01cb7436360f935e95"
+    "revision": "be2e101779b1d6717a7bbd2d2a6b39d0"
   }, {
     "url": "exercises/85",
-    "revision": "9836c3f4f0e014d979e8451e7534adc8"
+    "revision": "721060d60a73f235b341c9ec5d526235"
   }, {
     "url": "exercises/86",
-    "revision": "363b4abfe3f313ae50ae09b3c5c22e0a"
+    "revision": "e9a1c0166c4797d5abb105dc350f4176"
   }, {
     "url": "exercises/87",
-    "revision": "ae78ab92103fced9087151f9e4681727"
+    "revision": "a9e0d3bd6ff7da5ccd3fa516aeb359d3"
   }, {
     "url": "exercises/88",
-    "revision": "ebd52aee567be0b7e0d5a9c5747036c3"
+    "revision": "5e1b37b55f15d4991393e0f2f94e7ff9"
   }, {
     "url": "exercises/89",
-    "revision": "b5c744814bf071ea4ebbe5a0b65b8709"
+    "revision": "2c8842baeb202a02579d628e91ee198c"
   }, {
     "url": "exercises/9",
-    "revision": "d9f38ce771b5a760996d6cdd70681a3b"
+    "revision": "8c0aa9294434b64f330a16b403766e07"
   }, {
     "url": "exercises/90",
-    "revision": "4202aa9f1552d27ba38bcfbeb7bd2fd5"
+    "revision": "c347ab2e2ed189ca6d324a86b48a64f4"
   }, {
     "url": "exercises/91",
-    "revision": "b44e855866bf0b7f27119ef00e2ed57c"
+    "revision": "d40fa262f1350e460be9cce5957cc2f7"
   }, {
     "url": "exercises/92",
-    "revision": "f2626abd6b111d1b2e23af108526d16f"
+    "revision": "e04cc762d49b457563f93628a2e55382"
   }, {
     "url": "exercises/93",
-    "revision": "a41ed2751c4b7bed7830c8fb94a35e2d"
+    "revision": "ad1c7a17a210160325d3c55b48c10eed"
   }, {
     "url": "exercises/94",
-    "revision": "70965a98647932b7da835f49c974773c"
+    "revision": "f8ad0e6357a10c3f16cc919bc4628d77"
   }, {
     "url": "exercises/95",
-    "revision": "89a07c3176ae24a0a6df8c43d8380511"
+    "revision": "8d6acc6d537fe5e7a9eb420fa85eb1c0"
   }, {
     "url": "exercises/96",
-    "revision": "09b7e6016ab18ab4dcb0d8bb497aaa7d"
+    "revision": "aa28e34d8102e8586a1b107abaf42f90"
   }, {
     "url": "exercises/97",
-    "revision": "81557ceba0a8fbf93a7a4228935a4790"
+    "revision": "c76e30ea9f526796b310c524876e381e"
   }, {
     "url": "exercises/98",
-    "revision": "9bfaaf6825404200157adb19345f5cb2"
+    "revision": "bc4134a22609e9d66af9b7cea5b8fa74"
   }, {
     "url": "exercises/99",
-    "revision": "3d3fd5e37857d6c263db925d3b694584"
+    "revision": "6cca59d0228a9f9d3c9807b6c86bf78f"
   }, {
     "url": "/sveltekit-gh-pages/",
-    "revision": "37d1a338518011a302ea4739c799fe8b"
+    "revision": "cdaf3af4e93c1d5040c85dad2e912bd6"
   }, {
     "url": "manifest.webmanifest",
-    "revision": "e77c97c81dd9d636eb8557a2934d4231"
+    "revision": "eed4c1c6b9a0ea833b1e41e7c0642bca"
   }], {});
   workbox.cleanupOutdatedCaches();
   workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("/sveltekit-gh-pages/")));
