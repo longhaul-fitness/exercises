@@ -9,7 +9,6 @@
 		<tr>
 			<td>Exercise</td>
 			<td>Primary Muscles</td>
-			<td>Secondary Muscles</td>
 		</tr>
 	</thead>
 	<tbody>
@@ -18,9 +17,6 @@
 				<td><a href="{base}/exercises/{exercise.pk}">{exercise.fields.name}</a></td>
 				<td>
 					{exercise.fields.primary_muscles.map((muscleId) => data.muscles[muscleId]).join(', ')}
-				</td>
-				<td>
-					{exercise.fields.secondary_muscles.map((muscleId) => data.muscles[muscleId]).join(', ')}
 				</td>
 			</tr>
 		{/each}
