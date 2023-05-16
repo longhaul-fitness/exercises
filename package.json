@@ -5,6 +5,7 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
+		"build-self-destroying": "SELF_DESTROYING_SW=true vite build",
 		"deploy": "touch build/.nojekyll && gh-pages -d build -t true",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
