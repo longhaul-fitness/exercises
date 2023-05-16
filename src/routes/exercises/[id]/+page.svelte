@@ -6,6 +6,13 @@
 	$: muscleMap = data.muscles;
 </script>
 
+<svelte:head>
+	<title>{exercise.name} - Long Haul Fitness Exercise Directory</title>
+	<meta
+		name="description"
+		content="Describes the steps and benefits of the '{exercise.name}' exercise"
+	/>
+</svelte:head>
 <h1>{exercise.name}</h1>
 <a href="{base}/">←Back to Exercise Directory</a>
 <div id="primaryMuscles">

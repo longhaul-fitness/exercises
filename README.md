@@ -26,28 +26,28 @@ Please contribute with GitHub Pull Requests, for now. Eventually we'll have a fo
 
 See [muscles.json](./muscles.json) for current data.
 
-| Column | Description                                                                                                                                                                                                                                                                                                                                        |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| name   | Muscle under work. _Note_: Use the english name of the muscles rather than the Latin name. This may lead to some simplification in muscle targets. For example, our exercises target "Chest" rather than "Pectoralis Major". This simplification appeals to a wider audience of fitness experience levels and lowers the barrier to contributions. |
+| Column | Description |
+| --- | --- |
+| name | Muscle under work. _Note_: Use the english name of the muscles rather than the Latin name. This may lead to some simplification in muscle targets. For example, our exercises target "Chest" rather than "Pectoralis Major". This simplification appeals to a wider audience of fitness experience levels and lowers the barrier to contributions. |
 
 ### Exercises
 
 See [exercises.json](./exercises.json) for current data.
 
-| Column            | Description                                                                                      |
-| ----------------- | ------------------------------------------------------------------------------------------------ |
-| name              | What to call this exercise.                                                                      |
-| instructions      | Describes steps to perform the exercise. _Note_: Stored as HTML.                                 |
-| notes             | Lists tips and techniques to keep in mine while performing the exercise. _Note_: Stored as HTML. |
-| primary_muscles   | Main muscles under work. Represents many-to-many relationship with [Muscles](#muscles)           |
-| secondary_muscles | Supporting muscles under work. Represents many-to-many relationship with [Muscles](#muscles)     |
+| Column | Description |
+| --- | --- |
+| name | What to call this exercise. |
+| instructions | Describes steps to perform the exercise. _Note_: Stored as HTML. |
+| notes | Lists tips and techniques to keep in mine while performing the exercise. _Note_: Stored as HTML. |
+| primary_muscles | Main muscles under work. Represents many-to-many relationship with [Muscles](#muscles) |
+| secondary_muscles | Supporting muscles under work. Represents many-to-many relationship with [Muscles](#muscles) |
 
 #### On Naming Exercises
 
 Exercise names follow the following format:
 
 ```
-<Variation - Optional> Exercise Name — <Equipment - Optional>
+<Variation - Optional> Exercise Name – <Equipment - Optional>
 ```
 
 Let's go through some examples:
@@ -56,8 +56,8 @@ Let's go through some examples:
 
 Using our naming convention, we can identify many shrug moves:
 
-- Shrug — Barbell _-- These first three show different equipment for the same movement_
-- Shrug — Dumbbell
-- Shrug — Trap Bar
-- Wide-Grip Shrug — Barbell _-- These final two show variations_
-- Overhead Shrug — Barbell
+- Shrug – Barbell _-- These first three show different equipment for the same movement_
+- Shrug – Dumbbell
+- Shrug – Trap Bar
+- Wide-Grip Shrug – Barbell _-- These final two show variations_
+- Overhead Shrug – Barbell

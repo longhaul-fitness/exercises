@@ -5,6 +5,11 @@
 	$: muscleMap = data.muscles;
 </script>
 
+<svelte:head>
+	<title>Long Haul Fitness Exercise Directory</title>
+	<meta name="description" content="Free and open source list of fitness exercises" />
+</svelte:head>
+
 <h1>Long Haul Fitness Exercise Directory</h1>
 <table>
 	<thead>
