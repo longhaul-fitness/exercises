@@ -11,7 +11,8 @@ const config = {
 			register: false
 		},
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/sveltekit-gh-pages' : ''
+			base: process.env.NODE_ENV === 'production' ? '/exercises' : '',
+			relative: false
 		}
 	}
 };
