@@ -23,14 +23,16 @@
 		{/each}
 	</ul>
 </div>
-<div id="secondaryMuscles">
-	<h2>Secondary Muscles</h2>
-	<ul>
-		{#each translateMuscleIdsToNames(exercise.secondary_muscles, muscleMap) as muscle}
-			<li>{muscle}</li>
-		{/each}
-	</ul>
-</div>
+{#if exercise.secondary_muscles.length > 0}
+	<div id="secondaryMuscles">
+		<h2>Secondary Muscles</h2>
+		<ul>
+			{#each translateMuscleIdsToNames(exercise.secondary_muscles, muscleMap) as muscle}
+				<li>{muscle}</li>
+			{/each}
+		</ul>
+	</div>
+{/if}
 {#if exercise.steps !== ''}
 	<div id="steps">
 		<h2>Steps</h2>

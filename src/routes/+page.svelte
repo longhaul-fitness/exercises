@@ -15,6 +15,10 @@
 		}, 200);
 	};
 
+	const handleClickClear = () => {
+		query = '';
+	};
+
 	$: filteredExercises = data.exercises
 		.filter((e) => {
 			return e.fields.name.toLowerCase().match(query);
@@ -45,6 +49,7 @@
 	type="text"
 	placeholder="Search exercises"
 />
+<button on:click={handleClickClear}>Clear Search</button>
 {#if filteredExercises.length > 0}
 	<table>
 		<colgroup>
