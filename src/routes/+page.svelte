@@ -46,6 +46,7 @@
 <h1>Long Haul Fitness Exercise Directory</h1>
 <input
 	on:keyup={({ target: { value } }) => debounce(value)}
+	value={query}
 	type="text"
 	placeholder="Search exercises"
 />
