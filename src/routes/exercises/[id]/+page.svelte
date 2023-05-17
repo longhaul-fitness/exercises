@@ -31,7 +31,15 @@
 		{/each}
 	</ul>
 </div>
-<div id="steps">
-	<h2>Steps</h2>
-	{@html exercise.steps}
-</div>
+{#if exercise.steps !== ''}
+	<div id="steps">
+		<h2>Steps</h2>
+		{@html exercise.steps}<!-- eslint-disable-line svelte/no-at-html-tags -->
+	</div>
+{/if}
+{#if exercise.notes !== ''}
+	<div id="notes">
+		<h2>Notes</h2>
+		{@html exercise.notes}<!-- eslint-disable-line svelte/no-at-html-tags -->
+	</div>
+{/if}

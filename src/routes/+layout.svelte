@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head>
-	{@html webManifest}
+	{@html webManifest}<!-- eslint-disable-line svelte/no-at-html-tags -->
 </svelte:head>
 <main class="u-container">
 	<slot />
