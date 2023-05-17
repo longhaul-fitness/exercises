@@ -45,17 +45,7 @@
 </svelte:head>
 
 <h1>Long Haul Fitness Exercise Directory</h1>
-<div class="u-grid">
-	<div class="exercise-filters">
-		<input bind:value={query} type="text" placeholder="Search exercises" />
-		<button on:click={handleClickClear}>Clear Search</button>
-		{#each Object.entries(muscleMap) as [id, name]}
-			<label>
-				<input type="checkbox" bind:group={muscleFilters} name="muscleFilters" value={id} />
-				{name}
-			</label>
-		{/each}
-	</div>
+<div class="u-grid grid-def">
 	<div class="exercise-list">
 		{#if filteredExercises.length > 0}
 			<table>
@@ -88,14 +78,44 @@
 			<p>No exercises match query <strong>{query}</strong></p>
 		{/if}
 	</div>
+	<div class="exercise-filters">
+		<input bind:value={query} type="text" placeholder="Search exercises" />
+		<button on:click={handleClickClear}>Clear Search</button>
+		{#each Object.entries(muscleMap) as [id, name]}
+			<label>
+				<input type="checkbox" bind:group={muscleFilters} name="muscleFilters" value={id} />
+				{name}
+			</label>
+		{/each}
+	</div>
 </div>
 
 <style>
+	.grid-def {
+		grid-template-areas:
+			'filters'
+			'list';
+	}
+	@media (min-width: 601px) {
+		.grid-def {
+			grid-template-areas: 'list filters';
+			grid-template-columns: 3fr 1fr;
+		}
+	}
+	.exercise-list {
+		grid-area: list;
+	}
 	table {
 		table-layout: fixed;
 	}
 
 	tbody tr:nth-child(even) {
 		background-color: #ffeddc;
+	}
+	.exercise-filters {
+		grid-area: filters;
+	}
+	.exercise-filters label {
+		display: block;
 	}
 </style>
