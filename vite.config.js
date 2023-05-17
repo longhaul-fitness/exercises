@@ -13,6 +13,7 @@ export default defineConfig({
 			strategies: 'generateSW',
 			scope: `${BASE_URL}/`,
 			selfDestroying: process.env.SELF_DESTROYING_SW === 'true',
+			buildBase: `${BASE_URL}/`,
 			manifest: {
 				name: 'Long Haul Fitness',
 				short_name: 'LHF',
