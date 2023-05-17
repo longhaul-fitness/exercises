@@ -8,20 +8,13 @@
 	let query = '';
 	let timer;
 
-	const debounce = (v) => {
-		clearTimeout(timer);
-		timer = setTimeout(() => {
-			query = v;
-		}, 200);
-	};
-
 	const handleClickClear = () => {
 		query = '';
 	};
 
 	$: filteredExercises = data.exercises
 		.filter((e) => {
-			return e.fields.name.toLowerCase().match(query);
+			return e.fields.name.toLowerCase().match(query.toLowerCase());
 		})
 		.sort((a, b) => {
 			const nameA = a.fields.name.toUpperCase();
@@ -44,12 +37,7 @@
 </svelte:head>
 
 <h1>Long Haul Fitness Exercise Directory</h1>
-<input
-	on:keyup={({ target: { value } }) => debounce(value)}
-	value={query}
-	type="text"
-	placeholder="Search exercises"
-/>
+<input bind:value={query} type="text" placeholder="Search exercises" />
 <button on:click={handleClickClear}>Clear Search</button>
 {#if filteredExercises.length > 0}
 	<table>
@@ -88,6 +76,6 @@
 	}
 
 	tbody tr:nth-child(even) {
-		background-color: #f6f8fa;
+		background-color: #ffeddc;
 	}
 </style>
