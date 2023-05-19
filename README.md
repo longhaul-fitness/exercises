@@ -47,7 +47,7 @@ See [exercises.json](./exercises.json) for current data.
 Exercise names follow the following format:
 
 ```
-<Variation - Optional> Exercise Name — <Equipment - Optional>
+<Variation - Optional> Exercise Name – <Equipment - Optional>
 ```
 
 Let's go through some examples:
@@ -56,8 +56,8 @@ Let's go through some examples:
 
 Using our naming convention, we can identify many shrug moves:
 
-- Shrug — Barbell _-- These first three show different equipment for the same movement_
-- Shrug — Dumbbell
-- Shrug — Trap Bar
-- Wide-Grip Shrug — Barbell _-- These final two show variations_
-- Overhead Shrug — Barbell
+- Shrug – Barbell _-- These first three show different equipment for the same movement_
+- Shrug – Dumbbell
+- Shrug – Trap Bar
+- Wide-Grip Shrug – Barbell _-- These final two show variations_
+- Overhead Shrug – Barbell
