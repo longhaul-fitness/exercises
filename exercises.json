@@ -242,7 +242,7 @@
   {
     "pk": 25,
     "fields": {
-      "name": "Machine Shoulder Press",
+      "name": "Shoulder Press \u2013 Machine",
       "steps": "<ol>\n  <li>Adjust the seat height so that the handles are at shoulder level.</li>\n  <li>Sit on the machine with your back against the pad and your feet flat on the floor.</li>\n  <li>Grasp the handles with an overhand grip and push them upward until your arms are fully extended.</li>\n  <li>Slowly lower the handles back down to shoulder level, keeping your elbows slightly bent.</li>\n  <li>Repeat for desired number of repetitions.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [16],
@@ -282,7 +282,7 @@
   {
     "pk": 29,
     "fields": {
-      "name": "Hip Abduction Machine",
+      "name": "Hip Abduction \u2013 Machine",
       "steps": "<ol>\n  <li>Adjust the machine to fit your height and leg length.</li>\n  <li>Sit on the machine with your back against the backrest and your feet on the footrests.</li>\n  <li>Press your legs outward against the resistance of the machine.</li>\n  <li>With your knees at their farthest point, hold the weight for a moment before slowly releasing the resistance and returning to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [19],
@@ -312,7 +312,7 @@
   {
     "pk": 32,
     "fields": {
-      "name": "Machine Glute Kickbacks",
+      "name": "Glute Kickback \u2013 Machine",
       "steps": "<ol>\n  <li>Adjust the machine to fit your body height</li>\n  <li>Position yourself in the machine with your hands on the handles and one ankle on the padding.</li>\n  <li>Keeping your core engaged, exhale and extend your leg back as far as possible while squeezing your glutes.</li>\n  <li>Inhale and slowly return your leg to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [7],
@@ -632,7 +632,7 @@
   {
     "pk": 64,
     "fields": {
-      "name": "Machine Chest Fly",
+      "name": "Chest Fly \u2013 Machine",
       "steps": "<ol>\n  <li>Adjust the seat height and position on the machine to ensure proper alignment with the handles.</li>\n  <li>Extend your arms out to the sides, keeping a slight bend in your elbows. Grasp the handles and sit with your back flat against the pad.</li>\n   <li>Inhale and slowly bring your arms together in front of your chest, keeping them slightly bent.</li>\n  <li>Exhale and slowly return your arms to the starting position, maintaining a slight bend in your elbows.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [4],
@@ -782,7 +782,7 @@
   {
     "pk": 79,
     "fields": {
-      "name": "Machine Lateral Raise",
+      "name": "Lateral Raise \u2013 Machine",
       "steps": "<ol>\n  <li>Adjust the seat height so that the handles are at shoulder level.</li>\n  <li>Sit on the machine with your back against the pad and your feet flat on the floor.</li>\n  <li>Grasp the handles with an overhand grip and keep your elbows slightly bent.</li>\n  <li>Exhale and raise your arms out to the sides until they are parallel to the floor.</li>\n  <li>Pause for a moment and then inhale as you slowly lower the handles back to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [17],
@@ -892,7 +892,7 @@
   {
     "pk": 90,
     "fields": {
-      "name": "Standing Glute Kickback Machine",
+      "name": "Standing Glute Kickback \u2013 Machine",
       "steps": "<ol>\n  <li>Adjust the machine to the appropriate height for your body.</li>\n  <li>Stand facing the machine with your feet shoulder-width apart and your hands holding onto the handles.</li>\n  <li>Engage your glutes and lift one leg straight back behind you, keeping it in line with your body.</li>\n  <li>Pause at the top of the movement and squeeze your glutes.</li>\n  <li>Lower your leg back down to the starting position and repeat on the other side.</li>\n  <li>Complete the desired number of repetitions on each leg.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [7],
