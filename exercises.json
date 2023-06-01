@@ -122,7 +122,7 @@
   {
     "pk": 13,
     "fields": {
-      "name": "Leg Press",
+      "name": "Leg Press \u2013 Machine",
       "steps": "<ol><li>Adjust the seat of the leg press machine so that your knees are at a ~90-degree angle when your feet are on the footplate.</li><li>Sit on the machine and place your feet shoulder-width apart on the footplate.</li><li>Push the footplate away from your body by extending your legs.</li><li>Lower the footplate back towards your body by bending your legs and keeping your feet flat on the plate.</li><li>Repeat.</li></ol>",
       "notes": "<ol><li>Keep your back flat against the seat throughout the movement.</li><li>Keep your feet flat on the footplate, and make sure your knees are tracking in line with your toes.</li><li>Exhale as you push the footplate away from your body, and inhale as you lower it back down.</li><li>Avoid locking out your knees at the top of the movement, as this can put unnecessary stress on the joint.</li></ol>",
       "primary_muscles": [7, 12, 18],
@@ -162,7 +162,7 @@
   {
     "pk": 17,
     "fields": {
-      "name": "Bar Dip",
+      "name": "Dip \u2013 Bar",
       "steps": "<ol><li>Start by approaching a set of parallel bars or dip bars approximately shoulder-width apart. Grab each bar with an overhand grip and hoist yourself up so your arms are fully extended, and your feet are off the ground.</li><li>Slightly lean forward and keep your elbows slightly bent to engage your chest, shoulders, and triceps muscles.</li><li>Lower your body by bending your elbows and leaning forward while keeping your back straight and your legs behind you. Keep your elbows close to your body throughout the entire exercise.</li><li>Continue lowering yourself until your arms are parallel to the ground, or slightly below parallel, while inhaling.</li><li>Push back up by straightening your arms while exhaling. Be sure to push with your triceps, chest, and shoulder muscles to return to your starting position.</li><li>Repeat.</li></ol>",
       "notes": "You can also add variations to the dip, such as weighted dips or assisted dips, to increase or decrease the intensity of the exercise.",
       "primary_muscles": [4, 16],
@@ -222,7 +222,7 @@
   {
     "pk": 23,
     "fields": {
-      "name": "Chair Squat",
+      "name": "Squat \u2013 Chair",
       "steps": "<ol>\n  <li>Start by standing in front of a chair with your feet shoulder-width apart.</li>\n  <li>Slowly lower your body towards the chair by bending your knees and pushing your hips back.</li>\n  <li>Keep your chest up and your weight on your heels.</li>\n  <li>Lower your body until your buttocks touch the chair.</li>\n  <li>Pause for a moment, then push through your heels to stand back up.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [7, 12, 18],
@@ -422,7 +422,7 @@
   {
     "pk": 43,
     "fields": {
-      "name": "Belt Squat",
+      "name": "Squat \u2013 Belt",
       "steps": "<ol>\n  <li>Add your desired weight to the machine.</li>\n  <li>Attach a belt or harness around your waist.</li>\n  <li>Attach a cable or chain to the belt or harness.</li>\n  <li>Stand on a platform or box with feet shoulder-width apart.</li>\n  <li>Hold onto a stable object for balance.</li>\n  <li>Squat by bending the knees and hips while keeping the back straight.</li>\n  <li>Pause at the bottom of the squat and then push up through the legs to return to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [7, 12, 18],
@@ -552,7 +552,7 @@
   {
     "pk": 56,
     "fields": {
-      "name": "Tricep Pushdown \u2013 Bar",
+      "name": "Tricep Pushdown \u2013 Cable With Bar",
       "steps": "<ol>\n  <li>Attach a straight bar to the high pulley of a cable machine.</li>\n  <li>Stand facing the machine with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Grasp the bar with an overhand grip, with your hands shoulder-width apart.</li>\n  <li>Keep your elbows close to your sides and your upper arms stationary.</li>\n  <li>Exhale and push the bar down until your arms are fully extended.</li>\n  <li>Pause for a moment, then inhale and slowly return the bar to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [21],
@@ -1012,7 +1012,7 @@
   {
     "pk": 102,
     "fields": {
-      "name": "Seated Machine Row",
+      "name": "Seated Row \u2013 Machine",
       "steps": "<ol>\n  <li>Adjust the seat height so that the handles are at chest level.</li>\n  <li>Sit on the machine with your feet flat on the footrests and your knees slightly bent.</li>\n  <li>Grasp the handles with an overhand grip and keep your back straight.</li>\n  <li>Pull the handles towards your chest while keeping your elbows close to your body.</li>\n  <li>Pause for a moment and then slowly release the handles back to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [9, 15, 20],
@@ -1062,7 +1062,7 @@
   {
     "pk": 107,
     "fields": {
-      "name": "Bench Dip",
+      "name": "Dip \u2013 Bench",
       "steps": "<ol>\n  <li>Find a stable bench or chair and sit on the edge with your hands next to your hips, fingers pointing forward.</li>\n  <li>Slide your feet forward and lower your hips off the bench. Straighten or bend your knees to make the exercise more or less difficult.</li>\n  <li>Lower your body by bending your elbows until your upper arms are parallel to the ground.</li>\n  <li>Push yourself back up to the starting position by straightening your arms.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [21],
@@ -1122,7 +1122,7 @@
   {
     "pk": 113,
     "fields": {
-      "name": "Deadlift With High Handles \u2013 Trap Bar",
+      "name": "Deadlift \u2013 Trap Bar High Handles",
       "steps": "<ol>\n  <li>Begin by standing in the center of the trap bar with your feet shoulder-width apart.</li>\n  <li>Grab the high handles of the trap bar with an overhand grip.</li>\n  <li>Brace your core and lift the trap bar by extending your hips and knees.</li>\n  <li>Keep your back straight and your shoulders pulled back throughout the lift.</li>\n  <li>Once you reach a standing position, slowly lower the trap bar back down to the ground.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [7, 10, 12],
