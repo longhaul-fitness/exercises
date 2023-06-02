@@ -1258,5 +1258,105 @@
       "primary_muscles": [16],
       "secondary_muscles": [17]
     }
+  },
+  {
+    "pk": 127,
+    "fields": {
+      "name": "One-Handed Row \u2013 Dumbbell",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Hold a dumbbell in one hand with your palm facing your body.</li>\n  <li>Bend forward at the waist, keeping your back straight and your abs engaged.</li>\n  <li>Let the dumbbell hang straight down towards the floor.</li>\n  <li>Exhale and pull the dumbbell up towards your chest, keeping your elbow close to your body.</li>\n  <li>Squeeze your shoulder blades together at the top of the movement.</li>\n  <li>Inhale and slowly lower the dumbbell back down towards the floor.</li>\n  <li>Repeat for the desired number of reps, then switch sides and repeat.</li>\n</ol>",
+      "notes": "Brace yourself against a bench with your free hand to take some of the effort off your lower back.",
+      "primary_muscles": [9, 15, 20],
+      "secondary_muscles": [2, 5, 13, 14]
+    }
+  },
+  {
+    "pk": 128,
+    "fields": {
+      "name": "Roll-Up",
+      "steps": "<ol>\n  <li>Lie on your back with your arms extended overhead and your legs straight.</li>\n  <li>Engage your core and slowly lift your head, neck, and shoulders off the ground.</li>\n  <li>Continue to roll up, reaching your arms towards your toes and keeping your legs straight.</li>\n  <li>Pause at the top of the movement, then slowly roll back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [1],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 129,
+    "fields": {
+      "name": "Inverted Row",
+      "steps": "<ol>\n  <li>Set up a bar at waist height on a squat rack or Smith machine.</li>\n  <li>Grab the bar with an overhand grip, hands shoulder-width apart.</li>\n  <li>Hang from the bar with your arms fully extended and your body in a straight line.</li>\n  <li>Pull your chest up to the bar while keeping your body straight.</li>\n  <li>Lower yourself back down to the starting position with control.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [9, 15, 20],
+      "secondary_muscles": [2, 5, 13, 14]
+    }
+  },
+  {
+    "pk": 130,
+    "fields": {
+      "name": "Crunch",
+      "steps": "<ol>\n  <li>Start by lying flat on your back with your knees bent and feet flat on the ground.</li>\n  <li>Place your hands behind your head, with your elbows pointing outwards.</li>\n  <li>Engage your core muscles by pulling your belly button towards your spine.</li>\n  <li>Lift your head, neck, and shoulders off the ground, while keeping your lower back pressed into the floor.</li>\n  <li>Hold the contraction for a few seconds, then slowly lower yourself back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [1],
+      "secondary_muscles": [11]
+    }
+  },
+  {
+    "pk": 131,
+    "fields": {
+      "name": "One-Handed Tricep Extension \u2013 Dumbbell",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and hold a dumbbell in one hand.</li>\n  <li>Extend your arm straight up, holding the dumbbell above your head.</li>\n  <li>Bend your elbow and lower the dumbbell behind your head, keeping your upper arm stationary.</li>\n  <li>Pause for a moment, then extend your arm back up to the starting position.</li>\n  <li>Repeat for the desired number of reps, then switch to the other arm.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [21],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 132,
+    "fields": {
+      "name": "Close-Grip Push-Up",
+      "steps": "<ol>\n  <li>Start in a plank position with your hands shoulder-width apart and your fingers pointing forward.</li>\n  <li>Bring your hands closer together so that they are directly under your shoulders.</li>\n  <li>Lower your body towards the ground, keeping your elbows close to your sides.</li>\n  <li>Push back up to the starting position, keeping your core engaged and your body in a straight line.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [21],
+      "secondary_muscles": [1, 4, 16]
+    }
+  },
+  {
+    "pk": 133,
+    "fields": {
+      "name": "Behind the Neck Press \u2013 Barbell",
+      "steps": "<ol>\n  <li>Start by standing at a barbell rack with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Grasp the barbell with a wide grip, with your palms facing forward and your hands slightly wider than your shoulders.</li>\n  <li>Lift the barbell up and bring it behind your head, resting it on your upper traps.</li>\n  <li>Press the barbell up towards the ceiling, keeping your elbows pointed out to the sides.</li>\n  <li>Lower the barbell back down to the starting position behind your head.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [16, 17],
+      "secondary_muscles": [20, 21]
+    }
+  },
+  {
+    "pk": 134,
+    "fields": {
+      "name": "Power Clean",
+      "steps": "<ol>\n  <li>Start with feet shoulder-width apart and grip the barbell with an overhand grip, hands slightly wider than shoulder-width apart.</li>\n  <li>Lower your hips and bend your knees, keeping your back straight and your chest up.</li>\n  <li>Explosively extend your hips and knees, pulling the barbell up towards your shoulders.</li>\n  <li>As the barbell reaches your chest, drop your elbows and rotate your wrists, catching the barbell on your shoulders in a front squat position.</li>\n  <li>Stand up with the barbell, keeping your core tight and your chest up.</li>\n  <li>Lower the barbell back down to the starting position, either by dropping it or by reversing the movement.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 10],
+      "secondary_muscles": [5, 8, 12, 18, 20]
+    }
+  },
+  {
+    "pk": 135,
+    "fields": {
+      "name": "Deficit Deadlift",
+      "steps": "<ol>\n  <li>Begin by standing on a raised platform or weight plates of optional height, with your feet hip-width apart and your toes pointing forward.</li>\n  <li>Position the barbell in front of you, with your hands shoulder-width apart and your palms facing down.</li>\n  <li>Engage your core and hinge at the hips, lowering your torso towards the ground while keeping your back straight and your chest lifted.</li>\n  <li>As you lower your torso, grip the barbell and lift it off the ground, keeping your arms straight and your shoulders pulled back.</li>\n  <li>Drive through your heels and lift the barbell up towards your hips, keeping your back straight and your core engaged.</li>\n  <li>Lower the barbell back down to the ground with control</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 10],
+      "secondary_muscles": [5, 8, 12, 18, 20]
+    }
+  },
+  {
+    "pk": 136,
+    "fields": {
+      "name": "Wrist Curl \u2013 Barbell",
+      "steps": "<ol>\n  <li>Start by sitting on a bench with your forearms resting on your knees and your palms facing up.</li>\n  <li>Hold a barbell with an underhand grip, with your hands shoulder-width apart.</li>\n  <li>Slowly lift the barbell towards your forearms by curling your wrists.</li>\n  <li>Pause for a moment at the top of the movement, then slowly lower the barbell back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [5],
+      "secondary_muscles": []
+    }
   }
 ]
