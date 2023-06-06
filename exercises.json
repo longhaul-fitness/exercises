@@ -1358,5 +1358,65 @@
       "primary_muscles": [5],
       "secondary_muscles": []
     }
+  },
+  {
+    "pk": 137,
+    "fields": {
+      "name": "Crunch \u2013 Cable",
+      "steps": "<ol>\n  <li>Attach a rope handle to a high pulley cable machine.</li>\n  <li>Adjust the weight to a comfortable level.</li>\n  <li>Kneel on a mat facing the machine and grab the rope handle with both hands.</li>\n  <li>Position yourself so that your hands hold the rope by each ear and the cable is behind your neck, above you.</li>\n  <li>Engage your core and pull the rope towards your knees.</li>\n  <li>Hold the contraction for a few seconds and slowly release back to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [1],
+      "secondary_muscles": [11]
+    }
+  },
+  {
+    "pk": 138,
+    "fields": {
+      "name": "Decline Sit-Up",
+      "steps": "<ol>\n  <li>Position yourself on a decline bench with your feet securely locked in place.</li>\n  <li>Place your hands behind your head or across your chest.</li>\n  <li>Engage your core and slowly lift your upper body towards your knees.</li>\n  <li>Pause briefly at the top of the movement, then slowly lower your upper body back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [1],
+      "secondary_muscles": [11]
+    }
+  },
+  {
+    "pk": 139,
+    "fields": {
+      "name": "Flutter Kick",
+      "steps": "<ol>\n  <li>Lie on your back with your legs straight and your arms by your sides or underneath your lower back.</li>\n  <li>Lift both legs off the ground.</li>\n  <li>Begin rapidly fluttering your legs up and down.</li>\n  <li>Keep your core engaged and your gaze towards the ceiling.</li>\n  <li>Continue fluttering for the desired amount of time or repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [1],
+      "secondary_muscles": [10, 12]
+    }
+  },
+  {
+    "pk": 140,
+    "fields": {
+      "name": "Dead Bug",
+      "steps": "<ol>\n  <li>Start by lying on your back with your arms extended towards the ceiling.</li>\n  <li>Bend your knees and lift your legs up so that your knees are directly above your hips and your shins are parallel to the floor.</li>\n  <li>Engage your core muscles and slowly lower your right arm and left leg towards the floor, keeping them hovering just above the ground.</li>\n  <li>Return your arm and leg to the starting position and repeat on the opposite side.</li>\n  <li>Continue alternating sides for the desired number of repetitions or time.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [1],
+      "secondary_muscles": [11]
+    }
+  },
+  {
+    "pk": 141,
+    "fields": {
+      "name": "Chest Press \u2013 Machine",
+      "steps": "<ol>\n  <li>Adjust the seat height so that the handles are at chest level.</li>\n  <li>Select the appropriate weight on the weight stack.</li>\n  <li>Sit on the machine with your back flat against the backrest and your feet flat on the floor.</li>\n  <li>Grasp the handles with an overhand grip and push them away from your chest until your arms are fully extended.</li>\n  <li>Slowly lower the handles back towards your chest, keeping your elbows at a 90-degree angle.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4, 16],
+      "secondary_muscles": [21]
+    }
+  },
+  {
+    "pk": 142,
+    "fields": {
+      "name": "Gripper",
+      "steps": "<ol>\n  <li>Adjust the gripper machine to the desired resistance level.</li>\n  <li>Hold the gripper in one hand with a firm grip, making sure your fingers are comfortably positioned on the handles.</li>\n  <li>Keep your wrist and forearm in a neutral position to avoid unnecessary strain.</li>\n  <li>Start by squeezing the handles together using your hand strength.</li>\n  <li>Continue to squeeze the handles as forcefully as you can, engaging your grip muscles.</li>\n  <li>Hold the maximum contraction for a few seconds to fully activate your muscles.</li>\n  <li>Slowly release the tension and allow the handles to return to the starting position.</li>\n  <li>Repeat the squeezing and releasing motion for the desired number of repetitions.</li>\n  <li>Switch to the other hand and repeat the exercise to work both hands equally.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [5],
+      "secondary_muscles": []
+    }
   }
 ]
