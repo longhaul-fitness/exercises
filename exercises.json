@@ -473,7 +473,7 @@
     "pk": 48,
     "fields": {
       "name": "Lying Internal Shoulder Rotation \u2013 Dumbbell",
-      "steps": "<ol>\n  <li>Begin by lying on your side on a flat bench with your arm extended straight out in front of you and your elbow bent at a 90-degree angle.</li>\n  <li>Hold a dumbbell in your hand with your palm facing up towards the ceiling.</li>\n  <li>Slowly rotate your arm inwards towards your body, keeping your elbow bent and your upper arm stationary.</li>\n  <li>Pause for a moment at the top of the movement, then slowly lower the dumbbell back to the starting position.</li>\n  <li>Repeat for the desired number of repetitions, then switch sides and repeat the exercise with your other arm.</li>\n</ol>",
+      "steps": "<ol>\n  <li>Lie on your side on a flat bench. Rest the upper part of your top along your torso. Extend your forearm straight out in front of you with your elbow bent at a 90-degree angle.</li>\n  <li>Hold a dumbbell in your hand with your palm facing up towards the ceiling.</li>\n  <li>Slowly rotate your arm inwards towards your body, keeping your elbow bent and your upper arm stationary.</li>\n  <li>Pause for a moment at the top of the movement, then slowly lower the dumbbell back to the starting position.</li>\n  <li>Repeat for the desired number of repetitions, then switch sides and repeat the exercise with your other arm.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [14],
       "secondary_muscles": []
@@ -1417,6 +1417,36 @@
       "notes": "",
       "primary_muscles": [5],
       "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 143,
+    "fields": {
+      "name": "Lying External Shoulder Rotation \u2013 Dumbbell",
+      "steps": "<ol>\n  <li>Lie on your side on a flat bench. Rest the upper part of your top along your torso. Extend your forearm straight out in front of you with your elbow bent at a 90-degree angle.</li>\n  <li>Hold a dumbbell in your top hand with your palm facing down.</li>\n  <li>Keeping your elbow against your side, slowly rotate your arm upward as far as possible without removing your elbow from your side.</li>\n  <li>Pause for a moment, then slowly lower the dumbbell back down to the starting position.</li>\n  <li>Repeat for the desired number of repetitions, then switch sides and repeat with the other arm.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [13],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 144,
+    "fields": {
+      "name": "Tricep Extension \u2013 Cable With Rope",
+      "steps": "<ol>\n  <li>Attach a rope to a cable machine at the highest setting.</li>\n  <li>Stand facing the machine and grab the rope with an overhand grip.</li>\n  <li>Step back to create tension in the cable and keep your feet shoulder-width apart.</li>\n  <li>Keep your elbows close to your head and your upper arms stationary.</li>\n  <li>Extend your forearms down until your arms are fully extended.</li>\n  <li>Pause for a moment and then slowly return to the starting position.</li>\n  <li>Repeat for desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [21],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 145,
+    "fields": {
+      "name": "Snatch Grip Deadlift",
+      "steps": "<ol>\n  <li>Begin by standing with your feet shoulder-width apart and the barbell on the ground in front of you.</li>\n  <li>Take a wide grip on the barbell, with your hands outside of your shoulders.</li>\n  <li>Lower your hips and bend your knees, keeping your back straight and your chest up.</li>\n  <li>Engage your core and lift the barbell off the ground, keeping it close to your body.</li>\n  <li>As you lift the barbell, extend your hips and knees to stand up straight.</li>\n  <li>Once you are standing, pause briefly and then lower the barbell back down to the ground, keeping it close to your body.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 10],
+      "secondary_muscles": [5, 8, 12, 18, 20]
     }
   }
 ]
