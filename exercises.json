@@ -1448,5 +1448,55 @@
       "primary_muscles": [7, 10],
       "secondary_muscles": [5, 8, 12, 18, 20]
     }
+  },
+  {
+    "pk": 146,
+    "fields": {
+      "name": "Towel Pull-Up",
+      "steps": "<ol>\n  <li>Find a sturdy horizontal bar that can support your body weight.</li>\n  <li>Fold a single large towel or two hand towels in half and drape them over the bar.</li>\n  <li>Grab the ends of the towel with both hands, palms facing each other.</li>\n  <li>Hang from the bar with your arms fully extended and your feet off the ground.</li>\n  <li>Pull yourself up towards the bar by bending your elbows and squeezing your shoulder blades together.</li>\n  <li>Pause at the top of the movement, with your chin above the bar.</li>\n  <li>Lower yourself back down to the starting position with control.</li>\n  <li>Repeat for desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [5, 9],
+      "secondary_muscles": [2, 13, 14, 15]
+    }
+  },
+  {
+    "pk": 147,
+    "fields": {
+      "name": "Oblique Crunch",
+      "steps": "<ol>\n  <li>Start by lying on your back with your knees bent and feet flat on the ground.</li>\n  <li>Place your hands behind your head, with your elbows pointing out to the sides.</li>\n  <li>Engage your core muscles and lift your shoulders off the ground, twisting your torso to the right.</li>\n  <li>Bring your right elbow towards your left knee.</li>\n  <li>Lower your shoulders back down to the ground and repeat on the other side, twisting your torso to the left and bringing your left elbow towards your right knee.</li>\n  <li>Continue alternating sides for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [11],
+      "secondary_muscles": [1]
+    }
+  },
+  {
+    "pk": 148,
+    "fields": {
+      "name": "Lying Windshield Wiper with Bent Knees",
+      "steps": "<ol>\n  <li>Start by lying flat on your back with your arms extended out to the sides and your palms facing down.</li>\n  <li>Bend your knees and lift your feet off the ground, keeping your shins parallel to the floor.</li>\n  <li>Slowly lower your legs to one side, keeping your knees bent and your feet together.</li>\n  <li>Pause for a moment, then use your core muscles to lift your legs back to the starting position.</li>\n  <li>Repeat the movement to the other side, alternating sides for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [11],
+      "secondary_muscles": [1]
+    }
+  },
+  {
+    "pk": 149,
+    "fields": {
+      "name": "Push-Up \u2013 Hands in Rings",
+      "steps": "<ol>\n  <li>Start in a plank position with your hands placed inside suspended rings.</li>\n  <li>Engage your core and glutes to keep your body in a straight line.</li>\n  <li>Lower your body towards the ground by bending your elbows.</li>\n  <li>Keep your elbows close to your body and your shoulders down and back.</li>\n  <li>Push yourself back up to the starting position by straightening your arms.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4, 16],
+      "secondary_muscles": [1, 21]
+    }
+  },
+  {
+    "pk": 150,
+    "fields": {
+      "name": "One-Handed Bar Hang",
+      "steps": "<ol>\n  <li>Find a sturdy bar that can support your weight.</li>\n  <li>Jump up and grab the bar with one hand.</li>\n  <li>Hold the position for as long as you can.</li>\n  <li>Slowly lower yourself down and release your grip on the bar.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [5],
+      "secondary_muscles": []
+    }
   }
 ]
