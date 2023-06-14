@@ -362,8 +362,8 @@
   {
     "pk": 37,
     "fields": {
-      "name": "Shoulder Press \u2013 Dumbbell",
-      "steps": "<ol>\n  <li>Start by sitting on a bench with a dumbbell in each hand, resting on your thighs.</li>\n  <li>Raise the dumbbells to shoulder height, palms facing forward, and elbows bent.</li>\n  <li>Press the dumbbells upward until your arms are fully extended above your head.</li>\n  <li>Pause for a moment at the top of the movement, then slowly lower the dumbbells back down to shoulder height.</li>\n  <li>Repeat.</li>\n</ol>",
+      "name": "Standing Shoulder Press \u2013 Dumbbell",
+      "steps": "<ol>\n  <li>Start by standing with your feet shoulder-width apart, holding a dumbbell in each hand by your thighs.</li>\n  <li>Raise the dumbbells to shoulder height, palms facing forward, and elbows bent.</li>\n  <li>Press the dumbbells upward until your arms are fully extended above your head.</li>\n  <li>Pause for a moment at the top of the movement, then slowly lower the dumbbells back down to shoulder height.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [16],
       "secondary_muscles": [17, 21]
@@ -1497,6 +1497,46 @@
       "notes": "",
       "primary_muscles": [5],
       "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 151,
+    "fields": {
+      "name": "Standing Shoulder Press \u2013 Barbell",
+      "steps": "<ol>\n  <li>Start by standing with your feet shoulder-width apart, looking at a racked, weighted barbell.</li>\n  <li>Raise the barbell to shoulder height, palms facing forward, and elbows bent.</li>\n  <li>Press the barbell upward until your arms are fully extended above your head.</li>\n  <li>Pause for a moment at the top of the movement, then slowly lower the barbell back down to shoulder height.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [16],
+      "secondary_muscles": [17, 21]
+    }
+  },
+  {
+    "pk": 152,
+    "fields": {
+      "name": "Close Grip Seated Row",
+      "steps": "<ol>\n  <li>Adjust the cable machine to the appropriate weight and attach a V-bar handle to the cable.</li>\n  <li>Sit on the machine with your feet flat on the footrests and your knees slightly bent.</li>\n  <li>Grasp the V-bar handle with an overhand grip, with your hands close together.</li>\n  <li>Keep your back straight and your shoulders down and back.</li>\n  <li>Pull the V-bar handle towards your abdomen, keeping your elbows close to your body.</li>\n  <li>Squeeze your shoulder blades together at the end of the movement.</li>\n  <li>Slowly release the handle back to the starting position.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [9, 15, 20],
+      "secondary_muscles": [2, 5, 13, 14]
+    }
+  },
+  {
+    "pk": 153,
+    "fields": {
+      "name": "Power Clean and Press",
+      "steps": "<ol>\n  <li>Start with feet shoulder-width apart and the barbell on the floor in front of you.</li>\n  <li>Bend down and grip the barbell with hands slightly wider than shoulder-width apart.</li>\n  <li>Stand up, keeping your back straight, the barbell close to your shins, and lifting with your legs.</li>\n  <li>As the barbell reaches your chest, quickly drop into a high squat position. The crease of your hips should be above the top of your thighs. Catch the barbell at shoulder height.</li>\n  <li>Stand up from the squat position, lifting the barbell overhead with arms fully extended.</li>\n  <li>Lower the barbell back down to shoulder height.</li>\n  <li>Reverse the movement and lower the barbell back down to the floor and release your grip.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 10, 16, 18],
+      "secondary_muscles": [3, 5, 8, 17, 20, 21]
+    }
+  },
+  {
+    "pk": 154,
+    "fields": {
+      "name": "Snatch",
+      "steps": "<ol>\n  <li>Start with feet shoulder-width apart and toes pointing slightly outward.</li>\n  <li>Place hands on the barbell with a wide grip, palms facing down.</li>\n  <li>Lower your hips and bend your knees, keeping your back straight.</li>\n  <li>Drive through your legs and hips, pulling the barbell up to your chest.</li>\n  <li>As the barbell reaches chest height, quickly extend your arms and legs, pulling the barbell up and overhead.</li>\n  <li>Lock out your arms and stand up straight, holding the barbell overhead.</li>\n  <li>Lower the barbell back down to the starting position by reversing the movement.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 10, 12, 18],
+      "secondary_muscles": [3, 5, 8, 20]
     }
   }
 ]
