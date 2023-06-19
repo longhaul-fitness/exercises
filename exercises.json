@@ -1538,5 +1538,125 @@
       "primary_muscles": [7, 10, 12, 18],
       "secondary_muscles": [3, 5, 8, 20]
     }
+  },
+  {
+    "pk": 155,
+    "fields": {
+      "name": "Hammer Curl",
+      "steps": "<ol>\n  <li>Stand up straight with your feet shoulder-width apart and hold a dumbbell in each hand with your palms facing your body.</li>\n  <li>Keep your elbows close to your torso and exhale as you lift one dumbbell while keeping the other stationary.</li>\n  <li>Lift the dumbbell, towards the opposite shoulder across the front of your body, until your bicep is fully contracted and the dumbbell is at shoulder level.</li>\n  <li>Pause for a second at the top of the movement and squeeze your biceps.</li>\n  <li>Lower the dumbbell back down to the starting position in a controlled manner.</li>\n  <li>Continue alternating curls between arms for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [2],
+      "secondary_muscles": [5]
+    }
+  },
+  {
+    "pk": 156,
+    "fields": {
+      "name": "Hip Abduction \u2013 Band",
+      "steps": "<ol>\n  <li>Start by placing an exercise band around both of your knees. Make sure the band is secure and does not slip during the exercise.</li>\n  <li>Sit on a bench with your feet hip-width apart and your toes pointing forward.</li>\n  <li>Exhale as you slowly press your knees outward, against the resistance of the exercise band.</li>\n  <li>Continue pressing until you feel a comfortable stretch in your outer hip and thigh muscles.</li>\n   <li>Pause for a brief moment at the outwardmost position, feeling the tension in the exercise band.</li>\n  <li>Inhale as you release the pressure and bring your knees back together, returning to the starting position.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [19],
+      "secondary_muscles": [7]
+    }
+  },
+  {
+    "pk": 157,
+    "fields": {
+      "name": "Seated One-Handed Row \u2013 Cable",
+      "steps": "<ol>\n<li>Sit facing a cable machine with your feet flat on the ground or footrests.</li>\n<li>Grasp the handle with one hand, palm facing inward.</li>\n<li>Use your feet to push your body back, creating tension on the cable, keeping your arm fully extended.</li>\n<li>Engage your core while leaning slightly forward.</li>\n<li>Pull the handle towards your torso, squeezing your shoulder blades together, leaning slightly back.</li>\n<li>Pause for a moment at the top of the movement, feeling the contraction in your back muscles.</li>\n<li>Slowly extend your arm back to the starting position, maintaining control throughout the movement.</li>\n<li>Repeat for the desired number of repetitions, then switch to the other hand.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [9, 15, 20],
+      "secondary_muscles": [2, 5, 13, 14]
+    }
+  },
+  {
+    "pk": 158,
+    "fields": {
+      "name": "Lunge \u2013 Dumbbell",
+      "steps": "<ol>\n<li>Stand with your feet hip-width apart and hold a dumbbell in each hand, palms facing your body.</li>\n<li>Take a big step forward with your right foot, keeping your torso upright.</li>\n<li>Bend both knees to lower your body towards the floor, making sure your right knee is directly above your ankle.</li>\n<li>Push through your right heel to return to the starting position.</li>\n<li>Repeat on the other side, stepping forward with your left foot.</li>\n<li>Continue alternating legs for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 12, 18],
+      "secondary_muscles": [5]
+    }
+  },
+  {
+    "pk": 159,
+    "fields": {
+      "name": "Cable Curl \u2013 Bar",
+      "steps": "<ol>\n  <li>Stand facing a cable machine with your feet shoulder-width apart.</li>\n  <li>Attach a straight bar to the low pulley of the cable machine.</li>\n  <li>Grasp the bar with an underhand grip, hands shoulder-width apart.</li>\n  <li>Keep your elbows close to your sides and your upper arms stationary throughout the exercise.</li>\n  <li>Exhale and curl the bar up towards your shoulders, contracting your biceps.</li>\n  <li>Pause for a moment at the top of the movement, squeezing your biceps.</li>\n  <li>Inhale and slowly lower the bar back to the starting position, fully extending your arms.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [2],
+      "secondary_muscles": [5]
+    }
+  },
+  {
+    "pk": 160,
+    "fields": {
+      "name": "Landmine Hack Squat",
+      "steps": "<ol>\n<li>Stand with your feet shoulder-width apart, toes slightly turned out.</li>\n  <li>Place the end of a barbell into a landmine attachment or securely anchor it in a corner.</li>\n  <li>Hold the other end of the barbell with both hands, palms facing inwards. Lift the end up and over one shoulder while you turn away from the weight. Rest the barbell on your shoulder with the weight at your back.</li>\n  <li>Keep your core engaged, chest lifted, and back straight.</li>\n<li>Lower your body by bending at the knees and hips, as if sitting back into a chair.</li>\n<li>Continue lowering until your thighs are parallel to the ground or slightly below.</li>\n<li>Push through your heels and extend your knees and hips to return to the starting position.</li>\n<li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 12, 18],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 161,
+    "fields": {
+      "name": "Concentration Curl",
+      "steps": "<ol>\n  <li>Start by sitting on a bench with your feet flat on the floor and your knees slightly bent.</li>\n  <li>Hold a dumbbell in one hand and place your elbow on the inside of your thigh, just above the knee.</li>\n  <li>Extend your arm fully, allowing the dumbbell to hang down towards the floor.</li>\n  <li>Keeping your upper arm stationary, exhale and curl the dumbbell towards your shoulder while contracting your biceps.</li>\n  <li>Pause for a moment at the top of the movement, squeezing your biceps.</li>\n  <li>Inhale and slowly lower the dumbbell back to the starting position, fully extending your arm.</li>\n  <li>Repeat for the desired number of repetitions and then switch arms.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [2],
+      "secondary_muscles": [5]
+    }
+  },
+  {
+    "pk": 162,
+    "fields": {
+      "name": "One-Handed Tricep Pushdown \u2013 Cable",
+      "steps": "<ol>\n  <li>Stand facing a cable machine with your feet shoulder-width apart.</li>\n  <li>Grasp the cable attachment with one hand, palm facing down.</li>\n  <li>Position your elbow at a 90-degree angle and keep it close to your side.</li>\n  <li>Engage your core and maintain a neutral spine.</li>\n  <li>Exhale and extend your arm down, fully straightening your elbow.</li>\n  <li>Pause for a moment, squeezing your tricep muscle.</li>\n  <li>Inhale and slowly return your arm to the starting position, maintaining control.</li>\n  <li>Repeat for the desired number of repetitions and then switch arms.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [21],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 163,
+    "fields": {
+      "name": "Hip Thrust \u2013 Machine",
+      "steps": "<ol>\n  <li>Adjust the machine to the appropriate height and resistance level.</li>\n<li>Sit on the machine with your back against the backrest and your feet flat on the foot platform.</li>\n  <li>Engage your core and glutes, then press through your heels to extend your hips forward.</li>\n  <li>Continue to drive your hips forward until your body is in a straight line from your knees to your shoulders.</li>\n  <li>Hold the position for a brief moment, focusing on squeezing your glutes.</li>\n  <li>Slowly lower your hips back down to the starting position, maintaining control throughout the movement.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7],
+      "secondary_muscles": [8, 18]
+    }
+  },
+  {
+    "pk": 164,
+    "fields": {
+      "name": "Weighted Crunch",
+      "steps": "<ol>\n  <li>Start by lying on your back on a mat or bench with your knees bent and feet flat on the ground.</li>\n  <li>Hold a weight plate, dumbbell, or medicine ball against your chest with both hands.</li>\n  <li>Engage your core muscles by drawing your belly button in towards your spine.</li>\n  <li>Slowly lift your head, neck, and shoulders off the ground, while keeping your lower back pressed into the mat.</li>\n  <li>Exhale as you crunch up, focusing on contracting your abdominal muscles.</li>\n  <li>Hold the crunch position for a brief moment, squeezing your abs.</li>\n  <li>Inhale as you slowly lower your upper body back down to the starting position.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [1],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 165,
+    "fields": {
+      "name": "Squat Jerk",
+      "steps": "<ol>\n  <li>Start with your feet shoulder-width apart and toes slightly turned out.</li>\n  <li>Get into position by cleaning the barbell or lifting it from a rack at shoulder height with an overhand grip.</li>\n  <li>Drop your body into a deep squat position, keeping your chest up and back straight, while pushing the barbell above your head, extending your arms fully.</li>\n  <li>As you reach the bottom of the squat, explosively drive through your legs and hips to stand up.</li>\n  <li>Lock out your elbows and stabilize the weight overhead.</li>\n  <li>Lower the weight back down to shoulder height and repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 10, 12, 16, 18],
+      "secondary_muscles": [3, 17, 20, 21]
+    }
+  },
+  {
+    "pk": 166,
+    "fields": {
+      "name": "Seated Calf Raise",
+      "steps": "<ol>\n<li>Adjust the seat height and position yourself on the calf raise machine with your feet flat on the foot platform.</li>\n<li>Place your thighs under the leg pad and ensure that your knees are slightly bent.</li>\n<li>Grasp the handles or sides of the machine for stability.</li>\n<li>Slowly raise your heels by extending your ankles as far as possible while keeping your toes on the foot platform.</li>\n<li>Hold the contracted position for a brief moment, feeling the stretch in your calves.</li>\n<li>Lower your heels back down to the starting position, allowing your calves to stretch.</li>\n<li>Repeat the movement for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [3],
+      "secondary_muscles": []
+    }
   }
 ]
