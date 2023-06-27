@@ -1653,10 +1653,60 @@
     "pk": 166,
     "fields": {
       "name": "Seated Calf Raise",
-      "steps": "<ol>\n<li>Adjust the seat height and position yourself on the calf raise machine with your feet flat on the foot platform.</li>\n<li>Place your thighs under the leg pad and ensure that your knees are slightly bent.</li>\n<li>Grasp the handles or sides of the machine for stability.</li>\n<li>Slowly raise your heels by extending your ankles as far as possible while keeping your toes on the foot platform.</li>\n<li>Hold the contracted position for a brief moment, feeling the stretch in your calves.</li>\n<li>Lower your heels back down to the starting position, allowing your calves to stretch.</li>\n<li>Repeat the movement for the desired number of repetitions.</li>\n</ol>",
+      "steps": "<ol>\n  <li>Adjust the seat height and position yourself on the calf raise machine with your feet flat on the foot platform.</li>\n  <li>Place your thighs under the leg pad and ensure that your knees are slightly bent.</li>\n  <li>Grasp the handles or sides of the machine for stability.</li>\n  <li>Slowly raise your heels by extending your ankles as far as possible while keeping your toes on the foot platform.</li>\n  <li>Hold the contracted position for a brief moment, feeling the stretch in your calves.</li>\n  <li>Lower your heels back down to the starting position, allowing your calves to stretch.</li>\n  <li>Repeat the movement for the desired number of repetitions.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [3],
       "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 167,
+    "fields": {
+      "name": "Split Jerk",
+      "steps": "<ol>\n  <li>Start with the barbell resting on your shoulders, hands slightly wider than shoulder-width apart.</li>\n  <li>Bend your knees and lower your body into a partial squat, keeping your back straight and core engaged.</li>\n  <li>Drive through your legs and explosively push the barbell overhead, extending your arms fully.</li>\n  <li>As the barbell reaches its peak, quickly split your legs, with one foot moving forward and the other moving backward into a high lunge position.</li>\n  <li>Stabilize your body and hold the split position for a moment.</li>\n  <li>Stand back up by bringing your front and back feet back to the position where they started.</li>\n  <li>Lower the barbell back to your shoulders and repeat the movement for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [16],
+      "secondary_muscles": [7, 10, 12, 17, 18, 20, 21]
+    }
+  },
+  {
+    "pk": 168,
+    "fields": {
+      "name": "Seated Snatch Grip Behind the Neck Press",
+      "steps": "<ol>\n  <li>Start by sitting on a bench with a backrest, next to a racked, weighted barbell.</li>\n  <li>Grip the barbell with a wide snatch grip.</li>\n  <li>Position the barbell behind your neck, resting it on your upper traps.</li>\n  <li>Engage your core and keep your back straight.</li>\n  <li>Press the barbell overhead by extending your arms and pushing the weight up.</li>\n  <li>Lock out your elbows at the top of the movement.</li>\n  <li>Lower the barbell back down to the starting position behind your neck.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [16, 17],
+      "secondary_muscles": [20, 21]
+    }
+  },
+  {
+    "pk": 169,
+    "fields": {
+      "name": "Standing Snatch Grip Behind the Neck Press",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and grip the barbell with a wide snatch grip.</li>\n  <li>Position the barbell behind your neck, resting it on your upper traps.</li>\n  <li>Engage your core and keep your back straight.</li>\n  <li>Press the barbell overhead by extending your arms and pushing the weight up.</li>\n  <li>Lock out your elbows at the top of the movement.</li>\n  <li>Lower the barbell back down to the starting position behind your neck.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [16, 17],
+      "secondary_muscles": [20, 21]
+    }
+  },
+  {
+    "pk": 170,
+    "fields": {
+      "name": "Close-Grip Bench Press",
+      "steps": "<ol>\n<li>Set up the bench press station with the appropriate weight on the barbell.</li>\n  <li>Lie down on the bench with your feet flat on the ground and your back pressed against the bench.</li>\n  <li>Grip the barbell with your hands placed closer together than shoulder-width apart, palms facing towards your feet.</li>\n  <li>Unrack the barbell and hold it directly above your chest, arms fully extended.</li>\n  <li>Lower the barbell towards your chest by bending your elbows, keeping them close to your body.</li>\n  <li>Pause briefly with the barbell barely above your chest.</li>\n  <li>Push the barbell back up to the starting position by extending your arms, keeping your elbows close to your body.</li>\n  <li>Repeat the movement for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [21],
+      "secondary_muscles": [4, 16]
+    }
+  },
+  {
+    "pk": 171,
+    "fields": {
+      "name": "Clean",
+      "steps": "<ol>\n  <li>Start with feet hip-width apart and hands gripping the barbell just outside the legs.</li>\n  <li>Lower into a squat position, keeping the back straight and the chest up.</li>\n  <li>Explosively extend the hips, knees, and ankles, driving the barbell upwards.</li>\n  <li>As the barbell reaches chest level, quickly drop underneath it in a squat position, rotating the elbows forward.</li>\n  <li>Catch the barbell on the front of the shoulders, with the elbows pointing forward and the chest up.</li>\n  <li>Stand up by extending the hips and knees, keeping the barbell close to the body.</li>\n  <li>Lower the barbell back to the starting position by reversing the movement.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 10, 12, 18],
+      "secondary_muscles": [3, 5, 8, 20]
     }
   }
 ]
