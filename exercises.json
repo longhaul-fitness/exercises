@@ -1708,5 +1708,35 @@
       "primary_muscles": [7, 10, 12, 18],
       "secondary_muscles": [3, 5, 8, 20]
     }
+  },
+  {
+    "pk": 172,
+    "fields": {
+      "name": "One-Handed Wrist Curl \u2013 Dumbbell",
+      "steps": "<ol>\n  <li>Sit on a bench, resting your forearm on your knee, gripping a dumbbell in one hand with your palm facing up.</li>\n  <li>Bending at the wrist, extend your knuckles towards the floor.</li>\n  <li>Curl your wrist upward, bringing the dumbbell towards your forearm.</li>\n  <li>Pause for a moment at the top of the movement, squeezing your forearm muscles.</li>\n  <li>Slowly lower the dumbbell back to the starting position, fully extending your wrist.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n  <li>Switch hands and repeat the exercise with the other hand.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [5],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 173,
+    "fields": {
+      "name": "Standing Chest Fly \u2013 Cable",
+      "steps": "<ol>\n  <li>Stand in front of a cable machine, facing away from the machine, with your feet shoulder-width apart and knees slightly bent.</li>\n  <li>Grasp the handles of the cables with your palms facing forward and your arms extended out to the sides at shoulder height.</li>\n  <li>Engage your core and maintain a slight bend in your elbows throughout the exercise. Try not to change the degree of elbow bend during the repetitions.</li>\n  <li>Exhale and slowly bring your arms forward, until your hands touch, while maintaining the same level of shoulder height.</li>\n  <li>Inhale and slowly return your arms back to the starting position, keeping them extended and at shoulder height.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4],
+      "secondary_muscles": [16]
+    }
+  },
+  {
+    "pk": 174,
+    "fields": {
+      "name": "Floor Back Extension",
+      "steps": "<ol>\n  <li>Lie face down on the floor with your legs extended and your arms by your sides.</li>\n  <li>Place your hands on the back of your head, or keep them out in a \"cactus pose\".</li>\n  <li>Engage your core muscles by drawing your navel towards your spine.</li>\n  <li>Slowly lift your upper body off the floor, using your lower back muscles.</li>\n  <li>Keep your neck in a neutral position and avoid straining or arching it.</li>\n  <li>Hold the lifted position for a few seconds, focusing on squeezing your lower back muscles.</li>\n  <li>Lower your upper body back down to the starting position in a controlled manner.</li>\n  <li>Repeat the exercise for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [10],
+      "secondary_muscles": []
+    }
   }
 ]
