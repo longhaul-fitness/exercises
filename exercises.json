@@ -1738,5 +1738,65 @@
       "primary_muscles": [10],
       "secondary_muscles": []
     }
+  },
+  {
+    "pk": 175,
+    "fields": {
+      "name": "Side Plank",
+      "steps": "<ol>\n<li>Start by lying on your side with your legs extended and stacked on top of each other.</li>\n<li>Place your forearm on the ground directly below your shoulder, with your elbow bent at a 90-degree angle.</li>\n<li>Engage your core muscles and lift your hips off the ground, creating a straight line from your head to your feet.</li>\n<li>Keep your body in a straight line and avoid sagging or letting your hips drop.</li>\n<li>Hold the position for the desired amount of time.</li>\n<li>Repeat on the other side.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [11],
+      "secondary_muscles": [1]
+    }
+  },
+  {
+    "pk": 176,
+    "fields": {
+      "name": "Pec Deck",
+      "steps": "<ol>\n  <li>Sit on the Pec Deck machine with your back flat against the backrest and your feet firmly on the floor.</li>\n  <li>Adjust the seat height so that the handles are at chest level.</li>\n  <li>Grasp the handles with an overhand grip, keeping your elbows slightly bent.</li>\n  <li>Exhale and push the handles together in front of your chest, squeezing your chest muscles.</li>\n  <li>Hold the contraction for a second, then slowly release the handles back to the starting position.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4],
+      "secondary_muscles": [16]
+    }
+  },
+  {
+    "pk": 177,
+    "fields": {
+      "name": "Pronated Grip Lat Pulldown",
+      "steps": "<ol>\n<li>Adjust the seat height and position yourself on the lat pulldown machine.</li>\n<li>Grab the bar with an overhand grip, palms facing away from you, slightly wider than shoulder-width apart.</li>\n<li>Sit down and position your thighs under the thigh pads, keeping your feet flat on the floor.</li>\n<li>Keep your back straight and lean back slightly, engaging your core muscles.</li>\n<li>Exhale and pull the bar down towards your upper chest, leading with your elbows.</li>\n<li>Squeeze your shoulder blades together at the bottom of the movement.</li>\n<li>Inhale and slowly release the bar back to the starting position, extending your arms fully.</li>\n<li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [9],
+      "secondary_muscles": [2, 5, 13, 14, 15]
+    }
+  },
+  {
+    "pk": 178,
+    "fields": {
+      "name": "Decline Bench Press \u2013 Barbell",
+      "steps": "<ol>\n  <li>Set up the decline bench at a decline angle of your choice.</li>\n  <li>Lie down on the bench with your feet secured under the foot pads.</li>\n  <li>Grip the barbell with an overhand grip slightly wider than shoulder-width apart.</li>\n  <li>Lift the barbell off the rack and hold it directly above your chest with your arms fully extended.</li>\n  <li>Inhale and slowly lower the barbell towards your lower chest.</li>\n  <li>Pause for a moment when the barbell is just above your chest.</li>\n  <li>Exhale and push the barbell back up to the starting position, fully extending your arms.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4],
+      "secondary_muscles": [16, 21]
+    }
+  },
+  {
+    "pk": 179,
+    "fields": {
+      "name": "Standing Cable Leg Curl",
+      "steps": "<ol>\n  <li>Stand facing a cable machine with your feet hip-width apart.</li>\n  <li>Attach an ankle cuff to your right ankle.</li>\n  <li>Hold onto the machine for support and balance.</li>\n  <li>Bend your right knee and bring your heel towards your glutes, keeping your upper leg stationary.</li>\n  <li>Squeeze your hamstring at the top of the movement.</li>\n  <li>Slowly lower your leg back to the starting position.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n  <li>Switch sides and perform the exercise with your left leg.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [8],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 180,
+    "fields": {
+      "name": "Cable Pull Through",
+      "steps": "<ol>\n  <li>Attach a rope to a cable machine and stand facing away from the machine with your feet shoulder-width apart.</li>\n  <li>Grab the rope with both hands and position it between your legs, just above your knees.</li>\n  <li>Hinge forward at the hips and push your glutes back, keeping your back straight and chest up.</li>\n  <li>Lower your torso until it is parallel to the floor, feeling a stretch in your hamstrings.</li>\n  <li>Engage your glutes and hamstrings to drive your hips forward, standing up straight.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7],
+      "secondary_muscles": [8, 10, 18]
+    }
   }
 ]
