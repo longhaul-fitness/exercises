@@ -1543,7 +1543,7 @@
     "pk": 155,
     "fields": {
       "name": "Hammer Curl",
-      "steps": "<ol>\n  <li>Stand up straight with your feet shoulder-width apart and hold a dumbbell in each hand with your palms facing your body.</li>\n  <li>Keep your elbows close to your torso and exhale as you lift one dumbbell while keeping the other stationary.</li>\n  <li>Lift the dumbbell, towards the opposite shoulder across the front of your body, until your bicep is fully contracted and the dumbbell is at shoulder level.</li>\n  <li>Pause for a second at the top of the movement and squeeze your biceps.</li>\n  <li>Lower the dumbbell back down to the starting position in a controlled manner.</li>\n  <li>Continue alternating curls between arms for the desired number of repetitions.</li>\n</ol>",
+      "steps": "<ol>\n  <li>Stand up straight with your feet shoulder-width apart and hold a dumbbell in each hand with your palms facing your body.</li>\n  <li>Keep your elbows close to your torso and exhale as you lift both dumbbells towards the shoulder of their holding hand, until your bicep is fully contracted and the dumbbell is at shoulder level..</li>\n  <li>Pause for a second at the top of the movement and squeeze your biceps.</li>\n  <li>Lower the dumbbells back down to the starting position in a controlled manner.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [2],
       "secondary_muscles": [5]
