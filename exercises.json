@@ -1798,5 +1798,35 @@
       "primary_muscles": [7],
       "secondary_muscles": [8, 10, 18]
     }
+  },
+  {
+    "pk": 181,
+    "fields": {
+      "name": "Shrug \u2013 Barbell",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and hold a barbell in front of your thighs with an overhand grip.</li>\n  <li>Keep your arms fully extended and your shoulders relaxed.</li>\n  <li>Slowly raise your shoulders as high as possible, as if you are trying to touch your ears with them.</li>\n  <li>Hold the contracted position for a brief pause, squeezing your shoulder muscles.</li>\n  <li>Lower your shoulders back down to the starting position in a controlled manner.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [20],
+      "secondary_muscles": [5]
+    }
+  },
+  {
+    "pk": 182,
+    "fields": {
+      "name": "Bulgarian Split Squat",
+      "steps": "<ol>\n  <li>Stand with your back facing a bench or step.</li>\n  <li>Place the top of one foot on the bench or step behind you.</li>\n  <li>Bend your front knee and lower your body down towards the ground, keeping your back straight.</li>\n  <li>Pause when your front thigh is parallel to the ground.</li>\n  <li>Push through your front heel to return to the starting position.</li>\n  <li>Repeat for the desired number of repetitions, then switch legs.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 12, 18],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 183,
+    "fields": {
+      "name": "Crunch \u2013 Machine",
+      "steps": "<ol>\n  <li>Adjust the seat height and foot pad position on the crunch machine to ensure proper alignment.</li>\n  <li>Sit on the machine with your back against the backrest and your feet secured under the foot pads.</li>\n  <li>Place your hands lightly on the sides of your head, avoiding pulling on your neck.</li>\n  <li>Engage your core muscles by drawing your belly button in towards your spine.</li>\n  <li>Exhale and slowly curl your upper body forward, contracting your abdominal muscles.</li>\n  <li>Pause for a moment at the top of the movement, feeling the contraction in your abs.</li>\n  <li>Inhale and slowly lower your upper body back to the starting position, maintaining control throughout the movement.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [1],
+      "secondary_muscles": [11]
+    }
   }
 ]
