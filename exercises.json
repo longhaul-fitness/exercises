@@ -1828,5 +1828,55 @@
       "primary_muscles": [1],
       "secondary_muscles": [11]
     }
+  },
+  {
+    "pk": 184,
+    "fields": {
+      "name": "Shrug \u2013 Dumbbell",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and hold a dumbbell in each hand, palms facing your body.</li>\n  <li>Keep your arms straight and allow the dumbbells to hang at your sides.</li>\n  <li>Engage your core and lift your shoulders towards your ears, squeezing your shoulder blades together.</li>\n  <li>Hold the contraction for a second, then slowly lower your shoulders back down to the starting position.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [20],
+      "secondary_muscles": [5]
+    }
+  },
+  {
+    "pk": 185,
+    "fields": {
+      "name": "One-Legged Balance",
+      "steps": "<ol>\n  <li>Stand tall with your feet hip-width apart.</li>\n  <li>Shift your weight onto one leg and lift the other leg off the ground.</li>\n  <li>Engage your core muscles to maintain balance.</li>\n  <li>Keep your standing leg slightly bent and your knee aligned with your toes.</li>\n  <li>Find a focal point to help you maintain balance and focus.</li>\n  <li>Hold the position for a desired amount of time.</li>\n  <li>Switch legs and repeat the exercise.</li>\n</ol>",
+      "notes": "Try this exercise with closed eyes for increased difficulty.",
+      "primary_muscles": [3],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 186,
+    "fields": {
+      "name": "Feet-Up Bench Press \u2013 Barbell",
+      "steps": "<ol>\n<li>Lie flat on a bench with your feet up in the air, knees bent at a 90-degree angle.</li>\n<li>Grasp the barbell with an overhand grip, slightly wider than shoulder-width apart.</li>\n<li>Engage your core and press your lower back into the bench.</li>\n<li>Unrack the barbell and hold it directly above your chest, arms fully extended.</li>\n<li>Inhale and slowly lower the barbell towards your chest, keeping your elbows tucked in.</li>\n<li>Pause for a brief moment when the barbell touches your chest.</li>\n<li>Exhale and push the barbell back up to the starting position, fully extending your arms.</li>\n<li>Repeat the movement for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4, 16],
+      "secondary_muscles": [21]
+    }
+  },
+  {
+    "pk": 187,
+    "fields": {
+      "name": "Bicep Curl \u2013 Machine",
+      "steps": "<ol>\n  <li>Adjust the seat height and position yourself comfortably on the machine.</li>\n  <li>Grasp the handles with an underhand grip, palms facing up.</li>\n  <li>Keep your back straight and your elbows close to your sides.</li>\n  <li>Exhale and slowly curl the handles towards your shoulders, contracting your biceps.</li>\n  <li>Pause for a moment at the top of the movement, squeezing your biceps.</li>\n  <li>Inhale and slowly lower the handles back to the starting position, fully extending your arms.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [2],
+      "secondary_muscles": [5]
+    }
+  },
+  {
+    "pk": 188,
+    "fields": {
+      "name": "Reverse Fly \u2013 Machine",
+      "steps": "<ol>\n<li>Adjust the seat height and chest pad of the machine to your comfort level.</li>\n<li>Sit on the machine with your chest against the pad and grasp the handles with an overhand grip.</li>\n<li>Keep your back straight and engage your core muscles.</li>\n<li>Exhale and slowly pull the handles back and away from your body, squeezing your shoulder blades together.</li>\n<li>Pause for a moment at the fully contracted position.</li>\n<li>Inhale and slowly return the handles to the starting position, maintaining control throughout the movement.</li>\n<li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [13, 15],
+      "secondary_muscles": [20]
+    }
   }
 ]
