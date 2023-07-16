@@ -1862,7 +1862,7 @@
   {
     "pk": 187,
     "fields": {
-      "name": "Bicep Curl \u2013 Machine",
+      "name": "Curl \u2013 Machine",
       "steps": "<ol>\n  <li>Adjust the seat height and position yourself comfortably on the machine.</li>\n  <li>Grasp the handles with an underhand grip, palms facing up.</li>\n  <li>Keep your back straight and your elbows close to your sides.</li>\n  <li>Exhale and slowly curl the handles towards your shoulders, contracting your biceps.</li>\n  <li>Pause for a moment at the top of the movement, squeezing your biceps.</li>\n  <li>Inhale and slowly lower the handles back to the starting position, fully extending your arms.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [2],
@@ -1873,7 +1873,7 @@
     "pk": 188,
     "fields": {
       "name": "Reverse Fly \u2013 Machine",
-      "steps": "<ol>\n<li>Adjust the seat height and chest pad of the machine to your comfort level.</li>\n<li>Sit on the machine with your chest against the pad and grasp the handles with an overhand grip.</li>\n<li>Keep your back straight and engage your core muscles.</li>\n<li>Exhale and slowly pull the handles back and away from your body, squeezing your shoulder blades together.</li>\n<li>Pause for a moment at the fully contracted position.</li>\n<li>Inhale and slowly return the handles to the starting position, maintaining control throughout the movement.</li>\n<li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "steps": "<ol>\n  <li>Adjust the seat height and chest pad of the machine to your comfort level.</li>\n<li>Sit on the machine with your chest against the pad and grasp the handles with an overhand grip.</li>\n<li>Keep your back straight and engage your core muscles.</li>\n<li>Exhale and slowly pull the handles back and away from your body, squeezing your shoulder blades together.</li>\n<li>Pause for a moment at the fully contracted position.</li>\n<li>Inhale and slowly return the handles to the starting position, maintaining control throughout the movement.</li>\n<li>Repeat for the desired number of repetitions.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [13, 15],
       "secondary_muscles": [20]
@@ -1927,6 +1927,66 @@
       "notes": "",
       "primary_muscles": [8],
       "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 194,
+    "fields": {
+      "name": "Hack Squat \u2013 Machine",
+      "steps": "<ol>\n<li>Adjust the seat height and foot platform of the machine to your desired position.</li>\n<li>Sit on the machine with your back against the pad and grasp the handles with an overhand grip.</li>\n<li>Engage your core throughout the exercise.</li>\n<li>Bend your knees and lower your body down, keeping your back straight and your heels on the foot platform.</li>\n<li>Continue descending until your thighs are parallel to the foot platform or as low as your flexibility allows.</li>\n<li>Push through your heels and extend your legs to return to the starting position.</li>\n<li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 12, 18],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 195,
+    "fields": {
+      "name": "One-Handed Wrist Extension \u2013 Dumbbell",
+      "steps": "<ol>\n  <li>Hold a dumbbell with an overhand grip.</li>\n  <li>Sit on a bench with your feet shoulder-width apart.</li>\n  <li>Rest your forearm on the top of your thigh, with your palm facing down.</li>\n  <li>Slowly lift the dumbbell by extending your wrist, keeping your elbows stationary. Focus on bringing your knuckles back towards the top of your forearm.</li>\n  <li>Hold the dumbbell at the top of the movement for a moment.</li>\n  <li>Lower the dumbbell back down to the starting position by flexing your wrist towards the floor.</li>\n  <li>Repeat for the desired number of reps and then switch sides.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [6],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 196,
+    "fields": {
+      "name": "Seated Overhead Press \u2013 Barbell",
+      "steps": "<ol>\n<li>Start by sitting on a back-supporting bench with your feet firmly planted on the ground.</li>\n<li>Hold the barbell with an overhand grip, slightly wider than shoulder-width apart.</li>\n<li>Bring the barbell to shoulder level, resting it on your upper chest and front shoulders.</li>\n<li>Engage your core and keep your back straight throughout the exercise.</li>\n<li>Press the barbell overhead by extending your arms fully, but without locking your elbows.</li>\n<li>Pause briefly at the top of the movement, then slowly lower the barbell back to the starting position.</li>\n<li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [16],
+      "secondary_muscles": [17, 21]
+    }
+  },
+  {
+    "pk": 197,
+    "fields": {
+      "name": "Overhead Press \u2013 Barbell",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and hold a barbell at shoulder level, palms facing forward.</li>\n  <li>Engage your core and press the weight directly overhead, fully extending your arms without locking your elbows.</li>\n  <li>Keep your head and chest up, and avoid leaning back or arching your lower back.</li>\n  <li>Pause briefly at the top, then slowly lower the weight back to shoulder level.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [16],
+      "secondary_muscles": [17, 21]
+    }
+  },
+  {
+    "pk": 198,
+    "fields": {
+      "name": "Seated Overhead Press \u2013 Dumbbell",
+      "steps": "<ol>\n<li>Start by sitting on a back-supporting bench with your feet firmly planted on the ground.</li>\n<li>Hold a dumbbell in each hand with an overhand grip.</li>\n<li>Bring the dumbbells to shoulder level.</li>\n<li>Engage your core and keep your back straight throughout the exercise.</li>\n<li>Press the dumbbells overhead by extending your arms fully, but without locking your elbows.</li>\n<li>Pause briefly at the top of the movement, then slowly lower the dumbbells back to the starting position.</li>\n<li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [16],
+      "secondary_muscles": [17, 21]
+    }
+  },
+  {
+    "pk": 199,
+    "fields": {
+      "name": "Overhead Press \u2013 Dumbbell",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and hold dumbbells at shoulder level, palms facing forward.</li>\n  <li>Engage your core and press the weight directly overhead, fully extending your arms without locking your elbows.</li>\n  <li>Keep your head and chest up, and avoid leaning back or arching your lower back.</li>\n  <li>Pause briefly at the top, then slowly lower the weight back to shoulder level.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [16],
+      "secondary_muscles": [17, 21]
     }
   }
 ]
