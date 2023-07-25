@@ -1988,5 +1988,45 @@
       "primary_muscles": [16],
       "secondary_muscles": [17, 21]
     }
+  },
+  {
+    "pk": 200,
+    "fields": {
+      "name": "Lunge \u2013 Barbell",
+      "steps": "<ol>\n<li>Start by standing with your feet hip-width apart and your back straight.</li>\n<li>Hold a barbell across your upper back, resting it on your shoulders.</li>\n<li>Take a step forward with your right foot, keeping your core engaged and your chest lifted.</li>\n<li>Bend both knees to lower your body towards the ground, making sure your front knee does not go past your toes.</li>\n<li>Lower your body until your front thigh is parallel to the ground, and your back knee is hovering just above the floor.</li>\n<li>Push through your front heel to return to the starting position.</li>\n<li>Repeat the movement on the other side by stepping forward with your left foot.</li>\n<li>Continue alternating legs for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 12, 18],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 201,
+    "fields": {
+      "name": "Kneeling Incline Push-Up",
+      "steps": "<ol>\n<li>Start by kneeling on the ground with your hands placed slightly wider than shoulder-width apart on an elevated surface, such as a bench or step.</li>\n<li>Engage your core and lower your chest towards the elevated surface, bending your elbows and keeping them close to your body. Keep your body in a straight line from head to knee.</li>\n<li>Pause briefly when your chest is just above the surface, then push through your hands to extend your arms and return to the starting position.</li>\n<li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4, 16],
+      "secondary_muscles": [1, 21]
+    }
+  },
+  {
+    "pk": 202,
+    "fields": {
+      "name": "Plate Front Raise",
+      "steps": "<ol>\n<li>Stand with your feet shoulder-width apart and hold a weight plate with both hands in front of your thighs.</li>\n<li>Keep your arms straight and slowly raise the weight plate up to shoulder level, making sure to keep your core engaged and your back straight.</li>\n<li>Pause for a moment at the top of the movement, then slowly lower the weight plate back down to the starting position.</li>\n<li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [16],
+      "secondary_muscles": [17]
+    }
+  },
+  {
+    "pk": 203,
+    "fields": {
+      "name": "Row \u2013 Barbell",
+      "steps": "<ol>\n  <li>Stand in front of a barbell with your feet shoulder-width apart.</li>\n  <li>Bend your knees slightly and hinge forward at the hips, keeping your back straight.</li>\n  <li>Grasp the barbell with an overhand grip, hands slightly wider than shoulder-width apart.</li>\n  <li>Engage your core and pull the barbell towards your chest, squeezing your shoulder blades together.</li>\n  <li>Pause for a moment at the top of the movement, then slowly lower the barbell back to the starting position.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [9, 15, 20],
+      "secondary_muscles": [2, 5, 10, 13, 14]
+    }
   }
 ]
