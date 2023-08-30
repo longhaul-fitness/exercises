@@ -273,7 +273,7 @@
     "pk": 28,
     "fields": {
       "name": "Rear Delt Row \u2013 Barbell",
-      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Hold a barbell with an overhand grip, hands shoulder-width apart.</li>\n  <li>Lean forward at the hips, keeping your back straight and your abs engaged.</li>\n  <li>Bring the barbell up towards your chest, keeping your elbows close to your body.</li>\n  <li>Squeeze your shoulder blades together at the top of the movement.</li>\n  <li>Lower the barbell back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Hold a barbell with an overhand grip, hands shoulder-width apart.</li>\n  <li>Lean forward at the hips, keeping your back straight and your abs engaged.</li>\n  <li>Bring the barbell up towards your chest, keeping your elbows wide and out to the sides.</li>\n  <li>Squeeze your shoulder blades together at the top of the movement.</li>\n  <li>Lower the barbell back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [15],
       "secondary_muscles": [2, 5, 13, 20]
@@ -353,7 +353,7 @@
     "pk": 36,
     "fields": {
       "name": "Row \u2013 T-Bar",
-      "steps": "<ol>\n  <li>Load the desired weight onto the T-Bar machine.</li>\n  <li>Stand facing the T-Bar machine with your feet shoulder-width apart.</li>\n  <li>Bend your knees slightly and hinge forward at the hips, keeping your back straight.</li>\n  <li>Grasp the handles of the T-Bar with an overhand grip.</li>\n  <li>Pull the T-Bar towards your chest, keeping your elbows close to your body.</li>\n  <li>Pause briefly at the top of the movement, squeezing your shoulder blades together.</li>\n  <li>Slowly lower the T-Bar back to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "steps": "<ol>\n  <li>Load the desired weight onto the T-Bar machine.</li>\n  <li>Lie down on the T-Bar machine with your feet securely planted.</li>\n  <li>Grasp the handles of the T-Bar with an overhand grip.</li>\n  <li>Pull the T-Bar towards your chest, keeping your elbows close to your body.</li>\n  <li>Pause briefly at the top of the movement, squeezing your shoulder blades together.</li>\n  <li>Slowly lower the T-Bar back to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [9, 15, 20],
       "secondary_muscles": [2, 5, 10, 13, 14]
@@ -383,7 +383,7 @@
     "pk": 39,
     "fields": {
       "name": "Rear Delt Row \u2013 Dumbbell",
-      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and hold a dumbbell in each hand.</li>\n  <li>Bend your knees slightly and hinge forward at the hips, keeping your back straight.</li>\n  <li>Bring the dumbbells up to your chest, keeping your elbows close to your body.</li>\n  <li>Slowly lower the dumbbells back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart and hold a dumbbell in each hand.</li>\n  <li>Bend your knees slightly and hinge forward at the hips, keeping your back straight.</li>\n  <li>Bring the dumbbells up to your chest, keeping your elbows wide and out to the sides.</li>\n  <li>Slowly lower the dumbbells back down to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [15],
       "secondary_muscles": [2, 5, 13, 20]
@@ -563,7 +563,7 @@
     "pk": 57,
     "fields": {
       "name": "Horizontal External Shoulder Rotation \u2013 Dumbbell",
-      "steps": "<ol>\n  <li>Start by lying on your side on a bench or mat, with your arm extended straight out in front of you and holding a dumbbell in your hand.</li>\n  <li>Keep your elbow bent at a 90-degree angle and your upper arm pressed against your side.</li>\n  <li>Slowly rotate your arm outwards, away from your body, until your forearm points towards the ceiling.</li>\n  <li>Hold this position for a few seconds, then slowly lower your arm back to the starting position.</li>\n  <li>Repeat for the desired number of repetitions, then switch sides and repeat the exercise with your other arm.</li>\n</ol>",
+      "steps": "<ol>\n  <li>Lie on your side on a bench or mat.</li>\n  <li>Bend your upper elbow 90-degrees to extend your forearm straight out in front of you, and hold a dumbbell in that upper hand.</li>\n  <li>Keep your elbow bent at a 90-degree angle and your upper arm pressed against your side.</li>\n  <li>Slowly rotate your arm outwards, away from your body, until your forearm points towards the ceiling.</li>\n  <li>Hold this position for a few seconds, then slowly lower your arm back to the starting position.</li>\n  <li>Repeat for the desired number of repetitions, then switch sides and repeat the exercise with your other arm.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [13],
       "secondary_muscles": []
@@ -925,8 +925,8 @@
       "name": "Pull-Apart \u2013 Band",
       "steps": "<ol>\n  <li>Stand with feet shoulder-width apart and hold a resistance band with both hands.</li>\n  <li>Extend your arms straight out in front of you, keeping your palms facing down.</li>\n  <li>Begin pulling the band apart by squeezing your shoulder blades together.</li>\n  <li>Continue pulling until your hands are at shoulder height and the band is stretched tight.</li>\n  <li>Hold for a moment, then slowly release the tension and return to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
-      "primary_muscles": [13, 14, 15],
-      "secondary_muscles": [13, 14]
+      "primary_muscles": [13, 15],
+      "secondary_muscles": [14]
     }
   },
   {
@@ -1093,7 +1093,7 @@
     "pk": 110,
     "fields": {
       "name": "Rear Delt Row \u2013 Cable",
-      "steps": "<ol>\n  <li>Attach a straight bar to a cable machine.</li>\n  <li>Sit facing the cable machine with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Grasp the bar with an overhand grip, with your hands slightly more than shoulder-width apart.</li>\n  <li>Lean forward slightly, keeping your back straight and your core engaged.</li>\n  <li>Pull the bar towards your upper chest, keeping your elbows out to the sides.</li>\n  <li>Squeeze your shoulder blades together at the top of the movement.</li>\n  <li>Slowly release the bar back to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
+      "steps": "<ol>\n  <li>Attach a straight bar to a cable machine.</li>\n  <li>Sit facing the cable machine with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Grasp the bar with an overhand grip, with your hands slightly more than shoulder-width apart.</li>\n  <li>Lean forward slightly, keeping your back straight and your core engaged.</li>\n  <li>Pull the bar towards your upper chest, keeping your elbows wide and out to the sides.</li>\n  <li>Squeeze your shoulder blades together at the top of the movement.</li>\n  <li>Slowly release the bar back to the starting position.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [15],
       "secondary_muscles": [2, 5, 13, 20]
@@ -1563,7 +1563,7 @@
     "pk": 157,
     "fields": {
       "name": "Seated One-Handed Row \u2013 Cable",
-      "steps": "<ol>\n<li>Sit facing a cable machine with your feet flat on the ground or footrests.</li>\n<li>Grasp the handle with one hand, palm facing inward.</li>\n<li>Use your feet to push your body back, creating tension on the cable, keeping your arm fully extended.</li>\n<li>Engage your core while leaning slightly forward.</li>\n<li>Pull the handle towards your torso, squeezing your shoulder blades together, leaning slightly back.</li>\n<li>Pause for a moment at the top of the movement, feeling the contraction in your back muscles.</li>\n<li>Slowly extend your arm back to the starting position, maintaining control throughout the movement.</li>\n<li>Repeat for the desired number of repetitions, then switch to the other hand.</li>\n</ol>",
+      "steps": "<ol>\n<li>Sit facing a cable machine with your feet flat on the ground or footrests.</li>\n<li>Grasp the handle with one hand, palm facing inward.</li>\n<li>Use your feet to push your body back, creating tension on the cable, keeping your arm fully extended.</li>\n<li>Engage your core while leaning slightly forward.</li>\n<li>Pull the handle towards your torso, keeping your elbow close to your body.</li>\n<li>Squeeze your shoulder blades together while leaning slightly back.</li>\n<li>Pause for a moment at the top of the movement, feeling the contraction in your back muscles.</li>\n<li>Slowly extend your arm back to the starting position, maintaining control throughout the movement.</li>\n<li>Repeat for the desired number of repetitions, then switch to the other hand.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [9, 15, 20],
       "secondary_muscles": [2, 5, 13, 14]
@@ -2023,7 +2023,7 @@
     "pk": 203,
     "fields": {
       "name": "Row \u2013 Barbell",
-      "steps": "<ol>\n  <li>Stand in front of a barbell with your feet shoulder-width apart.</li>\n  <li>Bend your knees slightly and hinge forward at the hips, keeping your back straight.</li>\n  <li>Grasp the barbell with an overhand grip, hands slightly wider than shoulder-width apart.</li>\n  <li>Engage your core and pull the barbell towards your chest, squeezing your shoulder blades together.</li>\n  <li>Pause for a moment at the top of the movement, then slowly lower the barbell back to the starting position.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "steps": "<ol>\n  <li>Stand in front of a barbell with your feet shoulder-width apart.</li>\n  <li>Bend your knees slightly and hinge forward at the hips, keeping your back straight.</li>\n  <li>Grasp the barbell with an overhand grip, hands slightly wider than shoulder-width apart.</li>\n  <li>Engage your core and pull the barbell towards your upper abs or lower chest, keeping your elbows close to your body.</li>\n  <li>Pause and squeeze your shoulder blades together for a moment at the top of the movement.</li>\n  <li>Slowly lower the barbell back to the starting position.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [9, 15, 20],
       "secondary_muscles": [2, 5, 10, 13, 14]
