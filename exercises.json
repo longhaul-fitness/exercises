@@ -1313,7 +1313,7 @@
     "pk": 132,
     "fields": {
       "name": "Close-Grip Push-Up",
-      "steps": "<ol>\n  <li>Start in a plank position with your hands shoulder-width apart and your fingers pointing forward.</li>\n  <li>Bring your hands closer together so that they are directly under your shoulders.</li>\n  <li>Lower your body towards the ground, keeping your elbows close to your sides.</li>\n  <li>Push back up to the starting position, keeping your core engaged and your body in a straight line.</li>\n  <li>Repeat.</li>\n</ol>",
+      "steps": "<ol>\n  <li>Start in a plank position with your hands under your shoulders and your fingers pointing forward.</li>\n  <li>Lower your body towards the ground, keeping your elbows close to your sides.</li>\n  <li>Push back up to the starting position, keeping your core engaged and your body in a straight line.</li>\n  <li>Repeat.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [21],
       "secondary_muscles": [1, 4, 16]
@@ -1432,8 +1432,8 @@
   {
     "pk": 144,
     "fields": {
-      "name": "Tricep Extension \u2013 Cable With Rope",
-      "steps": "<ol>\n  <li>Attach a rope to a cable machine at the highest setting.</li>\n  <li>Stand facing the machine and grab the rope with an overhand grip.</li>\n  <li>Step back to create tension in the cable and keep your feet shoulder-width apart.</li>\n  <li>Keep your elbows close to your head and your upper arms stationary.</li>\n  <li>Extend your forearms down until your arms are fully extended.</li>\n  <li>Pause for a moment and then slowly return to the starting position.</li>\n  <li>Repeat for desired number of repetitions.</li>\n</ol>",
+      "name": "Overhead Tricep Extension \u2013 Cable With Rope",
+      "steps": "<ol>\n  <li>Attach a rope to a cable machine at a low setting.</li>\n  <li>Face the machine and grab the rope with an overhand grip.</li>\n  <li>Twist away from the machine while raising the rope over your head. End facing away from the machine with your elbows near your ears and the cable parallel with your spine./li>\n  <li>Keep your elbows close to your head and your upper arms stationary.</li>\n  <li>Extend your forearms down until your arms are fully extended.</li>\n  <li>Pause for a moment and then slowly return to the starting position.</li>\n  <li>Repeat for desired number of repetitions.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [21],
       "secondary_muscles": []
