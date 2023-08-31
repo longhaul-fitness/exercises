@@ -233,7 +233,7 @@
     "pk": 24,
     "fields": {
       "name": "Burpee \u2013 BOSU",
-      "steps": "<ol>\n  <li>Start in a standing position with the BOSU ball on the ground (inflated-side down) in front of you.</li>\n  <li>Place your hands on the BOSU ball and jump your feet back into a plank position.</li>\n  <li>Perform a push-up while keeping your hands on the BOSU ball.</li>\n  <li>Jump your feet back towards the BOSU ball and stand up.</li>\n  <li>Lift the BOSU ball overhead and jump up, extending your arms towards the ceiling.</li>\n  <li>Land softly and repeat the exercise for desired number of reps.</li>\n</ol>",
+      "steps": "<ol>\n  <li>Start in a standing position with the BOSU ball on the ground (inflated-side down) in front of you.</li>\n  <li>Grip the edges of the BOSU ball and jump your feet back into a plank position.</li>\n  <li>Perform a push-up while gripping the BOSU ball.</li>\n  <li>Jump your feet back towards the BOSU ball into a low squat position.</li>\n  <li>Complete the squat by standing up. As you rise, lift the BOSU ball overhead, extending your arms towards the ceiling.</li>\n  <li>Repeat the exercise for desired number of reps.</li>\n</ol>",
       "notes": "",
       "primary_muscles": [4, 12, 16, 17],
       "secondary_muscles": [1, 20]
