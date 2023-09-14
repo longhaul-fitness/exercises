@@ -2028,5 +2028,45 @@
       "primary_muscles": [9, 15, 20],
       "secondary_muscles": [2, 5, 10, 13, 14]
     }
+  },
+  {
+    "pk": 204,
+    "fields": {
+      "name": "One-Handed Lat Pulldown",
+      "steps": "<ol>\n<li>Adjust the seat height and position yourself in the lat pulldown machine.</li>\n<li>Grasp the lat pulldown bar with one hand, using an overhand grip.</li>\n<li>Engage your core and keep your back straight throughout the exercise.</li>\n<li>Start with your arm fully extended, allowing the weight to be lifted off the stack.</li>\n<li>Exhale and pull the bar down towards your side, focusing on squeezing your lat muscles.</li>\n<li>Pause for a moment at the bottom of the movement, feeling the contraction in your lat.</li>\n<li>Inhale and slowly return the bar to the starting position, fully extending your arm.</li>\n<li>Repeat for the desired number of repetitions and then switch to the other hand.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [9],
+      "secondary_muscles": [2, 5, 13, 14, 15]
+    }
+  },
+  {
+    "pk": 205,
+    "fields": {
+      "name": "Bench Press \u2013 Dumbbell",
+      "steps": "<ol>\n<li>Lie flat on a bench with your feet firmly planted on the ground.</li>\n<li>Hold a dumbbell in each hand, palms facing forward, and extend your arms straight up over your chest.</li>\n<li>Lower the dumbbells slowly towards your chest, keeping your elbows wide.</li>\n<li>Pause for a moment when the dumbbells are just above your chest.</li>\n<li>Push the dumbbells back up to the starting position, fully extending your arms.</li>\n<li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4, 16],
+      "secondary_muscles": [21]
+    }
+  },
+  {
+    "pk": 206,
+    "fields": {
+      "name": "Pendlay Row",
+      "steps": "<ol>\n  <li>Load a barbell with weights on the floor.</li>\n  <li>Stand with your feet shoulder-width apart and your knees slightly bent.</li>\n  <li>Bend forward at the hips, keeping your back straight and parallel to the ground.</li>\n  <li>Grasp the barbell with an overhand grip, hands slightly wider than shoulder-width apart.</li>\n  <li>Keep your elbows close to your body and pull the barbell up towards your chest, squeezing your shoulder blades together.</li>\n  <li>Lower the barbell back down to the floor, releasing the tension of the weight for a brief moment, while maintaining control and keeping your back straight.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [9, 15, 20],
+      "secondary_muscles": [2, 5, 10, 13, 14]
+    }
+  },
+  {
+    "pk": 207,
+    "fields": {
+      "name": "Deadlift \u2013 Fat Bar",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart, holding a loaded fat bar in front of your quads.</li>\n  <li>Bend your knees, hinge and lean forward at the hips, keeping your back straight and your chest up.</li>\n  <li>Lower the fat bar towards the ground, keeping it close to your legs.</li>\n  <li>Pause when the fat bar is just below your knees.</li>\n  <li>Push through your heels and stand up, keeping your back straight and your chest up.</li>\n  <li>Repeat.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [5, 7, 10],
+      "secondary_muscles": [8, 12, 18, 20]
+    }
   }
 ]
