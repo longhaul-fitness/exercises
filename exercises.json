@@ -2098,5 +2098,35 @@
       "primary_muscles": [9, 15, 20],
       "secondary_muscles": [2, 5, 13, 14]
     }
+  },
+  {
+    "pk": 211,
+    "fields": {
+      "name": "Mountain Climbers \u2013 BOSU",
+      "steps": "<ol>\n  <li>Place a BOSU ball on the floor with the dome side facing down.</li>\n  <li>Assume a push-up position with your hands gripped on the sides of the BOSU ball.</li>\n  <li>Engage your core and keep your body in a straight line from head to toe.</li>\n  <li>Start by bringing one knee towards your chest, then quickly switch and bring the other knee towards your chest.</li>\n  <li>Continue alternating your knees in a running motion, keeping your hips low and your abs tight.</li>\n  <li>Perform the exercise for the desired number of repetitions or time.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [1],
+      "secondary_muscles": [11]
+    }
+  },
+  {
+    "pk": 212,
+    "fields": {
+      "name": "Pistons",
+      "steps": "<ol>\n  <li>Stand upright with your feet hip-width apart.</li>\n  <li>Place your hands behind your head, elbows out to the sides.</li>\n  <li>Engage your core muscles to stabilize your torso.</li>\n  <li>Lift your right knee towards your chest while simultaneously crunching your left elbow towards your right knee.</li>\n  <li>Return to the starting position.</li>\n  <li>Now, lift your left knee towards your chest while crunching your right elbow towards your left knee.</li>\n  <li>Continue alternating between sides for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [1],
+      "secondary_muscles": [11]
+    }
+  },
+  {
+    "pk": 213,
+    "fields": {
+      "name": "Clamshells",
+      "steps": "<ol>\n  <li>Lie on your side with your knees bent and your feet together.</li>\n  <li>Keep your feet touching and lift your top knee as high as you can without moving your pelvis.</li>\n  <li>Pause for a moment at the top of the movement, then slowly lower your knee back down.</li>\n  <li>Repeat the movement for the desired number of repetitions, then switch to the other side.</li>\n</ol>",
+      "notes": "Use a resistance band around your knees to increase the difficulty of the exercise.",
+      "primary_muscles": [19],
+      "secondary_muscles": [7]
+    }
   }
 ]
