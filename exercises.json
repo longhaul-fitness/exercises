@@ -2068,5 +2068,35 @@
       "primary_muscles": [5, 7, 10],
       "secondary_muscles": [8, 12, 18, 20]
     }
+  },
+  {
+    "pk": 208,
+    "fields": {
+      "name": "One-Handed Standing Chest Fly \u2013 Band",
+      "steps": "<ol>\n  <li>Find a sturdy stationary object, such as a pole or a door anchor, and attach one end of the resistance band to it at chest height.</li>\n  <li>Stand with your feet shoulder-width apart, facing away from the stationary object.</li>\n  <li>Hold the free end of the resistance band in one hand, with your palm facing forward.</li>\n  <li>Position yourself at a distance from the stationary object so that there is tension in the band when your arm is extended forward at chest height.</li>\n  <li>Keep your elbow slightly bent and your arm extended out to the side at shoulder height.</li>\n  <li>Engage your core muscles to stabilize your torso.</li>\n  <li>With a slight bend in your elbow, bring your arm across your chest in a sweeping motion while keeping your chest open.</li>\n  <li>Feel the stretch in your chest muscles as you bring your arm across your body.</li>\n  <li>Return your arm to the starting position in a controlled manner.</li>\n  <li>Complete the desired number of repetitions on one side before switching to the other.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4],
+      "secondary_muscles": [16]
+    }
+  },
+  {
+    "pk": 209,
+    "fields": {
+      "name": "Bench Press \u2013 Smith Machine",
+      "steps": "<ol>\n<li>Set up a bench under a Smith machine so that the bar is over your chest while lying on the bench.</li>\n<li>Lie down on the bench with your feet flat on the floor and your back pressed against the bench.</li>\n<li>Extend your arms and grip the bar with your hands slightly wider than shoulder-width apart, palms facing forward.</li>\n<li>Unrack the bar by straightening your arms and lifting it off the rack.</li>\n<li>Lower the bar slowly towards your chest, keeping your elbows wide.</li>\n<li>Pause for a moment when the bar touches your chest.</li>\n<li>Push the bar back up to the starting position by extending your arms fully.</li>\n<li>Repeat the movement for the desired number of repetitions.</li>\n<li>Once finished, carefully rack the bar back onto the Smith machine.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4, 16],
+      "secondary_muscles": [21]
+    }
+  },
+  {
+    "pk": 210,
+    "fields": {
+      "name": "Underhand Grip Inverted Row",
+      "steps": "<ol>\n<li>Set up a barbell or suspension trainer at waist height.</li>\n<li>Stand facing the barbell or suspension trainer and grab it with an underhand grip, hands shoulder-width apart.</li>\n<li>Walk your feet forward until your body is at a slight angle, with your arms extended and your body in a straight line.</li>\n<li>Engage your core and squeeze your shoulder blades together as you pull your chest towards the barbell or suspension trainer.</li>\n<li>Pause for a moment at the top of the movement, then slowly lower yourself back down to the starting position.</li>\n<li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [9, 15, 20],
+      "secondary_muscles": [2, 5, 13, 14]
+    }
   }
 ]
