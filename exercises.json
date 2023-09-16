@@ -2128,5 +2128,75 @@
       "primary_muscles": [19],
       "secondary_muscles": [7]
     }
+  },
+  {
+    "pk": 214,
+    "fields": {
+      "name": "Fire Hydrants",
+      "steps": "<ol>\n  <li>Start on all fours with your hands directly under your shoulders and your knees directly under your hips.</li>\n  <li>Engage your core and keep your back straight throughout the exercise.</li>\n  <li>Keeping your knee bent, lift one leg out to the side, keeping your foot flexed and parallel to the ground.</li>\n  <li>Pause for a moment at the top of the movement, squeezing your glutes.</li>\n  <li>Slowly lower your leg back down to the starting position.</li>\n  <li>Repeat for the desired number of repetitions, then switch sides.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 19],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 215,
+    "fields": {
+      "name": "Push-Up Against Wall",
+      "steps": "<ol>\n  <li>Stand facing a wall with your feet shoulder-width apart.</li>\n  <li>Place your hands on the wall at shoulder height, slightly wider than shoulder-width apart.</li>\n  <li>Step back a few feet, keeping your body straight and your core engaged.</li>\n  <li>Bend your elbows and lower your chest towards the wall, keeping your body in a straight line.</li>\n  <li>Push through your palms and straighten your arms to return to the starting position.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4, 16],
+      "secondary_muscles": [1, 21]
+    }
+  },
+  {
+    "pk": 216,
+    "fields": {
+      "name": "Hip Adduction \u2013 Machine",
+      "steps": "<ol>\n<li>Adjust the seat height of the hip adduction machine so that your knees are at a 90-degree angle when seated.</li>\n<li>Sit on the machine with your back against the backrest and your feet flat on the footrests.</li>\n<li>Place your thighs against the thigh pads, just above your knees.</li>\n<li>Grasp the handles on the sides of the machine for stability.</li>\n<li>Engage your core and squeeze your inner thighs together as you exhale.</li>\n<li>Hold the contraction for a second and then slowly release as you inhale.</li>\n<li>Repeat the movement for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [18],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 217,
+    "fields": {
+      "name": "Pause Deadlift \u2013 Barbell",
+      "steps": "<ol>\n<li>Stand with your feet hip-width apart and your toes pointing forward.</li>\n<li>Bend at the hips and knees to lower your body down, keeping your back straight and your chest lifted.</li>\n<li>Grasp the barbell with an overhand grip, hands slightly wider than shoulder-width apart.</li>\n<li>Engage your core and lift the barbell off the ground, driving through your heels and keeping your back straight.</li>\n<li>Almost immediately during your lift, pause for a brief moment when the barbell is in front of your lower shins, maintaining tension in your muscles.</li>\n<li>Continue the lift until you're standing straight.</li>\n<li>Lower the barbell back down to the ground, maintaining control and keeping your back straight.</li>\n<li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 10],
+      "secondary_muscles": [5, 8, 12, 18, 20]
+    }
+  },
+  {
+    "pk": 218,
+    "fields": {
+      "name": "Deadlift \u2013 Trap Bar Low Handles",
+      "steps": "<ol>\n<li>Stand with your feet hip-width apart, toes pointing forward, and the trap bar centered between your feet.</li>\n<li>Bend at the hips and knees, keeping your back straight and chest lifted, and grip the low handles of the trap bar with an overhand grip.</li>\n<li>Engage your core and lift the trap bar by extending your hips and knees, driving through your heels.</li>\n<li>As you lift, keep your back straight and avoid rounding your shoulders.</li>\n<li>Once you are fully standing, pause for a moment and squeeze your glutes.</li>\n<li>Lower the trap bar back down by bending at the hips and knees, maintaining control and keeping your back straight.</li>\n<li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 10, 12],
+      "secondary_muscles": [5, 18, 20]
+    }
+  },
+  {
+    "pk": 219,
+    "fields": {
+      "name": "Runner's 5",
+      "steps": "<ol>\n  <li>Stand with your feet hip-width apart. We're going to complete five, one-legged exercises on one side, then the other.</li>\n  <li>First, One-legged Squats: Stand on one leg with the other leg extended slightly behind you. Slowly lower your body by bending the knee of the standing leg, keeping your back straight and chest up. Lower yourself as far as comfortable while maintaining balance, then return to the starting position. Repeat for the desired number of repetitions.</li>\n  <li>Second, One-legged Romanian Deadlifts: Stand on one leg with a slight bend in your knee. Keeping your back straight, hinge at your hips to lower your upper body forward while extending the opposite leg straight behind you. Go as low as your flexibility allows, feeling a stretch in your hamstring. Return to the upright position. Repeat for the desired number of repetitions.</li>\n  <li>Third, One-legged Lunges: Stand on one leg and take a step forward with the other leg. Lower your body by bending both knees until your front thigh is parallel to the ground (or as low as you can comfortably go). Keep your upper body upright, and push through your front heel to return to the starting position. Repeat for the desired number of repetitions.</li>\n  <li>Fourth, One-legged Sidekicks: Stand on one leg with the other leg slightly lifted to the side. Perform a side kick by extending your lifted leg straight out to the side, then bring it back to the starting position. Maintain balance throughout. Repeat for the desired number of repetitions.</li>\n  <li>Fifth, One-legged Front-Back Kicks: Stand on one leg with the other leg lifted slightly in front of you. Perform a front kick by extending your lifted leg forward, then immediately perform a back kick by extending it backward. Keep control and balance throughout the movement. Repeat for the desired number of repetitions.</li>\n  <li>Repeat the five exercises on the other side.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [3, 7, 8, 12],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 220,
+    "fields": {
+      "name": "Heel Raise",
+      "steps": "<ol>\n<li>Stand with your feet shoulder-width apart, toes pointing forward.</li>\n<li>Place your hands on a stable surface, such as a wall or a chair, for balance.</li>\n<li>Slowly rise up onto the balls of your feet, lifting your heels off the ground.</li>\n<li>Hold the raised position for a moment, feeling the contraction in your calf muscles.</li>\n<li>Lower your heels back down to the starting position in a controlled manner.</li>\n<li>Repeat the movement for the desired number of repetitions.</li>\n</ol>",
+      "notes": "Stand with your toes elevated on a step or plate to increase the range of motion and difficulty of the exercise.",
+      "primary_muscles": [3],
+      "secondary_muscles": []
+    }
   }
 ]
