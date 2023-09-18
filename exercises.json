@@ -2198,5 +2198,75 @@
       "primary_muscles": [3],
       "secondary_muscles": []
     }
+  },
+  {
+    "pk": 221,
+    "fields": {
+      "name": "Oblique Sit-Up",
+      "steps": "<ol>\n<li>Lie on your back with your knees bent and feet flat on the ground.</li>\n<li>Place your hands behind your head, with your elbows pointing out to the sides.</li>\n<li>Engage your core muscles by pulling your belly button in towards your spine.</li>\n<li>Slowly lift your upper body off the ground, twisting to one side, touching one elbow to the opposite knee.</li>\n<li>Exhale as you reach the top of the movement and hold for a second.</li>\n<li>Lower your upper body back down to the starting position, inhaling as you do so.</li>\n<li>Repeat the movement on the other side, twisting to the opposite side.</li>\n<li>Continue alternating sides for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [11],
+      "secondary_muscles": [1]
+    }
+  },
+  {
+    "pk": 222,
+    "fields": {
+      "name": "Sled Push",
+      "steps": "<ol>\n  <li>Position yourself behind the sled with your feet shoulder-width apart.</li>\n  <li>Place your hands on the handles of the sled, gripping them firmly.</li>\n  <li>Engage your core and drive through your legs to push the sled forward.</li>\n  <li>Maintain a straight back and keep your head up as you push the sled.</li>\n  <li>Continue pushing the sled for the desired distance or time.</li>\n  <li>Once finished, release the handles and step away from the sled.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7],
+      "secondary_muscles": [3, 8, 12]
+    }
+  },
+  {
+    "pk": 223,
+    "fields": {
+      "name": "Tricep Extension \u2013 Barbell",
+      "steps": "<ol>\n<li>Stand with your feet shoulder-width apart and hold a barbell with an overhand grip.</li>\n<li>Bring the barbell behind your head, keeping your elbows close to your ears.</li>\n<li>Extend your arms upward, straightening your elbows and lifting the barbell above your head.</li>\n<li>Pause briefly at the top of the movement, then slowly lower the barbell back behind your head.</li>\n<li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [21],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 224,
+    "fields": {
+      "name": "Shrug \u2013  Trap Bar",
+      "steps": "<ol>\n  <li>Stand inside a trap bar with your feet shoulder-width apart.</li>\n  <li>Grasp the handles of the trap bar with an overhand grip.</li>\n  <li>Keep your back straight and your core engaged.</li>\n  <li>Exhale and lift your shoulders up towards your ears, squeezing your trapezius muscles.</li>\n  <li>Hold the shrug position for a second.</li>\n  <li>Inhale and slowly lower your shoulders back down to the starting position.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [20],
+      "secondary_muscles": [5]
+    }
+  },
+  {
+    "pk": 225,
+    "fields": {
+      "name": "Tricep Pushdown \u2013 Cable With Rope",
+      "steps": "<ol>\n<li>Stand facing a cable machine with your feet shoulder-width apart and your knees slightly bent.</li>\n<li>Attach a rope handle to the high pulley of the cable machine.</li>\n<li>Grasp the rope with an overhand grip, palms facing each other.</li>\n<li>Keep your elbows close to your sides and your upper arms stationary throughout the exercise.</li>\n<li>Exhale and push the rope down until your arms are fully extended, while keeping your upper arms stationary.</li>\n<li>Hold the contracted position for a brief pause, squeezing your triceps.</li>\n<li>Inhale and slowly allow the rope to return to the starting position, while maintaining tension in your triceps.</li>\n<li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [21],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 226,
+    "fields": {
+      "name": "Bicycle Sit-Up",
+      "steps": "<ol>\n  <li>Lie flat on your back with your hands behind your head and your knees bent.</li>\n  <li>Bring your right elbow towards your left knee while simultaneously straightening your right leg.</li>\n  <li>Return to the starting position and repeat the movement on the opposite side, bringing your left elbow towards your right knee while straightening your left leg.</li>\n  <li>Continue alternating sides in a pedaling motion, keeping your core engaged and your lower back pressed into the floor.</li>\n  <li>Complete the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [1, 11],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 227,
+    "fields": {
+      "name": "Lateral Raise \u2013 Cable",
+      "steps": "<ol>\n<li>Stand upright with your feet shoulder-width apart and your knees slightly bent.</li>\n<li>Hold the cable handle in one hand with an overhand grip.</li>\n<li>Keep your arm straight and your palm facing down.</li>\n<li>Engage your core and maintain a neutral spine.</li>\n<li>Exhale and slowly lift your arm out to the side until it reaches shoulder level.</li>\n<li>Pause for a moment and squeeze your shoulder muscles.</li>\n<li>Inhale and slowly lower your arm back down to the starting position.</li>\n<li>Repeat for the desired number of repetitions.</li>\n<li>Switch sides and perform the exercise with the other arm.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [17],
+      "secondary_muscles": [16]
+    }
   }
 ]
