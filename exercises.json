@@ -2268,5 +2268,125 @@
       "primary_muscles": [17],
       "secondary_muscles": [16]
     }
+  },
+  {
+    "pk": 228,
+    "fields": {
+      "name": "Eccentric Chest Press",
+      "steps": "<ol>\n  <li>Adjust a chest press machine's seat height so that the handles are at chest level.</li>\n  <li>Select the appropriate weight on the weight stack.</li>\n  <li>Sit on the machine with your back flat against the backrest and your feet flat on the floor.</li>\n  <li>Grasp the handles with an overhand grip and push them away from your chest with two hands until your arms are fully extended.</li>\n  <li>Slowly lower the handles back towards your chest with one hand, keeping your elbows at a 90-degree angle. Note that this will only work on machines where the two handles are linked to each other and to the weight.</li>\n  <li>Repeat for the desired repetitions on one side then switch to the other side.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 229,
+    "fields": {
+      "name": "Squat \u2013 Box",
+      "steps": "<ol>\n  <li>Stand with your feet shoulder-width apart, toes slightly turned out.</li>\n  <li>Place a box or bench behind you at a height that allows you to squat to parallel or slightly below parallel.</li>\n  <li>Engage your core and keep your chest lifted throughout the exercise.</li>\n  <li>Lower your body by pushing your hips back and bending your knees, as if sitting back onto the box.</li>\n  <li>Keep your weight on your heels and your knees in line with your toes.</li>\n  <li>Pause briefly on the box, then push through your heels to stand back up, fully extending your hips and knees.</li>\n  <li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 10, 12, 18],
+      "secondary_muscles": [3]
+    }
+  },
+  {
+    "pk": 230,
+    "fields": {
+      "name": "Front Squat",
+      "steps": "<ol>\n<li>Start by standing with your feet shoulder-width apart and your toes slightly turned out.</li>\n<li>Hold a barbell across the front of your shoulders, resting it on your collarbone and shoulders.</li>\n<li>Engage your core and keep your chest up as you lower your body down into a squat position.</li>\n<li>Bend your knees and push your hips back, keeping your weight in your heels.</li>\n<li>Lower your body until your thighs are parallel to the ground, or as low as you can comfortably go.</li>\n<li>Push through your heels to stand back up, keeping your core engaged and chest up throughout the movement.</li>\n<li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 10, 12, 18],
+      "secondary_muscles": [3]
+    }
+  },
+  {
+    "pk": 231,
+    "fields": {
+      "name": "Seated Shoulder Press \u2013 Smith Machine",
+      "steps": "<ol>\n<li>Sit on a back-supporting seat under a Smith Machine with your back straight and feet flat on the floor.</li>\n<li>Adjust the height of the barbell on the Smith Machine so that it is at shoulder level.</li>\n<li>Grasp the barbell with an overhand grip, slightly wider than shoulder-width apart.</li>\n<li>Engage your core and press the barbell upward until your arms are fully extended, but not locked.</li>\n<li>Pause for a moment at the top of the movement, then slowly lower the barbell back down to shoulder level.</li>\n<li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [16],
+      "secondary_muscles": [17, 21]
+    }
+  },
+  {
+    "pk": 232,
+    "fields": {
+      "name": "Lying Leg Raise",
+      "steps": "<ol>\n<li>Lie flat on your back on a mat or bench.</li>\n<li>Place your hands by your sides or under your glutes for support.</li>\n<li>Keep your legs straight and together, with your toes pointed towards the ceiling.</li>\n<li>Engage your core muscles by drawing your belly button towards your spine.</li>\n<li>Slowly lift your legs off the ground, keeping them straight, until they are perpendicular to the floor.</li>\n<li>Pause for a moment at the top, squeezing your lower abs.</li>\n<li>Lower your legs back down to the starting position in a controlled manner.</li>\n<li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [1],
+      "secondary_muscles": [11]
+    }
+  },
+  {
+    "pk": 233,
+    "fields": {
+      "name": "Eccentric Leg Extension",
+      "steps": "<ol>\n  <li>Start by sitting on a leg extension machine with your back against the backrest and your feet flat on the footpad.</li>\n  <li>Adjust the machine so that the knee joint is aligned with the axis of rotation.</li>\n  <li>Place your hands on the side handles for stability.</li>\n  <li>Slowly extend your legs by straightening your knees, pushing against the resistance of the weight stack.</li>\n  <li>Once your legs are fully extended, pause briefly at the top of the movement.</li>\n  <li>Withdraw one leg so that the other leg supports all the weight. Slowly lower the weight back down with one leg by bending a knee, resisting the weight as it pulls your legs back towards the starting position.</li>\n  <li>Continue lowering the weight until your knees are at a 90-degree angle or slightly beyond.</li>\n  <li>Repeat the movement for the desired number of repetitions then switch sides.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [12],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 234,
+    "fields": {
+      "name": "Power Snatch",
+      "steps": "<ol>\n  <li>Start with feet hip-width apart, toes slightly turned out, with a loaded barbell on the ground in front of you.</li>\n  <li>Hold the barbell with a wide grip, hands outside the legs.</li>\n  <li>Bend at the knees and hips, keeping the back straight and chest up.</li>\n  <li>Explosively extend the hips, knees, and ankles, pulling the barbell upwards.</li>\n  <li>As the barbell reaches hip level, quickly drop under it by pulling yourself down into a squat position.</li>\n  <li>Catch the barbell overhead with arms fully extended, in a deep squat position.</li>\n  <li>Stand up by extending the hips and knees, keeping the barbell overhead.</li>\n  <li>Lower the barbell back to the starting position by reversing the movement.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 10],
+      "secondary_muscles": [5, 8, 12, 18, 20]
+    }
+  },
+  {
+    "pk": 235,
+    "fields": {
+      "name": "Half Air Squat",
+      "steps": "<ol>\n<li>Stand with your feet shoulder-width apart, toes pointing slightly outward.</li>\n<li>Engage your core and keep your chest lifted throughout the exercise.</li>\n<li>Lower your body by bending your knees and pushing your hips back.</li>\n<li>Continue lowering until your thighs approach parallel to the ground but do not go any deeper.</li>\n<li>Pause for a moment at the bottom of the squat.</li>\n<li>Push through your heels and extend your knees and hips to return to the starting position.</li>\n<li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [7, 12, 18],
+      "secondary_muscles": [3]
+    }
+  },
+  {
+    "pk": 236,
+    "fields": {
+      "name": "Front Hold \u2013 Plate",
+      "steps": "<ol>\n<li>Stand with your feet shoulder-width apart and hold a weight plate with both hands in front of your chest.</li>\n<li>Engage your core and keep your back straight.</li>\n<li>Extend your arms fully, keeping your arms parallel to the ground.</li>\n<li>Hold this position for the desired amount of time.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [16],
+      "secondary_muscles": [17]
+    }
+  },
+  {
+    "pk": 237,
+    "fields": {
+      "name": "Burpee",
+      "steps": "<ol>\n<li>Start in a standing position with your feet shoulder-width apart.</li>\n<li>Lower your body into a squat position, placing your hands on the floor in front of you.</li>\n<li>Kick your feet back, landing in a plank position with your arms fully extended.</li>\n<li>Lower your chest and thighs to the floor, keeping your elbows close to your body.</li>\n<li>Push up to return to the plank position.</li>\n<li>Jump your feet back towards your hands, landing in a squat position.</li>\n<li>Jump up explosively, reaching your arms overhead.</li>\n<li>Land softly and immediately lower back into the squat position to begin the next repetition.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4, 12, 16],
+      "secondary_muscles": [1, 10]
+    }
+  },
+  {
+    "pk": 238,
+    "fields": {
+      "name": "One-Handed Chest Press \u2013 Dumbbell",
+      "steps": "<ol>\n<li>Start by lying flat on a bench with your feet firmly planted on the ground.</li>\n<li>Hold a dumbbell in one hand, with your palm facing towards your feet.</li>\n<li>Extend your arm straight up towards the ceiling, keeping your elbow slightly bent.</li>\n<li>Inhale and slowly lower the dumbbell towards your chest, keeping your elbow at a 90-degree angle.</li>\n<li>Exhale and push the dumbbell back up to the starting position, fully extending your arm.</li>\n<li>Repeat for the desired number of repetitions, then switch to the other hand.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [4],
+      "secondary_muscles": []
+    }
+  },
+  {
+    "pk": 239,
+    "fields": {
+      "name": "Wide Grip Seated Row \u2013 Cable",
+      "steps": "<ol>\n<li>Adjust the cable machine to a low setting and attach a wide grip handle to the cable.</li>\n<li>Sit on the seat with your feet flat on the floor and your knees slightly bent.</li>\n<li>Grab the handle with an overhand grip, hands wider than shoulder-width apart.</li>\n<li>Keep your back straight and lean slightly forward from the hips.</li>\n<li>Pull the handle towards your lower chest, squeezing your shoulder blades together.</li>\n<li>Pause for a moment, then slowly extend your arms back to the starting position.</li>\n<li>Repeat for the desired number of repetitions.</li>\n</ol>",
+      "notes": "",
+      "primary_muscles": [9, 15, 20],
+      "secondary_muscles": [13, 14]
+    }
   }
 ]
