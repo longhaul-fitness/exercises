@@ -18,7 +18,6 @@ PRs welcome! Together, we can help everyone achieve their fitness goals and live
 
 Please contribute with GitHub Pull Requests, for now. Eventually I'll have a web form where folks submit their exercises.
 
-
 ## Exercises
 
 See [exercises.json](./exercises.json) for current data.
@@ -27,7 +26,7 @@ See [exercises.json](./exercises.json) for current data.
 | --- | --- |
 | name | What to call this exercise. |
 | steps | Describes steps to perform the exercise. |
-| notes | Lists tips and techniques to keep in mine while performing the exercise. |
+| notes | Lists tips and techniques to keep in mine while performing the exercise. _Note_: Stored as HTML |
 | primaryMuscles | Main muscles under work. |
 | secondaryMuscles | Supporting muscles under work. |
 
