@@ -1,0 +1,14 @@
+name: Validate Exercise JSON
+on: [pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Validate JSON
+        uses: walbo/validate-json@v1.1.0
+        with:
+          files: ./exercises.*
+          schema: ./schema.json
+          schema-version: draft-07
+          print-valid-files: true
