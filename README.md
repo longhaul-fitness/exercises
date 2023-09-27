@@ -26,7 +26,7 @@ See [exercises.json](./exercises.json) for current data.
 | --- | --- |
 | name | What to call this exercise. |
 | steps | Describes steps to perform the exercise. |
-| notes | Lists tips and techniques to keep in mine while performing the exercise. _Note_: Stored as HTML |
+| notes | Lists tips and techniques to keep in mine while performing the exercise. |
 | primaryMuscles | Main muscles under work. |
 | secondaryMuscles | Supporting muscles under work. |
 
