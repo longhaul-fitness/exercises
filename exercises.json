@@ -4142,5 +4142,49 @@
       "Repeat for the desired number of repetitions."
     ],
     "notes": ""
+  },
+  {
+    "pk": 240,
+    "name": "Rope Wave",
+    "slug": "rope-wave",
+    "primaryMuscles": [
+      "forearm - inner",
+      "forearm - outer",
+      "shoulder - back",
+      "shoulder - front",
+      "shoulder - side",
+      "trap"
+    ],
+    "secondaryMuscles": ["abdominal", "bicep", "chest", "tricep"],
+    "steps": [
+      "Stand with your feet shoulder-width apart, knees slightly bent, in front of a heavy rope.",
+      "Grip the ends of the rope with both hands. Your palms should be facing inward.",
+      "Tighten your core to stabilize your spine.",
+      "Begin to raise and lower both arms rapidly in unison. The motion should create waves in the rope.",
+      "Keep the waves going consistently for the desired number of repetitions."
+    ],
+    "notes": "Keep your back straight and your head up throughout the exercise."
+  },
+  {
+    "pk": 241,
+    "name": "Rope Alternating Wave",
+    "slug": "rope-alternating-wave",
+    "primaryMuscles": [
+      "forearm - inner",
+      "forearm - outer",
+      "shoulder - back",
+      "shoulder - front",
+      "shoulder - side",
+      "trap"
+    ],
+    "secondaryMuscles": ["abdominal", "bicep", "chest", "tricep"],
+    "steps": [
+      "Stand with your feet shoulder-width apart, knees slightly bent, in front of a heavy rope.",
+      "Grip the ends of the rope with both hands. Your palms should be facing inward.",
+      "Tighten your core to stabilize your spine.",
+      "Begin to alternately raise and lower each arm rapidly. The motion should create alternating waves in each of the two ropes.",
+      "Keep the waves going consistently for the desired number of repetitions."
+    ],
+    "notes": "Keep your back straight and your head up throughout the exercise."
   }
 ]
