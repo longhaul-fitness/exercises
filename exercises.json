@@ -1345,8 +1345,8 @@
   },
   {
     "pk": 80,
-    "name": "Plate Pinch",
-    "slug": "plate-pinch",
+    "name": "One-Handed Plate Pinch",
+    "slug": "one-handed-plate-pinch",
     "primaryMuscles": ["forearm - inner"],
     "secondaryMuscles": [],
     "steps": [
