@@ -4203,5 +4203,21 @@
       "Repeat the squat for the desired number of repetitions."
     ],
     "notes": "To increase the difficulty, perform the exercise with the BOSU's flat side up."
+  },
+  {
+    "pk": 243,
+    "name": "Perfect Hang",
+    "slug": "perfect-hang",
+    "primaryMuscles": ["forearm - inner", "lat"],
+    "secondaryMuscles": ["abdominal", "bicep", "chest", "oblique", "trap"],
+    "steps": [
+      "Grasp a pull-up bar with both hands at shoulder-width apart using an overhand grip.",
+      "Hang from the bar with your feet off the ground and your arms fully extended.",
+      "Engage your shoulder blades by pulling them back and down to stabilize your shoulders and upper back.",
+      "Lean back slightly to bring your chest parallel to the ground and your torso at a 45° angle to the ground.",
+      "Curl your legs backwards. Imagine your body as the curve on the letter \"D\" if you were to see yourself from the side.",
+      "Breathe deeply and hold the hang for as long as you can manage comfortably, ensuring your shoulder blades remain engaged."
+    ],
+    "notes": ""
   }
 ]
