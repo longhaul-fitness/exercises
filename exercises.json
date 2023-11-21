@@ -4186,5 +4186,22 @@
       "Keep the waves going consistently for the desired number of repetitions."
     ],
     "notes": "Keep your back straight and your head up throughout the exercise."
+  },
+  {
+    "pk": 242,
+    "name": "Squat \u2013 BOSU",
+    "slug": "squat-bosu",
+    "primaryMuscles": ["glute", "quad"],
+    "secondaryMuscles": ["abdominal", "calf", "hamstring", "thigh - inner"],
+    "steps": [
+      "Place the BOSU ball on the ground with the flat side down.",
+      "Stand on the BOSU ball with your feet shoulder-width apart for stability.",
+      "Find your balance and engage your core muscles.",
+      "Perform a squat by bending your knees and lowering your hips as if sitting back into a chair, keeping your back straight.",
+      "Lower down as far as comfortable. Aim for your thighs to be parallel with the Bosu ball, but you may go lower for increased difficulty.",
+      "Press through your heels to lift yourself back up to the starting position.",
+      "Repeat the squat for the desired number of repetitions."
+    ],
+    "notes": "To increase the difficulty, perform the exercise with the BOSU's flat side up."
   }
 ]
