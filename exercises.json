@@ -588,7 +588,7 @@
   },
   {
     "pk": 37,
-    "name": "Standing Shoulder Press \u2013 Dumbbell",
+    "name": "Shoulder Press \u2013 Dumbbell",
     "slug": "standing-shoulder-press-dumbbell",
     "primaryMuscles": ["shoulder - front"],
     "secondaryMuscles": ["shoulder - side", "tricep"],
@@ -2560,7 +2560,7 @@
   },
   {
     "pk": 151,
-    "name": "Standing Shoulder Press \u2013 Barbell",
+    "name": "Shoulder Press \u2013 Barbell",
     "slug": "standing-shoulder-press-barbell",
     "primaryMuscles": ["shoulder - front"],
     "secondaryMuscles": ["shoulder - side", "tricep"],
