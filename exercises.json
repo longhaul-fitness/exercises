@@ -3398,53 +3398,6 @@
     "notes": ""
   },
   {
-    "pk": 197,
-    "name": "Overhead Press \u2013 Barbell",
-    "slug": "overhead-press-barbell",
-    "primaryMuscles": ["shoulder - front"],
-    "secondaryMuscles": ["shoulder - side", "tricep"],
-    "steps": [
-      "Stand with your feet shoulder-width apart and hold a barbell at shoulder level, palms facing forward.",
-      "Engage your core and press the weight directly overhead, fully extending your arms without locking your elbows.",
-      "Keep your head and chest up, and avoid leaning back or arching your lower back.",
-      "Pause briefly at the top, then slowly lower the weight back to shoulder level.",
-      "Repeat for the desired number of repetitions."
-    ],
-    "notes": ""
-  },
-  {
-    "pk": 198,
-    "name": "Seated Overhead Press \u2013 Dumbbell",
-    "slug": "seated-overhead-press-dumbbell",
-    "primaryMuscles": ["shoulder - front"],
-    "secondaryMuscles": ["shoulder - side", "tricep"],
-    "steps": [
-      "Start by sitting on a back-supporting bench with your feet firmly planted on the ground.",
-      "Hold a dumbbell in each hand with an overhand grip.",
-      "Bring the dumbbells to shoulder level.",
-      "Engage your core and keep your back straight throughout the exercise.",
-      "Press the dumbbells overhead by extending your arms fully, but without locking your elbows.",
-      "Pause briefly at the top of the movement, then slowly lower the dumbbells back to the starting position.",
-      "Repeat for the desired number of repetitions."
-    ],
-    "notes": ""
-  },
-  {
-    "pk": 199,
-    "name": "Overhead Press \u2013 Dumbbell",
-    "slug": "overhead-press-dumbbell",
-    "primaryMuscles": ["shoulder - front"],
-    "secondaryMuscles": ["shoulder - side", "tricep"],
-    "steps": [
-      "Stand with your feet shoulder-width apart and hold dumbbells at shoulder level, palms facing forward.",
-      "Engage your core and press the weight directly overhead, fully extending your arms without locking your elbows.",
-      "Keep your head and chest up, and avoid leaning back or arching your lower back.",
-      "Pause briefly at the top, then slowly lower the weight back to shoulder level.",
-      "Repeat for the desired number of repetitions."
-    ],
-    "notes": ""
-  },
-  {
     "pk": 200,
     "name": "Lunge \u2013 Barbell",
     "slug": "lunge-barbell",
