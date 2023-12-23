@@ -4177,5 +4177,39 @@
       "Breathe deeply and hold the hang for as long as you can manage comfortably, ensuring your shoulder blades remain engaged."
     ],
     "notes": ""
+  },
+  {
+    "pk": 244,
+    "name": "Seated Incline Front Raise \u2013 Dumbbell",
+    "slug": "seated-incline-front-raise-dumbbell",
+    "primaryMuscles": ["shoulder - front"],
+    "secondaryMuscles": ["chest", "shoulder - side"],
+    "steps": [
+      "Sit on an incline bench set at a 45-degree angle, holding a dumbbell in each hand with palms facing each other.",
+      "Keep your feet flat on the floor, back against the bench, and chest up.",
+      "Start with the dumbbells hanging straight down towards the ground, arms extended.",
+      "Raise the dumbbells in front of you, keeping your arms straight, palms facing down, until they are above shoulder height but not so high to take tension off the front shoulder muscle.",
+      "Pause briefly at the top of the movement.",
+      "Slowly lower the dumbbells back to the starting position.",
+      "Repeat the movement for the desired number of repetitions."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 245,
+    "name": "Prone Incline Front Raise \u2013 Dumbbell",
+    "slug": "prone-incline-front-raise-dumbbell",
+    "primaryMuscles": ["shoulder - front"],
+    "secondaryMuscles": ["chest", "shoulder - side", "trap"],
+    "steps": [
+      "Set an incline bench to a 45-degree angle and lie face down with your chest against the bench.",
+      "Hold a dumbbell in each hand, palms facing your knees, arms extended towards the ground.",
+      "Keep the balls of your feet on the ground and your neck in a neutral position. Brace your core and maintain a straight back throughout the exercise.",
+      "With your arms straight except for a slight elbow bend, slowly raise the dumbbells until they are above your head, parallel with your upper body.",
+      "Pause briefly at the top of the movement.",
+      "Slowly lower the dumbbells back to the starting position.",
+      "Repeat the movement for the desired number of repetitions."
+    ],
+    "notes": ""
   }
 ]
