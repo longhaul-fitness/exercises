@@ -3876,8 +3876,8 @@
   },
   {
     "pk": 227,
-    "name": "Lateral Raise \u2013 Cable",
-    "slug": "lateral-raise-cable",
+    "name": "One-Handed Lateral Raise \u2013 Cable",
+    "slug": "one-handed-lateral-raise-cable",
     "primaryMuscles": ["shoulder - side"],
     "secondaryMuscles": ["shoulder - front"],
     "steps": [
