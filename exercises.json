@@ -4212,5 +4212,22 @@
       "Repeat the movement for the desired number of repetitions."
     ],
     "notes": ""
+  },
+  {
+    "pk": 246,
+    "name": "Kickstand Squat \u2013 Kettlebell",
+    "slug": "kickstand-squat-kettlebell",
+    "primaryMuscles": ["glute", "hamstring", "lower back", "quad"],
+    "secondaryMuscles": ["abdominal", "calf", "oblique"],
+    "steps": [
+      "Stand with your feet hip-width apart, holding a kettlebell with both hands in front of your chest.",
+      "Shift your weight onto your left foot and place your right foot behind you, resting on the ball of your foot – this is your kickstand position.",
+      "Hinge your hips back slightly, ensuring a straight back and engaged core.",
+      "Bend at your left knee to lower down into a squat, keeping the weight in your left heel and the kettlebell steady in front of your chest.",
+      "Lower down until your left thigh is nearly parallel to the ground, or as low as you can go comfortably.",
+      "Drive through your left heel to stand back up to the starting position.",
+      "Complete the desired number of repetitions on the left side before switching sides and repeating."
+    ],
+    "notes": ""
   }
 ]
