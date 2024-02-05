@@ -1676,10 +1676,7 @@
     "pk": 99,
     "name": "Reverse Fly \u2013 Dumbbell",
     "slug": "reverse-fly-dumbbell",
-    "primaryMuscles": [
-      "rotator cuff - back",
-      "shoulder - back"
-    ],
+    "primaryMuscles": ["rotator cuff - back", "shoulder - back"],
     "secondaryMuscles": ["trap"],
     "steps": [
       "Stand with your feet shoulder-width apart and hold a dumbbell in each hand with your palms facing each other.",
@@ -1747,7 +1744,7 @@
     "pk": 103,
     "name": "Pullover \u2013 Dumbbell",
     "slug": "pullover-dumbbell",
-    "primaryMuscles": ["chest"],
+    "primaryMuscles": ["chest", "tricep"],
     "secondaryMuscles": ["lat"],
     "steps": [
       "Begin by lying flat on a bench with your feet firmly planted on the ground.",
