@@ -4109,6 +4109,7 @@
     "name": "Rope Wave",
     "slug": "rope-wave",
     "primaryMuscles": [
+      "bicep",
       "forearm - inner",
       "forearm - outer",
       "shoulder - back",
@@ -4116,7 +4117,7 @@
       "shoulder - side",
       "trap"
     ],
-    "secondaryMuscles": ["abdominal", "bicep", "chest", "tricep"],
+    "secondaryMuscles": ["abdominal", "chest", "tricep"],
     "steps": [
       "Stand with your feet shoulder-width apart, knees slightly bent, in front of a heavy rope.",
       "Grip the ends of the rope with both hands. Your palms should be facing inward.",
@@ -4131,6 +4132,7 @@
     "name": "Alternating Rope Wave",
     "slug": "alternating-rope-wave",
     "primaryMuscles": [
+      "bicep",
       "forearm - inner",
       "forearm - outer",
       "shoulder - back",
@@ -4138,7 +4140,7 @@
       "shoulder - side",
       "trap"
     ],
-    "secondaryMuscles": ["abdominal", "bicep", "chest", "tricep"],
+    "secondaryMuscles": ["abdominal", "chest", "tricep"],
     "steps": [
       "Stand with your feet shoulder-width apart, knees slightly bent, in front of a heavy rope.",
       "Grip the ends of the rope with both hands. Your palms should be facing inward.",
