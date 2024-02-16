@@ -4232,5 +4232,35 @@
       "Complete the desired number of repetitions on the left side before switching sides and repeating."
     ],
     "notes": ""
+  },
+  {
+    "pk": 247,
+    "name": "One-Handed Landmine Press",
+    "slug": "one-handed-landmine-press",
+    "primaryMuscles": [
+      "chest"
+      "shoulder - front",
+      "shoulder - side",
+      "tricep",
+    ],
+    "secondaryMuscles": [
+      "abdominal"
+      "oblique",
+      "rotator cuff - back",
+      "rotator cuff - front",
+      "trap",
+    ],
+    "steps": [
+      "Position a barbell securely in a landmine attachment or securely in a corner to prevent it from sliding.",
+      "Load the desired weight onto the free end of the barbell.",
+      "Stand facing the barbell with your feet shoulder-width apart for stability.",
+      "Bend slightly to grab the barbell with one hand directly where the barbell is loaded.",
+      "Raise the barbell to your shoulder level, with your palm facing inward and elbow bent. This is your starting position.",
+      "Brace your core, and exhale as you press the barbell upward and slightly forward by extending your arm.",
+      "Keep your body straight and avoid rotating your hips or shoulders during the press.",
+      "Inhale as you slowly return the barbell to the starting position at your shoulder.",
+      "Complete all reps on one side before switching hands to work the opposite side."
+    ],
+    "notes": ""
   }
 ]
