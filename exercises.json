@@ -4238,17 +4238,17 @@
     "name": "One-Handed Landmine Press",
     "slug": "one-handed-landmine-press",
     "primaryMuscles": [
-      "chest"
+      "chest",
       "shoulder - front",
       "shoulder - side",
-      "tricep",
+      "tricep"
     ],
     "secondaryMuscles": [
-      "abdominal"
+      "abdominal",
       "oblique",
       "rotator cuff - back",
       "rotator cuff - front",
-      "trap",
+      "trap"
     ],
     "steps": [
       "Position a barbell securely in a landmine attachment or securely in a corner to prevent it from sliding.",
