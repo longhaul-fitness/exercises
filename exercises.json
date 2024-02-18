@@ -231,8 +231,8 @@
   },
   {
     "pk": 15,
-    "name": "Frog Pumps \u2013 Bodyweight",
-    "slug": "frog-pumps-bodyweight",
+    "name": "Frog Pumps",
+    "slug": "frog-pumps",
     "primaryMuscles": ["glute"],
     "secondaryMuscles": ["hamstring", "thigh - inner"],
     "steps": [
@@ -242,7 +242,7 @@
       "Hold the top position for 1-2 seconds, then slowly lower your hips to the starting position.",
       "Repeat."
     ],
-    "notes": ""
+    "notes": "Place a dumbbell or plate on your lower abdomen for extra difficulty."
   },
   {
     "pk": 16,
@@ -1592,22 +1592,6 @@
       "Begin pulling the band apart by squeezing your shoulder blades together.",
       "Continue pulling until your hands are at shoulder height and the band is stretched tight.",
       "Hold for a moment, then slowly release the tension and return to the starting position.",
-      "Repeat."
-    ],
-    "notes": ""
-  },
-  {
-    "pk": 94,
-    "name": "Frog Pumps \u2013 Dumbbell",
-    "slug": "frog-pumps-dumbbell",
-    "primaryMuscles": ["glute"],
-    "secondaryMuscles": ["hamstring", "thigh - inner"],
-    "steps": [
-      "Start by lying on your back with your knees bent and feet flat on the ground.",
-      "Place a dumbbell on your lower abdomen and hold it in place with both hands.",
-      "Bring the soles of your feet together and allow your knees to fall out to the sides, creating a diamond shape with your legs.",
-      "Press your feet together and lift your hips up towards the ceiling, squeezing your glutes at the top of the movement.",
-      "Lower your hips back down to the ground.",
       "Repeat."
     ],
     "notes": ""
