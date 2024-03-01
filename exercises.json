@@ -4250,5 +4250,43 @@
       "Complete all reps on one side before switching hands to work the opposite side."
     ],
     "notes": ""
+  },
+  {
+    "pk": 248,
+    "name": "External Shoulder Rotation \u2013 Cable",
+    "slug": "external-shoulder-rotation-cable",
+    "primaryMuscles": ["rotator cuff - back"],
+    "secondaryMuscles": ["forearm - outer", "shoulder - back"],
+    "steps": [
+      "Stand side-on to a cable machine, with the machine arm set at the middle height. Attach a single handle.",
+      "Grab the handle with the hand that's furthest from the machine, ensuring that your elbow is bent at a 90-degree angle.",
+      "Step away from the machine so that the weight is lifted slightly from its stack and there is tension on the cable.",
+      "Position your elbow so that it is close to your side and holding weight across your abdomen.",
+      "Slowly rotate your arm outward, pulling the handle away from the machine while keeping your elbow fixed at your side.",
+      "Rotate the arm until the hand as far as possible without releasing tension on your back rotator cuff and without compromising form.",
+      "Pause for a moment at the maximum rotation point.",
+      "Slowly return the handle to the starting position in a controlled manner without allowing the weight to pull your arm back too fast.",
+      "Repeat the exercise for the desired number of reps before switching sides to ensure both back rotator cuffs are worked evenly."
+    ],
+    "notes": "Keep your feet shoulder-width apart for stable footing and engage your core. Keep your body straight and avoid rotating your hips or shoulders during the movement. Your forearm should be perpendicular to your torso throughout the exercise."
+  },
+  {
+    "pk": 249,
+    "name": "Internal Shoulder Rotation \u2013 Cable",
+    "slug": "internal-shoulder-rotation-cable",
+    "primaryMuscles": ["rotator cuff - front"],
+    "secondaryMuscles": ["forearm - inner", "shoulder - front"],
+    "steps": [
+      "Stand side-on to a cable machine, with the machine arm set at the middle height. Attach a single handle.",
+      "Grab the handle with the hand that's closest to the machine, ensuring that your elbow is bent at a 90-degree angle.",
+      "Step away from the machine so that the weight is lifted slightly from its stack and there is tension on the cable.",
+      "Position your elbow so that it is close to your side and your forearm points towards the machine as far as naturally possible.",
+      "Slowly rotate your arm inward, pulling the handle away from the machine while keeping your elbow fixed at your side.",
+      "Rotate the arm until the hand crosses your abdomen without releasing tension on your front rotator cuff and without compromising form.",
+      "Pause for a moment at the maximum rotation point.",
+      "Slowly return the handle to the starting position in a controlled manner without allowing the weight to pull your arm back too fast.",
+      "Repeat the exercise for the desired number of reps before switching sides to ensure both front rotator cuffs are worked evenly."
+    ],
+    "notes": "Keep your feet shoulder-width apart for stable footing and engage your core. Keep your body straight and avoid rotating your hips or shoulders during the movement. Your forearm should be perpendicular to your torso throughout the exercise."
   }
 ]
