@@ -3089,8 +3089,8 @@
     "pk": 180,
     "name": "Cable Pull Through",
     "slug": "cable-pull-through",
-    "primaryMuscles": ["glute"],
-    "secondaryMuscles": ["hamstring", "lower back", "thigh - inner"],
+    "primaryMuscles": ["glute", "hamstring", "lower back"],
+    "secondaryMuscles": ["thigh - inner"],
     "steps": [
       "Attach a rope to a cable machine and stand facing away from the machine with your feet shoulder-width apart.",
       "Grab the rope with both hands and position it between your legs, just above your knees.",
