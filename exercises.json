@@ -3783,14 +3783,14 @@
     "pk": 222,
     "name": "Sled Push",
     "slug": "sled-push",
-    "primaryMuscles": ["glute"],
-    "secondaryMuscles": ["calf", "hamstring", "quad"],
+    "primaryMuscles": ["calf", "glute", "hamstring", "quad"],
+    "secondaryMuscles": ["chest", "shoulder - front", "tricep"],
     "steps": [
       "Position yourself behind the sled with your feet shoulder-width apart.",
       "Place your hands on the handles of the sled, gripping them firmly.",
       "Engage your core and drive through your legs to push the sled forward.",
       "Maintain a straight back and keep your head up as you push the sled.",
-      "Continue pushing the sled for the desired distance or time.",
+      "Continue pushing the sled for the desired steps, distance, or time.",
       "Once finished, release the handles and step away from the sled."
     ],
     "notes": ""
