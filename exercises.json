@@ -3609,8 +3609,8 @@
   },
   {
     "pk": 212,
-    "name": "Pistons",
-    "slug": "pistons",
+    "name": "Standing Bicycle Crunch",
+    "slug": "standing-bicycle-crunch",
     "primaryMuscles": ["abdominal"],
     "secondaryMuscles": ["oblique"],
     "steps": [
@@ -3847,8 +3847,8 @@
   },
   {
     "pk": 226,
-    "name": "Bicycle Sit-Up",
-    "slug": "bicycle-sit-up",
+    "name": "Bicycle Crunch",
+    "slug": "bicycle-crunch",
     "primaryMuscles": ["abdominal", "oblique"],
     "secondaryMuscles": [],
     "steps": [
