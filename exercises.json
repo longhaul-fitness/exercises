@@ -3611,8 +3611,13 @@
     "pk": 212,
     "name": "Standing Bicycle Crunch",
     "slug": "standing-bicycle-crunch",
-    "primaryMuscles": ["abdominal"],
-    "secondaryMuscles": ["oblique"],
+    "primaryMuscles": ["abdominal", "oblique"],
+    "secondaryMuscles": [
+      "glute",
+      "thigh - inner",
+      "thigh - outer",
+      "lower back"
+    ],
     "steps": [
       "Stand upright with your feet hip-width apart.",
       "Place your hands behind your head, elbows out to the sides.",
