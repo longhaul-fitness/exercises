@@ -3733,7 +3733,7 @@
     "name": "Runner's 5",
     "slug": "runners-5",
     "primaryMuscles": ["calf", "glute", "hamstring", "quad"],
-    "secondaryMuscles": [],
+    "secondaryMuscles": ["thigh - inner", "thigh - outer"],
     "steps": [
       "Stand with your feet hip-width apart. We're going to complete five, one-legged exercises on one side, then the other.",
       "First, One-legged Squats: Stand on one leg with the other leg extended slightly behind you. Slowly lower your body by bending the knee of the standing leg, keeping your back straight and chest up. Lower yourself as far as comfortable while maintaining balance, then return to the starting position. Repeat for the desired number of repetitions.",
