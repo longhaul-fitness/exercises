@@ -4293,5 +4293,33 @@
       "Repeat the exercise for the desired number of reps before switching sides to ensure both front rotator cuffs are worked evenly."
     ],
     "notes": "Keep your feet shoulder-width apart for stable footing and engage your core. Keep your body straight and avoid rotating your hips or shoulders during the movement. Your forearm should be perpendicular to your torso throughout the exercise."
+  },
+  {
+    "pk": 250,
+    "name": "Pallof Pres",
+    "slug": "pallof-press",
+    "primaryMuscles": ["abdominal", "oblique"],
+    "secondaryMuscles": [
+      "lower back",
+      "rotator cuff - back",
+      "rotator cuff - front",
+      "shoulder - front",
+      "shoulder - side"
+    ],
+    "steps": [
+      "Stand side-on to a cable machine or secure a resistance band at chest height.",
+      "Select an appropriate weight if using a cable machine.",
+      "Grasp the handle (or end of the band) with both hands and take a step away to create tension.",
+      "Position your feet shoulder-width apart for stability.",
+      "Hold the handle or band close to your chest, keeping your hands centered in front of you.",
+      "Engage your core muscles to stabilize your torso.",
+      "Slowly press the handle or band straight out in front of your chest, keeping your arms straight.",
+      "Ensure your hips and shoulders stay squared and facing forward throughout the movement.",
+      "Hold the fully-pressed position for 1-2 seconds.",
+      "Slowly return the handle or band back to your chest with control.",
+      "Repeat for the desired number of repetitions.",
+      "Switch sides and perform the exercise to work the core muscles evenly."
+    ],
+    "notes": ""
   }
 ]
