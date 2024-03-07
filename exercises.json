@@ -4296,7 +4296,7 @@
   },
   {
     "pk": 250,
-    "name": "Pallof Pres",
+    "name": "Pallof Press",
     "slug": "pallof-press",
     "primaryMuscles": ["abdominal", "oblique"],
     "secondaryMuscles": [
@@ -4319,6 +4319,30 @@
       "Slowly return the handle or band back to your chest with control.",
       "Repeat for the desired number of repetitions.",
       "Switch sides and perform the exercise to work the core muscles evenly."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 251,
+    "name": "Landmine Rotation",
+    "slug": "landmine-rotation",
+    "primaryMuscles": ["abdominal", "oblique"],
+    "secondaryMuscles": [
+      "glute",
+      "lower back",
+      "rotator cuff - back",
+      "rotator cuff - front",
+      "shoulder - front",
+      "shoulder - side"
+    ],
+    "steps": [
+      "Place one end of a barbell securely into a landmine attachment or a corner to stabilize it.",
+      "Stand with your feet shoulder-width apart, facing the end of the barbell, and grab the end of the bar with both hands.",
+      "Press the barbell up and hold it in front of your head with your arms extended, while keeping your elbows slightly bent.",
+      "Begin to rotate your torso to one side; as you do, allow your hands holding the barbell to drop towards the hip on the same side as the rotation. During the rotation, keep your arms in the same position, extended with elbows bent, as much as possible.",
+      "Simultaneously, allow the foot you are rotating away from to rise up to the ball of the foot at the bottom of the rotation, facilitating a full rotation of the hips.",
+      "Reverse the direction and rotate your torso to the opposite side, repeating the arm movement and foot pivot to complete one full repetition.",
+      "Continue alternating the rotational movements for the desired number of repetitions, maintaining the appropriate arm and foot mechanics throughout."
     ],
     "notes": ""
   }
