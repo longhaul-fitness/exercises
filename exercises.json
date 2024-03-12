@@ -4345,5 +4345,26 @@
       "Continue alternating the rotational movements for the desired number of repetitions, maintaining the appropriate arm and foot mechanics throughout."
     ],
     "notes": ""
+  },
+  {
+    "pk": 252,
+    "name": "Alternating Eccentric Bicep Curl \u2013 Machine",
+    "slug": "alternating-eccentric-bicep-curl-machine",
+    "primaryMuscles": ["bicep"],
+    "secondaryMuscles": ["forearm - inner", "forearm - outer"],
+    "steps": [
+      "Select the appropriate weight on the machine and adjust the seat and arm pad to align with your elbow joint.",
+      "Grip the handles with your palms facing upward in a supinated position.",
+      "Sit or stand (depending on machine design) with your upper arm pressed against the arm pad, back straight, and feet flat on the floor for stability.",
+      "Use both arms to lift the weight with a controlled motion, flexing the elbows without swinging the arms or leaning back.",
+      "Release the handle with one hand. Your other arm completely controls the weight.",
+      "Gradually release the weight back to the starting position, emphasizing the downward movement—this is the eccentric phase—taking 3 to 4 seconds to lower the load.",
+      "Make sure to fully extend the arms at the bottom, but avoid locking the elbows.",
+      "Grip the handles with both hands and use both arms to lift the weight again.",
+      "Release the handle with the other hand.",
+      "Gradually release the weight back to the starting position again, focusing on the eccentric phase of a single bicep. This completes one full repetition.",
+      "Repeat the movement for the desired number of reps, maintaining good form and controlled speed."
+    ],
+    "notes": "Keep the tension on the biceps throughout the movement without resting at the bottom."
   }
 ]
