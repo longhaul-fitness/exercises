@@ -4393,5 +4393,36 @@
       "Repeat the sequence for the desired number of repetitions."
     ],
     "notes": ""
+  },
+  {
+    "pk": 254,
+    "name": "Rotational Slam \u2013 Medicine Ball",
+    "slug": "rotational-slam-medicine-ball",
+    "primaryMuscles": ["abdominal", "oblique", "shoulder - front"],
+    "secondaryMuscles": [
+      "calf",
+      "chest",
+      "forearm - inner",
+      "forearm - outer",
+      "glute",
+      "hamstring",
+      "lat",
+      "lower back",
+      "quad",
+      "rotator cuff - back",
+      "rotator cuff - front",
+      "shoulder - side",
+      "tricep"
+    ],
+    "steps": [
+      "Stand with your feet shoulder-width apart and knees slightly bent, holding the medicine ball with both hands near one hip.",
+      "Begin the exercise by lifting the medicine ball in a circular motion on the same side, raising it up and over your head.",
+      "Continue the circular motion bringing the ball down with force on the opposite side.",
+      "As you bring the ball down, rotate your hips towards the opposite side, pivoting on the toes of one foot, while the other leg bends into a small squat.",
+      "Release the medicine ball towards the ground as you near the opposite hip from where you started, channeling maximum force through the slam.",
+      "Retrieve the medicine ball, return to the starting position on the opposite hip, and perform the exercise on the other side.",
+      "Repeat the exercise for the desired number of repetitions."
+    ],
+    "notes": "Keep your arms extended, elbows slightly bent, throughout the exercise. Focus on creating big circles with your arms, avoiding the tendency to create smaller, easier circles, close to your chest."
   }
 ]
