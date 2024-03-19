@@ -4366,5 +4366,32 @@
       "Repeat the movement for the desired number of reps, maintaining good form and controlled speed."
     ],
     "notes": "Keep the tension on the biceps throughout the movement without resting at the bottom."
+  },
+  {
+    "pk": 253,
+    "name": "Slam \u2013 Medicine Ball",
+    "slug": "slam-medicine-ball",
+    "primaryMuscles": ["abdominal", "oblique", "shoulder - front"],
+    "secondaryMuscles": [
+      "calf",
+      "chest",
+      "forearm - inner",
+      "forearm - outer",
+      "glute",
+      "hamstring",
+      "lat",
+      "lower back",
+      "quad",
+      "tricep"
+    ],
+    "steps": [
+      "Stand with your feet shoulder-width apart, holding a medicine ball in front of you with both hands.",
+      "Begin by raising the medicine ball above your head. As you lift the ball, come onto the balls of your feet, elevating your heels to maximize reach.",
+      "From this fully extended position, drive your heels down to the ground as you explosively throw the ball onto the ground in front of you with as much force as possible, engaging your abs, shoulders, and arms.",
+      "Squat down to pick up the ball after it bounces, keeping your back straight and chest up.",
+      "Return to a standing position and lift the ball above your head again, coming onto your toes to prepare for the next slam.",
+      "Repeat the sequence for the desired number of repetitions."
+    ],
+    "notes": ""
   }
 ]
