@@ -178,10 +178,9 @@
     "pk": 11,
     "name": "Deadlift \u2013 Barbell",
     "slug": "deadlift-barbell",
-    "primaryMuscles": ["glute", "lower back"],
+    "primaryMuscles": ["glute", "hamstring", "lower back"],
     "secondaryMuscles": [
       "forearm - inner",
-      "hamstring",
       "quad",
       "thigh - inner",
       "trap"
