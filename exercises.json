@@ -2063,7 +2063,7 @@
     "name": "Horizontal Wood Chop \u2013 Band",
     "slug": "horizontal-wood-chop-band",
     "primaryMuscles": ["oblique"],
-    "secondaryMuscles": [],
+    "secondaryMuscles": ["abdominal"],
     "steps": [
       "Attach a resistance band to a sturdy anchor point at waist height.",
       "Stand perpendicular to the anchor point with feet shoulder-width apart and knees slightly bent.",
