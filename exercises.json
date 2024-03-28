@@ -4380,7 +4380,7 @@
     "pk": 253,
     "name": "Slam \u2013 Medicine Ball",
     "slug": "slam-medicine-ball",
-    "primaryMuscles": ["abdominal", "oblique", "shoulder - front"],
+    "primaryMuscles": ["abdominal", "lat", "oblique", "shoulder - front"],
     "secondaryMuscles": [
       "calf",
       "chest",
@@ -4388,7 +4388,6 @@
       "forearm - outer",
       "glute",
       "hamstring",
-      "lat",
       "lower back",
       "quad",
       "tricep"
@@ -4407,7 +4406,7 @@
     "pk": 254,
     "name": "Rotational Slam \u2013 Medicine Ball",
     "slug": "rotational-slam-medicine-ball",
-    "primaryMuscles": ["abdominal", "oblique", "shoulder - front"],
+    "primaryMuscles": ["abdominal", "lat", "oblique", "shoulder - front"],
     "secondaryMuscles": [
       "calf",
       "chest",
@@ -4415,7 +4414,6 @@
       "forearm - outer",
       "glute",
       "hamstring",
-      "lat",
       "lower back",
       "quad",
       "rotator cuff - back",
