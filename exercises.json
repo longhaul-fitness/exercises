@@ -179,12 +179,7 @@
     "name": "Deadlift \u2013 Barbell",
     "slug": "deadlift-barbell",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
-    "secondaryMuscles": [
-      "forearm - inner",
-      "quad",
-      "thigh - inner",
-      "trap"
-    ],
+    "secondaryMuscles": ["forearm - inner", "quad", "thigh - inner", "trap"],
     "steps": [
       "Stand with your feet roughly hip-width apart, with the barbell positioned over the middle of your feet.",
       "Bend at your hips and knees to reach down and grasp the barbell with both hands, slightly wider than shoulder-width apart, palms facing towards your body.",
@@ -4430,5 +4425,39 @@
       "Repeat the exercise for the desired number of repetitions."
     ],
     "notes": "Keep your arms extended, elbows slightly bent, throughout the exercise. Focus on creating big circles with your arms, avoiding the tendency to create smaller, easier circles, close to your chest."
+  },
+  {
+    "pk": 255,
+    "name": "Step-Up",
+    "slug": "step-up",
+    "primaryMuscles": ["glute", "quad"],
+    "secondaryMuscles": ["calf", "hamstring", "thigh - inner", "thigh - outer"],
+    "steps": [
+      "Stand upright with a bench or bench-height platform in front of you, feet hip-width apart.",
+      "Place your right foot on the bench, ensuring your entire foot is on the surface.",
+      "Press through your right foot to lift your body up onto the bench, bringing your left foot to meet your right foot.",
+      "Stand tall on the bench with both feet flat and your core engaged.",
+      "Step back down with your left foot, returning to the floor.",
+      "Follow by stepping down with your right foot, coming back to the starting position.",
+      "Repeat the exercise for the desired number of repetitions before switching to lead with the left foot."
+    ],
+    "notes": "Hold weight in your hands to increase the exercise's resistance."
+  },
+  {
+    "pk": 256,
+    "name": "Box Step-Up",
+    "slug": "box-step-up",
+    "primaryMuscles": ["glute", "quad"],
+    "secondaryMuscles": ["calf", "hamstring", "thigh - inner", "thigh - outer"],
+    "steps": [
+      "Stand upright with a platform in front of you, feet hip-width apart. The height of the platform marks the difficult of the exercise.",
+      "Place your right foot on the platform, ensuring your entire foot is on the surface.",
+      "Press through your right foot to lift your body up onto the platform, bringing your left foot to meet your right foot.",
+      "Stand tall on the platform with both feet flat and your core engaged.",
+      "Step back down with your left foot, returning to the floor.",
+      "Follow by stepping down with your right foot, coming back to the starting position.",
+      "Repeat the exercise for the desired number of repetitions before switching to lead with the left foot."
+    ],
+    "notes": "Increase the platform's height to increase the exercise's resistance."
   }
 ]
