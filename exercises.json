@@ -267,8 +267,8 @@
     "pk": 17,
     "name": "Dip \u2013 Bar",
     "slug": "dip-bar",
-    "primaryMuscles": ["chest", "shoulder - front"],
-    "secondaryMuscles": ["tricep"],
+    "primaryMuscles": ["chest", "tricep"],
+    "secondaryMuscles": ["rotator cuff - front", "shoulder - front"],
     "steps": [
       "Start by approaching a set of parallel bars or dip bars approximately shoulder-width apart. Grab each bar with an overhand grip and hoist yourself up so your arms are fully extended, and your feet are off the ground.",
       "Slightly lean forward and keep your elbows slightly bent to engage your chest, shoulders, and triceps muscles.",
@@ -1802,7 +1802,7 @@
     "name": "Dip \u2013 Bench",
     "slug": "dip-bench",
     "primaryMuscles": ["tricep"],
-    "secondaryMuscles": ["chest", "shoulder - front"],
+    "secondaryMuscles": ["chest", "rotator cuff - front", "shoulder - front"],
     "steps": [
       "Find a stable bench or chair and sit on the edge with your hands next to your hips, fingers pointing forward.",
       "Slide your feet forward and lower your hips off the bench. Straighten or bend your knees to make the exercise more or less difficult.",
