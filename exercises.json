@@ -4464,5 +4464,23 @@
       "Repeat the exercise for the desired number of repetitions before switching to lead with the left foot."
     ],
     "notes": "Increase the platform's height to increase the exercise's resistance."
+  },
+  {
+    "pk": 257,
+    "name": "Tire Flip",
+    "slug": "tire-flip",
+    "primaryMuscles": ["glute", "lower back", "quad", "thigh - inner"],
+    "secondaryMuscles": ["bicep", "calf", "chest", "shoulder - front", "trap"],
+    "steps": [
+      "Stand facing the tire with your feet wider than shoulder-width apart, toes pointing slightly outwards to ensure a stable wide-leg squat stance.",
+      "Bend at the hips and knees to squat down and grab the bottom of the tire with your fingers underneath and palms facing towards you.",
+      "Keep your chest up, back straight, and engage your core to prepare to lift.",
+      "Drive through your heels and legs, lifting the tire off the ground using your entire body, especially your glutes, hamstrings, and quads.",
+      "Once the tire is lifted, quickly reposition your hands from underneath to a pushing position as the tire reaches knee to waist level.",
+      "Extend your hips forward powerfully, and use the momentum to flip the tire over by pushing it away from you.",
+      "Follow through with your arms to ensure the tire completes the flip and lands flat.",
+      "Reposition your feet as necessary and reset your stance to repeat the process for the desired number of reps."
+    ],
+    "notes": ""
   }
 ]
