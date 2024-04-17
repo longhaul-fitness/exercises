@@ -893,7 +893,7 @@
     "name": "Chest Fly \u2013 Dumbbell",
     "slug": "chest-fly-dumbbell",
     "primaryMuscles": ["chest"],
-    "secondaryMuscles": ["shoulder - front"],
+    "secondaryMuscles": ["bicep", "forearm - inner", "shoulder - front"],
     "steps": [
       "Start by lying flat on a bench with your feet firmly on the ground and your head, shoulders, and buttocks touching the bench.",
       "Hold a dumbbell in each hand with your palms facing each other and your arms extended above your chest.",
@@ -1077,7 +1077,7 @@
     "name": "Chest Fly \u2013 Machine",
     "slug": "chest-fly-machine",
     "primaryMuscles": ["chest"],
-    "secondaryMuscles": ["shoulder - front"],
+    "secondaryMuscles": ["bicep", "forearm - inner", "shoulder - front"],
     "steps": [
       "Adjust the seat height and position on the machine to ensure proper alignment with the handles.",
       "Extend your arms out to the sides, keeping a slight bend in your elbows. Grasp the handles and sit with your back flat against the pad.",
@@ -2972,7 +2972,7 @@
     "name": "Standing Chest Fly \u2013 Cable",
     "slug": "standing-chest-fly-cable",
     "primaryMuscles": ["chest"],
-    "secondaryMuscles": ["shoulder - front"],
+    "secondaryMuscles": ["bicep", "forearm - inner", "shoulder - front"],
     "steps": [
       "Stand in front of a cable machine, facing away from the machine, with your feet shoulder-width apart and knees slightly bent.",
       "Grasp the handles of the cables with your palms facing forward and your arms extended out to the sides at shoulder height.",
@@ -3544,7 +3544,7 @@
     "name": "One-Handed Standing Chest Fly \u2013 Band",
     "slug": "one-handed-standing-chest-fly-band",
     "primaryMuscles": ["chest"],
-    "secondaryMuscles": ["shoulder - front"],
+    "secondaryMuscles": ["bicep", "forearm - inner", "shoulder - front"],
     "steps": [
       "Find a sturdy stationary object, such as a pole or a door anchor, and attach one end of the resistance band to it at chest height.",
       "Stand with your feet shoulder-width apart, facing away from the stationary object.",
