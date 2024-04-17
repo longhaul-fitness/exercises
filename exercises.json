@@ -4482,5 +4482,39 @@
       "Reposition your feet as necessary and reset your stance to repeat the process for the desired number of reps."
     ],
     "notes": ""
+  },
+  {
+    "pk": 258,
+    "name": "Push-Up \u2013 Medicine Ball",
+    "slug": "push-up-medicine-ball",
+    "primaryMuscles": ["chest", "shoulder - front", "tricep"],
+    "secondaryMuscles": ["rotator cuff - front", "shoulder - side"],
+    "steps": [
+      "Place a medicine ball on the ground and assume a plank position with your hands placed on the ball directly beneath your chest. Keep your feet together or slightly apart for better stability.",
+      "Engage your core and maintain a straight line from your head to your heels, avoiding any sagging or arching in your lower back.",
+      "Lower your body towards the ball by bending your elbows, keeping them close to your body. Go as low as you can without compromising your form.",
+      "Push through your hands and chest to extend your arms and raise your body back up to the starting position.",
+      "Repeat the movement for the desired number of reps, making sure to maintain proper form throughout the set."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 259,
+    "name": "Rolling Push-Up \u2013 Medicine Ball",
+    "slug": "rolling-push-up-medicine-ball",
+    "primaryMuscles": ["chest", "shoulder - front", "tricep"],
+    "secondaryMuscles": ["rotator cuff - front", "shoulder - side"],
+    "steps": [
+      "Begin by placing a medicine ball on the floor in front of you.",
+      "Assume a push-up position by getting into a plank, with your hands shoulder-width apart and feet extended back.",
+      "Position one hand on the center of the medicine ball, while the other remains on the floor, keeping your body straight and core engaged.",
+      "Perform a push-up, lowering your chest to the floor while maintaining balance and stability on the ball.",
+      "Push back up to the starting position, keeping your body in a straight line.",
+      "Carefully roll the medicine ball across to the other hand while remaining in the plank position.",
+      "Place your opposite hand on the medicine ball and stabilize your body.",
+      "Repeat the push-up with the medicine ball under the other hand.",
+      "Continue alternating hands after each push-up for the desired number of repetitions or sets."
+    ],
+    "notes": ""
   }
 ]
