@@ -4559,8 +4559,8 @@
   },
   {
     "pk": 262,
-    "name": "Barbell and Band Forearm Roll",
-    "slug": "barbell-and-band-forearm-roll",
+    "name": "Forearm Roll-Up \u2013 Barbell",
+    "slug": "forearm-roll-up-barbell",
     "primaryMuscles": ["forearm - inner", "forearm - outer"],
     "secondaryMuscles": [],
     "steps": [
