@@ -4533,5 +4533,24 @@
       "Repeat the exercise by shifting your weight onto your right hand and wrapping your left hand behind your back or under your sternum."
     ],
     "notes": ""
+  },
+  {
+    "pk": 261,
+    "name": "Sled Pull",
+    "slug": "sled-pull",
+    "primaryMuscles": ["calf", "glute", "hamstring", "quad"],
+    "secondaryMuscles": ["abdominal", "lower back"],
+    "steps": [
+      "Adjust the weight on the sled according to your fitness level and training goals.",
+      "If using a pulling harness, strap it on securely, making sure it's comfortably snug. If using straps with handles, grip the handles firmly with both hands.",
+      "Stand facing the sled with your feet hip-width apart. Make sure you have a smooth, level, unobstructed path behind you.",
+      "Lower into a quarter-squat position, keeping your back straight, and brace your core.",
+      "Begin walking backwards slowly, taking small steps while keeping the tension on the harness or handles.",
+      "Push through the balls of your feet with each step, focusing on engaging your quadriceps, calves, and glutes.",
+      "Keep your chest up and shoulders back throughout the movement to maintain proper posture.",
+      "Continue pulling the sled for a number of steps or seconds.",
+      "Carefully disengage from the harness or place down the handles."
+    ],
+    "notes": "Leaning back slightly allows your weight to help move the sled. Avoid leaning too far back, as you can injure yourself or lose benefits of the exercise."
   }
 ]
