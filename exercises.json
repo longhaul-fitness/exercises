@@ -4556,5 +4556,25 @@
       "Carefully disengage from the harness or place down the handles."
     ],
     "notes": "Leaning back slightly allows your weight to help move the sled. Avoid leaning too far back, as you can injure yourself or lose benefits of the exercise."
+  },
+  {
+    "pk": 262,
+    "name": "Barbell and Band Forearm Roll",
+    "slug": "barbell-and-band-forearm-roll",
+    "primaryMuscles": ["forearm - inner", "forearm - outer"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Set up a power rack placing a barbell at about chest height.",
+      "Select a kettlebell and an appropriately sized resistance band that can be looped around it.",
+      "Loop one end of the resistance band around the kettlebell securely.",
+      "Loop the other end of the resistance band around one end of the barbell securely, wrapping it twice to ensure the kettlebell is suspended and the band is taut.",
+      "Stand facing the barbell with your feet shoulder-width apart, positioning yourself slightly back to allow full range of motion for the barbell to roll.",
+      "Extend your arms forward and grasp the barbell with both hands using an overhand grip, placing your hands slightly wider than shoulder-width for stability. Place one hand on either side of the band connected to the barbell.",
+      "Begin with your right hand, rolling the barbell away from you as much as possible to contract your forearm muscles.",
+      "After rolling with your right hand, switch to your left hand and perform the same rolling motion, alternating between hands with each roll.",
+      "Continue this alternating pattern, rolling the barbell and lifting the kettlebell until you cannot roll any further or the kettlebell reaches its peak height.",
+      "Carefully reverse the rolling motion using alternate hands again to lower the kettlebell back to the starting position in a controlled manner."
+    ],
+    "notes": ""
   }
 ]
