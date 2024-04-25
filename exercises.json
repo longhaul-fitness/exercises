@@ -4516,5 +4516,22 @@
       "Continue alternating hands after each push-up for the desired number of repetitions or sets."
     ],
     "notes": ""
+  },
+  {
+    "pk": 260,
+    "name": "One-Handed Plank",
+    "slug": "one-handed-plank",
+    "primaryMuscles": ["abdominal", "oblique"],
+    "secondaryMuscles": ["chest", "lower back", "shoulder - front"],
+    "steps": [
+      "Begin in a standard push-up position with your hands on the ground and elbows aligned below your shoulders, and your body forming a straight line from your head to your heels.",
+      "Spread your legs slightly wider than hip-width apart to provide additional stability.",
+      "Shift your weight onto your left hand as you slowly lift your right hand off the ground, wrapping it behind your back or under your sternum.",
+      "Engage your core, glutes, and thigh muscles to prevent your hips from dropping or rotating.",
+      "Hold the one-handed plank for the desired duration, breathing steadily throughout the exercise.",
+      "Lower your right hand back to the starting plank position with control.",
+      "Repeat the exercise by shifting your weight onto your right hand and wrapping your left hand behind your back or under your sternum."
+    ],
+    "notes": ""
   }
 ]
