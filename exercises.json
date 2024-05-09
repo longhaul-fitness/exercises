@@ -4528,8 +4528,8 @@
     "pk": 260,
     "name": "One-Handed Plank",
     "slug": "one-handed-plank",
-    "primaryMuscles": ["abdominal", "oblique"],
-    "secondaryMuscles": ["chest", "lower back", "shoulder - front"],
+    "primaryMuscles": ["abdominal", "chest", "oblique", "shoulder - front"],
+    "secondaryMuscles": ["lower back"],
     "steps": [
       "Begin in a standard push-up position with your hands on the ground and elbows aligned below your shoulders, and your body forming a straight line from your head to your heels.",
       "Spread your legs slightly wider than hip-width apart to provide additional stability.",
