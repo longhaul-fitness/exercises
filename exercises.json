@@ -4649,5 +4649,21 @@
       "Repeat for the desired number of reps."
     ],
     "notes": "Maintain core tension throughout the exercise to prevent arching your back or leaning back too far."
+  },
+  {
+    "pk": 267,
+    "name": "Incline Hex Press \u2013 Dumbbell",
+    "slug": "incline-hex-press-dumbbell",
+    "primaryMuscles": ["chest", "shoulder - front"],
+    "secondaryMuscles": ["tricep"],
+    "steps": [
+      "Select two dumbbells of suitable weight and an incline bench set to a 45-degree angle.",
+      "Sit on the bench with a dumbbell in each hand, resting them on your thighs.",
+      "Kick the weights to shoulder height as you lean back, positioning the dumbbells at chest level with your palms facing each other.",
+      "Press the dumbbells up over your chest by extending your arms while actively pushing the dumbbells against one another the entire time.",
+      "Pause briefly at the top of the movement, squeezing your chest muscles.",
+      "Lower the weights slowly back to the starting position, maintaining control and keeping the dumbbells close together."
+    ],
+    "notes": "Lower the incline to reduce the load on your shoulders and make the exercise easier."
   }
 ]
