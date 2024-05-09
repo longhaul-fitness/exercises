@@ -4612,5 +4612,42 @@
       "Repeat for the desired number of repetitions."
     ],
     "notes": ""
+  },
+  {
+    "pk": 265,
+    "name": "Z Press \u2013 Dumbbell",
+    "slug": "z-press-dumbbell",
+    "primaryMuscles": ["shoulder - front", "tricep"],
+    "secondaryMuscles": ["shoulder - back", "shoulder - side"],
+    "steps": [
+      "Sit down on the ground, legs extended in front of you and spaced apart for stability.",
+      "Hold a dumbbell in each hand at shoulder height, palms facing forward.",
+      "Plant your heels firmly on the ground and brace your core.",
+      "Press the dumbbells vertically overhead, fully extending your arms without locking your elbows.",
+      "Pause briefly at the top of the movement.",
+      "Lower the dumbbells back to the starting position at shoulder height in a controlled manner.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "notes": "Maintain core tension throughout the exercise to prevent arching your back or leaning back too far."
+  },
+  {
+    "pk": 266,
+    "name": "Z Press \u2013 Barbell",
+    "slug": "z-press-barbell",
+    "primaryMuscles": ["shoulder - front", "tricep"],
+    "secondaryMuscles": ["shoulder - back", "shoulder - side"],
+    "steps": [
+      "Position a loaded barbell in a rack a little above knee height.",
+      "Sit down on the floor so that the barbell touches your upper chest.",
+      "Extend your legs straight in front of you. Ensure your back is straight.",
+      "Grip the barbell just outside shoulder width with palms facing forward.",
+      "Unrack the barbell so it is positioned in front of your chin with tension on your front shoulders. This is your starting position.",
+      "Brace your core. Push your heels into the ground.",
+      "Press the barbell upwards until your arms are fully extended, making sure the bar moves in a straight vertical line.",
+      "Pause briefly at the top of the movement.",
+      "Lower the bar back to the starting position in a controlled manner.",
+      "Repeat for the desired number of reps."
+    ],
+    "notes": "Maintain core tension throughout the exercise to prevent arching your back or leaning back too far."
   }
 ]
