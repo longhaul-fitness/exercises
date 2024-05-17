@@ -2230,8 +2230,8 @@
     "pk": 132,
     "name": "Close-Grip Push-Up",
     "slug": "close-grip-push-up",
-    "primaryMuscles": ["tricep"],
-    "secondaryMuscles": ["abdominal", "chest", "shoulder - front"],
+    "primaryMuscles": ["chest", "tricep"],
+    "secondaryMuscles": ["abdominal", "shoulder - front"],
     "steps": [
       "Start in a plank position with your hands under your shoulders, or just slightly narrower, and your fingers pointing forward.",
       "Lower your body towards the ground, keeping your elbows close to your sides.",
