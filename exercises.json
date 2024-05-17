@@ -1639,14 +1639,16 @@
     "pk": 97,
     "name": "Pullover \u2013 Barbell",
     "slug": "pullover-barbell",
-    "primaryMuscles": ["tricep"],
-    "secondaryMuscles": [],
+    "primaryMuscles": ["chest", "lat", "tricep"],
+    "secondaryMuscles": ["rotator cuff - back", "rotator cuff - front"],
     "steps": [
-      "Start by lying flat on a bench with your feet firmly on the ground and your head at the end of the bench.",
-      "Hold a barbell with an overhand grip, with your hands shoulder-width apart and your arms extended straight up at an angle that brings the barbell above your head.",
-      "Slowly lower the barbell towards the top of your head by bending your elbows, keeping your upper arms stationary and tension on your triceps.",
-      "Pause when the barbell is just above the top of your head, then slowly raise it back to the starting position by extending your arms.",
-      "Repeat."
+      "Lie on a bench with your head and shoulders supported, and your feet flat on the floor.",
+      "Hold a barbell with a pronated grip (palms facing forward) slightly wider than shoulder-width, and press it up to arm's length over your chest. This is your starting position.",
+      "Keep a slight bend in your elbows and lock your arms in this slightly bent position throughout the entire movement.",
+      "Inhale and slowly lower the barbell in an arc behind your head while keeping your arms straight, moving primarily at the shoulder joints.",
+      "Lower the barbell until your arms are parallel to the floor or until you feel a stretch in your chest or lats, whichever comes first.",
+      "Exhale as you reverse the motion, bringing the barbell back over your chest in the same arc motion.",
+      "Repeat for the desired number of reps."
     ],
     "notes": ""
   },
@@ -1738,14 +1740,16 @@
     "pk": 103,
     "name": "Pullover \u2013 Dumbbell",
     "slug": "pullover-dumbbell",
-    "primaryMuscles": ["chest", "tricep"],
-    "secondaryMuscles": ["lat"],
+    "primaryMuscles": ["chest", "lat", "tricep"],
+    "secondaryMuscles": ["rotator cuff - back", "rotator cuff - front"],
     "steps": [
-      "Begin by lying flat on a bench with your feet firmly planted on the ground.",
-      "Hold a dumbbell by the weight on one side with both hands and extend your arms straight above your chest.",
-      "Slowly lower the dumbbell behind your head, keeping your arms straight and your core engaged.",
-      "Pause when the dumbbell is parallel to the ground, then slowly lift it back to the starting position.",
-      "Repeat."
+      "Lie on a bench with your head and shoulders supported, and your feet flat on the floor.",
+      "Hold a dumbbell with both hands, palms pressing against the underside one of the sides of the dumbbell. This is your starting position.",
+      "Keep a slight bend in your elbows and lock your arms in this slightly bent position throughout the entire movement.",
+      "Inhale and slowly lower the dumbbell in an arc behind your head while keeping your arms straight, moving primarily at the shoulder joints.",
+      "Lower the dumbbell until your arms are parallel to the floor or until you feel a stretch in your chest or lats, whichever comes first.",
+      "Exhale as you reverse the motion, bringing the dumbbell back over your chest in the same arc motion.",
+      "Repeat for the desired number of reps."
     ],
     "notes": ""
   },
