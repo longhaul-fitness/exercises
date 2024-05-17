@@ -304,8 +304,8 @@
     "pk": 19,
     "name": "Back Extension",
     "slug": "back-extension",
-    "primaryMuscles": ["glute", "lower back"],
-    "secondaryMuscles": ["hamstring"],
+    "primaryMuscles": ["glute", "hamstring", "lower back"],
+    "secondaryMuscles": ["abdominal"],
     "steps": [
       "Adjust the back extension bench so that the pads at the thigh are snug against your thighs and your feet are securely held in place by the footpads.",
       "Cross your arms over your chest or hold them behind your head.",
