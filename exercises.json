@@ -4669,5 +4669,56 @@
       "Lower the weights slowly back to the starting position, maintaining control and keeping the dumbbells close together."
     ],
     "notes": "Lower the incline to reduce the load on your shoulders and make the exercise easier."
+  },
+  {
+    "pk": 268,
+    "name": "Skull Crusher \u2013 Barbell",
+    "slug": "skull-crusher-barbell",
+    "primaryMuscles": ["tricep"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Lie down on a flat bench with a barbell in your hands. Your feet should be flat on the floor for stability.",
+      "Grip the barbell with an overhand grip (palms facing towards your feet) slightly narrower than shoulder-width apart.",
+      "Extend your arms fully so that the barbell is directly above your shoulders. This is your starting position.",
+      "Keeping your upper arms stationary, inhale and slowly lower the barbell by bending your elbows until the barbell is just above your forehead.",
+      "Pause when the barbell is closest to your forehead, ensuring your elbows are in position and only your forearms are moving.",
+      "Exhale and raise the barbell back to the starting position by extending your elbows and contracting the triceps.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 269,
+    "name": "Skull Crusher \u2013 Dumbbell",
+    "slug": "skull-crusher-dumbbell",
+    "primaryMuscles": ["tricep"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Lie on a bench with your knees bent and feet flat on the ground. Hold a dumbbell in each hand directly above your shoulders with your arms fully extended.",
+      "With your palms facing each other, engage your core and keep your wrists straight.",
+      "Slowly bend your elbows to lower the dumbbells towards the sides of your forehead. Keep your upper arms stationary and elbows pointing straight up throughout the movement.",
+      "Lower the weights until your forearms and biceps are at least at a 90-degree angle.",
+      "Pause briefly at the bottom of the movement.",
+      "Press the dumbbells back up to the starting position by extending your elbows while exhaling. Focus on using your triceps to move the weight.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 270,
+    "name": "Tricep Extension \u2013 Machine",
+    "slug": "tricep-extension-machine",
+    "primaryMuscles": ["tricep"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Adjust the seat height so your arms comfortably reach the handles with your elbows at a 90-degree angle.",
+      "Sit down on the machine bench and grasp the handles with your palms facing each other.",
+      "Keep your elbows close to your head and your back flat against the pad throughout the exercise.",
+      "Exhale and extend your arms, pushing the handles overhead until your arms are fully extended but not locked.",
+      "Pause momentarily at the top of the movement, focusing on contracting your triceps.",
+      "Inhale as you slowly lower the handles back to the starting position, maintaining control and tension on the triceps.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "notes": ""
   }
 ]
