@@ -4720,5 +4720,31 @@
       "Repeat for the desired number of repetitions."
     ],
     "notes": ""
+  },
+  {
+    "pk": 271,
+    "name": "In-Out Rope Wave",
+    "slug": "in-out-rope-wave",
+    "primaryMuscles": [
+      "bicep",
+      "forearm - inner",
+      "forearm - outer",
+      "shoulder - back",
+      "shoulder - front",
+      "shoulder - side",
+      "trap"
+    ],
+    "secondaryMuscles": ["abdominal", "chest", "tricep"],
+    "steps": [
+      "Stand with your feet shoulder-width apart, facing the anchor point of the battle rope.",
+      "Hold one end of the rope in each hand, arms extended in front of you at about waist height.",
+      "Begin with a slight bend in your knees, a straight back, and a tight core.",
+      "Simultaneously move your arms outward to your sides, creating outward waves with each side of the rope.",
+      "Quickly reverse the movement by bringing your arms back toward each other, creating inward waves.",
+      "Keep your arms moving in and out quickly, maintaining the rhythm to continuously send waves down the rope.",
+      "Ensure your movements are controlled and focused, utilizing your arm, shoulder, and core muscles.",
+      "Continue the in-out motion for the desired duration or number of repetitions."
+    ],
+    "notes": ""
   }
 ]
