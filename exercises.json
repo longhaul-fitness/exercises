@@ -4846,5 +4846,28 @@
       "Repeat for the desired number of repetitions before switching sides."
     ],
     "notes": ""
+  },
+  {
+    "pk": 278,
+    "name": "One-Handed High-Cable Row",
+    "slug": "one-handed-high-cable-row",
+    "primaryMuscles": ["lat"],
+    "secondaryMuscles": [
+      "bicep",
+      "forearm - inner",
+      "rotator cuff - back",
+      "shoulder - back"
+    ],
+    "steps": [
+      "Adjust the cable machine pulley to a position above your head and attach a single handle.",
+      "Stand facing the cable machine with your feet shoulder-width apart.",
+      "Grab the handle with one hand, palm facing down.",
+      "Step back slightly from the cable machine to create tension on the cable. Stretch your arm out in front of you. This is your starting position.",
+      "Pull the handle towards your side, keeping your elbow close to your body. Rotate your palm to face your torso as you pull.",
+      "Squeeze your back muscles when your hand is near your torso.",
+      "Slowly extend your arm to return the handle to the starting position while controlling the weight.",
+      "Repeat for the desired number of repetitions before switching arms."
+    ],
+    "notes": ""
   }
 ]
