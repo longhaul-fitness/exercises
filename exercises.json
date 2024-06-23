@@ -4795,5 +4795,20 @@
       "Continue alternating sides for the desired number of reps or time duration."
     ],
     "notes": ""
+  },
+  {
+    "pk": 275,
+    "name": "Reverse Curl \u2013 Barbell",
+    "slug": "reverse-curl-barbell",
+    "primaryMuscles": ["forearm - outer"],
+    "secondaryMuscles": ["bicep"],
+    "steps": [
+      "Stand up straight with a shoulder-width grip on the barbell, palms facing down (pronated grip). Keep your elbows close to your torso.",
+      "While keeping the upper arms stationary, contract your forearms by raising the bar towards your shoulders, hinging at your elbows. Your forearms should be the only part moving. Keep your wrists straight, focusing on a straight line from your elbow to your knuckles.",
+      "Continue to raise the weight until bar is at shoulder level. Hold the forearm-contracting position for a brief pause.",
+      "Inhale and slowly begin to lower the barbell back to the starting position.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "notes": "Keep your elbows close to your body and avoid swinging the weight. This is a targetted exercise for a small, specific muscle. If you find yourself flaring your elbows, or using momentum to lift the weight, consider lowering the weight to maintain proper form."
   }
 ]
