@@ -4746,5 +4746,38 @@
       "Continue the in-out motion for the desired duration or number of repetitions."
     ],
     "notes": ""
+  },
+  {
+    "pk": 272,
+    "name": "Upright Downward Internal Rotation \u2013 Cable",
+    "slug": "upright-downward-internal-rotation-cable",
+    "primaryMuscles": ["rotator cuff - front"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Adjust the pulley on a cable machine to eye-level and attach a handle to it.",
+      "Stand facing away from the machine, feet shoulder-width apart.",
+      "Grab the handle with one hand, raising your arm so your upper arm is parallel to the ground and your forearm is pointing straight up, creating a 90-degree angle at your elbow.",
+      "Brace your core and begin to rotate your hand forward at your shoulder, keeping your upper arm stable and parallel to the ground throughout the movement.",
+      "Continue the rotation until your forearm is parallel to the ground, completing the internal rotation.",
+      "Complete the desired number of repetitions before switching arms to perform the exercise on the opposite side."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 273,
+    "name": "Upright Upward External Rotation \u2013 Cable",
+    "slug": "upright-upward-external-rotation-cable",
+    "primaryMuscles": ["rotator cuff - back"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Adjust the pulley on a cable machine to sternum-level and attach a handle to it.",
+      "Stand facing the machine, feet shoulder-width apart.",
+      "Grab the handle with one hand, palm facing down, keeping your upper arm parallel to the ground and your pointing towards the cable, also parallel to the ground. This is your starting position.",
+      "Begin to rotate your arm at the shoulder, moving your hand upward and backwards, keeping the upper arm stable and parallel to the ground throughout the movement.",
+      "Continue the rotation until your forearm is pointing straight up, perpendicular to the ground, maintaining a 90-degree angle at your elbow.",
+      "Lower the handle back down to the starting position in a controlled manner.",
+      "Complete the desired number of repetitions before switching arms to perform the exercise on the opposite side."
+    ],
+    "notes": ""
   }
 ]
