@@ -2049,8 +2049,8 @@
   },
   {
     "pk": 121,
-    "name": "Tricep Extension \u2013 Bodyweight",
-    "slug": "tricep-extension-bodyweight",
+    "name": "Overhead Tricep Extension \u2013 Bodyweight",
+    "slug": "overhead-tricep-extension-bodyweight",
     "primaryMuscles": ["tricep"],
     "secondaryMuscles": [],
     "steps": [
@@ -2216,8 +2216,8 @@
   },
   {
     "pk": 131,
-    "name": "One-Handed Tricep Extension \u2013 Dumbbell",
-    "slug": "one-handed-tricep-extension-dumbbell",
+    "name": "One-Handed Overhead Tricep Extension \u2013 Dumbbell",
+    "slug": "one-handed-overhead-tricep-extension-dumbbell",
     "primaryMuscles": ["tricep"],
     "secondaryMuscles": [],
     "steps": [
@@ -3820,8 +3820,8 @@
   },
   {
     "pk": 223,
-    "name": "Tricep Extension \u2013 Barbell",
-    "slug": "tricep-extension-barbell",
+    "name": "Overhead Tricep Extension \u2013 Barbell",
+    "slug": "overhead-tricep-extension-barbell",
     "primaryMuscles": ["tricep"],
     "secondaryMuscles": [],
     "steps": [
@@ -4705,8 +4705,8 @@
   },
   {
     "pk": 270,
-    "name": "Tricep Extension \u2013 Machine",
-    "slug": "tricep-extension-machine",
+    "name": "Overhead Tricep Extension \u2013 Machine",
+    "slug": "overhead-tricep-extension-machine",
     "primaryMuscles": ["tricep"],
     "secondaryMuscles": [],
     "steps": [
