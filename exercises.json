@@ -223,16 +223,16 @@
   },
   {
     "pk": 14,
-    "name": "One-Handed Cross-body Curl",
+    "name": "One-Handed Cross-Body Curl",
     "slug": "one-handed-cross-body-curl",
     "primaryMuscles": ["bicep"],
     "secondaryMuscles": ["forearm - inner"],
     "steps": [
       "Stand up, leaning slightly forward from a straight position, feet shoulder-width apart, and your knees slightly bent.",
-      "Hold a dumbbell in each hand, with your palms facing your body and arms fully extended at your sides.",
-      "Keeping your elbows close to your body, slowly curl one dumbbell up toward your opposite shoulder.",
-      "Pause at the top of the curl, squeezing your bicep before slowly lowering the weight to the starting position.",
-      "Repeat the curl on the opposite side, curling the other dumbbell toward the opposite shoulder while rotating your torso.",
+      "Hold a dumbbell in each hand, with your palms facing your body and arms fully extended at your sides. This is your starting position.",
+      "Keeping your elbows close to your body, slowly curl one dumbbell up toward your opposite shoulder, across your body.",
+      "Continue curling until the weight comes close to the activating bicep's shoulder. Squeeze your bicep before slowly lowering the weight to the starting position.",
+      "Repeat the curl on the opposite side.",
       "Continue alternating curls on each side for the desired number of repetitions."
     ],
     "notes": ""
