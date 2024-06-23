@@ -4827,5 +4827,24 @@
       "Repeat for the desired number of reps."
     ],
     "notes": ""
+  },
+  {
+    "pk": 277,
+    "name": "Meadows Row",
+    "slug": "meadows-row",
+    "primaryMuscles": ["lat", "trap", "shoulder - back"],
+    "secondaryMuscles": ["lower back", "rotator cuff - back"],
+    "steps": [
+      "Place one end of a barbell in a corner to secure it, or use a landmine attachment if available.",
+      "Stand next to the barbell so it is to your side, with your feet shoulder-width apart.",
+      "Bend your knees slightly and hinge at the hips to lean forward, keeping your back straight.",
+      "Grasp the barbell with one hand using an overhand grip, just above the weight plates.",
+      "Place your other hand on your thigh or knee for support.",
+      "Brace your core and row the barbell towards your armpit, keeping your elbow tucked in.",
+      "Squeeze your back muscles at the top of the movement.",
+      "Slowly lower the barbell back to the starting position.",
+      "Repeat for the desired number of repetitions before switching sides."
+    ],
+    "notes": ""
   }
 ]
