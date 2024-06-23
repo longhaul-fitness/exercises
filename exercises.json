@@ -4779,5 +4779,21 @@
       "Complete the desired number of repetitions before switching arms to perform the exercise on the opposite side."
     ],
     "notes": ""
+  },
+  {
+    "pk": 274,
+    "name": "Plank Pull Through",
+    "slug": "plank-pull-through",
+    "primaryMuscles": ["abdominal"],
+    "secondaryMuscles": ["oblique", "shoulder - front"],
+    "steps": [
+      "Start in a high plank position with your hands positioned directly under your shoulders, feet slightly wider than hip-width apart, and a dumbbell or kettlebell placed on the floor on one side of your body at sternum-level.",
+      "Reach under your torso with your opposite hand to grab the dumbbell.",
+      "Pull the weight across the floor to the other side of your body while keeping your hips as stable as possible.",
+      "Place the weight on the floor and return your hand to the starting plank position.",
+      "Repeat the movement by reaching with the other hand to pull the dumbbell back to the starting side.",
+      "Continue alternating sides for the desired number of reps or time duration."
+    ],
+    "notes": ""
   }
 ]
