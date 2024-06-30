@@ -4367,8 +4367,8 @@
   },
   {
     "pk": 252,
-    "name": "Alternating Eccentric Bicep Curl \u2013 Machine",
-    "slug": "alternating-eccentric-bicep-curl-machine",
+    "name": "Eccentric Bicep Curl \u2013 Machine",
+    "slug": "eccentric-bicep-curl-machine",
     "primaryMuscles": ["bicep"],
     "secondaryMuscles": ["forearm - inner", "forearm - outer"],
     "steps": [
