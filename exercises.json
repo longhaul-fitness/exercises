@@ -1189,12 +1189,12 @@
   },
   {
     "pk": 71,
-    "name": "Standing Calf Raise",
-    "slug": "standing-calf-raise",
+    "name": "Calf Raise \u2013 Machine",
+    "slug": "calf-raise-machine",
     "primaryMuscles": ["calf"],
     "secondaryMuscles": [],
     "steps": [
-      "Stand on a raised surface or at a machine with the balls of your feet on the edge and your heels hanging off.",
+      "Stand on calf raise machine with the balls of your feet on the edge and your heels hanging off.",
       "Slowly raise your heels as high as possible, keeping your knees straight.",
       "Hold the position, then lower your heels back down below the level of the raised surface.",
       "Repeat."
@@ -3770,19 +3770,21 @@
   },
   {
     "pk": 220,
-    "name": "Heel Raise",
-    "slug": "heel-raise",
+    "name": "Calf Raise \u2013 Barbell",
+    "slug": "calf-raise-barbell",
     "primaryMuscles": ["calf"],
     "secondaryMuscles": [],
     "steps": [
-      "Stand with your feet shoulder-width apart, toes pointing forward.",
-      "Place your hands on a stable surface, such as a wall or a chair, for balance.",
-      "Slowly rise up onto the balls of your feet, lifting your heels off the ground.",
+      "Load a barbell. Also, find a raised platform or step to stand on.",
+      "Place yourself with the step in front of you and the barbell behind you. Stand with your feet shoulder-width apart, toes pointing forward.",
+      "Perform a Hack Squat to lift and hold the barbell behind your glutes.",
+      "Step onto the platform or step with the balls of your feet, leaving your heels hanging off the edge. Your feet should be parallel to each other. This is your starting position.",
+      "Slowly rise up on the balls of your feet, lifting your heels off the ground.",
       "Hold the raised position for a moment, feeling the contraction in your calf muscles.",
       "Lower your heels back down to the starting position in a controlled manner.",
       "Repeat the movement for the desired number of repetitions."
     ],
-    "notes": "Stand with your toes elevated on a step or plate to increase the range of motion and difficulty of the exercise."
+    "notes": ""
   },
   {
     "pk": 221,
@@ -4866,6 +4868,23 @@
       "Squeeze your back muscles when your hand is near your torso.",
       "Slowly extend your arm to return the handle to the starting position while controlling the weight.",
       "Repeat for the desired number of repetitions before switching arms."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 279,
+    "name": "Calf Raise \u2013 Leg Press Machine",
+    "slug": "calf-raise-leg-press-machine",
+    "primaryMuscles": ["calf"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Sit on the leg press machine and position your feet about hip-width apart on the lower part of the platform.",
+      "Ensure that only the balls of your feet and your toes are making contact with the platform, with your heels hanging off.",
+      "Straighten your legs to release the safety bars of the machine, keeping your knees slightly bent to avoid locking them.",
+      "Press through the balls of your feet to push the platform away, raising your heels as high as possible and contracting your calf muscles.",
+      "Pause at the top of the movement for a moment to maximize the contraction in the calves.",
+      "Slowly lower your heels back below the level of the platform to return to the starting position and stretch your calf muscles.",
+      "Repeat for the desired number of reps."
     ],
     "notes": ""
   }
