@@ -4869,5 +4869,21 @@
       "Repeat for the desired number of reps."
     ],
     "notes": ""
+  },
+  {
+    "pk": 280,
+    "name": "One-Handed Leaning Lateral Raise \u2013 Dumbbell",
+    "slug": "one-handed-leaning-lateral-raise-dumbbell",
+    "primaryMuscles": ["shoulder - side"],
+    "secondaryMuscles": ["shoulder - front", "oblique"],
+    "steps": [
+      "Stand with your feet shoulder-width apart and a dumbbell in your left hand.",
+      "Slightly lean your right shoulder against a wall or stable structure. Aim for a 60-degree angle between you and the ground.",
+      "Keep your back straight and core engaged. This is your starting position.",
+      "Slowly lift the dumbbell to the side, keeping your arm slightly bent. Raise it until your left arm is perpendicular with your body.",
+      "Pause at the top of the movement, then slowly lower the dumbbell back to the starting position.",
+      "Repeat the desired number of repetitions before switching to the other side."
+    ],
+    "notes": "Ensure not to bend your elbow excessively. Also, Avoid leaning with your feet too far from the wall, as this can shift the emphasis from your shoulders to your core muscles, altering the primary focus of the exercise."
   }
 ]
