@@ -18,7 +18,7 @@ PRs welcome! Together, we can help everyone achieve their fitness goals and live
 
 You have two options:
 
-1. **GitHub Pull Request:** If you're familiar with GitHub and enjoy contributing directly, you're welcome to submit exercises as a Pull Request. First, visit our [GitHub repository](https://github.com/longhaulfitness/exercise-directory). There, you can fork the repository, add your exercise details, and submit a Pull Request.
+1. **GitHub Pull Request:** If you're familiar with GitHub and enjoy contributing directly, you're welcome to submit exercises as a Pull Request. First, visit our [GitHub repository](https://github.com/longhaul-fitness/exercises). There, you can fork the repository, add your exercise details, and submit a Pull Request.
 
 2. **Submission Form on Our Website:** If you want to stay out of your editor, head over to the web form at [https://longhaul.fitness/exercises/submit/](https://longhaul.fitness/exercises/submit/). Here, you can easily input the details of your exercise. The form is designed to guide you through the necessary steps to ensure all relevant information is captured. Once submitted, I'll review the information and add your exercise to our directory.
 
