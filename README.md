@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Introduction
+## Welcome!
 
 Staying fit and healthy is crucial for leading a happy and fulfilling life. However, with so many different exercise routines and workout plans, keeping track of exercises and learning new ones can be challenging.
 
@@ -16,7 +16,13 @@ PRs welcome! Together, we can help everyone achieve their fitness goals and live
 
 ## Contributing
 
-Please contribute with GitHub Pull Requests, for now. Eventually I'll have a web form where folks submit their exercises.
+You have two options:
+
+1. **GitHub Pull Request:**
+   If you're familiar with GitHub and enjoy contributing directly, you're welcome to submit exercises as a Pull Request. First, visit our [GitHub repository](https://github.com/longhaulfitness/exercise-directory). There, you can fork the repository, add your exercise details, and submit a Pull Request.
+
+2. **Submission Form on Our Website:**
+   If you want to stay out of your editor, head over to the web form at [https://longhaul.fitness/exercises/submit/](https://longhaul.fitness/exercises/submit/). Here, you can easily input the details of your exercise. The form is designed to guide you through the necessary steps to ensure all relevant information is captured. Once submitted, I'll review the information and add your exercise to our directory.
 
 ## Exercises
 
@@ -24,11 +30,13 @@ See [exercises.json](./exercises.json) for current data.
 
 | Column | Description |
 | --- | --- |
+| pk | Numeric ID. Makes my life easier for database migrations. |
 | name | What to call this exercise. |
-| steps | Describes steps to perform the exercise. |
-| notes | Lists tips and techniques to keep in mine while performing the exercise. |
+| slug | Programatic way to refer to the exercise. Appears in URLs. |
 | primaryMuscles | Main muscles under work. |
 | secondaryMuscles | Supporting muscles under work. |
+| steps | Describes steps to perform the exercise. |
+| notes | Lists tips and techniques to keep in mine while performing the exercise. |
 
 #### On Naming Exercises
 
@@ -38,14 +46,10 @@ Exercise names follow the following format:
 <Variation - Optional> Exercise Name – <Equipment - Optional>
 ```
 
-Let's go through some examples:
+Let's go through some examples for the _Shrug_ exercise. Using our naming convention, we can identify many shrug moves:
 
-1. Shrugs
-
-Using our naming convention, we can identify many shrug moves:
-
-- Shrug – Barbell _-- These first three show different equipment for the same movement_
-- Shrug – Dumbbell
-- Shrug – Trap Bar
-- Wide-Grip Shrug – Barbell _-- These final two show variations_
-- Overhead Shrug – Barbell
+1. Shrug – Barbell _-- These first three show different equipment for the same movement_
+2. Shrug – Dumbbell
+3. Shrug – Trap Bar
+4. Wide-Grip Shrug – Barbell _-- These final two show variations_
+5. Overhead Shrug – Barbell
