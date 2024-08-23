@@ -4941,5 +4941,19 @@
       "Repeat the movement with the opposite leg and alternate sides for the desired number of repetitions."
     ],
     "notes": ""
+  },
+  {
+    "pk": 284,
+    "name": "Around the World \u2013 Kettlebell",
+    "slug": "around-the-world-kettlebell",
+    "primaryMuscles": ["oblique"],
+    "secondaryMuscles": ["abdominal", "shoulder - front", "shoulder - side"],
+    "steps": [
+      "Hold the kettlebell in front of your body with arms extended and both hands on the handle.",
+      "Move the kettlebell around your body; start by passing it to your right hand and move it behind your back.",
+      "Receive the kettlebell with your left hand behind your back, and continue moving it around to the left side and back to the front.",
+      "Continue this motion for the desired number of repetitions before switching direction."
+    ],
+    "notes": "Stay stable and centered as possible. Resisting the sway is a big part of the exercise."
   }
 ]
