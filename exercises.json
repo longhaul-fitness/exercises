@@ -4886,5 +4886,23 @@
       "Repeat the desired number of repetitions before switching to the other side."
     ],
     "notes": "Ensure not to bend your elbow excessively. Also, Avoid leaning with your feet too far from the wall, as this can shift the emphasis from your shoulders to your core muscles, altering the primary focus of the exercise."
+  },
+  {
+    "pk": 281,
+    "name": "Horizontal Wood Chop \u2013 Cable",
+    "slug": "horizontal-wood-chop-cable",
+    "primaryMuscles": ["oblique"],
+    "secondaryMuscles": ["abdominal"],
+    "steps": [
+      "Set up the cable machine by adjusting the cable to just under chest height and attach a handle.",
+      "Stand perpendicular to the cable machine with your feet shoulder-width apart, keeping your toes and head angled away from the machine.",
+      "Grip the handle with both hands, extending your arms fully. Begin with your upper body twisted so that your arms and the handle are positioned on the side closest to the machine, while your head and toes continue to face away.",
+      "Step away from the machine to create enough tension in the cable, ensuring it is taut before you start the exercise.",
+      "Rotate your torso while keeping your arms straight, moving the handle in a horizontal motion across your body until your hands are aligned forward, matching the direction of your toes and head.",
+      "Keep your core engaged throughout the movement to maintain stability and prevent any rotation in your hips or bending of the arms.",
+      "Complete the twisting motion until your arms are fully extended in front of you, parallel to the direction your toes and head are facing.",
+      "Slowly and with control, reverse the motion, returning to the twisted starting position while maintaining the alignment of your head and toes facing forward."
+    ],
+    "notes": ""
   }
 ]
