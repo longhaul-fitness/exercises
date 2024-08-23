@@ -736,8 +736,8 @@
   },
   {
     "pk": 45,
-    "name": "Teaser Sit-Up",
-    "slug": "teaser-sit-up",
+    "name": "V-Up",
+    "slug": "v-up",
     "primaryMuscles": ["abdominal"],
     "secondaryMuscles": [],
     "steps": [
@@ -4907,6 +4907,23 @@
       "Keep your core engaged throughout the movement to maintain stability and prevent any rotation in your hips or bending of the arms.",
       "Complete the twisting motion until your arms are fully extended in front of you, parallel to the direction your toes and head are facing.",
       "Slowly and with control, reverse the motion, returning to the twisted starting position while maintaining the alignment of your head and toes facing forward."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 282,
+    "name": "Single-Leg V-Up",
+    "slug": "single-leg-v-up",
+    "primaryMuscles": ["abdominal"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Lie flat on your back on a mat with your arms extended overhead and your legs fully extended.",
+      "Lift one leg towards a 60-degree angle with the floor while simultaneously raising your upper body, reaching your hands towards the raised foot.",
+      "Keep both legs straight, with the non-moving leg remaining on the floor.",
+      "Contract your abdominals as you lift your body, aiming to touch your toes with your hands.",
+      "Hold the V position momentarily, maintaining balance and stability.",
+      "Slowly lower your upper body and leg back to the starting position.",
+      "Repeat the movement with the other leg, alternating legs with each repetition."
     ],
     "notes": ""
   }
