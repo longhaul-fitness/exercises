@@ -354,15 +354,18 @@
     "pk": 22,
     "name": "Hanging Leg Raise",
     "slug": "hanging-leg-raise",
-    "primaryMuscles": ["abdominal"],
+    "primaryMuscles": ["abdominal", "forearm - inner", "forearm - outer"],
     "secondaryMuscles": ["oblique"],
     "steps": [
-      "Hang from a pull-up bar with your arms straight and your feet off the ground.",
-      "Engage your core muscles and lift your legs up towards your chest, keeping them straight.",
-      "Pause briefly at the top of the movement, then slowly lower your legs back down to the starting position.",
-      "Repeat for the desired number of repetitions."
+      "Start by securing your grip on a pull-up bar, ensuring your hands are spaced shoulder-width apart.",
+      "Allow your body to hang straight down from the bar with your feet together. This is your starting position.",
+      "Engage your core and slowly raise your legs in front of you while keeping them straight.",
+      "Raise your legs until they are parallel to the ground, or higher if your flexibility allows.",
+      "Pause briefly at the top of the movement, keeping your core tight to stabilize your body.",
+      "Slowly lower your legs back to the starting position in a controlled manner.",
+      "Repeat the movement for the desired number of repetitions."
     ],
-    "notes": ""
+    "notes": "There are hanging leg raise machines that allow you to balance on your forearms rather than hang from a bar. Consider using the machine if you want to remove the forearm activation and focus on the abdominal work."
   },
   {
     "pk": 23,
@@ -1839,7 +1842,7 @@
     "pk": 109,
     "name": "Bar Hang",
     "slug": "bar-hang",
-    "primaryMuscles": ["forearm - inner"],
+    "primaryMuscles": ["forearm - inner", "forearm - outer"],
     "secondaryMuscles": [],
     "steps": [
       "Find a sturdy horizontal bar that can support your body weight.",
@@ -1992,16 +1995,17 @@
     "pk": 118,
     "name": "Hanging Knee Raise",
     "slug": "hanging-knee-raise",
-    "primaryMuscles": ["abdominal"],
+    "primaryMuscles": ["abdominal", "forearm - inner", "forearm - outer"],
     "secondaryMuscles": ["oblique"],
     "steps": [
-      "Hang from a pull-up bar with your arms straight and your palms facing away from your body.",
-      "Engage your core muscles and lift your knees up towards your chest, keeping your legs together.",
-      "Pause briefly at the top of the movement, squeezing your abs.",
-      "Slowly lower your legs back down to the starting position.",
-      "Repeat."
+      "Hang from a pull-up bar with both hands using an overhand grip.",
+      "Keep your arms and legs straight with feet off the ground.",
+      "Stabilize your torso by engaging your core and slightly retracting your shoulders.",
+      "While exhaling, slowly raise your knees toward your chest.",
+      "Pause momentarily when your thighs reach your chest.",
+      "Inhale as you lower your legs back down to the starting position in a controlled manner."
     ],
-    "notes": ""
+    "notes": "There are hanging knee raise machines that allow you to balance on your forearms rather than hang from a bar. Consider using the machine if you want to remove the forearm activation and focus on the abdominal work."
   },
   {
     "pk": 119,
@@ -2548,7 +2552,7 @@
     "pk": 150,
     "name": "One-Handed Bar Hang",
     "slug": "one-handed-bar-hang",
-    "primaryMuscles": ["forearm - inner"],
+    "primaryMuscles": ["forearm - inner", "forearm - outer"],
     "secondaryMuscles": [],
     "steps": [
       "Find a sturdy bar that can support your weight.",
@@ -4167,7 +4171,7 @@
     "pk": 243,
     "name": "Perfect Hang",
     "slug": "perfect-hang",
-    "primaryMuscles": ["forearm - inner", "lat"],
+    "primaryMuscles": ["forearm - inner", "forearm - outer", "lat"],
     "secondaryMuscles": ["abdominal", "bicep", "chest", "oblique", "trap"],
     "steps": [
       "Grasp a pull-up bar with both hands at shoulder-width apart using an overhand grip.",
