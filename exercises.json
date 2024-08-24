@@ -4968,5 +4968,26 @@
       "Lower the dumbbells back to the starting position in a controlled manner, reversing the thumb rotation."
     ],
     "notes": ""
+  },
+  {
+    "pk": 286,
+    "name": "Standing External Shoulder Rotation \u2013 Dumbbell",
+    "slug": "standing-external-shoulder-rotation-dumbbell",
+    "primaryMuscles": ["rotator cuff - back"],
+    "secondaryMuscles": [
+      "rotator cuff - front",
+      "shoulder - back",
+      "shoulder - front",
+      "shoulder - side"
+    ],
+    "steps": [
+      "Stand with feet shoulder-width apart, holding a dumbbell in one hand.",
+      "Bend the arm at the shoulder to raise your upper arm, making it parallel to the floor and perpendicular to your body.",
+      "Bend your forearm at the elbow to a 90-degree angle so that your forearm is parallel to the floor, creating an 'L' shape with your arm. This is the starting position.",
+      "Keeping your upper arm stationary, rotate your shoulder, lifting the dumbbell towards the ceiling as far as possible without discomfort.",
+      "Pause briefly at the top of the rotation, then slowly return the dumbbell to the starting position.",
+      "Complete the desired number of repetitions, then switch arms and repeat the exercise."
+    ],
+    "notes": ""
   }
 ]
