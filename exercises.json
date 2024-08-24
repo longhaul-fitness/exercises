@@ -633,18 +633,16 @@
     "name": "Rear Delt Row \u2013 Dumbbell",
     "slug": "rear-delt-row-dumbbell",
     "primaryMuscles": ["shoulder - back"],
-    "secondaryMuscles": [
-      "bicep",
-      "forearm - inner",
-      "rotator cuff - back",
-      "trap"
-    ],
+    "secondaryMuscles": ["lat", "rotator cuff - back", "trap"],
     "steps": [
-      "Stand with your feet shoulder-width apart and hold a dumbbell in each hand.",
-      "Bend your knees slightly and hinge forward at the hips, keeping your back straight.",
-      "Bring the dumbbells up to your chest, keeping your elbows wide and out to the sides.",
-      "Slowly lower the dumbbells back down to the starting position.",
-      "Repeat."
+      "Select an appropriate weight for the dumbbells and stand up straight with a dumbbell in each hand, palms facing your body.",
+      "Hinge forward at the hips with a slight bend in the knees, keeping your back straight and nearly parallel to the floor.",
+      "Let the dumbbells hang directly in front of you with your arms fully extended, maintaining a neutral grip. This is the starting position.",
+      "Keep your eyes looking slightly ahead to maintain neck alignment with your spine.",
+      "Exhale as you pull the dumbbells towards your hips, keeping your elbows flared out. Imagine you are squeezing your shoulder blades together.",
+      "Hold the contraction for a second when the dumbbells reach the peak position near your hips.",
+      "Inhale as you slowly lower the dumbbells back to the starting position in a controlled manner.",
+      "Repeat the movement for the desired number of repetitions."
     ],
     "notes": ""
   },
@@ -4955,5 +4953,20 @@
       "Continue this motion for the desired number of repetitions before switching direction."
     ],
     "notes": "Stay stable and centered as possible. Resisting the sway is a big part of the exercise."
+  },
+  {
+    "pk": 285,
+    "name": "Lu Raise \u2013 Dumbbell",
+    "slug": "lu-raise-dumbbell",
+    "primaryMuscles": ["shoulder - front", "shoulder - side"],
+    "secondaryMuscles": ["rotator cuff - back", "rotator cuff - front", "trap"],
+    "steps": [
+      "Stand with your feet shoulder-width apart, holding a pair of dumbbells at your sides with your palms facing your body.",
+      "Lift the dumbbells laterally with a slight bend in the elbows, rotating your thumbs upwards as the weights ascend.",
+      "Continue lifting the weights above your head until your arms are fully extended and your thumbs are pointing towards each other.",
+      "Pause briefly at the top of the movement.",
+      "Lower the dumbbells back to the starting position in a controlled manner, reversing the thumb rotation."
+    ],
+    "notes": ""
   }
 ]
