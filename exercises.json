@@ -4989,5 +4989,38 @@
       "Complete the desired number of repetitions, then switch arms and repeat the exercise."
     ],
     "notes": ""
+  },
+  {
+    "pk": 287,
+    "name": "Crush Grip Curl \u2013 Dumbbell",
+    "slug": "crush-grip-curl-dumbbell",
+    "primaryMuscles": ["bicep"],
+    "secondaryMuscles": ["forearm - inner", "forearm - outer"],
+    "steps": [
+      "Select a single dumbbell and grip it with both hands, one on each end, pressing your palms against the sides of the dumbbell.",
+      "Position yourself straight-armed on a preacher curl bench, ensuring that your elbows and upper arms are comfortably resting against the bench pad. This is your starting position.",
+      "Keep pressing your hands together firmly to maintain a 'crush grip' on the dumbbell throughout the exercise.",
+      "While maintaining the grip, exhale and curl the dumbbell upwards towards your shoulders, focusing on contracting the biceps.",
+      "Hold the contraction briefly at the top of the movement, then inhale and slowly lower the dumbbell back to the starting position.",
+      "Repeat the curl for the desired number of repetitions, ensuring the crush grip is maintained throughout each curl."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 288,
+    "name": "One-Handed Hammer Curl \u2013 Dumbbell",
+    "slug": "one-handed-hammer-curl-dumbbell",
+    "primaryMuscles": ["bicep"],
+    "secondaryMuscles": ["forearm - inner", "forearm - outer"],
+    "steps": [
+      "Select a dumbbell of appropriate weight and position at a preacher curl bench.",
+      "Stand with one foot forward and the other back in a staggered stance.",
+      "Lean slightly forward from the hips and place the back of your upper arm (of the arm that will be curling) on the sloped part of the preacher bench, ensuring your shoulders are open to the side.",
+      "Grasp the dumbbell with a neutral grip (palm facing the wall) and fully extend your arm downwards. This is your starting position.",
+      "Brace your core and curl the dumbbell upwards toward your shoulder, keeping the wrist stable and in a neutral position throughout the movement.",
+      "Pause briefly at the top of the curl to contract the bicep, then slowly lower the dumbbell back to the starting position, controlling the weight as it descends.",
+      "Complete the desired number of repetitions before switching arms."
+    ],
+    "notes": ""
   }
 ]
