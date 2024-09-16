@@ -126,19 +126,15 @@
     "pk": 8,
     "name": "Face Pull",
     "slug": "face-pull",
-    "primaryMuscles": [
-      "rotator cuff - back",
-      "rotator cuff - front",
-      "shoulder - back"
-    ],
-    "secondaryMuscles": ["shoulder - side", "trap"],
+    "primaryMuscles": ["rotator cuff - back", "trap", "shoulder - back"],
+    "secondaryMuscles": ["shoulder - side", "forearm - outer"],
     "steps": [
-      "Start by attaching a rope to a high pulley on a cable machine.",
-      "Grasp the rope or cable with both hands using an overhand grip, with your palms facing each other.",
+      "Start by attaching a single long rope or two shorter ropes to a eye-level pulley on a cable machine.",
+      "Grasp the rope or cable with both hands using an overhand grip, with your palms facing each other. You want your thumbs to be able to point backwards, guiding the movement.",
       "Step back a few feet from the cable machine, so there is tension in the rope or cable.",
-      "Stand with your feet shoulder-width apart, and engage your core muscles to maintain good posture throughout the exercise.",
-      "Pull the rope or cable towards your face, leading with your elbows.",
-      "Keep your elbows high and out to the sides as you pull the rope towards your face until your hands reach your temples or the sides of your head.",
+      "Stand with your feet shoulder-width apart, and engage your core muscles to maintain good posture throughout the exercise. This is your starting position.",
+      "Pull the handles towards your face, separating your hands and arms as they go back.",
+      "Keep your elbows high and out to the sides as you pull the rope backwards. End the pull with each arm at a 90-degree angle at the elbow.",
       "Hold the position for a second, then slowly lower the rope back to the starting position.",
       "Repeat for the desired number of repetitions."
     ],
