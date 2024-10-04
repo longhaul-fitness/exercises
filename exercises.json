@@ -41,8 +41,8 @@
     "pk": 3,
     "name": "Push-Up",
     "slug": "push-up",
-    "primaryMuscles": ["chest", "shoulder - front"],
-    "secondaryMuscles": ["abdominal", "tricep"],
+    "primaryMuscles": ["chest", "shoulder - front", "tricep"],
+    "secondaryMuscles": ["abdominal"],
     "steps": [
       "Start in a plank position, with your hands shoulder-width apart and your fingers pointing forward.",
       "Keep your core engaged, your back straight, and your hips in line with your shoulders.",
@@ -824,8 +824,8 @@
     "pk": 50,
     "name": "Push-Up \u2013 Feet in Rings",
     "slug": "push-up-feet-in-rings",
-    "primaryMuscles": ["chest", "shoulder - front"],
-    "secondaryMuscles": ["abdominal", "tricep"],
+    "primaryMuscles": ["chest", "shoulder - front", "tricep"],
+    "secondaryMuscles": ["abdominal"],
     "steps": [
       "Start in a plank position with your feet in the rings and your hands shoulder-width apart on the ground.",
       "Lower your body towards the ground by bending your elbows and keeping your body straight.",
@@ -996,8 +996,8 @@
     "pk": 60,
     "name": "Incline Push-Up",
     "slug": "incline-push-up",
-    "primaryMuscles": ["chest", "shoulder - front"],
-    "secondaryMuscles": ["abdominal", "tricep"],
+    "primaryMuscles": ["chest", "shoulder - front", "tricep"],
+    "secondaryMuscles": ["abdominal"],
     "steps": [
       "Start in a plank position with your hands on an elevated surface, such as a bench or step.",
       "Place your hands slightly wider than shoulder-width apart and keep your fingers pointing forward.",
@@ -2081,8 +2081,8 @@
     "pk": 123,
     "name": "Kneeling Push-Up",
     "slug": "kneeling-push-up",
-    "primaryMuscles": ["chest", "shoulder - front"],
-    "secondaryMuscles": ["abdominal", "tricep"],
+    "primaryMuscles": ["chest", "shoulder - front", "tricep"],
+    "secondaryMuscles": ["abdominal"],
     "steps": [
       "Start on your hands and knees, with your hands shoulder-width apart and your knees hip-width apart.",
       "Extend your legs behind you, so that your body forms a straight line from your head to your heels.",
@@ -2232,8 +2232,8 @@
     "pk": 132,
     "name": "Close-Grip Push-Up",
     "slug": "close-grip-push-up",
-    "primaryMuscles": ["chest", "tricep"],
-    "secondaryMuscles": ["abdominal", "shoulder - front"],
+    "primaryMuscles": ["chest", "shoulder - front", "tricep"],
+    "secondaryMuscles": ["abdominal"],
     "steps": [
       "Start in a plank position with your hands under your shoulders, or just slightly narrower, and your fingers pointing forward.",
       "Lower your body towards the ground, keeping your elbows close to your sides.",
@@ -2531,8 +2531,8 @@
     "pk": 149,
     "name": "Push-Up \u2013 Hands in Rings",
     "slug": "push-up-hands-in-rings",
-    "primaryMuscles": ["chest", "shoulder - front"],
-    "secondaryMuscles": ["abdominal", "tricep"],
+    "primaryMuscles": ["chest", "shoulder - front", "tricep"],
+    "secondaryMuscles": ["abdominal"],
     "steps": [
       "Start in a plank position with your hands placed inside suspended rings.",
       "Engage your core and glutes to keep your body in a straight line.",
@@ -3403,8 +3403,8 @@
     "pk": 201,
     "name": "Kneeling Incline Push-Up",
     "slug": "kneeling-incline-push-up",
-    "primaryMuscles": ["chest", "shoulder - front"],
-    "secondaryMuscles": ["abdominal", "tricep"],
+    "primaryMuscles": ["chest", "shoulder - front", "tricep"],
+    "secondaryMuscles": ["abdominal"],
     "steps": [
       "Start by kneeling on the ground with your hands placed slightly wider than shoulder-width apart on an elevated surface, such as a bench or step.",
       "Engage your core and lower your chest towards the elevated surface, bending your elbows and keeping them close to your body. Keep your body in a straight line from head to knee.",
@@ -3661,8 +3661,8 @@
     "pk": 215,
     "name": "Push-Up Against Wall",
     "slug": "push-up-against-wall",
-    "primaryMuscles": ["chest", "shoulder - front"],
-    "secondaryMuscles": ["abdominal", "tricep"],
+    "primaryMuscles": ["chest", "shoulder - front", "tricep"],
+    "secondaryMuscles": ["abdominal"],
     "steps": [
       "Stand facing a wall with your feet shoulder-width apart.",
       "Place your hands on the wall at shoulder height, slightly wider than shoulder-width apart.",
@@ -4483,7 +4483,7 @@
     "name": "Push-Up \u2013 Medicine Ball",
     "slug": "push-up-medicine-ball",
     "primaryMuscles": ["chest", "shoulder - front", "tricep"],
-    "secondaryMuscles": ["rotator cuff - front", "shoulder - side"],
+    "secondaryMuscles": ["abdominal", "forearm - inner", "forearm - outer"],
     "steps": [
       "Place a medicine ball on the ground and assume a plank position with your hands placed on the ball directly beneath your chest. Keep your feet together or slightly apart for better stability.",
       "Engage your core and maintain a straight line from your head to your heels, avoiding any sagging or arching in your lower back.",
@@ -4498,7 +4498,12 @@
     "name": "Rolling Push-Up \u2013 Medicine Ball",
     "slug": "rolling-push-up-medicine-ball",
     "primaryMuscles": ["chest", "shoulder - front", "tricep"],
-    "secondaryMuscles": ["rotator cuff - front", "shoulder - side"],
+    "secondaryMuscles": [
+      "abdominal",
+      "forearm - inner",
+      "forearm - outer",
+      "shoulder - side"
+    ],
     "steps": [
       "Begin by placing a medicine ball on the floor in front of you.",
       "Assume a push-up position by getting into a plank, with your hands shoulder-width apart and feet extended back.",
