@@ -58,7 +58,13 @@
     "name": "Romanian Deadlift \u2013 Barbell",
     "slug": "romanian-deadlift-barbell",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
-    "secondaryMuscles": ["forearm - inner", "thigh - inner", "trap"],
+    "secondaryMuscles": [
+      "calf",
+      "forearm - inner",
+      "forearm - outer",
+      "trap",
+      "quad"
+    ],
     "steps": [
       "Preferably, start with a loaded barbell at hip height on a squat rack. Alternatively, you can lift the barbell from the floor to the starting position.",
       "Stand with your feet hip-width apart, and grip the barbell with hands just outside your thighs using an overhand grip.",
@@ -76,7 +82,13 @@
     "name": "Romanian Deadlift \u2013 Dumbbell",
     "slug": "romanian-deadlift-dumbbell",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
-    "secondaryMuscles": ["forearm - inner", "thigh - inner", "trap"],
+    "secondaryMuscles": [
+      "calf",
+      "forearm - inner",
+      "forearm - outer",
+      "trap",
+      "quad"
+    ],
     "steps": [
       "Stand with your feet hip-width apart, holding a dumbbell in each hand with palms facing your body.",
       "Begin with a slight bend in your knees, keep your back straight, chest up, and shoulders back throughout the exercise.",
@@ -92,8 +104,8 @@
     "pk": 6,
     "name": "Single-Leg Romanian Deadlift \u2013 Dumbbell",
     "slug": "single-leg-romanian-deadlift-dumbbell",
-    "primaryMuscles": ["glute", "hamstring", "lower back"],
-    "secondaryMuscles": ["forearm - inner", "thigh - inner", "trap"],
+    "primaryMuscles": ["calf", "glute", "hamstring", "lower back"],
+    "secondaryMuscles": ["forearm - inner", "forearm - outer", "trap", "quad"],
     "steps": [
       "Begin by standing on one leg, with a slight bend in the knee. Keep your other leg off the ground and behind you.",
       "Hold a dumbbell or kettlebell in the opposite hand of the leg you are standing on.",
@@ -180,7 +192,13 @@
     "name": "Deadlift \u2013 Barbell",
     "slug": "deadlift-barbell",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
-    "secondaryMuscles": ["forearm - inner", "quad", "thigh - inner", "trap"],
+    "secondaryMuscles": [
+      "calf",
+      "forearm - inner",
+      "forearm - outer",
+      "trap",
+      "quad"
+    ],
     "steps": [
       "Stand with your feet roughly hip-width apart, with the barbell positioned over the middle of your feet.",
       "Bend at your hips and knees to reach down and grasp the barbell with both hands, slightly wider than shoulder-width apart, palms facing towards your body.",
@@ -1035,13 +1053,13 @@
     "pk": 62,
     "name": "Deadlift \u2013 Dumbbell",
     "slug": "deadlift-dumbbell",
-    "primaryMuscles": ["glute", "lower back"],
+    "primaryMuscles": ["glute", "hamstring", "lower back"],
     "secondaryMuscles": [
+      "calf",
       "forearm - inner",
-      "hamstring",
-      "quad",
-      "thigh - inner",
-      "trap"
+      "forearm - outer",
+      "trap",
+      "quad"
     ],
     "steps": [
       "Stand with your feet shoulder-width apart, with a dumbbell in each hand.",
@@ -1158,7 +1176,13 @@
     "name": "Stiff-Legged Deadlift \u2013 Barbell",
     "slug": "stiff-legged-deadlift-barbell",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
-    "secondaryMuscles": ["forearm - inner", "thigh - inner", "trap"],
+    "secondaryMuscles": [
+      "calf",
+      "forearm - inner",
+      "forearm - outer",
+      "trap",
+      "quad"
+    ],
     "steps": [
       "Stand with your feet hip-width apart, holding a barbell in front of your thighs with straight arms using an overhand grip.",
       "Position the bar so it is touching or nearly touching your legs.",
@@ -1507,12 +1531,13 @@
     "pk": 88,
     "name": "Rack Pull",
     "slug": "rack-pull",
-    "primaryMuscles": ["glute", "lower back"],
+    "primaryMuscles": ["glute", "hamstring", "lower back"],
     "secondaryMuscles": [
+      "calf",
       "forearm - inner",
-      "hamstring",
-      "thigh - inner",
-      "trap"
+      "forearm - outer",
+      "trap",
+      "quad"
     ],
     "steps": [
       "Set up a barbell in a power rack at shin height or just below your knees.",
@@ -1909,8 +1934,14 @@
     "pk": 113,
     "name": "Deadlift \u2013 Trap Bar High Handles",
     "slug": "deadlift-trap-bar-high-handles",
-    "primaryMuscles": ["glute", "lower back", "quad"],
-    "secondaryMuscles": ["forearm - inner", "thigh - inner", "trap"],
+    "primaryMuscles": ["glute", "hamstring", "lower back"],
+    "secondaryMuscles": [
+      "calf",
+      "forearm - inner",
+      "forearm - outer",
+      "trap",
+      "quad"
+    ],
     "steps": [
       "Stand in the center of a loaded trap bar with your feet about hip-width apart.",
       "Bend at your hips and knees to lower your body, maintaining a flat back, to grasp the high handles of the trap bar.",
@@ -1942,13 +1973,13 @@
     "pk": 115,
     "name": "Sumo Deadlift \u2013 Barbell",
     "slug": "sumo-deadlift-barbell",
-    "primaryMuscles": ["glute", "lower back"],
+    "primaryMuscles": ["glute", "hamstring", "lower back"],
     "secondaryMuscles": [
+      "calf",
       "forearm - inner",
-      "hamstring",
-      "quad",
-      "thigh - inner",
-      "trap"
+      "forearm - outer",
+      "trap",
+      "quad"
     ],
     "steps": [
       "Stand with feet wider than shoulder-width apart and toes pointed outwards.",
@@ -2290,13 +2321,13 @@
     "pk": 135,
     "name": "Deficit Deadlift",
     "slug": "deficit-deadlift",
-    "primaryMuscles": ["glute", "lower back"],
+    "primaryMuscles": ["glute", "hamstring", "lower back"],
     "secondaryMuscles": [
+      "calf",
       "forearm - inner",
-      "hamstring",
-      "quad",
-      "thigh - inner",
-      "trap"
+      "forearm - outer",
+      "trap",
+      "quad"
     ],
     "steps": [
       "Begin by standing on a raised platform or weight plates of optional height, with your feet hip-width apart and your toes pointing forward.",
@@ -2459,13 +2490,13 @@
     "pk": 145,
     "name": "Snatch Grip Deadlift",
     "slug": "snatch-grip-deadlift",
-    "primaryMuscles": ["glute", "lower back"],
+    "primaryMuscles": ["glute", "hamstring", "lower back"],
     "secondaryMuscles": [
+      "calf",
       "forearm - inner",
-      "hamstring",
-      "quad",
-      "thigh - inner",
-      "trap"
+      "forearm - outer",
+      "trap",
+      "quad"
     ],
     "steps": [
       "Begin by standing with your feet shoulder-width apart and the barbell on the ground in front of you.",
@@ -3522,8 +3553,14 @@
     "pk": 207,
     "name": "Deadlift \u2013 Fat Bar",
     "slug": "deadlift-fat-bar",
-    "primaryMuscles": ["forearm - inner", "glute", "lower back"],
-    "secondaryMuscles": ["hamstring", "quad", "thigh - inner", "trap"],
+    "primaryMuscles": [
+      "forearm - inner",
+      "forearm - outer",
+      "glute",
+      "hamstring",
+      "lower back"
+    ],
+    "secondaryMuscles": ["calf", "trap", "quad"],
     "steps": [
       "Stand with your feet shoulder-width apart, holding a loaded fat bar in front of your quads.",
       "Bend your knees, hinge and lean forward at the hips, keeping your back straight and your chest up.",
@@ -3699,13 +3736,13 @@
     "pk": 217,
     "name": "Pause Deadlift \u2013 Barbell",
     "slug": "pause-deadlift-barbell",
-    "primaryMuscles": ["glute", "lower back"],
+    "primaryMuscles": ["glute", "hamstring", "lower back"],
     "secondaryMuscles": [
+      "calf",
       "forearm - inner",
-      "hamstring",
-      "quad",
-      "thigh - inner",
-      "trap"
+      "forearm - outer",
+      "trap",
+      "quad"
     ],
     "steps": [
       "Stand with your feet hip-width apart and your toes pointing forward.",
@@ -3723,8 +3760,14 @@
     "pk": 218,
     "name": "Deadlift \u2013 Trap Bar Low Handles",
     "slug": "deadlift-trap-bar-low-handles",
-    "primaryMuscles": ["glute", "lower back", "quad"],
-    "secondaryMuscles": ["forearm - inner", "thigh - inner", "trap"],
+    "primaryMuscles": ["glute", "hamstring", "lower back"],
+    "secondaryMuscles": [
+      "calf",
+      "forearm - inner",
+      "forearm - outer",
+      "trap",
+      "quad"
+    ],
     "steps": [
       "Stand in the center of a loaded trap bar with your feet about hip-width apart.",
       "Bend at your hips and knees to lower your body, maintaining a flat back, to grasp the low handles of the trap bar.",
