@@ -843,8 +843,8 @@
     "pk": 51,
     "name": "Lateral Walk \u2013 Band",
     "slug": "lateral-walk-band",
-    "primaryMuscles": ["thigh - outer"],
-    "secondaryMuscles": ["glute"],
+    "primaryMuscles": ["glute", "thigh - outer"],
+    "secondaryMuscles": ["calf", "hamstring", "quad", "thigh - inner"],
     "steps": [
       "Place a resistance band around your ankles and stand with your feet hip-width apart.",
       "Take a step to the right with your right foot, keeping tension on the band.",
