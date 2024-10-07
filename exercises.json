@@ -5103,5 +5103,25 @@
       "Repeat the bicycle and rotating motions for the desired number of repetitions or seconds before lowering yourself to the ground."
     ],
     "notes": ""
+  },
+  {
+    "pk": 291,
+    "name": "Low Chest Fly \u2013 Cable",
+    "slug": "low-chest-fly-cable",
+    "primaryMuscles": ["chest"],
+    "secondaryMuscles": ["rotator cuff - front", "shoulder - front"],
+    "steps": [
+      "Attach single handle grips to the low pulleys on both sides of a cable machine.",
+      "Set the weight on the stack to an appropriate level.",
+      "Grab the handles with your palms facing forwards, and slightly bend your elbows.",
+      "Stand in the middle of the cable machine and take one step forward so you're in a staggered stance.",
+      "Lean slightly forward at your hips, keeping your back straight and core engaged.",
+      "Start with your arms down towards the ground as low as the gripped cables allow. This is the starting position.",
+      "Pull the handles together in a wide, upward arc until your hands meet in front of your chest.",
+      "Squeeze your chest muscles and hold the contraction briefly.",
+      "Slowly return your arms back to the starting position maintaining the slight bend in the elbows.",
+      "Repeat the exercise for the desired number of repetitions."
+    ],
+    "notes": "Focus on moving the cables with your chest muscles. Avoid creating momentum with other parts of your body."
   }
 ]
