@@ -5123,5 +5123,21 @@
       "Repeat the exercise for the desired number of repetitions."
     ],
     "notes": "Focus on moving the cables with your chest muscles. Avoid creating momentum with other parts of your body."
+  },
+  {
+    "pk": 292,
+    "name": "Lateral Lunge \u2013 Dumbbell",
+    "slug": "lateral-lunge-dumbbell",
+    "primaryMuscles": ["glute", "quad", "thigh - inner", "thigh - outer"],
+    "secondaryMuscles": ["calf", "hamstring"],
+    "steps": [
+      "Stand with your feet hip-width apart, holding a dumbbell in each hand at your sides. This is the starting position.",
+      "Take a big step out to the right, ensuring your toes on both feet are pointing forward.",
+      "Shift your weight over your right leg, hinging at the hip and pushing your buttocks back while bending the right knee. Keep the left leg straight.",
+      "Keep your back straight and chest up as you lunge, lowering until your right thigh is parallel to the floor. The dumbbells will lower with your arms on either side of your right calf.",
+      "Push off your right foot to return to the starting position.",
+      "Repeat for the desired number of repetitions before switching to the left side."
+    ],
+    "notes": ""
   }
 ]
