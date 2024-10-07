@@ -5088,5 +5088,20 @@
       "Repeat the process using the other arm."
     ],
     "notes": "Ensure that your wrist remains straight and stable throughout the duration of the exercise."
+  },
+  {
+    "pk": 290,
+    "name": "Hanging Side-To-Side Knee Drive",
+    "slug": "hanging-side-to-side-knee-drive",
+    "primaryMuscles": ["abdominal", "bicep", "lat", "oblique"],
+    "secondaryMuscles": ["forearm - inner", "forearm - outer"],
+    "steps": [
+      "Grip the pull-up bar with a supinated grip (palms facing you) and arms fully extended.",
+      "Pull yourself up to a halfway pull-up until your upper arms are parallel to the floor. This is the starting position.",
+      "Start by cycle your knees towards your chest in a bicycle motion straight in front of you.",
+      "Continue the cycling motion as you rotate your hips to the right, then the left, going as far as you can while maintaining the half pull-up. This is one repetition.",
+      "Repeat the bicycle and rotating motions for the desired number of repetitions or seconds before lowering yourself to the ground."
+    ],
+    "notes": ""
   }
 ]
