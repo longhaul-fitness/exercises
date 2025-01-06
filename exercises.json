@@ -5195,5 +5195,70 @@
       "Repeat for desired number of reps, then switch to the other side."
     ],
     "notes": ""
+  },
+  {
+    "pk": 296,
+    "name": "Alternating Z Press \u2013 Double Kettlebell",
+    "slug": "alternating-z-press-double-kettlebell",
+    "primaryMuscles": ["shoulder - front"],
+    "secondaryMuscles": [
+      "abdominal",
+      "oblique",
+      "rotator cuff - back",
+      "shoulder - side",
+      "tricep"
+    ],
+    "steps": [
+      "Select two kettlebells of appropriate weight.",
+      "Sit on the floor with legs extended in front of you.",
+      "Clean the kettlebells to the front rack position.",
+      "Engage your core and ensure your spine is neutral.",
+      "Press one kettlebell overhead while keeping the other in the front rack position.",
+      "Lower the overhead kettlebell back to the front rack position.",
+      "Simultaneously press the other kettlebell overhead.",
+      "Continue to alternate pressing each kettlebell, creating a 'seesaw' motion.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "notes": "Maintain core tension throughout the exercise to prevent arching your back or leaning back too far."
+  },
+  {
+    "pk": 297,
+    "name": "Feet-Elevated Bulgarian Row \u2013 Ring",
+    "slug": "feet-elevated-bulgarian-row-ring",
+    "primaryMuscles": ["bicep", "lat"],
+    "secondaryMuscles": [
+      "forearm - inner",
+      "forearm - outer",
+      "shoulder - back",
+      "trap"
+    ],
+    "steps": [
+      "Set the gymnastic rings to a suitable height, typically about waist height.",
+      "Place a bench or elevated surface in front of you. The top of the surface should be about an arms-length lower than the rings.",
+      "Hold onto the rings with an overhand grip and walk your feet forward to place them on the surface.",
+      "Hang from the rings with your arms straight, creating a straight line from your feet to your shoulders that is parallel with the floor. This is your starting position.",
+      "With your arms extended, pull yourself upwards by bending your elbows and drawing your chest towards the rings.",
+      "Squeeze your shoulder blades together at the top of the movement, keeping your body stable.",
+      "Slowly extend your arms to lower yourself back to the starting position.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 298,
+    "name": "Alternating Arnold Press \u2013 Dumbbell",
+    "slug": "alternating-arnold-press-dumbbell",
+    "primaryMuscles": ["shoulder - front", "shoulder - side"],
+    "secondaryMuscles": ["bicep", "rotator cuff - front", "tricep"],
+    "steps": [
+      "Begin standing with your feet shoulder-width apart, holding a dumbbell in each hand in front of each shoulder, palms facing your body. This is your starting position.",
+      "Rotate your wrists as you press one dumbbell overhead, turning the palm away from your body during the movement.",
+      "Simultaneously maintain the starting position with the other arm, keeping the dumbbell at shoulder height and palm facing your body.",
+      "Fully extend the pressing arm until it is straight overhead.",
+      "Lower the dumbbell back to the starting position, rotating the wrist back to the starting position.",
+      "Immediately rotate the alternate hand\u2019s wrist, pressing the other dumbbell overhead with the same motion.",
+      "Continue alternating the press between each arm for the desired number of repetitions."
+    ],
+    "notes": ""
   }
 ]
