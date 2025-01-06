@@ -2583,8 +2583,8 @@
   },
   {
     "pk": 150,
-    "name": "One-Handed Bar Hang",
-    "slug": "one-handed-bar-hang",
+    "name": "Single-Arm Hang \u2013 Bar",
+    "slug": "single-arm-hang-bar",
     "primaryMuscles": ["forearm - inner", "forearm - outer"],
     "secondaryMuscles": [],
     "steps": [
@@ -5310,5 +5310,25 @@
       "Repeat for the desired number of repetitions."
     ],
     "notes": "Imagine that your upper arms are resting on a shelf as you perform the movement to focus the effort on your rotator cuffs."
+  },
+  {
+    "pk": 302,
+    "name": "Single-Arm Hang \u2013 Rings",
+    "slug": "single-arm-hang-rings",
+    "primaryMuscles": ["forearm - inner", "forearm - outer", "lat"],
+    "secondaryMuscles": [
+      "bicep",
+      "oblique",
+      "rotator cuff - back",
+      "shoulder - side",
+      "trap"
+    ],
+    "steps": [
+      "Locate a ring that is securely anchored and can support your weight. Adjust the ring to a height where you can comfortably reach it while keeping your feet off the ground.",
+      "Stand beneath the ring and reach up with one hand to grip it tightly. Lift your feet off the ground and let your body hang freely, maintaining a straight posture.",
+      "Focus on holding the position while keeping your shoulder activated and core engaged, avoiding any twisting or rotating.",
+      "Hold for the desired amount of time or for as long as you can maintain proper form before safely lowering yourself."
+    ],
+    "notes": ""
   }
 ]
