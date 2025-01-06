@@ -5293,5 +5293,22 @@
       "Use your hamstrings to pull your body back up to the starting position."
     ],
     "notes": ""
+  },
+  {
+    "pk": 301,
+    "name": "Kneeling Cuban Rotation \u2013 Barbell",
+    "slug": "kneeling-cuban-rotation-barbell",
+    "primaryMuscles": ["rotator cuff - back", "rotator cuff - front"],
+    "secondaryMuscles": ["forearm - outer", "shoulder - side"],
+    "steps": [
+      "Start in a tall kneeling position with your knees hip-width apart and your torso upright.",
+      "Hold a barbell with a wide, pronated grip (palms facing forward) in both hands over your head.",
+      "Lower the barbell towards your head by bending your elbows until your upper arms are parallel to the ground and your forearms are perpendicular to the ground. This is your starting position.",
+      "Slowly lower the barbell by rotating your shoulders forward, keeping your elbows as stationary as possible.",
+      "Pause briefly when your forearms have rotated parallel to the ground.",
+      "Rotate your shoulders backwards, slowly raising the barbell back to the starting position.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "notes": "Imagine that your upper arms are resting on a shelf as you perform the movement to focus the effort on your rotator cuffs."
   }
 ]
