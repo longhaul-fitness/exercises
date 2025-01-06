@@ -70,7 +70,7 @@
       "Stand with your feet hip-width apart, and grip the barbell with hands just outside your thighs using an overhand grip.",
       "Begin the movement with a slight bend in your knees, and keep your back straight and chest up throughout the exercise.",
       "Push your hips back, hinging at the hips to lower the barbell, while keeping it close to your body as the bar descends.",
-      "Lower the weight to just below your knees or to mid-shin level — the exact point depends on your hamstring flexibility, without rounding your back.",
+      "Lower the weight to just below your knees or to mid-shin level \u2014 the exact point depends on your hamstring flexibility, without rounding your back.",
       "Pause briefly at the bottom of the movement, maintaining a braced core and tension in your hamstrings and glutes.",
       "Reverse the motion by driving your hips forward to return to a fully upright position, squeezing your glutes at the top of the movement.",
       "Repeat for the desired number of repetitions, ensuring that the tension is maintained in the target muscles without resting the bar on the floor between reps."
@@ -4222,7 +4222,7 @@
       "Grasp a pull-up bar with both hands at shoulder-width apart using an overhand grip.",
       "Hang from the bar with your feet off the ground and your arms fully extended.",
       "Engage your shoulder blades by pulling them back and down to stabilize your shoulders and upper back.",
-      "Lean back slightly to bring your chest parallel to the ground and your torso at a 45° angle to the ground.",
+      "Lean back slightly to bring your chest parallel to the ground and your torso at a 45\u00b0 angle to the ground.",
       "Curl your legs backwards. Imagine your body as the curve on the letter \"D\" if you were to see yourself from the side.",
       "Breathe deeply and hold the hang for as long as you can manage comfortably, ensuring your shoulder blades remain engaged."
     ],
@@ -4270,7 +4270,7 @@
     "secondaryMuscles": ["abdominal", "calf", "oblique"],
     "steps": [
       "Stand with your feet hip-width apart, holding a kettlebell with both hands in front of your chest.",
-      "Shift your weight onto your left foot and place your right foot behind you, resting on the ball of your foot – this is your kickstand position.",
+      "Shift your weight onto your left foot and place your right foot behind you, resting on the ball of your foot \u2013 this is your kickstand position.",
       "Hinge your hips back slightly, ensuring a straight back and engaged core.",
       "Bend at your left knee to lower down into a squat, keeping the weight in your left heel and the kettlebell steady in front of your chest.",
       "Lower down until your left thigh is nearly parallel to the ground, or as low as you can go comfortably.",
@@ -4411,7 +4411,7 @@
       "Sit or stand (depending on machine design) with your upper arm pressed against the arm pad, back straight, and feet flat on the floor for stability.",
       "Use both arms to lift the weight with a controlled motion, flexing the elbows without swinging the arms or leaning back.",
       "Release the handle with one hand. Your other arm completely controls the weight.",
-      "Gradually release the weight back to the starting position, emphasizing the downward movement—this is the eccentric phase—taking 3 to 4 seconds to lower the load.",
+      "Gradually release the weight back to the starting position, emphasizing the downward movement\u2014this is the eccentric phase\u2014taking 3 to 4 seconds to lower the load.",
       "Make sure to fully extend the arms at the bottom, but avoid locking the elbows.",
       "Grip the handles with both hands and use both arms to lift the weight again.",
       "Release the handle with the other hand.",
@@ -5139,6 +5139,60 @@
       "Keep your back straight and chest up as you lunge, lowering until your right thigh is parallel to the floor. The dumbbells will lower with your arms on either side of your right calf.",
       "Push off your right foot to return to the starting position.",
       "Repeat for the desired number of repetitions before switching to the left side."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 293,
+    "name": "Single-Arm Bottoms-Up Overhead Press \u2013 Kettlebell",
+    "slug": "single-arm-bottoms-up-overhead-press-kettlebell",
+    "primaryMuscles": ["shoulder - front"],
+    "secondaryMuscles": [
+      "forearm - inner",
+      "forearm - outer",
+      "shoulder - side",
+      "tricep"
+    ],
+    "steps": [
+      "Stand with feet shoulder-width apart holding a kettlebell bottoms-up in one hand at shoulder height.",
+      "Engage your core and make sure your wrist is straight and aligned directly under the kettlebell.",
+      "Press the kettlebell overhead by extending your arm fully while keeping the bottom of the kettlebell facing up.",
+      "Maintain a stable and upright position without leaning backward or sideways.",
+      "Slowly lower the kettlebell back to shoulder height, keeping control of the movement.",
+      "Repeat for desired number of reps, then switch to the other arm."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 294,
+    "name": "Close-Grip Incline Bench Press \u2013 Dumbbell",
+    "slug": "close-grip-incline-bench-press-dumbbell",
+    "primaryMuscles": ["chest", "tricep"],
+    "secondaryMuscles": ["shoulder - front"],
+    "steps": [
+      "Set the incline bench to a 30-45 degree angle.",
+      "Grab a pair of dumbbells with a neutral grip and sit on the bench.",
+      "Lie back on the bench, positioning the dumbbells at shoulder width with palms facing each other.",
+      "Engage your core and firmly plant your feet on the ground.",
+      "Press the dumbbells above your chest until your arms are fully extended, making sure they are close to each other without touching.",
+      "Slowly lower the dumbbells back to the starting position just above your chest.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "notes": "Lower the incline to reduce the load on your shoulders and move it to your chest."
+  },
+  {
+    "pk": 295,
+    "name": "Copenhagen Plank with Leg Lift",
+    "slug": "copenhagen-plank-with-leg-lift",
+    "primaryMuscles": ["oblique", "thigh - inner"],
+    "secondaryMuscles": ["abdominal", "glute", "hamstring", "quad"],
+    "steps": [
+      "Begin by positioning yourself on your side, propped up on your forearm and elbow directly beneath your shoulder.",
+      "Extend your legs straight out with your top foot resting on a bench or elevated surface.",
+      "Align your body in a straight line from head to heels, engaging your core and glutes.",
+      "Lift your lower leg up and down without rotating your hips or losing alignment.",
+      "Maintain a strong core throughout the movement to keep your hips elevated and stable.",
+      "Repeat for desired number of reps, then switch to the other side."
     ],
     "notes": ""
   }
