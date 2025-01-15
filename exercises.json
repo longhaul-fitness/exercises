@@ -5389,5 +5389,23 @@
       "Repeat for the desired number of repetitions before switching sides."
     ],
     "notes": ""
+  },
+  {
+    "pk": 306,
+    "name": "Single-Leg Romanian Deadlift \u2013 Landmine",
+    "slug": "single-leg-romanian-deadlift-landmine",
+    "primaryMuscles": ["glute", "hamstring"],
+    "secondaryMuscles": ["abdominal", "calf", "lower back", "oblique", "quad"],
+    "steps": [
+      "Stand with your right side facing the end of a barbell secured in a landmine attachment, holding the bar with your right hand using a pronated (overhand) grip. The end of the barbell should be at arms-length in front of your quad. This is your starting position.",
+      "Shift your weight onto your left leg, keeping a slight bend in the knee of your standing leg.",
+      "Hinge at your hips and lean forward, extending your right leg straight back for balance.",
+      "Lower the barbell toward the floor while keeping your back straight and core engaged, ensuring your hips remain square.",
+      "Continue lowering until you feel a stretch in the hamstring of the standing leg or your upper body is nearly parallel to the floor.",
+      "Drive through the heel of the standing leg to return to the starting position, engaging your glutes as you stand.",
+      "Keep your gaze forward and chest lifted throughout the movement to maintain a flat back.",
+      "Repeat for the desired number of reps before switching to the opposite leg."
+    ],
+    "notes": ""
   }
 ]
