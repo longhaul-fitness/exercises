@@ -5371,5 +5371,23 @@
       "Repeat the movement for the desired number of repetitions and then switch legs."
     ],
     "notes": ""
+  },
+  {
+    "pk": 305,
+    "name": "Single-Arm Bulgarian Split Squat \u2013 Dumbbell",
+    "slug": "single-arm-bulgarian-split-squat-dumbbell",
+    "primaryMuscles": ["glute", "hamstring", "quad"],
+    "secondaryMuscles": ["abdominal", "calf", "oblique"],
+    "steps": [
+      "Stand a few feet in front of a bench with your back towards it.",
+      "Hold a dumbbell in one hand on the same side as the working leg.",
+      "Extend your opposite leg back and place the top of your foot on the bench.",
+      "Keep your chest upright and core engaged throughout the movement.",
+      "Slowly lower your hips by bending the knee of the working leg.",
+      "Continue lowering until your front thigh is parallel to the ground.",
+      "Push through the heel of your front foot to return to the starting position.",
+      "Repeat for the desired number of repetitions before switching sides."
+    ],
+    "notes": ""
   }
 ]
