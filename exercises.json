@@ -5402,5 +5402,59 @@
       "Repeat for the desired number of reps before switching to the opposite leg."
     ],
     "notes": ""
+  },
+  {
+    "pk": 307,
+    "name": "Bench Press \u2013 Machine",
+    "slug": "bench-press-machine",
+    "primaryMuscles": ["chest", "shoulder - front", "tricep"],
+    "secondaryMuscles": ["rotator cuff - front"],
+    "steps": [
+      "Adjust the bench and seat height so that your chest aligns with the bench press machine's handles and your feet are flat on the floor.",
+      "Select the appropriate weight on the weight stack.",
+      "Sit on the machine with your back flat against the back pad.",
+      "Grasp the handles with a firm grip, keeping your wrists straight. This is the starting position.",
+      "Press the handles away from your chest, keeping your elbows at about a 45-degree angle from your body, extending your arms fully without locking your elbows.",
+      "Pause briefly at the top of the press.",
+      "Slowly lower the handles back to the starting position, maintaining control throughout the movement.",
+      "Repeat the press for the desired number of repetitions."
+    ],
+    "notes": "Ensure your back is flat against the bench, and your feet are firmly planted on the ground.  Keep your core tight. Exhale as you push the bar away from your chest, and inhale as you lower it down."
+  },
+  {
+    "pk": 308,
+    "name": "Incline Bench Press \u2013 Machine",
+    "slug": "incline-bench-press-machine",
+    "primaryMuscles": ["chest", "shoulder - front", "tricep"],
+    "secondaryMuscles": ["rotator cuff - front"],
+    "steps": [
+      "Adjust the bench and seat height so that your chest aligns with the incline bench press machine's handles and your feet are flat on the floor.",
+      "Select the appropriate weight on the weight stack.",
+      "Sit on the machine with your back flat against the back pad.",
+      "Grasp the handles with a firm grip, keeping your wrists straight. This is the starting position.",
+      "Press the handles away from your chest, keeping your elbows at about a 45-degree angle from your body, extending your arms fully without locking your elbows.",
+      "Pause briefly at the top of the press.",
+      "Slowly lower the handles back to the starting position, maintaining control throughout the movement.",
+      "Repeat the press for the desired number of repetitions."
+    ],
+    "notes": "Ensure your back is flat against the bench, and your feet are firmly planted on the ground.  Keep your core tight. Exhale as you push the bar away from your chest, and inhale as you lower it down."
+  },
+  {
+    "pk": 309,
+    "name": "Decline Bench Press \u2013 Machine",
+    "slug": "decline-bench-press-machine",
+    "primaryMuscles": ["chest", "shoulder - front", "tricep"],
+    "secondaryMuscles": ["rotator cuff - front"],
+    "steps": [
+      "Adjust the bench and seat height so that your chest aligns with the decline bench press machine's handles and your feet are flat on the floor.",
+      "Select the appropriate weight on the weight stack.",
+      "Sit on the machine with your back flat against the back pad.",
+      "Grasp the handles with a firm grip, keeping your wrists straight. This is the starting position.",
+      "Press the handles away from your chest, keeping your elbows at about a 45-degree angle from your body, extending your arms fully without locking your elbows.",
+      "Pause briefly at the top of the press.",
+      "Slowly lower the handles back to the starting position, maintaining control throughout the movement.",
+      "Repeat the press for the desired number of repetitions."
+    ],
+    "notes": "Ensure your back is flat against the bench, and your feet are firmly planted on the ground.  Keep your core tight. Exhale as you push the bar away from your chest, and inhale as you lower it down."
   }
 ]
