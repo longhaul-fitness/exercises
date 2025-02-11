@@ -5456,5 +5456,29 @@
       "Repeat the press for the desired number of repetitions."
     ],
     "notes": "Ensure your back is flat against the bench, and your feet are firmly planted on the ground.  Keep your core tight. Exhale as you push the bar away from your chest, and inhale as you lower it down."
+  },
+  {
+    "pk": 310,
+    "name": "One-Handed Overhead Contralateral Step-Up \u2013 Dumbbell",
+    "slug": "one-handed-overhead-contralateral-step-up-dumbbell",
+    "primaryMuscles": ["glute", "quad"],
+    "secondaryMuscles": [
+      "abdominal",
+      "calf",
+      "hamstring",
+      "oblique",
+      "shoulder - front"
+    ],
+    "steps": [
+      "Stand in front of a step or bench with feet hip-width apart and a dumbbell in one hand.",
+      "Press the dumbbell overhead with the arm fully extended, keeping the core engaged.",
+      "Place the opposite foot on the step, ensuring the entire foot is on the platform.",
+      "Push through the heel of the foot on the step to lift your body up, while keeping the dumbbell arm extended overhead.",
+      "Bring the trailing leg up to join the lead on the step, achieving a balanced position.",
+      "Carefully step back down with the trailing leg first, followed by the lead leg.",
+      "Maintain control and balance throughout the movement, keeping the dumbbell overhead.",
+      "Repeat for desired reps, then switch arms and legs."
+    ],
+    "notes": ""
   }
 ]
