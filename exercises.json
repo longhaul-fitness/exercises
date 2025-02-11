@@ -215,8 +215,8 @@
     "pk": 12,
     "name": "Plank",
     "slug": "plank",
-    "primaryMuscles": ["abdominal"],
-    "secondaryMuscles": ["oblique"],
+    "primaryMuscles": ["abdominal", "lower back"],
+    "secondaryMuscles": ["oblique", "shoulder - front"],
     "steps": [],
     "notes": ""
   },
@@ -501,8 +501,8 @@
     "pk": 31,
     "name": "Plank - BOSU",
     "slug": "plank-bosu",
-    "primaryMuscles": ["abdominal"],
-    "secondaryMuscles": [],
+    "primaryMuscles": ["abdominal", "lower back"],
+    "secondaryMuscles": ["oblique", "shoulder - front"],
     "steps": [
       "Place a BOSU ball on the ground with the flat side facing up.",
       "Assume a plank position with your forearms on the BOSU ball and your toes on the ground.",
@@ -4557,8 +4557,8 @@
     "pk": 260,
     "name": "One-Handed Plank",
     "slug": "one-handed-plank",
-    "primaryMuscles": ["abdominal", "chest", "oblique", "shoulder - front"],
-    "secondaryMuscles": ["lower back"],
+    "primaryMuscles": ["abdominal", "shoulder - front"],
+    "secondaryMuscles": ["chest", "lower back", "oblique"],
     "steps": [
       "Begin in a standard push-up position with your hands on the ground and elbows aligned below your shoulders, and your body forming a straight line from your head to your heels.",
       "Spread your legs slightly wider than hip-width apart to provide additional stability.",
@@ -4818,8 +4818,8 @@
     "pk": 274,
     "name": "Plank Pull Through",
     "slug": "plank-pull-through",
-    "primaryMuscles": ["abdominal"],
-    "secondaryMuscles": ["oblique", "shoulder - front"],
+    "primaryMuscles": ["abdominal", "shoulder - front"],
+    "secondaryMuscles": ["chest", "lower back", "oblique"],
     "steps": [
       "Start in a high plank position with your hands positioned directly under your shoulders, feet slightly wider than hip-width apart, and a dumbbell or kettlebell placed on the floor on one side of your body at sternum-level.",
       "Reach under your torso with your opposite hand to grab the dumbbell.",
