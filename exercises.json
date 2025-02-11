@@ -382,22 +382,6 @@
     "notes": "There are hanging leg raise machines that allow you to balance on your forearms rather than hang from a bar. Also, you could perform this exercise by holding yourself up on dip bars. Consider using either machine if you want to remove most of the forearm activation and focus on the abdominal work."
   },
   {
-    "pk": 23,
-    "name": "Squat \u2013 Chair",
-    "slug": "squat-chair",
-    "primaryMuscles": ["glute", "quad", "thigh - inner"],
-    "secondaryMuscles": ["calf"],
-    "steps": [
-      "Start by standing in front of a chair with your feet shoulder-width apart.",
-      "Slowly lower your body towards the chair by bending your knees and pushing your hips back.",
-      "Keep your chest up and your weight on your heels.",
-      "Lower your body until your buttocks touch the chair.",
-      "Pause for a moment, then push through your heels to stand back up.",
-      "Repeat for the desired number of repetitions."
-    ],
-    "notes": ""
-  },
-  {
     "pk": 24,
     "name": "Burpee \u2013 BOSU",
     "slug": "burpee-bosu",
