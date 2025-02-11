@@ -4643,8 +4643,13 @@
     "pk": 265,
     "name": "Z Press \u2013 Dumbbell",
     "slug": "z-press-dumbbell",
-    "primaryMuscles": ["shoulder - front", "tricep"],
-    "secondaryMuscles": ["shoulder - back", "shoulder - side"],
+    "primaryMuscles": ["shoulder - front", "shoulder - side"],
+    "secondaryMuscles": [
+      "abdominal",
+      "lower back",
+      "shoulder - back",
+      "tricep"
+    ],
     "steps": [
       "Sit down on the ground, legs extended in front of you and spaced apart for stability.",
       "Hold a dumbbell in each hand at shoulder height, palms facing forward.",
@@ -4660,8 +4665,13 @@
     "pk": 266,
     "name": "Z Press \u2013 Barbell",
     "slug": "z-press-barbell",
-    "primaryMuscles": ["shoulder - front", "tricep"],
-    "secondaryMuscles": ["shoulder - back", "shoulder - side"],
+    "primaryMuscles": ["shoulder - front", "shoulder - side"],
+    "secondaryMuscles": [
+      "abdominal",
+      "lower back",
+      "shoulder - back",
+      "tricep"
+    ],
     "steps": [
       "Position a loaded barbell in a rack a little above knee height.",
       "Sit down on the floor so that the barbell touches your upper chest.",
@@ -5184,12 +5194,11 @@
     "pk": 296,
     "name": "Alternating Z Press \u2013 Double Kettlebell",
     "slug": "alternating-z-press-double-kettlebell",
-    "primaryMuscles": ["shoulder - front"],
+    "primaryMuscles": ["shoulder - front", "shoulder - side"],
     "secondaryMuscles": [
       "abdominal",
-      "oblique",
-      "rotator cuff - back",
-      "shoulder - side",
+      "lower back",
+      "shoulder - back",
       "tricep"
     ],
     "steps": [
