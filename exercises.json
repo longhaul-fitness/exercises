@@ -5601,5 +5601,24 @@
       "Maintain the position as long as possible while breathing steadily."
     ],
     "notes": ""
+  },
+  {
+    "pk": 317,
+    "name": "Jump Squat \u2013 Bodyweight",
+    "slug": "jump-squat-bodyweight",
+    "primaryMuscles": ["calf", "glute", "hamstring", "quad"],
+    "secondaryMuscles": ["abdominal", "lower back"],
+    "steps": [
+      "Stand with feet shoulder-width apart, toes slightly pointing outward, knees slightly bent.",
+      "Engage your core and keep your chest up. This is your starting position.",
+      "Lower your body into a squat, bending at the hips and knees until your thighs are parallel to the ground.",
+      "Ensure your knees do not extend past your toes.",
+      "Keep weight distributed evenly across your feet.",
+      "Once at the bottom of the squat, explosively push through your feet to jump upward.",
+      "Swing your arms downward to gain momentum.",
+      "Land softly, with knees slightly bent, returning to the starting position.",
+      "Repeat the jump squat for desired repetitions."
+    ],
+    "notes": ""
   }
 ]
