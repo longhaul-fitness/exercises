@@ -5553,5 +5553,32 @@
       "Complete the desired number of repetitions and then switch sides."
     ],
     "notes": ""
+  },
+  {
+    "pk": 315,
+    "name": "Kneeling Pallof Press",
+    "slug": "kneeling-pallof-press",
+    "primaryMuscles": ["abdominal", "oblique"],
+    "secondaryMuscles": [
+      "lower back",
+      "rotator cuff - back",
+      "rotator cuff - front",
+      "shoulder - front",
+      "shoulder - side"
+    ],
+    "steps": [
+      "Kneel side-on to a cable machine or secure a resistance band at chest height.",
+      "Grasp the handle (or end of the band) with both hands and take a kneeling step away to create tension.",
+      "Position your knees shoulder-width apart for stability.",
+      "Hold the handle or band close to your chest, keeping your hands centered in front of you.",
+      "Engage your core muscles to stabilize your torso. This is your starting position.",
+      "Slowly press the handle or band straight out in front of your chest, keeping your arms straight.",
+      "Ensure your hips and shoulders stay squared and facing forward throughout the movement.",
+      "Hold the fully-pressed position for 1-2 seconds.",
+      "Slowly return the handle or band back to the starting position with control.",
+      "Repeat for the desired number of repetitions.",
+      "Switch sides and perform the exercise to work the core muscles evenly."
+    ],
+    "notes": ""
   }
 ]
