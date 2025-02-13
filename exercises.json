@@ -5480,5 +5480,60 @@
       "Repeat for desired reps, then switch arms and legs."
     ],
     "notes": ""
+  },
+  {
+    "pk": 311,
+    "name": "Sumo Squat \u2013 Dumbbell",
+    "slug": "sumo-squat-dumbbell",
+    "primaryMuscles": ["glute", "hamstring", "quad", "thigh - inner"],
+    "secondaryMuscles": ["calf", "lower back"],
+    "steps": [
+      "Hold a dumbbell in front of your chest with both hands.",
+      "Stand with your feet wider than shoulder-width apart and toes pointed out at about a 45-degree angle.",
+      "Keep your chest up, back straight, and weight primarily on your heels. This is your starting position.",
+      "Bend your knees, keeping them in line with your toes, while lowerering your hips down until your thighs are at least parallel to the floor.",
+      "Push through your heels to extend your legs and return to the starting position."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 312,
+    "name": "Sumo Squat \u2013 Barbell",
+    "slug": "sumo-squat-barbell",
+    "primaryMuscles": ["glute", "hamstring", "quad", "thigh - inner"],
+    "secondaryMuscles": ["calf", "lower back"],
+    "steps": [
+      "Hold a barbell behind your neck, resting it on your shoulders with your elbows pointing down and your palms facing forward.",
+      "Stand with your feet wider than shoulder-width apart and toes pointed out at about a 45-degree angle.",
+      "Keep your chest up, back straight, and weight primarily on your heels. This is your starting position.",
+      "Bend your knees, keeping them in line with your toes, while lowerering your hips down until your thighs are at least parallel to the floor.",
+      "Push through your heels to extend your legs and return to the starting position."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 313,
+    "name": "One-Handed Suitcase Walking Lunge \u2013 Dumbbell",
+    "slug": "one-handed-suitcase-walking-lunge-dumbbell",
+    "primaryMuscles": ["glute", "hamstring", "quad"],
+    "secondaryMuscles": [
+      "abdominal",
+      "calf",
+      "forearm - inner",
+      "forearm - outer",
+      "lower back",
+      "oblique",
+      "trap"
+    ],
+    "steps": [
+      "Stand upright with feet shoulder-width apart while holding a dumbbell in one hand by your side, similar to carrying a suitcase.",
+      "Keep your chest up, shoulders back, and core engaged.",
+      "Step forward with one leg into a lunge position, ensuring your front knee is directly above your ankle and your back knee is hovering just above the ground.",
+      "Push through the heel of your front foot to bring your back leg forward into the starting position, keeping the dumbbell steady by your side.",
+      "Continue the lunge by stepping forward with the opposite leg, maintaining balance and proper form.",
+      "Repeat the walking lunge series for the desired number of repetitions or distance while keeping the dumbbell in the same hand.",
+      "Switch the dumbbell to the other hand and repeat for balance after completing the set with one side."
+    ],
+    "notes": ""
   }
 ]
