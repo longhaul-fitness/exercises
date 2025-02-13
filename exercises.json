@@ -5580,5 +5580,26 @@
       "Switch sides and perform the exercise to work the core muscles evenly."
     ],
     "notes": ""
+  },
+  {
+    "pk": 316,
+    "name": "Isometric Pull-Up Hold",
+    "slug": "isometric-pull-up-hold",
+    "primaryMuscles": [
+      "forearm - inner",
+      "forearm - outer",
+      "lat",
+      "shoulder - back",
+      "trap"
+    ],
+    "secondaryMuscles": ["abdominal", "bicep", "lower back", "oblique"],
+    "steps": [
+      "Grasp the pull-up bar with an overhand grip slightly wider than shoulder-width apart.",
+      "Jump up or use a step to get into the top position of a pull-up with your chin above the bar.",
+      "Hold your body up with your chin above the bar, ensuring your core is tight and legs straight.",
+      "Keep your elbows bent and close to your body to engage the back muscles effectively.",
+      "Maintain the position as long as possible while breathing steadily."
+    ],
+    "notes": ""
   }
 ]
