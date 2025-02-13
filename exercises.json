@@ -5535,5 +5535,23 @@
       "Switch the dumbbell to the other hand and repeat for balance after completing the set with one side."
     ],
     "notes": ""
+  },
+  {
+    "pk": 314,
+    "name": "One-Handed Standing Chest Fly \u2013 Cable",
+    "slug": "one-handed-standing-chest-fly-cable",
+    "primaryMuscles": ["chest", "shoulder - front"],
+    "secondaryMuscles": ["abdominal", "oblique", "rotator cuff - front"],
+    "steps": [
+      "Adjust the cable machine pulley to shoulder height and attach a single handle.",
+      "Stand with your side facing the cable machine and grab the handle with your nearest hand.",
+      "Step away from the machine to create tension on the cable, feet shoulder-width apart and knees slightly bent for stability.",
+      "Straighten your arm with a slight bend in the elbow, positioning it parallel to the floor.",
+      "Brace your core and keep your hips and shoulders squared forward. This is your starting position.",
+      "Pull the handle just across your sternum, allowing your chest muscles to fully contract while keeping your arm slightly bent.",
+      "Slowly return the handle to the starting position while controlling the resistance.",
+      "Complete the desired number of repetitions and then switch sides."
+    ],
+    "notes": ""
   }
 ]
