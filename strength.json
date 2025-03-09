@@ -5328,12 +5328,12 @@
   },
   {
     "pk": 303,
-    "name": "Single-Arm Front Rack Contralateral Forward Lunge \u2013 Kettlebell",
-    "slug": "single-arm-front-rack-contralateral-forward-lunge-kettlebell",
-    "primaryMuscles": ["glute", "hamstring", "quad"],
+    "name": "Single-Arm Front Rack Contralateral Walking Lunge \u2013 Kettlebell",
+    "slug": "single-arm-front-rack-contralateral-walking-lunge-kettlebell",
+    "primaryMuscles": ["glute", "quad"],
     "secondaryMuscles": [
       "abdominal",
-      "forearm - outer",
+      "calf",
       "oblique",
       "shoulder - front",
       "trap"
@@ -5342,9 +5342,10 @@
       "Start standing with feet hip-width apart and a kettlebell in your right hand in a front rack position, resting the kettlebell on the back of your forearm with your elbow close to the body. This is your starting position.",
       "Engage your core and brace your body, maintaining a neutral spine throughout the movement.",
       "Step your left foot forward into a lunge position, ensuring your knee is aligned with your toe and creating a 90-degree angle at the knee joint.",
-      "Lower your back knee toward the ground without letting it touch, keeping your front knee stacked over your ankle.",
+      "Lower your right knee toward the ground without letting it touch, keeping your front knee stacked over your ankle.",
       "Press through your left heel to return to the starting position, keeping the kettlebell stable in the front rack position.",
-      "Repeat for the desired number of repetitions and switch sides to work the other arm and leg."
+      "Repeat for the desired number of repetitions walking forward with your left foot.",
+      "Switch sides to complete the same number of repetitions, holding the kettlebell with your left hand and walking forward with your right foot."
     ],
     "notes": ""
   },
