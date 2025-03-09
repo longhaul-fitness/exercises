@@ -14,11 +14,11 @@
   "author": "Bill Amberg",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wamberg/lhf/issues"
+    "url": "https://github.com/longhaul-fitness/exercises/issues"
   },
   "homepage": "https://github.com/longhaul-fitness/exercises/blob/main/README.md",
   "devDependencies": {
     "hads": "^3",
-    "prettier": "^2"
+    "prettier": "^3"
   }
 }

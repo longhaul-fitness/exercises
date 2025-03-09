@@ -24,7 +24,9 @@ You have two options:
 
 ## Exercises
 
-See [exercises.json](./exercises.json) for current data.
+### Strength Training
+
+See [strength.json](./strength.json) for strength training exercises.
 
 | Column | Description |
 | --- | --- |
