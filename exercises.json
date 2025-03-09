@@ -5620,5 +5620,21 @@
       "Repeat the jump squat for desired repetitions."
     ],
     "notes": ""
+  },
+  {
+    "pk": 318,
+    "name": "Quadruped Hip Extension",
+    "slug": "quadruped-hip-extension",
+    "primaryMuscles": ["glute", "hamstring"],
+    "secondaryMuscles": ["lower back", "abdominal"],
+    "steps": [
+      "Begin on your hands and knees in the quadruped position with hands under shoulders and knees under hips.",
+      "Engage your core and maintain a neutral spine throughout the exercise. This is your starting position.",
+      "Maintaining a bent knee, squeeze your glute and extend one foot towards the ceiling. Imagine placing your foot flat on the ceiling.",
+      "Squeeze your glutes at the top of the movement.",
+      "Lower the leg back to the starting position without touching the ground.",
+      "Perform the desired repetitions on one side before switching to the other leg."
+    ],
+    "notes": "Placing a band around both knees is a good way to add resistance to this exercise."
   }
 ]
