@@ -5636,5 +5636,28 @@
       "Perform the desired repetitions on one side before switching to the other leg."
     ],
     "notes": "Placing a band around both knees is a good way to add resistance to this exercise."
+  },
+  {
+    "pk": 319,
+    "name": "Single-Arm Front Rack Walking Lunge \u2013 Dumbbell",
+    "slug": "single-arm-front-rack-walking-lunge-dumbbell",
+    "primaryMuscles": ["glute", "quad"],
+    "secondaryMuscles": [
+      "abdominal",
+      "calf",
+      "oblique",
+      "shoulder - front",
+      "trap"
+    ],
+    "steps": [
+      "Stand with feet hip-width apart holding a dumbbell in one hand at shoulder height, with your elbow close to your body, palm facing inward.",
+      "Engage your core to maintain balance and ensure your shoulders are level.",
+      "Step forward with the opposite leg to the dumbbell and lower your body into a lunge until both knees are at around 90-degree angles.",
+      "Ensure your front knee does not extend past your toes and your back knee hovers just above the ground.",
+      "Push off the front foot to bring your rear leg forward, coming back to the standing position.",
+      "Continue the movement by alternating legs as you walk forward, maintaining balance and control throughout.",
+      "Perform an even number of repetitions with the dumbbell in one hand before switching the dumbbell to the other hand and doing the same number of repetitions again."
+    ],
+    "notes": ""
   }
 ]
