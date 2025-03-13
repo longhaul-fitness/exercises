@@ -5660,5 +5660,22 @@
       "Perform an even number of repetitions with the dumbbell in one hand before switching the dumbbell to the other hand and doing the same number of repetitions again."
     ],
     "notes": ""
+  },
+  {
+    "pk": 320,
+    "name": "Single-Leg Romanian Deadlift Jump",
+    "slug": "single-leg-romanian-deadlift-jump",
+    "primaryMuscles": ["calf", "glute", "hamstring", "quad"],
+    "secondaryMuscles": ["abdominal", "lower back"],
+    "steps": [
+      "Stand on your right leg, keeping a slight bend in the right knee. Bend your right arm in front of your chest and keep your left arm straight down by your side. This is your starting position.",
+      "Lean forward at your hips, extending your left leg behind you for balance. Keep your back straight, bend your left arm bent in front of your chest, and straighten your right arm behind you in rough alignment with your left leg.",
+      "Lower your torso and lift your left leg until your body forms a 'T' shape, or go as low as your flexibility allows.",
+      "Push through the heel of your right foot and prepare to explode upwards. Thrust your left arm down towards the ground while bringing your right arm up towards your chest to gain momentum for the jump.",
+      "Jump upwards, driving force through your right leg and using the motion of your arms to enhance the lift.",
+      "Land softly on your right leg, absorbing the impact with a slight bend in your knee, and reset your arms to their starting positions.",
+      "Repeat for the desired number of repetitions on one leg before switching to the other."
+    ],
+    "notes": "To increase difficulty, try to remain balanced on the working leg throughout the set."
   }
 ]
