@@ -5677,5 +5677,22 @@
       "Repeat for the desired number of repetitions on one leg before switching to the other."
     ],
     "notes": "To increase difficulty, try to remain balanced on the working leg throughout the set."
+  },
+  {
+    "pk": 321,
+    "name": "Single-Arm Thruster \u2013 Landmine",
+    "slug": "single-arm-thruster-landmine",
+    "primaryMuscles": ["glute", "quad", "shoulder - front"],
+    "secondaryMuscles": ["abdominal", "lat", "oblique", "tricep"],
+    "steps": [
+      "Start by placing a barbell into a landmine attachment or securely anchor it into a corner.",
+      "Stand with feet shoulder-width apart, holding the unattached end of the barbell with one hand at shoulder height. This is your starting position.",
+      "Perform a squat by pushing your hips back, keeping your chest up, and bending your knees until your thighs are parallel to the floor.",
+      "Explode upward from the squat position, using leg drive to assist in pressing the barbell overhead.",
+      "Extend your arm fully overhead while keeping the opposite arm by your side for balance.",
+      "Slowly lower the barbell back to shoulder height, controlling the descent, returning to the starting position.",
+      "Repeat for the desired number of repetitions, then switch to the other arm."
+    ],
+    "notes": ""
   }
 ]
