@@ -812,8 +812,8 @@
   },
   {
     "pk": 49,
-    "name": "Landmine Squat",
-    "slug": "landmine-squat",
+    "name": "Squat \u2013 Landmine",
+    "slug": "squat-landmine",
     "primaryMuscles": ["glute", "quad", "thigh - inner"],
     "secondaryMuscles": ["calf"],
     "steps": [
@@ -2759,14 +2759,14 @@
   },
   {
     "pk": 160,
-    "name": "Landmine Hack Squat",
-    "slug": "landmine-hack-squat",
+    "name": "Hack Squat \u2013 Landmine",
+    "slug": "hack-squat-landmine",
     "primaryMuscles": ["glute", "quad", "thigh - inner"],
     "secondaryMuscles": [],
     "steps": [
-      "Stand with your feet shoulder-width apart, toes slightly turned out.",
       "Place the end of a barbell into a landmine attachment or securely anchor it in a corner.",
-      "Hold the other end of the barbell with both hands, palms facing inwards. Lift the end up and over one shoulder while you turn away from the weight. Rest the barbell on your shoulder with the weight at your back.",
+      "Stand with your feet shoulder-width apart, toes slightly turned out.",
+      "Hold the unattached end of the barbell with both hands, palms facing inwards. Lift the end up and over one shoulder while you turn away from the weight. Rest the barbell on your shoulder with the weight at your back.",
       "Keep your core engaged, chest lifted, and back straight.",
       "Lower your body by bending at the knees and hips, as if sitting back into a chair.",
       "Continue lowering until your thighs are parallel to the ground or slightly below.",
@@ -4267,8 +4267,8 @@
   },
   {
     "pk": 247,
-    "name": "One-Handed Landmine Press",
-    "slug": "one-handed-landmine-press",
+    "name": "One-Handed Shoulder Press \u2013 Landmine",
+    "slug": "one-handed-shoulder-press-landmine",
     "primaryMuscles": [
       "chest",
       "shoulder - front",
