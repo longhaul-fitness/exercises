@@ -1,0 +1,74 @@
+[
+  {
+    "pk": 1,
+    "name": "Run",
+    "slug": "run",
+    "instructions": [
+      "Running is a versatile form of cardiovascular exercise that involves rhythmic, continuous movement of the legs and arms. It can be performed at various speeds and intensities, making it suitable for enhancing endurance, burning calories, and improving overall fitness. Runners can enjoy the activity outdoors on various terrains or indoors on a treadmill, fostering flexibility in workout routines and locations."
+    ]
+  },
+  {
+    "pk": 2,
+    "name": "Bike",
+    "slug": "bike",
+    "instructions": [
+      "Biking, or cycling, is a low-impact, cardiovascular exercise that involves using a bicycle to move across varying terrains or on stationary equipment. It's effective for building leg strength, improving joint mobility, and boosting cardiovascular endurance. Suitable for all fitness levels, biking can be enjoyed outdoors on roads and trails, or indoors on a stationary bike, providing a versatile workout option."
+    ]
+  },
+  {
+    "pk": 3,
+    "name": "Row",
+    "slug": "row",
+    "instructions": [
+      "Rowing is a full-body, low-impact cardiovascular exercise that engages multiple muscle groups including legs, arms, back, and core. It involves a synchronized motion on a rowing machine or in a boat, combining resistance and cardiovascular training to improve fitness and endurance. Suitable for indoor and outdoor settings, rowing offers a highly effective workout that enhances strength, cardiovascular health, and coordination, making it a comprehensive exercise choice for individuals of various fitness levels."
+    ]
+  },
+  {
+    "pk": 4,
+    "name": "Elliptical",
+    "slug": "elliptical",
+    "instructions": [
+      "Elliptical training is a low-impact, cardio exercise performed on an elliptical machine, which mimics the natural motion of running without the harsh impact on joints. It simultaneously engages both the upper and lower body, promoting overall muscular endurance and cardiovascular fitness. Suitable for all fitness levels, using an elliptical provides a versatile workout option that can be adjusted for intensity and is particularly beneficial for those seeking a joint-friendly exercise alternative."
+    ]
+  },
+  {
+    "pk": 5,
+    "name": "Stair Climb",
+    "slug": "stair-climb",
+    "instructions": [
+      "Elliptical training is a low-impact, cardio exercise performed on an elliptical machine, which mimics the natural motion of running without the harsh impact on joints. It simultaneously engages both the upper and lower body, promoting overall muscular endurance and cardiovascular fitness. Suitable for all fitness levels, using an elliptical provides a versatile workout option that can be adjusted for intensity and is particularly beneficial for those seeking a joint-friendly exercise alternative."
+    ]
+  },
+  {
+    "pk": 6,
+    "name": "Swim",
+    "slug": "swim",
+    "instructions": [
+      "Swimming is a full-body, low-impact exercise performed in water, encompassing various strokes like freestyle, breaststroke, backstroke, and butterfly. It engages multiple muscle groups, improves cardiovascular stamina, and enhances flexibility, all while providing buoyant support that minimizes stress on joints. Ideal for all ages and fitness levels, swimming offers both therapeutic and fitness benefits, making it a highly effective workout for overall health and conditioning."
+    ]
+  },
+  {
+    "pk": 7,
+    "name": "Jump Rope",
+    "slug": "jump-rope",
+    "instructions": [
+      "Jump rope is a dynamic cardiovascular exercise that involves swinging a rope beneath your feet and over your head in a continuous rhythm. This activity not only elevates your heart rate, promoting cardiovascular health, but also enhances coordination, agility, and lower body strength. Perfect for varying intensity levels and incorporating into high-intensity interval training, jump rope is portable, can be done almost anywhere, and is effective for burning calories in short periods. It offers a full-body workout, engaging both lower and upper body muscles, making it a comprehensive and versatile exercise choice."
+    ]
+  },
+  {
+    "pk": 8,
+    "name": "Aerobics Class",
+    "slug": "aerobics-class",
+    "instructions": [
+      "Aerobics classes involve a series of rhythmic exercises often set to music, primarily aiming to improve cardiovascular fitness and endurance. These classes combine elements of dance, stretching, and strength training to target various muscle groups and boost overall health. Suitable for varying fitness levels, aerobics offers a fun, social environment that can help maintain motivation and improve mood, making it a popular choice for those looking to enhance their fitness in a group setting. These classes are also adaptable, with options ranging from low-impact for beginners or those with joint issues, to high-intensity for more advanced fitness enthusiasts."
+    ]
+  },
+  {
+    "pk": 9,
+    "name": "High-Intensity Interval Training (HIIT)",
+    "slug": "high-intensity-interval-training",
+    "instructions": [
+      "High-Intensity Interval Training (HIIT) is a training technique that involves short bursts of intense exercise alternated with low-intensity recovery periods. HIIT is highly efficient in boosting cardiovascular fitness, increasing metabolism, and burning calories. Suitable for a variety of fitness enthusiasts from moderate to high fitness levels, HIIT can be adapted to many types of activities, including sprinting, biking, jump rope, or bodyweight exercises, making it a flexible and effective choice for those looking to maximize their workout efficiency."
+    ]
+  }
+]

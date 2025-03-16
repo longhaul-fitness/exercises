@@ -23,11 +23,24 @@ clean:
 format: out/.format.prettier.sentinel
 .PHONY: format
 
+lint: out/.lint.strength.sentinel out/.lint.cardio.sentinel
+.PHONY: lint
+
 ############
 # Sentinels
 ############
 
 out/.format.prettier.sentinel: $(shell find ./ -type f \( -iname \*.md -o -iname \*.json \))
 	npm run format
+	mkdir -p $(@D)
+	touch $@
+
+out/.lint.strength.sentinel: strength.json schema-strength.json
+	boon schema-strength.json strength.json
+	mkdir -p $(@D)
+	touch $@
+
+out/.lint.cardio.sentinel: cardio.json schema-cardio.json
+	boon schema-cardio.json cardio.json
 	mkdir -p $(@D)
 	touch $@
