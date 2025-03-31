@@ -5710,5 +5710,23 @@
       "Continue alternating knees to elbows while maintaining stability in the plank position."
     ],
     "notes": ""
+  },
+  {
+    "pk": 323,
+    "name": "Skull Crusher \u2013 Cable with Rope",
+    "slug": "skull-crusher-cable-with-rope",
+    "primaryMuscles": ["tricep"],
+    "secondaryMuscles": ["forearm - inner", "forearm - outer"],
+    "steps": [
+      "Begin by setting a flat bench in front of a cable machine with a low pulley.",
+      "Lie down on the bench with your head closest to the cable machine.",
+      "Grab the rope with an overhand grip, arms fully extended above your forehead. This is your starting position.",
+      "Ensure your elbows are shoulder-width apart and remain in a fixed position throughout the exercise.",
+      "Engage your core as you slowly lower the rope towards your forehead by bending your elbows.",
+      "Pause briefly once the rope is close to your forehead.",
+      "Press back to the starting position by extending your elbows and contracting your triceps.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "notes": ""
   }
 ]
