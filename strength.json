@@ -5694,5 +5694,21 @@
       "Repeat for the desired number of repetitions, then switch to the other arm."
     ],
     "notes": ""
+  },
+  {
+    "pk": 322,
+    "name": "Forearm Plank Knee to Elbow",
+    "slug": "forearm-plank-knee-to-elbow",
+    "primaryMuscles": ["abdominal", "oblique"],
+    "secondaryMuscles": ["chest", "glute", "quad", "shoulder - front"],
+    "steps": [
+      "Begin in a forearm plank position with elbows directly beneath shoulders and body in a straight line from head to heels.",
+      "Engage core muscles and maintain a neutral spine position throughout the exercise. This is your starting position.",
+      "Lift one foot off the ground and bring the knee towards the same side elbow, maintaining plank position.",
+      "Return the foot back to the starting plank position.",
+      "Repeat the movement on the opposite side, bringing the other knee towards its respective elbow. This is one repetition.",
+      "Continue alternating knees to elbows while maintaining stability in the plank position."
+    ],
+    "notes": ""
   }
 ]
