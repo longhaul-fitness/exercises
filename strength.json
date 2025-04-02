@@ -5734,5 +5734,23 @@
       "Repeat for the desired number of repetitions."
     ],
     "notes": ""
+  },
+  {
+    "pk": 324,
+    "name": "Bayesian Curl \u2013 Cable",
+    "slug": "bayesian-curl-cable",
+    "primaryMuscles": ["bicep"],
+    "secondaryMuscles": ["forearm - inner", "forearm - outer"],
+    "steps": [
+      "Stand facing away from a cable machine with the pulley set to the lowest height.",
+      "Select an appropriate weight on the machine for your fitness level.",
+      "Grip the handle attached to the cable with one hand, your palm facing forward.",
+      "Keep your feet shoulder-width apart, back straight, and shoulders back.",
+      "Curl the handle towards your chest, focusing on contracting the biceps while keeping your elbow stationary and close to your body.",
+      "Pause at the top of the curl to squeeze the bicep muscle intensely.",
+      "Slowly lower the handle back to the starting position, controlling the movement throughout the descent.",
+      "Repeat the movement for the desired number of repetitions before switching arms."
+    ],
+    "notes": ""
   }
 ]
