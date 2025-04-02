@@ -5737,8 +5737,8 @@
   },
   {
     "pk": 324,
-    "name": "Bayesian Curl \u2013 Cable",
-    "slug": "bayesian-curl-cable",
+    "name": "One-Handed Bayesian Curl \u2013 Cable",
+    "slug": "one-handed-bayesian-curl-cable",
     "primaryMuscles": ["bicep"],
     "secondaryMuscles": ["forearm - inner", "forearm - outer"],
     "steps": [
