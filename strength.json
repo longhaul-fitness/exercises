@@ -5752,5 +5752,25 @@
       "Repeat the movement for the desired number of repetitions before switching arms."
     ],
     "notes": ""
+  },
+  {
+    "pk": 325,
+    "name": "Bottoms Up Seesaw Overhead Press \u2013 Kettlebell",
+    "slug": "bottoms-up-seesaw-overhead-press-kettlebell",
+    "primaryMuscles": ["shoulder - front", "shoulder - side"],
+    "secondaryMuscles": [
+      "rotator cuff - back",
+      "rotator cuff - front",
+      "tricep"
+    ],
+    "steps": [
+      "Stand with feet shoulder-width apart, holding a kettlebell in each hand by the horns on the floor between your legs.",
+      "Swing both kettlebells up, bending your elbows, so that the kettlebells end up in front of your shoulders in the bottoms-up position. This is your starting position.",
+      "Begin the press by pushing one kettlebell upward, over your head, until your arm is staight with a slight bend in the elbow.",
+      "Lower the raised kettlebell to your shoulder while simultaneously raising the lowered kettlebell over your head.",
+      "Alternate the press between the kettlebells in a seesaw motion, ensuring one is always moving up as the other moves down.",
+      "Complete the desired number of repetitions, ensuring that each hand pushes the kettlebell the same number of times, then safely lower both kettlebells to the ground."
+    ],
+    "notes": ""
   }
 ]
