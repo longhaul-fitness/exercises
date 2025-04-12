@@ -5772,5 +5772,23 @@
       "Complete the desired number of repetitions, ensuring that each hand pushes the kettlebell the same number of times, then safely lower both kettlebells to the ground."
     ],
     "notes": ""
+  },
+  {
+    "pk": 326,
+    "name": "Stability Ball Pullover \u2013 Dumbbell",
+    "slug": "stability-ball-pullover-dumbbell",
+    "primaryMuscles": ["chest", "lat"],
+    "secondaryMuscles": ["abdominal", "tricep"],
+    "steps": [
+      "Select an appropriate weight dumbbell and a stability ball.",
+      "Sit on the stability ball and place the dumbbell on your lap.",
+      "Roll down the ball until your upper back and shoulders are supported by it, keeping your hips lifted, your body in a straight line, and your feet flat on the ground.",
+      "Hold the dumbbell over your chest with both hands, gripping one end of the dumbbell while the other end points towards your chest. This is your starting position.",
+      "Slowly lower the dumbbell in an arc behind your head, keeping your arms mostly straight, but slightly bent, throughout.",
+      "Stretch your arms back as far as comfortably possible while maintaining control of the weight.",
+      "Bring the dumbbell back up over your chest along the same arc.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "notes": ""
   }
 ]
