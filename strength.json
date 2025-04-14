@@ -5833,5 +5833,28 @@
       "Switch hands and repeat the sequence on the opposite side."
     ],
     "notes": ""
+  },
+  {
+    "pk": 329,
+    "name": "Single Arm Half Kneeling High Row \u2013 Cable",
+    "slug": "single-arm-half-kneeling-high-row-cable",
+    "primaryMuscles": ["lat"],
+    "secondaryMuscles": [
+      "oblique",
+      "rotator cuff - back",
+      "shoulder - back",
+      "trap"
+    ],
+    "steps": [
+      "Position a cable machine at the top setting and attach a single handle.",
+      "Assume a half-kneeling position with your right knee on the ground and left foot forward.",
+      "Grasp the handle with your right hand while keeping the arm extended.",
+      "Engage your core and keep your torso upright.",
+      "Pull the handle down and backwards by engaging your lat, keeping the elbow close to your body.",
+      "Pull until your hand reaches chest level, then pause briefly.",
+      "Slowly extend your arm back to the start position, controlling the movement.",
+      "Complete the desired number of repetitions and switch to the other side."
+    ],
+    "notes": ""
   }
 ]
