@@ -5814,5 +5814,24 @@
       "Continue to alternate the weight shift from one leg to the other for the desired number of repetitions, maintaining a low squat position throughout the entire movement."
     ],
     "notes": "Ensure your front rack position is stable, keeping the chest lifted and core engaged throughout the exercise."
+  },
+  {
+    "pk": 328,
+    "name": "Alternating Single-Arm Dead Clean to Push Press \u2013 Kettlebell",
+    "slug": "alternating-single-arm-dead-clean-to-push-press-kettlebell",
+    "primaryMuscles": ["glute", "quad", "shoulder - front"],
+    "secondaryMuscles": ["calf", "hamstring", "lower back", "tricep"],
+    "steps": [
+      "Stand with feet shoulder-width apart, a kettlebell in front of you.",
+      "Hinge at the hips and slightly bend your knees to grip the kettlebell with one hand, palm facing you.",
+      "Engage your core and drive through your heels to lift the kettlebell off the ground.",
+      "As you reach the top of the movement, quickly pull the kettlebell upwards, allowing it to rotate around your hand to the rack position at shoulder level.",
+      "From the rack position, bend your knees slightly in a quarter squat.",
+      "Explosively extend your legs and press the kettlebell overhead, rotating your wrist so your palm faces forward.",
+      "Reverse the press motion to return the kettlebell to the rack position.",
+      "Rotate the kettlebell back down to the starting position with control.",
+      "Switch hands and repeat the sequence on the opposite side."
+    ],
+    "notes": ""
   }
 ]
