@@ -5874,5 +5874,38 @@
       "Alternate sides and repeat for desired repetitions, ensuring equal reps for both arms."
     ],
     "notes": "Raise the ring height to take weight off the push-up and make it easier to perform. Lower the ring height to make the exercise more difficult."
+  },
+  {
+    "pk": 331,
+    "name": "Front Rack March \u2013 Kettlebell",
+    "slug": "front-rack-march-kettlebell",
+    "primaryMuscles": ["abdominal", "shoulder - front"],
+    "secondaryMuscles": ["calf", "glute", "quad"],
+    "steps": [
+      "Choose two kettlebells of the same weight.",
+      "Clean the kettlebells to your chest, tucking your elbows close to your body and holding the bells in front of your shoulders with your hands facing each other. This is your starting position.",
+      "Lift one knee to hip level and hold briefly, then lower it back to the ground.",
+      "Alternate lifting the other knee to the same level, maintaining balance and control.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 332,
+    "name": "Front Rack Curtsy Lunge \u2013 Barbell",
+    "slug": "front-rack-curtsy-lunge-barbell",
+    "primaryMuscles": ["glute", "quad", "thigh - inner", "thigh - outer"],
+    "secondaryMuscles": ["calf", "hamstring"],
+    "steps": [
+      "Position a barbell on a squat rack at shoulder height.",
+      "Stand facing the barbell, step under it, and rest it across the front of your shoulders.",
+      "Step back from the rack with the barbell in the front rack position.",
+      "Stand with feet hip-width apart, head up, and chest high. This is your starting position.",
+      "Take a step back and to the side with your right foot, crossing it behind your left leg.",
+      "Lower your body into a lunge, keeping your front knee aligned over your front foot and your core engaged.",
+      "Push through your front heel to rise, bringing your right foot back to the starting position.",
+      "Repeat for the desired number of repetitions and switch to the other side."
+    ],
+    "notes": ""
   }
 ]
