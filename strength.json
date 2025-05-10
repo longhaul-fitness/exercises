@@ -725,19 +725,18 @@
     "pk": 44,
     "name": "Hang Power Clean",
     "slug": "hang-power-clean",
-    "primaryMuscles": ["glute", "lower back"],
-    "secondaryMuscles": [
-      "forearm - inner",
-      "hamstring",
-      "thigh - inner",
-      "trap"
-    ],
+    "primaryMuscles": ["glute", "hamstring", "quad", "trap"],
+    "secondaryMuscles": ["calf", "lower back", "shoulder - front"],
     "steps": [
-      "Start with feet shoulder-width apart, toes pointing forward, and grip a weighted barbell with an overhand grip just outside of your legs.",
-      "Lower your hips and bend your knees, keeping your back straight and your chest up.",
-      "Drive your hips forward and explosively pull the barbell up towards your shoulders, keeping it close to your body.",
-      "As the barbell reaches your chest, quickly drop your elbows underneath it and catch it on your shoulders in a front rack position.",
-      "Stand up straight, keeping the barbell close to your body, and then lower it back down to the starting position."
+      "Stand with feet shoulder-width apart, gripping a barbell at thigh level with palms facing you. This is your starting position.",
+      "Bend your knees slightly and hinge at the waist to bring the barbell just above knee level.",
+      "Keep your back straight and core tight.",
+      "Explosively extend your hips and knees. At the same time, shrug your shoulders and pull the barbell up along your body.",
+      "As the barbell reaches chest height, rotate your wrists under the bar and push your body slightly under it.",
+      "Catch the bar on the front part of your shoulders with a slight bend in your knees (higher than a full squat).",
+      "Stand up fully with the barbell in the front rack position.",
+      "Lower the bar back to the starting position.",
+      "Repeat for the desired number of repetitions."
     ],
     "notes": ""
   },
