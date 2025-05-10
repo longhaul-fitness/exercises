@@ -2291,22 +2291,23 @@
     "pk": 134,
     "name": "Power Clean",
     "slug": "power-clean",
-    "primaryMuscles": ["glute", "lower back"],
+    "primaryMuscles": ["glute", "hamstring", "quad", "trap"],
     "secondaryMuscles": [
-      "forearm - inner",
-      "hamstring",
-      "quad",
-      "thigh - inner",
-      "trap"
+      "calf",
+      "forearm - outer",
+      "lower back",
+      "shoulder - front"
     ],
     "steps": [
-      "Start with feet shoulder-width apart and grip the barbell with an overhand grip, hands slightly wider than shoulder-width apart.",
-      "Lower your hips and bend your knees, keeping your back straight and your chest up.",
-      "Explosively extend your hips and knees, pulling the barbell up towards your shoulders.",
-      "As the barbell reaches your chest, drop your elbows and rotate your wrists, catching the barbell on your shoulders in a front squat position.",
-      "Stand up with the barbell, keeping your core tight and your chest up.",
-      "Lower the barbell back down to the starting position, either by dropping it or by reversing the movement.",
-      "Repeat."
+      "Place a barbell on the ground and stand with your feet hip-width apart, toes under the bar.",
+      "Bend at the hips and knees to grip the bar with an overhand grip slightly wider than shoulder width.",
+      "Bend your knees until your shins touch the bar, keeping your back flat and chest up. This is your starting position.",
+      "Lift the bar by extending your hips and knees, keeping the bar close to your body and your elbows straight.",
+      "As the bar passes your knees, aggressively extend your hips, shrug your shoulders, and then pull yourself under the bar.",
+      "Catch the bar in a partial squat position, with elbows forward and the bar resting on your shoulders.",
+      "Stand up straight to complete the movement.",
+      "Lower the bar to the ground carefully and set up for the next repetition.",
+      "Repeat for the desired number of repetitions."
     ],
     "notes": ""
   },
