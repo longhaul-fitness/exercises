@@ -725,8 +725,13 @@
     "pk": 44,
     "name": "Hang Power Clean",
     "slug": "hang-power-clean",
-    "primaryMuscles": ["glute", "hamstring", "quad", "trap"],
-    "secondaryMuscles": ["calf", "lower back", "shoulder - front"],
+    "primaryMuscles": ["glute", "lower back"],
+    "secondaryMuscles": [
+      "forearm - outer",
+      "hamstring",
+      "thigh -inner",
+      "trap"
+    ],
     "steps": [
       "Stand with feet shoulder-width apart, gripping a barbell at thigh level with palms facing you. This is your starting position.",
       "Bend your knees slightly and hinge at the waist to bring the barbell just above knee level.",
@@ -1068,16 +1073,18 @@
     "primaryMuscles": ["glute", "lower back", "quad", "thigh - inner"],
     "secondaryMuscles": ["calf", "forearm - inner", "hamstring", "trap"],
     "steps": [
-      "Start with feet shoulder-width apart and toes pointing slightly outward.",
-      "Place the barbell on blocks in front of you, with your hands wider than shoulder-width apart and palms facing down.",
-      "Lower your hips and bend your knees, keeping your back straight and chest up.",
-      "Drive through your legs and hips, explosively extending your knees and hips to lift the barbell off the ground.",
-      "As the barbell reaches your mid-thigh, shrug your shoulders and pull the barbell upward, keeping it close to your body.",
-      "As the barbell reaches its highest point, drop under the barbell and catch it in a squat position, with your arms fully extended overhead.",
-      "Stand up with the barbell extended over your head, maintaining a straight back.",
-      "Lower the barbell back to the blocks in a controlled manner."
+      "Set up the blocks so the barbell rests somewhere between mid-shin to mid-thigh height.",
+      "Stand with your feet hip-width apart, in front of the bar.",
+      "Bend at the hips and knees, and grip the bar with a wide overhand grip.",
+      "Position your shoulders slightly over the bar, back straight, eyes focused ahead. This is your starting position.",
+      "Explosively extend your hips and knees, simultaneously shrugging your shoulders upward.",
+      "Pull your body under the bar rapidly, rotating your wrists around the bar as you drop into a squat position.",
+      "Catch the bar overhead with arms fully extended, while in a deep squat.",
+      "Stand up by straightening your legs, keeping the bar steady overhead.",
+      "Lower the bar back to the blocks carefully.",
+      "Repeat for the desired number of repetitions."
     ],
-    "notes": ""
+    "notes": "Lower the barbell's starting height to increase the difficulty of the exercise. Raise the barbell's starting height for a easier lift."
   },
   {
     "pk": 64,
@@ -1313,8 +1320,8 @@
     "pk": 76,
     "name": "Hang Clean",
     "slug": "hang-clean",
-    "primaryMuscles": ["glute", "hamstring", "quad", "lower back"],
-    "secondaryMuscles": ["calf", "forearm - outer", "trap", "shoulder - front"],
+    "primaryMuscles": ["glute", "lower back", "quad", "thigh - inner"],
+    "secondaryMuscles": ["calf", "forearm - outer", "hamstring", "trap"],
     "steps": [
       "Stand holding a barbell across your pelvis with straight arms and a shoulder-width grip, palms facing you. This is your starting position.",
       "Bend your knees slightly, hinge at the hips to lower the bar to just above knee level.",
@@ -3266,13 +3273,8 @@
     "pk": 189,
     "name": "Hang Power Snatch",
     "slug": "hang-power-snatch",
-    "primaryMuscles": ["glute", "lower back"],
-    "secondaryMuscles": [
-      "forearm - inner",
-      "hamstring",
-      "thigh - inner",
-      "trap"
-    ],
+    "primaryMuscles": ["glute", "lower back", "quad", "thigh - inner"],
+    "secondaryMuscles": ["calf", "forearm - inner", "hamstring", "trap"],
     "steps": [
       "Stand with feet hip-width apart, holding a barbell with an overhand grip just outside of your thighs.",
       "Lower into a quarter squat position, keeping your back straight and chest up.",
@@ -4041,14 +4043,8 @@
     "pk": 234,
     "name": "Power Snatch",
     "slug": "power-snatch",
-    "primaryMuscles": ["glute", "lower back"],
-    "secondaryMuscles": [
-      "forearm - inner",
-      "hamstring",
-      "quad",
-      "thigh - inner",
-      "trap"
-    ],
+    "primaryMuscles": ["glute", "lower back", "quad", "thigh - inner"],
+    "secondaryMuscles": ["calf", "forearm - inner", "hamstring", "trap"],
     "steps": [
       "Start with feet hip-width apart, toes slightly turned out, with a loaded barbell on the ground in front of you.",
       "Hold the barbell with a wide grip, hands outside the legs.",
