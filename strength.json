@@ -1314,16 +1314,18 @@
     "pk": 76,
     "name": "Hang Clean",
     "slug": "hang-clean",
-    "primaryMuscles": ["glute", "lower back", "quad", "thigh - inner"],
-    "secondaryMuscles": ["calf", "forearm - inner", "hamstring", "trap"],
+    "primaryMuscles": ["glute", "hamstring", "quad", "lower back"],
+    "secondaryMuscles": ["calf", "forearm - outer", "trap", "shoulder - front"],
     "steps": [
-      "Start with feet shoulder-width apart and grip the barbell with an overhand grip, hands slightly wider than shoulder-width apart.",
-      "Bend your knees and lower your hips, keeping your back straight and your chest up.",
-      "Begin the lift by explosively extending your hips, knees, and ankles, pulling the bar up towards your chest.",
-      "As the bar reaches chest height, quickly drop under the bar, rotating your elbows forward and catching the bar on your shoulders in a front squat position.",
-      "Stand up with the bar, keeping your elbows high and your chest up.",
-      "Lower the bar back down to the starting position by reversing the movement, bending your knees and lowering your hips.",
-      "Repeat."
+      "Stand holding a barbell across your pelvis with straight arms and a shoulder-width grip, palms facing you. This is your starting position.",
+      "Bend your knees slightly, hinge at the hips to lower the bar to just above knee level.",
+      "Tighten your core and keep your back straight.",
+      "Explosively extend your hips and knees, simultaneously pulling the barbell up to your shoulders, keeping it close to your body.",
+      "Drop into a deep squat, moving your body, arms, and wrists under the weight.",
+      "Catch the bar on your front shoulders, driving your elbows forward and up under the bar.",
+      "Stand up straight by extending your hips and knees fully to complete the lift.",
+      "Lower the bar back to the starting position.",
+      "Repeat for the desired number of repetitions."
     ],
     "notes": ""
   },
