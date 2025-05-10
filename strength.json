@@ -729,7 +729,7 @@
     "secondaryMuscles": [
       "forearm - outer",
       "hamstring",
-      "thigh -inner",
+      "thigh - inner",
       "trap"
     ],
     "steps": [
@@ -5903,6 +5903,33 @@
       "Lower your body into a lunge, keeping your front knee aligned over your front foot and your core engaged.",
       "Push through your front heel to rise, bringing your right foot back to the starting position.",
       "Repeat for the desired number of repetitions and switch to the other side."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 333,
+    "name": "Hang Power Clean and Jerk",
+    "slug": "hang-power-clean-and-jerk",
+    "primaryMuscles": ["glute", "lower back", "shoulder - front"],
+    "secondaryMuscles": [
+      "calf",
+      "hamstring",
+      "shoulder - side",
+      "quad",
+      "trap",
+      "tricep"
+    ],
+    "steps": [
+      "Approach the barbell on the floor and stand with your feet shoulder-width apart.",
+      "Bend at the hips and knees to grip the barbell with hands slightly wider than shoulder-width apart with an overhand grip.",
+      "Lift the barbell in front of your thighs by extending your hips and knees to stand tall, keeping your arms straight. This is your starting position.",
+      "Bend your knees and slightly hinge forward to lower the bar just above your knees, keeping your back straight.",
+      "Explosively extend your hips, knees, and ankles to lift the bar, shrug your shoulders, and begin to pull yourself under the bar.",
+      "Catch the bar at your shoulders in a partial squat position, standing up tall to complete the power clean.",
+      "With the barbell resting on your shoulders, dip slightly at the knees, then drive up through your legs to push the bar overhead.",
+      "Lock out your arms overhead and stand straight.",
+      "With control, lower the weight to your shoulders, then back to the starting position.",
+      "Repeat for the desired number of repetitions."
     ],
     "notes": ""
   }
