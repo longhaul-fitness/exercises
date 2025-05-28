@@ -5968,5 +5968,22 @@
       "Repeat for the desired number of repetitions."
     ],
     "notes": ""
+  },
+  {
+    "pk": 336,
+    "name": "Alternating Tall Kneeling Arnold Press \u2013 Hand Weights",
+    "slug": "alternating-tall-kneeling-arnold-press-hand-weights",
+    "primaryMuscles": ["shoulder - front", "shoulder - side"],
+    "secondaryMuscles": ["abdominal", "bicep", "tricep"],
+    "steps": [
+      "Choose a pair of appropriate weights: dumbbells, kettlebells, etc.",
+      "Kneel on the ground with both knees, keeping your back straight and core engaged.",
+      "Hold the dumbbells in front of you at shoulder height, elbows bent, and palms facing your face. This is your starting position.",
+      "Rotate one arm outward, so your palm faces forward, and press the dumbbell overhead.",
+      "Bring the dumbbell back to the starting position while simultaneously rotating the other arm and pressing the dumbbell overhead.",
+      "Continue alternating arms, pressing one dumbbell overhead at a time.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "notes": ""
   }
 ]
