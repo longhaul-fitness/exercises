@@ -5950,5 +5950,23 @@
       "Repeat for the desired number of repetitions."
     ],
     "notes": "Stay in the semi-squat position throughout the exercise to maintain focus on the hip and thigh muscles."
+  },
+  {
+    "pk": 335,
+    "name": "Seated Good Morning \u2013 Barbell",
+    "slug": "seated-good-morning-barbell",
+    "primaryMuscles": ["glute", "hamstring", "lower back"],
+    "secondaryMuscles": ["abdominal", "thigh - inner"],
+    "steps": [
+      "Select an appropriate weight barbell and set up a bench for sitting.",
+      "Sit on the bench with feet firmly planted on the ground, slightly wider than shoulder-width apart.",
+      "Position the barbell on your upper back, using a grip slightly wider than shoulder-width.",
+      "Ensure your back is straight, chest up, and core engaged. This is your starting position.",
+      "Bend at the hips, lowering your torso forward while keeping your back flat and core tight.",
+      "Lower your torso until it is nearly parallel with the ground, maintaining control.",
+      "Engage your glutes and core as you raise your torso back to the starting position.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "notes": ""
   }
 ]
