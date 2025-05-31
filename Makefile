@@ -23,7 +23,7 @@ clean:
 format: out/.format.prettier.sentinel
 .PHONY: format
 
-lint: out/.lint.strength.sentinel out/.lint.cardio.sentinel
+lint: out/.lint.cardio.sentinel out/.lint.flexibility.sentinel out/.lint.strength.sentinel
 .PHONY: lint
 
 ############
@@ -35,12 +35,17 @@ out/.format.prettier.sentinel: $(shell find ./ -type f \( -iname \*.md -o -iname
 	mkdir -p $(@D)
 	touch $@
 
-out/.lint.strength.sentinel: strength.json schema-strength.json
-	boon schema-strength.json strength.json
+out/.lint.cardio.sentinel: cardio.json schemas/cardio.json
+	boon schemas/cardio.json cardio.json
 	mkdir -p $(@D)
 	touch $@
 
-out/.lint.cardio.sentinel: cardio.json schema-cardio.json
-	boon schema-cardio.json cardio.json
+out/.lint.flexibility.sentinel: flexibility.json schemas/flexibility.json
+	boon schemas/flexibility.json flexibility.json
+	mkdir -p $(@D)
+	touch $@
+
+out/.lint.strength.sentinel: strength.json schemas/strength.json
+	boon schemas/strength.json strength.json
 	mkdir -p $(@D)
 	touch $@
