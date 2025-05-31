@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["pk", "name", "slug", "primaryMuscles", "steps"],
+    "properties": {
+      "pk": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "name": {
+        "type": "string"
+      },
+      "slug": {
+        "type": "string"
+      },
+      "primaryMuscles": {
+        "type": "array",
+        "uniqueItems": true,
+        "items": {
+          "type": "string",
+          "enum": [
+            "abdominal",
+            "bicep",
+            "calf",
+            "chest",
+            "forearm - inner",
+            "forearm - outer",
+            "glute",
+            "hamstring",
+            "lat",
+            "lower back",
+            "oblique",
+            "quad",
+            "rotator cuff - back",
+            "rotator cuff - front",
+            "shoulder - back",
+            "shoulder - front",
+            "shoulder - side",
+            "thigh - inner",
+            "thigh - outer",
+            "trap",
+            "tricep"
+          ]
+        }
+      },
+      "steps": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "notes": {
+        "type": "string"
+      }
+    }
+  }
+}
