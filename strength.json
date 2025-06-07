@@ -5985,5 +5985,21 @@
       "Repeat for the desired number of repetitions."
     ],
     "notes": ""
+  },
+  {
+    "pk": 337,
+    "name": "Seated Rotational Slam \u2013 Medicine Ball",
+    "slug": "seated-rotational-slam-medicine-ball",
+    "primaryMuscles": ["abdominal", "oblique"],
+    "secondaryMuscles": ["lat", "lower back", "shoulder - front"],
+    "steps": [
+      "Sit with your feet extended in front of you, knees bent, and your feet or heels on the ground for stability. Hold the medicine ball with both hands near one hip. This is your starting position.",
+      "Begin the exercise by lifting the medicine ball in a circular motion on the same side, raising it up and over your head.",
+      "Continue the circular motion bringing the ball down with force on the opposite side.",
+      "Release the medicine ball towards the ground as you near the opposite hip from where you started, channeling maximum force through the slam.",
+      "Retrieve the medicine ball, return to the starting position on the opposite hip, and perform the exercise on the other side.",
+      "Repeat the exercise for the desired number of repetitions."
+    ],
+    "notes": "Keep your arms extended, elbows slightly bent, throughout the exercise. Focus on creating big circles with your arms, avoiding the tendency to create smaller, easier circles, close to your chest."
   }
 ]
