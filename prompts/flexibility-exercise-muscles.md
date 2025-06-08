@@ -12,6 +12,7 @@ Return the muscles as two JSON formated lists of strings. Your response should f
 
 ## Constraints
 
+- You must return at least one value for "primaryMuscles".
 - Only return the raw json. Do not include \`\`\`json in your response.
 - Choose only from the following list of muscles:
   - abdominal
