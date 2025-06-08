@@ -210,5 +210,20 @@
       "Repeat the exercise for the desired number of repetitions."
     ],
     "notes": ""
+  },
+  {
+    "pk": 14,
+    "name": "One-Leg Seated Hip Flexor Hold",
+    "slug": "one-leg-seated-hip-flexor-hold",
+    "primaryMuscles": ["quad"],
+    "secondaryMuscles": ["lower back"],
+    "steps": [
+      "Sit on a comfortable surface with a neutral spine.",
+      "Lift one knee as high as possible without arching or rounding your back.",
+      "Place both hands on the lifted thigh and push down firmly while resisting the movement with your hip muscles.",
+      "Maintain the contraction at the desired intensity for the set duration.",
+      "Hold the contraction for the desired time and switch to the other side."
+    ],
+    "notes": ""
   }
 ]
