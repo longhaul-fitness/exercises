@@ -192,5 +192,23 @@
       "Hold the massage and stretch for the desired time and switch to the other side."
     ],
     "notes": ""
+  },
+  {
+    "pk": 13,
+    "name": "Alternating Lying Chin Tuck Neck Twist",
+    "slug": "alternating-lying-chin-tuck-neck-twist",
+    "primaryMuscles": ["trap"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Lie on your back with your forehead and chin parallel to the floor.",
+      "Tuck your chin in gently without lifting your head.",
+      "Rotate your neck slowly all the way to one side.",
+      "Return your head to center and rest briefly.",
+      "Rotate your neck all the way to the opposite side.",
+      "Return your head to center to complete one repetition.",
+      "Alternate the starting side with each new set.",
+      "Repeat the exercise for the desired number of repetitions."
+    ],
+    "notes": ""
   }
 ]
