@@ -64,5 +64,22 @@
       "Hold the stretch for the desired time and switch to the other side."
     ],
     "notes": ""
+  },
+  {
+    "pk": 5,
+    "name": "One-Leg Rock-Paper-Scissor Toes",
+    "slug": "one-leg-rock-paper-scissor-toes",
+    "primaryMuscles": ["calf"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Sit on a chair or on the floor. Raise one foot off the floor, holding the leg up by the raised knee.",
+      "Curl all toes to create the \u2018rock\u2019 position.",
+      "Return to neutral with toes relaxed.",
+      "Spread all toes apart into the \u2018paper\u2019 position.",
+      "Extend the big toe while keeping other toes curled for the \u2018scissors\u2019 position part one.",
+      "Curl the big toe and extend the other four toes for the \u2018scissors\u2019 position part two.",
+      "Continue alternating between the \u2018rock\u2019, \u2018paper\u2019, and both \u2018scissors\u2019 positions for the desired number of repetitions before switching to the other side."
+    ],
+    "notes": ""
   }
 ]
