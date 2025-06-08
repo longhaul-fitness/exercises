@@ -48,5 +48,21 @@
       "Repeat the movement for the desired number of repetitions and then switch to the other leg."
     ],
     "notes": ""
+  },
+  {
+    "pk": 4,
+    "name": "One-Leg Wide Lunge",
+    "slug": "one-leg-wide-lunge",
+    "primaryMuscles": ["glute", "hamstring"],
+    "secondaryMuscles": ["quad"],
+    "steps": [
+      "Start in a plank or push-up position with both hands on the floor.",
+      "Step one foot forward, placing it just outside your hand on the same side.",
+      "Keep the back leg extended straight behind you with toes tucked under.",
+      "Lower your hips towards the floor to stretch the front leg\u2019s hamstrings and glutes. Your back knee may touch the floor.",
+      "Push your hips forward to stretch the hip flexors of the back leg.",
+      "Hold the stretch for the desired time and switch to the other side."
+    ],
+    "notes": ""
   }
 ]
