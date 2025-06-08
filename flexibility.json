@@ -302,5 +302,21 @@
       "Repeat the exercise for the desired time or number of repetitions."
     ],
     "notes": ""
+  },
+  {
+    "pk": 20,
+    "name": "One-Leg Kick Back Hold \u2013 Band",
+    "slug": "one-leg-kick-back-hold-band",
+    "primaryMuscles": ["glute", "hamstring"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Loop a band around both ankles, keeping feet hip-width apart.",
+      "Stand upright and engage your core to stabilize your body.",
+      "Slowly extend one leg backward by kicking your foot behind you, keeping your knee straight.",
+      "Hold the extended position, squeezing your glutes for up to 7 seconds.",
+      "Return your leg to the starting neutral position with control.",
+      "Repeat the stretch for the desired number of repetitions before switching to the other leg."
+    ],
+    "notes": ""
   }
 ]
