@@ -240,5 +240,20 @@
       "Hold the pose for the desired amount of time before repeating the exercise on the other side."
     ],
     "notes": ""
+  },
+  {
+    "pk": 16,
+    "name": "One-Arm Side Shoulder Pull \u2013 Band",
+    "slug": "one-arm-side-shoulder-pull-band",
+    "primaryMuscles": ["shoulder - side"],
+    "secondaryMuscles": ["rotator cuff - back", "rotator cuff - front"],
+    "steps": [
+      "Anchor one end of a thick strength band to a stable pull-up bar or object.",
+      "Loop the free end of the band around your wrist with your arm raised to shoulder height beside you.",
+      "Lean your body away from the band, moving to the opposite side while keeping your arm raised.",
+      "Relax your shoulder muscles and let gravity pull your arm gently to stretch the shoulder.",
+      "Hold the stretch for the desired time and switch to the other side."
+    ],
+    "notes": ""
   }
 ]
