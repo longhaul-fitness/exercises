@@ -81,5 +81,20 @@
       "Continue alternating between the \u2018rock\u2019, \u2018paper\u2019, and both \u2018scissors\u2019 positions for the desired number of repetitions before switching to the other side."
     ],
     "notes": ""
+  },
+  {
+    "pk": 6,
+    "name": "One-Leg Seated Knee-to-Chest \u2013 Foam Roller",
+    "slug": "one-leg-seated-knee-to-chest-foam-roller",
+    "primaryMuscles": ["glute", "lower back"],
+    "secondaryMuscles": ["hamstring", "quad"],
+    "steps": [
+      "Sit on the floor and place a foam roller behind your lower back.",
+      "Lean back slowly onto the foam roller, positioning it under your lumbar spine.",
+      "Hug one knee to your chest, keeping the other leg straight on the floor to avoid arching your lower back.",
+      "Find a tender spot and hold gentle pressure on it for the desired time. Hold each position instead of rolling.",
+      "Switch sides and hold the stretch for the same amount of time on the other leg."
+    ],
+    "notes": ""
   }
 ]
