@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "pk": 1,
+    "name": "Prone Assisted Neck Bridge",
+    "slug": "prone-assisted-neck-bridge",
+    "primaryMuscles": ["shoulder - back", "trap"],
+    "secondaryMuscles": ["lower back", "tricep"],
+    "steps": [
+      "Place a yoga or exercise mat on the floor for head padding.",
+      "Position the top of your head on the floor with your arms bent at the elbows, hands on the ground by both sides of your head, supporting your upper body.",
+      "Support your lower body by balancing on the balls of your toes.",
+      "Hinge at the hips to maintain a neutral spine throughout the movement.",
+      "Hold the bridge position for up to 8 seconds or as long as comfortable.",
+      "Lower your heels back down to the floor and extend your arms at the elbows to finish one repetition.",
+      "Repeat the exercise for the desired number of repetitions."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 2,
+    "name": "One-Arm Hands-and-Knees Spinal Rotation",
+    "slug": "one-arm-hands-and-knees-spinal-rotation",
+    "primaryMuscles": ["lower back", "oblique"],
+    "secondaryMuscles": ["shoulder - back", "trap"],
+    "steps": [
+      "Kneel down and sit back onto your heels.",
+      "Place both elbows on the ground in front of you.",
+      "Raise one arm and place your hand behind your head.",
+      "Rotate your upper body towards the side with the raised arm, looking up.",
+      "Hold the stretch for 5 seconds.",
+      "Slowly return to the starting position.",
+      "Repeat the stretch for the desired number of repetitions on each side."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 3,
+    "name": "One-Leg Hip Dip",
+    "slug": "one-leg-hip-dip",
+    "primaryMuscles": ["glute"],
+    "secondaryMuscles": ["calf", "quad"],
+    "steps": [
+      "Stand on one leg with the other leg bent and lifted off the ground.",
+      "Keep the knee of the standing leg straight and your spine neutral.",
+      "Tilt your hips by lowering the side with the lifted leg towards the ground slowly.",
+      "Lift the hip of the suspended leg towards the ceiling by engaging the hip muscles.",
+      "Avoid leaning your torso to keep the spine neutral throughout the movement.",
+      "Repeat the movement for the desired number of repetitions and then switch to the other leg."
+    ],
+    "notes": ""
+  }
+]
