@@ -45,6 +45,36 @@
           ]
         }
       },
+      "secondaryMuscles": {
+        "type": "array",
+        "uniqueItems": true,
+        "items": {
+          "type": "string",
+          "enum": [
+            "abdominal",
+            "bicep",
+            "calf",
+            "chest",
+            "forearm - inner",
+            "forearm - outer",
+            "glute",
+            "hamstring",
+            "lat",
+            "lower back",
+            "oblique",
+            "quad",
+            "rotator cuff - back",
+            "rotator cuff - front",
+            "shoulder - back",
+            "shoulder - front",
+            "shoulder - side",
+            "thigh - inner",
+            "thigh - outer",
+            "trap",
+            "tricep"
+          ]
+        }
+      },
       "steps": {
         "type": "array",
         "items": {
