@@ -162,5 +162,20 @@
       "Continue repeating the movement for the desired number of repetitions then switch target legs."
     ],
     "notes": ""
+  },
+  {
+    "pk": 11,
+    "name": "Lying Glute Bridge \u2013 BOSU Ball",
+    "slug": "lying-glute-bridge-bosu-ball",
+    "primaryMuscles": ["glute"],
+    "secondaryMuscles": ["hamstring", "lower back"],
+    "steps": [
+      "Lie on your back with your feet shoulder-width apart and knees bent at 90 degrees, placing your feet on the flat side of a BOSU ball.",
+      "Press your feet firmly into the BOSU ball and lift your hips by squeezing your glutes and extending your hips upward.",
+      "Hold your hips in a lifted position without arching your lower back.",
+      "Slowly lower your hips back down to the starting position.",
+      "You can hold your hips in the lifted position for a desired amount of time or repeat the movement for the desired number of repetitions."
+    ],
+    "notes": "Engage your core to keep a neutral spine throughout the movement."
   }
 ]
