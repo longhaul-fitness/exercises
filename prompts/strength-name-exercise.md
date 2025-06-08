@@ -16,7 +16,6 @@ Here are examples of how the "Shrug" exercise can follow this format. These thre
 2. Shrug – Dumbbell
 3. Shrug – Trap Bar
 
-
 ### Variations
 
 These next two examples show variations for the "Shrug" movement:
@@ -69,15 +68,19 @@ For some exercises it's not important if the client uses dumbbells or a kettlebe
 - Capitalize every major word in the name, do not capitalize articles (i.e. a, and, the).
 
 ## Sample Input 1
+
 Bench Press
 
 ## Sample Output 1
+
 Bench Press – Barbell
 
 ## Sample Input 2
+
 Pronated Lat Pulldown
 
 ## Sample Output 2
+
 Overhand Lat Pulldown – Cable with Bar
 
 ## Input
