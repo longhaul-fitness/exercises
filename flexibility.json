@@ -127,5 +127,21 @@
       "Hold the stretch for the desired time and switch to the other side."
     ],
     "notes": ""
+  },
+  {
+    "pk": 9,
+    "name": "One-Leg Lying Ankle Nerve Floss",
+    "slug": "one-leg-lying-ankle-nerve-floss",
+    "primaryMuscles": ["calf", "hamstring"],
+    "secondaryMuscles": ["glute"],
+    "steps": [
+      "Lie on your back on a padded surface with one thigh lifted to 90 degrees and supported by both both hands interlaced on the hamstring.",
+      "Keep the raised knee as straight as possible without causing nerve tension.",
+      "Keep the other leg straight and flat on the floor.",
+      "Simultaneously lift your head off the ground and at your chest while pointing your toes away from you (plantarflex).",
+      "Then, lower your head and look towards the ceiling while pulling your raised foot toward you (dorsiflex).",
+      "Repeat the movement for the desired number of repetitions then switch sides."
+    ],
+    "notes": ""
   }
 ]
