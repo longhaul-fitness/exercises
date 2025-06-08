@@ -177,5 +177,20 @@
       "You can hold your hips in the lifted position for a desired amount of time or repeat the movement for the desired number of repetitions."
     ],
     "notes": "Engage your core to keep a neutral spine throughout the movement."
+  },
+  {
+    "pk": 12,
+    "name": "Neck Twist \u2013 Lacrosse Ball",
+    "slug": "neck-twist-lacrosse-ball",
+    "primaryMuscles": ["trap"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Place a massage or lacrosse ball against the front and outer side of your neck.",
+      "Use your hand to gently compress the ball into the muscles.",
+      "Slowly rotate your head to the opposite side to increase the stretch on the neck.",
+      "Use small movements to massage the muscle group while maintaining gentle pressure.",
+      "Hold the massage and stretch for the desired time and switch to the other side."
+    ],
+    "notes": ""
   }
 ]
