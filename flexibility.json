@@ -143,5 +143,24 @@
       "Repeat the movement for the desired number of repetitions then switch sides."
     ],
     "notes": ""
+  },
+  {
+    "pk": 10,
+    "name": "One-Leg Three-Point Lunge",
+    "slug": "one-leg-three-point-lunge",
+    "primaryMuscles": ["glute", "quad"],
+    "secondaryMuscles": ["hamstring"],
+    "steps": [
+      "Stand with the right leg planted firmly on the ground.",
+      "Visualize standing in the center of a triangle with one point in front of you and two behind.",
+      "Bend the right knee slightly and lunge the left leg back to the rear-left triangle point. Tap the rear-left triangle point with your left toes without putting weight on that foot.",
+      "Return to standing position.",
+      "Bend the right knee and gently tap the floor front triangle point with your left heel.",
+      "Return to standing position.",
+      "Bend the right knee again and reach the left leg back to the rear-right triangle point. Your left leg will cross behind your right. Your left knee will drop nearly to the floor in a \"curtsy\". Touch the rear-right triangle point with your toes without putting weight on that foot.",
+      "Return to standing position. This is one repetition.",
+      "Continue repeating the movement for the desired number of repetitions then switch target legs."
+    ],
+    "notes": ""
   }
 ]
