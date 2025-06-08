@@ -18,8 +18,8 @@
   },
   {
     "pk": 2,
-    "name": "One-Arm Hands-and-Knees Spinal Rotation",
-    "slug": "one-arm-hands-and-knees-spinal-rotation",
+    "name": "One-Arm Hands-and-Knees Spine Twist",
+    "slug": "one-arm-hands-and-knees-spine-twist",
     "primaryMuscles": ["lower back", "oblique"],
     "secondaryMuscles": ["shoulder - back", "trap"],
     "steps": [
@@ -271,5 +271,19 @@
       "Repeat the stretch for the desired number of repetitions, then switch to the other side."
     ],
     "notes": ""
+  },
+  {
+    "pk": 18,
+    "name": "Shoulder Blade Push Up",
+    "slug": "shoulder-blade-push-up",
+    "primaryMuscles": ["lat", "trap"],
+    "secondaryMuscles": ["shoulder - front"],
+    "steps": [
+      "Start in a high plank position with your arms straight and hands under your shoulders.",
+      "Squeeze your shoulder blades together, pulling them back toward each other.",
+      "Push your shoulder blades forward as far as possible, spreading them apart.",
+      "Repeat the movement for the desired number of repetitions."
+    ],
+    "notes": "Keep your elbows straight and upper back flat throughout the exercise. Modify by doing the exercise from your knees if the high plank is too challenging."
   }
 ]
