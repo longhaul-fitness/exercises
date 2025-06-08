@@ -255,5 +255,21 @@
       "Hold the stretch for the desired time and switch to the other side."
     ],
     "notes": ""
+  },
+  {
+    "pk": 17,
+    "name": "One-Leg Assisted Side Lunge",
+    "slug": "one-leg-assisted-side-lunge",
+    "primaryMuscles": ["glute", "quad", "thigh - inner"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Stand next to a chair, wall, or stable counter and hold it for support.",
+      "Bend the knee of the leg closest to the support, ensuring it stays aligned with the middle of your foot.",
+      "Step the other leg out to the side, keeping your leg straight, foot flat, and toes pointing forward.",
+      "Use your support to help balance as you lower into the side lunge. Move your hips towards the support, stretching your inner thigh on your straight leg.",
+      "Push through the bent leg to return to standing, extending your knee.",
+      "Repeat the stretch for the desired number of repetitions, then switch to the other side."
+    ],
+    "notes": ""
   }
 ]
