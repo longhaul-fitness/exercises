@@ -112,5 +112,20 @@
       "Hold the massage for the desired time and switch to the other calf if needed."
     ],
     "notes": "Increase the pressure of your calf on the ball by adding your other leg's ankle onto the pressured leg's shin to press down."
+  },
+  {
+    "pk": 8,
+    "name": "One-Arm Wall Push Front Bend",
+    "slug": "one-arm-wall-push-front-bend",
+    "primaryMuscles": ["chest", "lat", "shoulder - front"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Stand facing a wall and place one hand flat against it at shoulder height.",
+      "Step back slightly and bend forward at the hips, keeping your arm straight and pressed into the wall.",
+      "Lift your arm upward along the wall to increase the stretch in the front of your shoulder.",
+      "Keep your back flat and your core engaged to avoid arching.",
+      "Hold the stretch for the desired time and switch to the other side."
+    ],
+    "notes": ""
   }
 ]
