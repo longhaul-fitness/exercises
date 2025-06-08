@@ -96,5 +96,21 @@
       "Switch sides and hold the stretch for the same amount of time on the other leg."
     ],
     "notes": ""
+  },
+  {
+    "pk": 7,
+    "name": "Calf Massage \u2013 Lacrosse Ball",
+    "slug": "calf-massage-lacrosse-ball",
+    "primaryMuscles": ["calf"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Sit on the floor and place a massage ball under your calf muscle.",
+      "Apply gentle pressure by pressing your leg down onto the ball.",
+      "Slowly flex your foot upward (dorsiflex) to stretch the calf while keeping pressure on the ball.",
+      "Then point your foot downward (plantarflex) to massage the calf.",
+      "Repeat the flexing and pointing movement slowly to massage the muscle.",
+      "Hold the massage for the desired time and switch to the other calf if needed."
+    ],
+    "notes": "Increase the pressure of your calf on the ball by adding your other leg's ankle onto the pressured leg's shin to press down."
   }
 ]
