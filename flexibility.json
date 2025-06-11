@@ -318,5 +318,38 @@
       "Repeat the stretch for the desired number of repetitions before switching to the other leg."
     ],
     "notes": ""
+  },
+  {
+    "pk": 21,
+    "name": "Heel Raise Hold",
+    "slug": "heel-raise-hold",
+    "primaryMuscles": ["calf"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Stand with your feet flat on the ground, shoulder-width apart.",
+      "Shift your weight evenly across the balls of all your toes.",
+      "Slowly raise your heels about 1 inch (2.5 cm) off the ground.",
+      "Keep your toes and balls of your feet firmly planted and stable.",
+      "Hold this raised position for 15-30 seconds.",
+      "Lower your heels back down with control.",
+      "Repeat the exercise for the desired number of repetitions."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 22,
+    "name": "One-Leg Lying Outer Hip Twist",
+    "slug": "one-leg-lying-outer-hip-twist",
+    "primaryMuscles": ["thigh - outer"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Lie on your back with knees bent and feet flat on the floor.",
+      "Cross one ankle over the opposite thigh just above the knee.",
+      "Keep your upper back and shoulders pressed into the floor.",
+      "Slowly rotate your hips away from the crossed leg, letting the bottom thigh fall toward the floor.",
+      "Use the weight of the crossed leg to deepen the stretch in your outer hip.",
+      "Hold the stretch for the desired time and switch to the other side."
+    ],
+    "notes": ""
   }
 ]
