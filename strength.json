@@ -6046,5 +6046,22 @@
       "Repeat for the desired number of repetitions."
     ],
     "notes": ""
+  },
+  {
+    "pk": 340,
+    "name": "Split Squat \u2013 Barbell",
+    "slug": "split-squat-barbell",
+    "primaryMuscles": ["glute", "hamstring", "quad"],
+    "secondaryMuscles": ["calf", "lower back"],
+    "steps": [
+      "Set up a barbell on a squat rack at shoulder height and load it with the desired weight.",
+      "Position yourself under the barbell, placing it comfortably across your upper back. Hold the barbell with both hands just outside shoulder-width.",
+      "Engage your core, step back and away from the rack, and position one foot forward and the other foot back, bending your knees.",
+      "Adjust your position so your back toe is on the ground and your forward knee is slightly bent. This is your starting position.",
+      "Lower your hips by bending both knees until your back knee is just above the ground. Keep your chest lifted and your front knee over your ankle.",
+      "Push through your front heel and extend your legs to return to the starting position.",
+      "Complete the desired number of repetitions and switch to the other side."
+    ],
+    "notes": ""
   }
 ]
