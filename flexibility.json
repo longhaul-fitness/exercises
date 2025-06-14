@@ -369,5 +369,20 @@
       "Continue repetitions for the desired amount of time."
     ],
     "notes": ""
+  },
+  {
+    "pk": 24,
+    "name": "One-Arm Backwards Rotator Cuff Wall Press \u2013 Yoga Block",
+    "slug": "one-arm-backwards-rotator-cuff-wall-press-yoga-block",
+    "primaryMuscles": ["rotator cuff - back"],
+    "secondaryMuscles": ["shoulder - back"],
+    "steps": [
+      "Stand with your back against a wall and raise your arm to shoulder height.",
+      "Bend your elbow to 90 degrees, so that your hand points to the ceiling.",
+      "Hold a yoga block or foam roller with the back of your raised hand, pressing it against the wall.",
+      "Push your hand into the block without moving your arm or elbow.",
+      "Hold the stretch for the desired time then switch to the other side."
+    ],
+    "notes": ""
   }
 ]

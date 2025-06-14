@@ -12,17 +12,17 @@ Return the steps as a JSON formated list of strings. Your audience is busy, prob
 
 - Do not list the steps with step numbers.
 - Only return the raw json. Do not include ```json in your response.
-- Each list of steps should end with an indicator to repeate the exercise for the desired number of repetitions. Some examples of this final step include:
+- Each list of steps should end with an indicator to repeate the exercise for the desired amount of time. Some examples of this final step include:
   - "Hold the stretch for the desired time"
-  - "Repeat the stretch for the desired number of repetitions."
+  - "Continue repetitions for the desired amount of time."
   - "Hold the stretch for the desired time and switch to the other side."
-  - "Continue alternating the movement on each side for the desired number of repetitions."
+  - "Continue alternating the movement on each side for the desired amount of time."
 
 ## Examples
 
 ### First Example
 
-Input: Hands-and-Knees Lower Back Rotation – Band
+Input: One-Arm Hands-and-Knees Spine Twist – Band
 
 Output: [ "Loop a band around one shoulder and anchor it to a stable object on the opposite side behind your back.", "Ensure the band wraps around the front of the shoulder and flows behind the back to attach to the anchor point.", "Get into a hands and knees position.", "Place the hand of the banded arm behind your low back.", "Rotate your torso to allow the band to pull you into spinal twist towards the anchor point.", "Hold the stretch for the desired time and switch to the other side." ]
 
