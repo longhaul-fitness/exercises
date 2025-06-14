@@ -446,5 +446,20 @@
       "Continue alternating the movement on each side for the desired amount of time."
     ],
     "notes": ""
+  },
+  {
+    "pk": 29,
+    "name": "Seated Hamstring Roll \u2013 Foam Roller",
+    "slug": "seated-hamstring-roll-foam-roller",
+    "primaryMuscles": ["hamstring"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Sit on the floor and place a foam roller under one hamstring while placing the other leg's foot flat on the ground for stability.",
+      "Lean forward slightly to engage and stretch your hamstring.",
+      "Roll your leg back and forth on the foam roller to find tender spots.",
+      "When you find a tender spot, hold the position.",
+      "Hold the stretch for the desired time, then move to another spot or switch legs."
+    ],
+    "notes": ""
   }
 ]
