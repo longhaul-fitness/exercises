@@ -401,5 +401,18 @@
       "Continue repetitions for the desired amount of time."
     ],
     "notes": ""
+  },
+  {
+    "pk": 26,
+    "name": "Lying Overhead Shoulder Rotation \u2013 Dowel",
+    "slug": "lying-overhead-shoulder-rotation-dowel",
+    "primaryMuscles": ["shoulder - front"],
+    "secondaryMuscles": ["rotator cuff - front"],
+    "steps": [
+      "Lie on your back holding a dowel with both hands above your chest, hands shoulder-width apart, with straight arms.",
+      "Lower the dowel over over your head by flexing your shoulders, keeping arms straight.",
+      "Hold the end range stretch for the desired amount of time."
+    ],
+    "notes": ""
   }
 ]
