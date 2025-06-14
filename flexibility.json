@@ -351,5 +351,23 @@
       "Hold the stretch for the desired time and switch to the other side."
     ],
     "notes": ""
+  },
+  {
+    "pk": 23,
+    "name": "One-Leg Lying Outer Thigh Contraction \u2013 Band",
+    "slug": "one-leg-lying-outer-thigh-contraction-band",
+    "primaryMuscles": ["thigh - outer"],
+    "secondaryMuscles": ["glute"],
+    "steps": [
+      "Anchor a ~100 lbs pull-up assist band to a stable object so that the free end hangs at about hip height.",
+      "Loop your ankle through the free end of the band.",
+      "Lie on your back on a padded surface with the band anchor opposite the target hip.",
+      "Allow the band to gently pull your hip outward until you feel a light stretch on the outer hip.",
+      "Hold the stretch for 5-7 seconds while relaxing into the band\u2019s pull.",
+      "Contract the hip muscles to resist the band\u2019s pull and hold the contraction for 5-7 seconds.",
+      "Release the contraction and return to the stretch position to complete one repetition.",
+      "Continue repetitions for the desired amount of time."
+    ],
+    "notes": ""
   }
 ]
