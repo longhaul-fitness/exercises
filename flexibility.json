@@ -165,18 +165,16 @@
   },
   {
     "pk": 11,
-    "name": "Lying Glute Bridge \u2013 BOSU Ball",
-    "slug": "lying-glute-bridge-bosu-ball",
-    "primaryMuscles": ["glute"],
-    "secondaryMuscles": ["hamstring", "lower back"],
+    "name": "Lying Overhead Shoulder Rotation \u2013 Dowel",
+    "slug": "lying-overhead-shoulder-rotation-dowel",
+    "primaryMuscles": ["shoulder - front"],
+    "secondaryMuscles": ["rotator cuff - front"],
     "steps": [
-      "Lie on your back with your feet shoulder-width apart and knees bent at 90 degrees, placing your feet on the flat side of a BOSU ball.",
-      "Press your feet firmly into the BOSU ball and lift your hips by squeezing your glutes and extending your hips upward.",
-      "Hold your hips in a lifted position without arching your lower back.",
-      "Slowly lower your hips back down to the starting position.",
-      "You can hold your hips in the lifted position for a desired amount of time or repeat the movement for the desired number of repetitions."
+      "Lie on your back holding a dowel with both hands above your chest, hands shoulder-width apart, with straight arms.",
+      "Lower the dowel over over your head by flexing your shoulders, keeping arms straight.",
+      "Hold the end range stretch for the desired amount of time."
     ],
-    "notes": "Engage your core to keep a neutral spine throughout the movement."
+    "notes": ""
   },
   {
     "pk": 12,
@@ -372,8 +370,8 @@
   },
   {
     "pk": 24,
-    "name": "One-Arm Backwards Rotator Cuff Wall Press \u2013 Yoga Block",
-    "slug": "one-arm-backwards-rotator-cuff-wall-press-yoga-block",
+    "name": "One-Arm Rotator Cuff Backwards Wall Press \u2013 Yoga Block",
+    "slug": "one-arm-rotator-cuff-backwards-wall-press-yoga-block",
     "primaryMuscles": ["rotator cuff - back"],
     "secondaryMuscles": ["shoulder - back"],
     "steps": [
@@ -404,14 +402,31 @@
   },
   {
     "pk": 26,
-    "name": "Lying Overhead Shoulder Rotation \u2013 Dowel",
-    "slug": "lying-overhead-shoulder-rotation-dowel",
-    "primaryMuscles": ["shoulder - front"],
-    "secondaryMuscles": ["rotator cuff - front"],
+    "name": "One-Arm Rotator Cuff Forward Wall Press \u2013 Yoga Block",
+    "slug": "one-arm-rotator-cuff-forward-wall-press-yoga-block",
+    "primaryMuscles": ["rotator cuff - front"],
+    "secondaryMuscles": ["shoulder - front"],
     "steps": [
-      "Lie on your back holding a dowel with both hands above your chest, hands shoulder-width apart, with straight arms.",
-      "Lower the dowel over over your head by flexing your shoulders, keeping arms straight.",
-      "Hold the end range stretch for the desired amount of time."
+      "Stand with your chest against a wall and raise your arm to shoulder height.",
+      "Bend your elbow to 90 degrees, so that your hand points to the ceiling.",
+      "Hold a yoga block or foam roller with the front of your raised hand, pressing it against the wall.",
+      "Push your hand into the block without moving your arm or elbow.",
+      "Hold the stretch for the desired time then switch to the other side."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 27,
+    "name": "One-Arm Lunging Spinal Wall Twist",
+    "slug": "one-arm-lunging-spinal-wall-twist",
+    "primaryMuscles": ["lower back", "oblique", "trap"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Start in a split squat position with your front leg against the wall, foot flat on the ground. Place your back leg's knee and toes on the ground.",
+      "Raise the arm on the same side as your front leg to 90 degrees in front of you. Keep the back of your hand and forearm in contact with the wall.",
+      "Rotate your torso slowly away from the front leg side, reaching your other arm back to touch the back of that hand to the wall behind you.",
+      "Keep your hips facing forward and chest open as you rotate.",
+      "Hold the stretch for the desired time and switch to the other side."
     ],
     "notes": ""
   }

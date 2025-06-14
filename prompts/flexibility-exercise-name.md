@@ -30,10 +30,11 @@ If an exercise is meant to be performed on one side at a time, the asymmetric mo
 
 ### Position
 
-Assume the exercise is meant to be performed from a standing position, do not specify "standing" as it's assumed. If the exercise is not performed from a standing position, label the exericise with a position. Here are prescribed positions:
+Assume the exercise is meant to be performed from a standing position, do not specify "standing" as it's assumed. If the exercise is not performed from a standing position, label the exercise with a position. Here are prescribed positions:
 
 - "Seated" for exercises that are primarily in a seated posture
 - "Kneeling" for exercises that are primarily performed on the knees
+- "Lunging" for asymmetric exercises that are primarily performed with one leg in front of the other
 - "Hands-and-Knees" for exercises that are primarily performed on the hands and knees
 - "Lying" for exercises that are primarily lying on the floor on their back
 - "Prone" for exercises that are primarily lying on the floor on their stomach
