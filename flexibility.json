@@ -384,5 +384,22 @@
       "Hold the stretch for the desired time then switch to the other side."
     ],
     "notes": ""
+  },
+  {
+    "pk": 25,
+    "name": "One-Leg Foot Plank \u2013 Yoga Block",
+    "slug": "one-leg-foot-plank-yoga-block",
+    "primaryMuscles": ["calf"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Place two yoga blocks on the floor and stand so one foot is supported on the blocks at the heel and toes.",
+      "Shift your weight onto the supported foot.",
+      "Allow the ball of your big toe to drop below the level of the yoga block.",
+      "Activate the muscles in your foot to lift the ball of your big toe back to a neutral position.",
+      "Hold the lifted position for 5 to 7 seconds.",
+      "Rest for the same amount of time.",
+      "Continue repetitions for the desired amount of time."
+    ],
+    "notes": ""
   }
 ]
