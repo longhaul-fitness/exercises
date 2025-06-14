@@ -508,5 +508,21 @@
       "Continue repetitions for the desired amount of time."
     ],
     "notes": ""
+  },
+  {
+    "pk": 33,
+    "name": "Low Arms Rotator Cuff Forward Wall Press",
+    "slug": "low-arms-rotator-cuff-forward-wall-press",
+    "primaryMuscles": ["rotator cuff - front", "shoulder - front"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Stand facing a wall with your elbows straight and aligned below your shoulders.",
+      "Place your palms on the wall with fingers pointing forward.",
+      "Press your palms into the wall, gradually increasing the force over 3 seconds.",
+      "Hold the maximal push for 5-7 seconds without moving your elbows.",
+      "Slowly decrease the pressure back to rest over 3 seconds.",
+      "Repeat the exercise for the desired amount of time."
+    ],
+    "notes": ""
   }
 ]
