@@ -429,5 +429,22 @@
       "Hold the stretch for the desired time and switch to the other side."
     ],
     "notes": ""
+  },
+  {
+    "pk": 28,
+    "name": "Alternating Sit-to-Rise Cossack Squat",
+    "slug": "alternating-sit-to-rise-cossack-squat",
+    "primaryMuscles": ["glute", "quad", "thigh - inner"],
+    "secondaryMuscles": ["hamstring"],
+    "steps": [
+      "Sit with your legs in front of you, shoulder-width apart.",
+      "While remaining seated, lift one leg and rotate it outwards towards a 90-degree angle with the stationary leg.",
+      "As you rotate the leg, bend your knee to bring your foot flat on the ground and close to your glute as possible.",
+      "Perform a Cossack squat by pushing on the bent and straight legs to stand upright in a wide-leg stance.",
+      "Push through the wide-leg stance to continue to lower yourself to a Cossack squat on the other side. Reversing the movement all the way to sit on the floor.",
+      "Lift the bent knee, rotate and straighten it to sit with your legs in front of you. You should be in the same position as when you first started the exercise, but facing the opposite direction.",
+      "Continue alternating the movement on each side for the desired amount of time."
+    ],
+    "notes": ""
   }
 ]
