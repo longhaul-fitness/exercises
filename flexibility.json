@@ -449,8 +449,8 @@
   },
   {
     "pk": 29,
-    "name": "Seated Hamstring Roll \u2013 Foam Roller",
-    "slug": "seated-hamstring-roll-foam-roller",
+    "name": "One-Leg Seated Hamstring Roll \u2013 Foam Roller",
+    "slug": "one-leg-seated-hamstring-roll-foam-roller",
     "primaryMuscles": ["hamstring"],
     "secondaryMuscles": [],
     "steps": [
@@ -459,6 +459,22 @@
       "Roll your leg back and forth on the foam roller to find tender spots.",
       "When you find a tender spot, hold the position.",
       "Hold the stretch for the desired time, then move to another spot or switch legs."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 30,
+    "name": "One-Leg Elevated Pidgeon Stretch",
+    "slug": "one-leg-elevated-pidgeon-stretch",
+    "primaryMuscles": ["glute"],
+    "secondaryMuscles": ["hamstring"],
+    "steps": [
+      "Place your front leg on an elevated surface, such as a bench, with the shin flat on the surface and the knee rotated outward from your hip.",
+      "Extend your back leg straight behind you on the ground.",
+      "Drop your front hip down toward the ground.",
+      "Support your upper body with your hands on the ground to maintain balance.",
+      "Keep your spine neutral and avoid leaning forward or back.",
+      "Take deep breaths, holding the stretch for the desired time, and switch sides."
     ],
     "notes": ""
   }
