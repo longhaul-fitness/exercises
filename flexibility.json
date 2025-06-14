@@ -477,5 +477,36 @@
       "Take deep breaths, holding the stretch for the desired time, and switch sides."
     ],
     "notes": ""
+  },
+  {
+    "pk": 31,
+    "name": "One-Arm Shoulder-Height Bicep Stretch",
+    "slug": "one-arm-shoulder-height-bicep-stretch",
+    "primaryMuscles": ["bicep"],
+    "secondaryMuscles": ["chest", "shoulder - front"],
+    "steps": [
+      "Raise one arm to shoulder height next to your body.",
+      "Rotate your wrist so your palm faces down.",
+      "Place your palm firmly against a doorframe, squat rack, or wall.",
+      "Twist your body away from your anchored arm to stretch your biceps.",
+      "Hold the stretch for the desired time and switch to the other side."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": 32,
+    "name": "Hip Hinge \u2013 Dowel",
+    "slug": "hip-hinge-dowel",
+    "primaryMuscles": ["glute", "hamstring"],
+    "secondaryMuscles": ["lower back"],
+    "steps": [
+      "Place a dowel along your back, anchoring it against your head, between your shoulder blades, and on your tailbone.",
+      "Stand with feet hip-width apart and keep a slight bend in your knees.",
+      "Hinge forward at the hips, pushing your butt back while maintaining contact of the dowel at all three points.",
+      "Avoid rounding your back or letting the dowel lose contact with your head, upper back, or tailbone.",
+      "Stand back up straight, keeping the dowel in position.",
+      "Continue repetitions for the desired amount of time."
+    ],
+    "notes": ""
   }
 ]
