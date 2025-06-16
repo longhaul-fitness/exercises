@@ -1,5 +1,6 @@
-from pocketflow import Flow, Node
 import llm
+from pocketflow import Flow, Node
+
 
 class LLMQueryNode(Node):
     def prep(self, shared):
@@ -10,7 +11,7 @@ class LLMQueryNode(Node):
         # Call LLM to analyze the query
         model = llm.get_model("gpt-4o-mini")
         response = model.prompt(
-            f"Analyze this query and respond with only one of these categories: 'strength', 'cardio', or 'flexibility': {query}"
+            f"Analyze this exercise name and description. Categorize the exercise as only one of these options: 'strength', 'cardio', or 'flexibility'. Return only the option: {query}"
         )
         return response.text().strip().lower()
 
@@ -20,6 +21,7 @@ class LLMQueryNode(Node):
         # Return the next node based on the category
         return exec_res
 
+
 class StrengthNode(Node):
     def exec(self, _):
         return "Processing strength exercise request"
@@ -27,6 +29,7 @@ class StrengthNode(Node):
     def post(self, shared, prep_res, exec_res):
         shared["result"] = exec_res
         return "default"
+
 
 class CardioNode(Node):
     def exec(self, _):
@@ -36,6 +39,7 @@ class CardioNode(Node):
         shared["result"] = exec_res
         return "default"
 
+
 class FlexibilityNode(Node):
     def exec(self, _):
         return "Processing flexibility exercise request"
@@ -43,6 +47,7 @@ class FlexibilityNode(Node):
     def post(self, shared, prep_res, exec_res):
         shared["result"] = exec_res
         return "default"
+
 
 class ExerciseNode(Node):
     def process(self, message):
@@ -52,12 +57,12 @@ class ExerciseNode(Node):
         cardio_node = CardioNode()
         flexibility_node = FlexibilityNode()
 
-        # Connect nodes with branches
-        llm_query_node.add_edge("strength", strength_node)
-        llm_query_node.add_edge("cardio", cardio_node)
-        llm_query_node.add_edge("flexibility", flexibility_node)
+        # Define the transitions between nodes using the action-based syntax
+        llm_query_node - "strength" >> strength_node
+        llm_query_node - "cardio" >> cardio_node
+        llm_query_node - "flexibility" >> flexibility_node
 
-        # Create flow starting with LLM query node
+        # Create flow with the start node
         flow = Flow(start=llm_query_node)
 
         # Initialize shared store with the user query
@@ -69,10 +74,21 @@ class ExerciseNode(Node):
         # Return response based on the result
         return f"Category: {shared.get('category', 'unknown')}\n{shared.get('result', 'No result')}"
 
+
 # Initialize the node
 exercise_node = ExerciseNode()
 
 if __name__ == "__main__":
-    # Simple test when run directly
-    response = exercise_node.process("I want to improve my bench press")
+    import sys
+
+    # Check if an argument was provided
+    if len(sys.argv) > 1:
+        # Join all arguments to handle multi-word queries
+        query = " ".join(sys.argv[1:])
+    else:
+        # Default query if none provided
+        query = "Bench Press"
+
+    # Process the query
+    response = exercise_node.process(query)
     print(response)
