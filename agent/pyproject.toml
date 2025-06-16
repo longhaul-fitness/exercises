@@ -1,0 +1,19 @@
+[project]
+name = "agent"
+version = "0.1.0"
+description = "AI Agent for creating exercises"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "llm>=0.26",
+    "llm-bedrock-anthropic>=0.4.6",
+    "pocketflow>=0.0.2",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "isort>=6.0.1",
+    "ruff>=0.11.13",
+    "ty>=0.0.1a10",
+]
