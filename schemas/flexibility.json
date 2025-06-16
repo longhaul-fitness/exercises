@@ -6,8 +6,8 @@
     "required": ["pk", "name", "slug", "primaryMuscles", "steps"],
     "properties": {
       "pk": {
-        "type": "integer",
-        "minimum": 0
+        "type": "string",
+        "format": "uuid"
       },
       "name": {
         "type": "string"

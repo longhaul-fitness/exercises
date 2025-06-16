@@ -1,0 +1,130 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-4890-abcd-ef1234567890",
+    "input": {
+      "query": "Yoga Block Chest Stretch - The yoga block chest stretch is used to target the pectoralis muscles. Start by laying on your belly on a padded surface like a yoga mat. Abduct the shoulder to 90 degrees and bend the elbow to 90 degrees as well. With your palm facing down, prop the hand and wrist up with a yoga block while maintaining floor contact with your elbow. Begin the stretch by rotating the torso away from the propped arm using the free hand. Hold this stretch for 20-30 seconds.",
+      "steps": [
+        "Lie on your belly on a padded surface, such as a yoga mat.",
+        "Raise your arm out to the side so it is level with your shoulder, and bend your elbow to 90 degrees.",
+        "Place your palm facing down and prop your hand and wrist up on a yoga block, keeping your elbow touching the floor.",
+        "Using your free hand, rotate your torso away from the propped arm to begin the stretch.",
+        "Hold the stretch for the desired time and switch to the other side."
+      ],
+      "muscles": {
+        "primaryMuscles": ["chest", "shoulder - front"],
+        "secondaryMuscles": ["lat", "oblique"]
+      }
+    },
+    "output": {
+      "expected_name": "One-Arm Prone Chest Stretch – Yoga Block",
+      "expected_muscles": {
+        "primaryMuscles": ["chest", "shoulder - front"],
+        "secondaryMuscles": ["lat", "oblique"]
+      },
+      "expected_steps": [
+        "Lie on your belly on a padded surface, such as a yoga mat.",
+        "Raise your arm out to the side so it is level with your shoulder, and bend your elbow to 90 degrees.",
+        "Place your palm facing down and prop your hand and wrist up on a yoga block, keeping your elbow touching the floor.",
+        "Using your free hand, rotate your torso away from the propped arm to begin the stretch.",
+        "Hold the stretch for the desired time and switch to the other side."
+      ]
+    }
+  },
+  {
+    "id": "b2c3d4e5-f617-4901-bcde-f23456789012",
+    "input": {
+      "query": "Bicep Stretch - This is a stretch for your biceps brachii muscle. Start by raising your arm up next to you to roughly shoulder height. Rotate the wrist so that the palm faces downwards and anchor it against a doorframe, squat rack or wall. Twist away from the anchor point to feel a stretch in your biceps muscle.",
+      "steps": [
+        "Raise one arm to shoulder height next to your body.",
+        "Rotate your wrist so your palm faces down.",
+        "Place your palm firmly against a stationary vertical object like the wall.",
+        "Twist your body away from your anchored arm to stretch your biceps.",
+        "Hold the stretch for the desired time and switch to the other side."
+      ],
+      "muscles": {
+        "primaryMuscles": ["bicep"],
+        "secondaryMuscles": ["chest", "shoulder - front"]
+      }
+    },
+    "output": {
+      "expected_name": "One-Arm Bicep Wall Stretch",
+      "expected_muscles": {
+        "primaryMuscles": ["bicep"],
+        "secondaryMuscles": ["chest", "shoulder - front"]
+      },
+      "expected_steps": [
+        "Raise one arm to shoulder height next to your body.",
+        "Rotate your wrist so your palm faces down.",
+        "Place your palm firmly against a  stationary vertical object like the wall.",
+        "Twist your body away from your anchored arm to stretch your biceps.",
+        "Hold the stretch for the desired time and switch to the other side."
+      ]
+    }
+  },
+  {
+    "id": "c3d4e5f6-a7b8-4012-cdef-345678901234",
+    "input": {
+      "query": "SEATED FLOOR TAPS (BENT OVER THORACIC ROTATION) - This is a thoracic rotation mobility exercise that can be done at your desk or office. Place one hand behind your head and use the other one to reach towards the floor. Follow the pathway of your inner shin as your reach downwards. Bench over at the low back to uncouple rotation movement from the lumbar spine.",
+      "steps": [
+        "Sit upright in a chair or on the floor.",
+        "Place one hand behind your head with your elbow pointing out to the side.",
+        "Bend forward at your lower back to create a stable base.",
+        "Use your free hand to reach down toward the floor, following the pathway along your inner shin.",
+        "Rotate your upper back and ribcage as you reach downward, keeping your lower back bent and stable.",
+        "Return to the starting position and repeat the movement.",
+        "Continue repetitions for the desired amount of time and switch to the other side."
+      ],
+      "muscles": {
+        "primaryMuscles": ["rotator cuff - front", "shoulder - front"],
+        "secondaryMuscles": []
+      }
+    },
+    "output": {
+      "expected_name": "One-Arm Seated Floor Tap Rotation",
+      "expected_muscles": {
+        "primaryMuscles": ["lower back", "oblique"],
+        "secondaryMuscles": ["lat"]
+      },
+      "expected_steps": [
+        "Sit upright in a chair or on the floor.",
+        "Place one hand behind your head with your elbow pointing out to the side.",
+        "Bend forward at your lower back to create a stable base.",
+        "Use your free hand to reach down toward the floor, following the pathway along your inner shin.",
+        "Rotate your upper back and ribcage as you reach downward, keeping your lower back bent and stable.",
+        "Return to the starting position and repeat the movement.",
+        "Continue repetitions for the desired amount of time and switch to the other side."
+      ]
+    }
+  },
+  {
+    "id": "ddd4e5f6-a7b8-4012-cdef-345678901234",
+    "input": {
+      "query": "Wall Assisted Shoulder Flexion - This is a stretch that uses a wall to help push your shoulder into deeper shoulder flexion. That by placing on hand on the wall in front of you. Bend forwards at the hips to raise the arm in front of you. Hold for 3-5 breaths or up to 30 seconds. Relax and repeat as required.",
+      "steps": [
+        "Stand facing a wall and place one hand flat against it at shoulder height.",
+        "Step back slightly and bend forward at the hips, keeping your arm straight and pressed into the wall.",
+        "Lift your arm upward along the wall to increase the stretch in the front of your shoulder.",
+        "Keep your back flat and your core engaged to avoid arching.",
+        "Hold the stretch for the desired time and switch to the other side."
+      ],
+      "muscles": {
+        "primaryMuscles": ["chest", "lat", "shoulder - front"],
+        "secondaryMuscles": []
+      }
+    },
+    "output": {
+      "expected_name": "One-Arm Front Bend Wall Push",
+      "expected_muscles": {
+        "primaryMuscles": ["chest", "lat", "shoulder - front"],
+        "secondaryMuscles": []
+      },
+      "expected_steps": [
+        "Stand facing a wall and place one hand flat against it at shoulder height.",
+        "Step back slightly and bend forward at the hips, keeping your arm straight and pressed into the wall.",
+        "Lift your arm upward along the wall to increase the stretch in the front of your shoulder.",
+        "Keep your back flat and your core engaged to avoid arching.",
+        "Hold the stretch for the desired time and switch to the other side."
+      ]
+    }
+  }
+]

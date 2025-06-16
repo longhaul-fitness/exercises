@@ -1,0 +1,430 @@
+import logging
+import os
+import sys
+from dataclasses import dataclass
+from typing import List, Tuple
+
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
+from thefuzz import fuzz
+
+# Add the src directory to the Python path
+sys.path.append(os.path.join(os.path.dirname(__file__), "../src"))
+
+LOGGER = logging.getLogger(__name__)
+
+
+def calculate_f1(precision: float, recall: float) -> float:
+    """Calculate F1 score as the harmonic mean of precision and recall.
+
+    Args:
+        precision: Precision score (0.0 to 1.0)
+        recall: Recall score (0.0 to 1.0)
+
+    Returns:
+        F1 score (0.0 to 1.0). 0.0 if both precision and recall are zero
+    """
+    if precision + recall == 0:
+        return 0.0
+
+    return 2 * (precision * recall) / (precision + recall)
+
+
+def normalize(
+    value: float | np.ndarray, min_val: float, max_val: float
+) -> float | np.ndarray:
+    """Normalize values to [0, 1] range using min-max normalization.
+
+    Args:
+        value: Value or array to normalize
+        min_val: Minimum value in the original range
+        max_val: Maximum value in the original range
+
+    Returns:
+        Normalized value(s) in [0, 1] range
+
+    Raises:
+        ZeroDivisionError: If min_val equals max_val
+    """
+    if min_val == max_val:
+        raise ZeroDivisionError("Cannot normalize when min_val equals max_val")
+
+    return (value - min_val) / (max_val - min_val)
+
+
+@dataclass
+class FuzzyMetrics:
+    f1: float
+    precision: float
+    recall: float
+
+
+def calculate_exact_muscle_metrics(
+    expected_muscles: list[str], actual_muscles: list[str]
+) -> dict:
+    """Calculate precision, recall, and F1 using exact string matching for muscle names.
+
+    Args:
+        expected_muscles: Ground truth muscle names
+        actual_muscles: Predicted muscle names
+
+    Returns:
+        Dictionary containing:
+            - f1: F1 score (0.0 to 1.0)
+            - precision: Precision score (0.0 to 1.0)
+            - recall: Recall score (0.0 to 1.0)
+            - true_positives: Number of correct predictions
+            - false_positives: Number of incorrect predictions
+            - false_negatives: Number of missed ground truth items
+    """
+    # Convert to sets for easier comparison
+    expected_set = set(expected_muscles)
+    actual_set = set(actual_muscles)
+
+    # Calculate metrics
+    true_positives = len(expected_set.intersection(actual_set))
+    false_positives = len(actual_set - expected_set)
+    false_negatives = len(expected_set - actual_set)
+
+    precision = true_positives / len(actual_set) if len(actual_set) > 0 else 0.0
+    recall = true_positives / len(expected_set) if len(expected_set) > 0 else 0.0
+    f1 = calculate_f1(precision, recall)
+
+    return {
+        "f1": f1,
+        "precision": precision,
+        "recall": recall,
+        "true_positives": true_positives,
+        "false_positives": false_positives,
+        "false_negatives": false_negatives,
+    }
+
+
+def calculate_fuzzy_metrics(
+    true_list: list[str],
+    pred_list: list[str],
+    embedding_client: object,
+    min_sim: float = 0.0,
+    max_sim: float = 1.0,
+) -> FuzzyMetrics:
+    """Calculate precision, recall, and F1 using semantic similarity instead of exact matches.
+
+    Uses cosine similarity between text embeddings to measure how well predicted strings
+    match ground truth strings. This allows for partial credit when predictions are
+    semantically similar but not identical to the expected output.
+
+    Args:
+        true_list: Ground truth strings to compare against
+        pred_list: Predicted strings to evaluate
+        embedding_client: Client with get_embedding(text) method for generating embeddings
+        min_sim: Minimum possible cosine similarity (default: 0.0)
+        max_sim: Maximum possible cosine similarity (default: 1.0)
+
+    Returns:
+        FuzzyMetrics containing:
+            - precision: Average of best similarity scores for each prediction
+            - recall: Average of best similarity scores for each ground truth
+            - f1: Harmonic mean of precision and recall
+
+    Note:
+        Similarity scores are normalized using min_sim and max_sim before averaging.
+        Empty strings are filtered out before processing.
+    """
+    LOGGER.debug(
+        f"Calculating fuzzy Precision, Recall, and F1.\nTrue labels: {true_list}\nPredicted labels: {pred_list}"
+    )
+    default_metrics = FuzzyMetrics(f1=0.0, precision=0.0, recall=0.0)
+    # Filter empty strings
+    true_list = [el for el in true_list if len(el) > 0]
+    pred_list = [el for el in pred_list if len(el) > 0]
+
+    if len(true_list) == 0 or len(pred_list) == 0:
+        msg = "Cannot calculate fuzzy metrics: empty input lists detected. Returning zero scores."
+        LOGGER.warning(msg)
+        return default_metrics
+
+    # Get embeddings for all strings (preserving duplicates for proper similarity calculation)
+    true_embeddings = [embedding_client.get_embedding(text) for text in set(true_list)]
+    pred_embeddings = [embedding_client.get_embedding(text) for text in set(pred_list)]
+
+    # Calculate cosine similarity between true and predicted embeddings
+    similarities = cosine_similarity(true_embeddings, pred_embeddings)
+    normalized_similarities = normalize(
+        value=similarities,
+        min_val=min_sim,
+        max_val=max_sim,
+    )
+
+    # Get max similarity for each predicted term's embedding and average them
+    max_similarities_pred = np.max(normalized_similarities, axis=0)
+    fuzzy_precision = np.mean(max_similarities_pred)
+
+    # Get max similarity for each true term's embedding and average them
+    max_similarities_true = np.max(normalized_similarities, axis=1)
+    fuzzy_recall = np.mean(max_similarities_true)
+
+    # Calculate fuzzy F1 score
+    fuzzy_f1 = calculate_f1(precision=fuzzy_precision, recall=fuzzy_recall)
+
+    return FuzzyMetrics(f1=fuzzy_f1, precision=fuzzy_precision, recall=fuzzy_recall)
+
+
+def calculate_semantic_similarity(
+    expected: str, actual: str, embedding_client
+) -> float:
+    """Calculate cosine similarity between two strings using embeddings.
+
+    Args:
+        expected: The expected/ground truth string
+        actual: The actual/predicted string
+        embedding_client: Client with get_embedding(text) method
+
+    Returns:
+        Cosine similarity score between 0.0 and 1.0
+    """
+    expected_embedding = embedding_client.get_embedding(expected)
+    actual_embedding = embedding_client.get_embedding(actual)
+
+    similarity = cosine_similarity([expected_embedding], [actual_embedding])[0][0]
+    return float(similarity)
+
+
+def calculate_lexical_similarity(expected: str, actual: str) -> dict:
+    """Calculate various lexical similarity scores using fuzzywuzzy.
+
+    Args:
+        expected: The expected/ground truth string
+        actual: The actual/predicted string
+
+    Returns:
+        Dictionary with lexical similarity scores (all between 0.0 and 1.0):
+        - ratio: Overall similarity
+        - partial_ratio: Substring matching
+        - token_sort_ratio: Word order independent
+        - token_set_ratio: Set-based comparison
+    """
+    if fuzz is None:
+        LOGGER.warning("fuzzywuzzy not available, returning zero scores")
+        return {
+            "ratio": 0.0,
+            "partial_ratio": 0.0,
+            "token_sort_ratio": 0.0,
+            "token_set_ratio": 0.0,
+        }
+
+    return {
+        "ratio": fuzz.ratio(expected, actual) / 100.0,
+        "partial_ratio": fuzz.partial_ratio(expected, actual) / 100.0,
+        "token_sort_ratio": fuzz.token_sort_ratio(expected, actual) / 100.0,
+        "token_set_ratio": fuzz.token_set_ratio(expected, actual) / 100.0,
+    }
+
+
+def calculate_comprehensive_similarity(
+    expected: str, actual: str, embedding_client
+) -> dict:
+    """Calculate both semantic and lexical similarity scores for two strings.
+
+    Args:
+        expected: The expected/ground truth string
+        actual: The actual/predicted string
+        embedding_client: Client with get_embedding(text) method
+
+    Returns:
+        Dictionary containing:
+        - semantic_similarity: Cosine similarity using embeddings (0.0 to 1.0)
+        - lexical_similarity: Dictionary of fuzzywuzzy scores
+        - combined_score: Weighted combination (70% semantic, 30% lexical token_sort_ratio)
+    """
+    # Semantic similarity
+    semantic_score = calculate_semantic_similarity(expected, actual, embedding_client)
+
+    # Lexical similarity
+    lexical_scores = calculate_lexical_similarity(expected, actual)
+
+    # Weighted combination (adjust weights based on your needs)
+    combined_score = (0.7 * semantic_score) + (0.3 * lexical_scores["ratio"])
+
+    return {
+        "semantic_similarity": semantic_score,
+        "lexical_similarity": lexical_scores,
+        "combined_score": combined_score,
+    }
+
+
+def calculate_step_similarity_matrix(
+    expected_steps: List[str], actual_steps: List[str], embedding_client
+) -> np.ndarray:
+    """Calculate pairwise semantic similarity matrix between expected and actual steps.
+
+    Args:
+        expected_steps: List of expected exercise steps
+        actual_steps: List of actual exercise steps generated by model
+        embedding_client: Client with get_embedding(text) method
+
+    Returns:
+        2D numpy array where element [i,j] is similarity between expected_steps[i] and actual_steps[j]
+    """
+    if not expected_steps or not actual_steps:
+        return np.zeros((len(expected_steps), len(actual_steps)))
+
+    # Get embeddings for all steps
+    expected_embeddings = [
+        embedding_client.get_embedding(step) for step in expected_steps
+    ]
+    actual_embeddings = [embedding_client.get_embedding(step) for step in actual_steps]
+
+    # Calculate cosine similarity matrix
+    similarity_matrix = cosine_similarity(expected_embeddings, actual_embeddings)
+
+    # Ensure values are between 0 and 1 (cosine similarity can be negative)
+    similarity_matrix = np.clip(similarity_matrix, 0, 1)
+
+    return similarity_matrix
+
+
+def find_optimal_matching(
+    similarity_matrix: np.ndarray, threshold: float = 0.0
+) -> List[Tuple[int, int]]:
+    """Find optimal bipartite matching using greedy algorithm.
+
+    This is a simplified version that uses greedy matching instead of Hungarian algorithm
+    for better interpretability and performance on small matrices.
+
+    Args:
+        similarity_matrix: 2D array of similarities between expected and actual steps
+        threshold: Minimum similarity score to consider a valid match
+
+    Returns:
+        List of (expected_idx, actual_idx) tuples representing the best matches
+    """
+    if similarity_matrix.size == 0:
+        return []
+
+    matches = []
+    used_expected = set()
+    used_actual = set()
+
+    # Create list of all possible matches with their scores
+    all_matches = []
+    for i in range(similarity_matrix.shape[0]):  # expected steps
+        for j in range(similarity_matrix.shape[1]):  # actual steps
+            if similarity_matrix[i, j] >= threshold:
+                all_matches.append((similarity_matrix[i, j], i, j))
+
+    # Sort by similarity score (highest first)
+    all_matches.sort(reverse=True)
+
+    # Greedily select matches
+    for score, exp_idx, act_idx in all_matches:
+        if exp_idx not in used_expected and act_idx not in used_actual:
+            matches.append((exp_idx, act_idx))
+            used_expected.add(exp_idx)
+            used_actual.add(act_idx)
+
+    return matches
+
+
+@dataclass
+class SemanticStepMetrics:
+    """Metrics for semantic step matching evaluation."""
+
+    f1: float
+    precision: float
+    recall: float
+    matched_pairs: int
+    total_expected: int
+    total_actual: int
+    avg_match_similarity: float
+
+
+def calculate_semantic_step_metrics(
+    expected_steps: List[str],
+    actual_steps: List[str],
+    embedding_client,
+    threshold: float = 0.5,
+) -> SemanticStepMetrics:
+    """Calculate precision, recall, and F1 using semantic step matching.
+
+    Uses bipartite matching to find the best pairing between expected and actual steps,
+    then calculates metrics based on the quality of matches.
+
+    Args:
+        expected_steps: Ground truth exercise steps
+        actual_steps: Model-generated exercise steps
+        embedding_client: Client with get_embedding(text) method
+        threshold: Minimum similarity score to consider a valid match
+
+    Returns:
+        SemanticStepMetrics containing precision, recall, F1, and additional info
+    """
+    if not expected_steps or not actual_steps:
+        return SemanticStepMetrics(
+            f1=0.0,
+            precision=0.0,
+            recall=0.0,
+            matched_pairs=0,
+            total_expected=len(expected_steps),
+            total_actual=len(actual_steps),
+            avg_match_similarity=0.0,
+        )
+
+    # Calculate similarity matrix
+    similarity_matrix = calculate_step_similarity_matrix(
+        expected_steps, actual_steps, embedding_client
+    )
+
+    # Find optimal matching
+    matches = find_optimal_matching(similarity_matrix, threshold)
+
+    # Calculate metrics
+    if matches:
+        # Get similarity scores for matched pairs
+        match_similarities = [
+            similarity_matrix[exp_idx, act_idx] for exp_idx, act_idx in matches
+        ]
+        avg_match_similarity = np.mean(match_similarities)
+
+        # Precision: quality of actual steps that got matched
+        precision = avg_match_similarity if matches else 0.0
+
+        # Recall: how well we covered the expected steps
+        # For unmatched expected steps, use their best similarity to any actual step
+        expected_scores = []
+        matched_expected = {exp_idx for exp_idx, _ in matches}
+
+        for i in range(len(expected_steps)):
+            if i in matched_expected:
+                # Use the matched similarity
+                matched_actual = next(
+                    act_idx for exp_idx, act_idx in matches if exp_idx == i
+                )
+                expected_scores.append(similarity_matrix[i, matched_actual])
+            else:
+                # Use best similarity to any actual step (could be 0 if all below threshold)
+                best_sim = (
+                    np.max(similarity_matrix[i, :])
+                    if similarity_matrix.shape[1] > 0
+                    else 0.0
+                )
+                expected_scores.append(max(best_sim, 0.0))
+
+        recall = np.mean(expected_scores)
+
+    else:
+        precision = 0.0
+        recall = 0.0
+        avg_match_similarity = 0.0
+
+    # Calculate F1 score
+    f1 = calculate_f1(precision, recall)
+
+    return SemanticStepMetrics(
+        f1=f1,
+        precision=precision,
+        recall=recall,
+        matched_pairs=len(matches),
+        total_expected=len(expected_steps),
+        total_actual=len(actual_steps),
+        avg_match_similarity=avg_match_similarity,
+    )

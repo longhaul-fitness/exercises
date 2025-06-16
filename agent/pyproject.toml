@@ -1,0 +1,27 @@
+[project]
+name = "agent"
+version = "0.1.0"
+description = "AI Agent for creating exercises"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "backoff>=2.2.1",
+    "boto3>=1.39.11",
+    "kaleido>=1.0.0",
+    "litellm<1.75",
+    "plotly>=6.2.0",
+    "pocketflow>=0.0.2",
+    "scikit-learn>=1.7.0",
+    "thefuzz>=0.22.1",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "isort>=6.0.1",
+    "numpy>=2.3.1",
+    "pandas>=2.3.0",
+    "pytest>=8.4.1",
+    "ruff>=0.11.13",
+    "ty>=0.0.1a10",
+]

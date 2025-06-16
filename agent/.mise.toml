@@ -1,0 +1,9 @@
+[tools]
+python = '3.13.2'
+uv = "0.7.13"
+
+[env]
+DEBUG = "0"
+
+[env._.python]
+venv = {path = ".venv", create=true}
