@@ -88,24 +88,21 @@ For some exercises it's not important if the client uses equipment with the exer
 
 ### First Example
 
-Working-Name: Band Assisted Thoracic Rotation
-
+Band Assisted Thoracic Rotation
 Steps: [ "Loop a band around one shoulder and anchor it to a stable object on the opposite side behind your back.", "Ensure the band wraps around the front of the shoulder and flows behind the back to attach to the anchor point.", "Get into a hands and knees position (quadruped).", "Place the hand of the banded arm behind your low back.", "Rotate your torso to allow the band to pull you into thoracic rotation.", "Hold the end range position for up to 20 seconds." ]
 
 Output: Hands-and-Knees Lower Back Rotation – Band
 
 ### Second Example
 
-Working-Name: Yoga Block Chest Stretch
-
+Yoga Block Chest Stretch
 Steps: To perform the yoga block chest stretch, lie on your belly on a padded surface such as a yoga mat. Position your shoulder by abducting it to 90 degrees and bend your elbow to 90 degrees as well. Place your palm facing down and prop your hand and wrist up on a yoga block, keeping your elbow in contact with the floor. Using your free hand, rotate your torso away from the propped arm to initiate the stretch. Hold this position for 20 to 30 seconds.
 
 Output: One-Arm Prone Chest Stretch – Yoga Block
 
 ### Third Example
 
-Working-Name: Banded Straight Arm Pulldown
-
+Banded Straight Arm Pulldown
 Steps: [ "Loop the band around a stable anchor or pullup bar above your head.", "Stand and hold the band with a straight arm (a slight bend is acceptable).", "Pull the band downward by engaging your shoulder extensors until your arm is fully extended downward.", "Slowly return to the starting position to complete one repetition." ]
 
 Output: One-Arm Straight Pulldown – Band
