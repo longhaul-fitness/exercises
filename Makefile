@@ -31,7 +31,7 @@ lint: out/.lint.cardio.sentinel out/.lint.flexibility.sentinel out/.lint.strengt
 ############
 
 out/.format.prettier.sentinel: $(shell find ./ -type f \( -iname \*.md -o -iname \*.json \))
-	npm run format
+	prettier --write --prose-wrap never .
 	mkdir -p $(@D)
 	touch $@
 
