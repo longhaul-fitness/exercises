@@ -1,15 +1,20 @@
-import logging
-
 from pocketflow import Flow, Node
 
+from config import Configuration
+from log import configure_from_dict, get_logger
 from model import Model
 
-# Initialize the model abstraction with the config file
-AGENT_MODELS = Model("./config.json")
+# Load configuration
+APP_CONFIG = Configuration("./config.json")
 
 # Configure logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+configure_from_dict(APP_CONFIG.get_logging_config())
+
+# Get module-specific logger
+LOGGER = get_logger(__name__)
+
+# Initialize the model abstraction with the models configuration
+AGENT_MODELS = Model(APP_CONFIG.get_models_config())
 
 
 class LLMQueryNode(Node):
