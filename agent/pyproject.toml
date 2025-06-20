@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "llm>=0.26",
+    "llm-bedrock>=0.4",
     "llm-bedrock-anthropic>=0.4.6",
     "pocketflow>=0.0.2",
 ]

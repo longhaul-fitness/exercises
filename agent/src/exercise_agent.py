@@ -1,5 +1,15 @@
-import llm
+import logging
+
 from pocketflow import Flow, Node
+
+from model import Model
+
+# Initialize the model abstraction with the config file
+AGENT_MODELS = Model("./config.json")
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 
 class LLMQueryNode(Node):
@@ -9,7 +19,7 @@ class LLMQueryNode(Node):
 
     def exec(self, query):
         # Call LLM to analyze the query
-        model = llm.get_model("gpt-4o-mini")
+        model = AGENT_MODELS.get_model(self.__class__.__name__)
         response = model.prompt(
             f"Analyze this exercise name and description. Categorize the exercise as only one of these options: 'strength', 'cardio', or 'flexibility'. Return only the option: {query}"
         )
@@ -94,7 +104,7 @@ class FlexibilityStepsNode(Node):
             prompt_template = f.read()
 
         # Call LLM to get the exercise steps
-        model = llm.get_model("gpt-4o-mini")
+        model = AGENT_MODELS.get_model(self.__class__.__name__)
         response = model.prompt(prompt_template + f"\n\nInput: {prep_data['query']}")
 
         # Parse the JSON response
@@ -122,7 +132,7 @@ class FlexibilityMusclesNode(Node):
             prompt_template = f.read()
 
         # Call LLM to get the exercise name
-        model = llm.get_model("gpt-4o-mini")
+        model = AGENT_MODELS.get_model(self.__class__.__name__)
         response = model.prompt(
             prompt_template + f"\n\n{prep_data["query"]}\nSteps: {prep_data['steps']}"
         )
@@ -152,9 +162,9 @@ class FlexibilityNameNode(Node):
             prompt_template = f.read()
 
         # Call LLM to get the exercise name
-        model = llm.get_model("gpt-4o-mini")
+        model = AGENT_MODELS.get_model(self.__class__.__name__)
         response = model.prompt(
-            prompt_template + f"\n\n{query}\nSteps: {prep_data['steps']}"
+            prompt_template + f"\n\n{prep_data['query']}\nSteps: {prep_data['steps']}"
         )
 
         return response.text().strip()

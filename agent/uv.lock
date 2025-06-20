@@ -8,6 +8,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "llm" },
+    { name = "llm-bedrock" },
     { name = "llm-bedrock-anthropic" },
     { name = "pocketflow" },
 ]
@@ -23,6 +24,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "llm", specifier = ">=0.26" },
+    { name = "llm-bedrock", specifier = ">=0.4" },
     { name = "llm-bedrock-anthropic", specifier = ">=0.4.6" },
     { name = "pocketflow", specifier = ">=0.0.2" },
 ]
@@ -288,6 +290,19 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/4e/88/1acdae8cc6122d3ab2d3d30477d3273608f92177a6bb17ab98881af65627/llm-0.26.tar.gz", hash = "sha256:c2e9ddbc582da10c61112c0f983383fa0dc7bee3ca7d6f2ade1a2d003771eb1b", size = 82037, upload-time = "2025-05-27T20:36:22.891Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/da/5f/ed9d5c47c46632f2c3a844c14412f434bc1263faa4890306b5f911cd3aaf/llm-0.26-py3-none-any.whl", hash = "sha256:93dc331facbfb909f946df8812fb1d627ec9ce764aab2ebd29f9011ed647339c", size = 79376, upload-time = "2025-05-27T20:36:21.341Z" },
+]
+
+[[package]]
+name = "llm-bedrock"
+version = "0.4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "boto3" },
+    { name = "llm" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/c8/21/d184dd8e094fff1490067b97dac1b9b0e87ec83ccb677086fa0ae696acbd/llm_bedrock-0.4.tar.gz", hash = "sha256:ba46b3199adbf1fa153b69d3f48578079156de4d5b74552931922eba94bf2571", size = 8456, upload-time = "2024-12-04T15:40:10.542Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d9/95/b14378bf770b54c765d2c0538150f577e8c94f045e1fed6c230d91cd38b3/llm_bedrock-0.4-py3-none-any.whl", hash = "sha256:128d56b73308f862fea89e727dc18d762f1a6d52a02215d9d45bb79c9c8022a0", size = 8538, upload-time = "2024-12-04T15:40:08.778Z" },
 ]
 
 [[package]]
