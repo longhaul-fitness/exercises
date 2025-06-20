@@ -4,3 +4,4 @@ out/
 .aider*
 .venv
 config.json
+agent/exercises.json
