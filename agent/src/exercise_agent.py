@@ -1,3 +1,8 @@
+import json
+import os
+from dataclasses import asdict, dataclass
+from datetime import datetime
+from typing import List, Optional
 from pocketflow import Flow, Node
 
 from config import Configuration
@@ -82,18 +87,23 @@ class FlexibilityNode(Node):
 
     def post(self, shared, prep_res, exec_res):
         # Store the results in the shared store
-        shared["result"] = (
-            f"Exercise: {exec_res.get('exercise_name', 'Unknown')}\n\nSteps:\n"
-        )
-
-        # Format the steps as a numbered list
-        steps = exec_res.get("steps", [])
-        for i, step in enumerate(steps, 1):
-            shared["result"] += f"{i}. {step}\n"
+        exercise_name = exec_res.get('exercise_name', 'Unknown')
+        steps = exec_res.get('steps', [])
+        muscles = exec_res.get('muscles', [])
+        
+        # Log the exercise information
+        LOGGER.info(f"Exercise: {exercise_name}\n\nSteps:\n")
+        for step in steps:
+            LOGGER.info(f"{step}\n")
 
         # Add muscles information if available
-        if "muscles" in exec_res:
-            shared["result"] += f"\nMuscles: {exec_res.get('muscles', 'Not specified')}"
+        if muscles:
+            LOGGER.info(f"\nMuscles: {muscles}")
+        
+        # Store in shared for SaveExerciseNode to use
+        shared["exercise_name"] = exercise_name
+        shared["steps"] = steps
+        shared["muscles"] = muscles
 
         return "default"
 
@@ -180,6 +190,88 @@ class FlexibilityNameNode(Node):
         return "default"
 
 
+@dataclass
+class Exercise:
+    """Data class representing an exercise with all its attributes."""
+    type: str  # "strength" | "cardio" | "flexibility"
+    name: str  # the name of the exercise
+    primaryMuscles: Optional[List[str]] = None  # optional for "cardio" exercises
+    secondaryMuscles: Optional[List[str]] = None  # optional for "cardio" exercises
+    steps: List[str] = None  # steps to perform the exercise
+    notes: str = ""  # notes about the exercise
+    status: str = "pending"  # "pending" | "approved" | "rejected" | "revised"
+    llmNotes: Optional[str] = None  # LLM considerations or assumptions
+    input: str = ""  # original user input
+    created: str = None  # timestamp when the exercise was created
+
+
+class SaveExerciseNode(Node):
+    """Node to save exercise data to a JSON file."""
+
+    def prep(self, shared):
+        """Prepare the exercise data from the shared store."""
+        LOGGER.info(f"shared: {shared}")
+        category = shared.get("category", "unknown")
+        exercise_name = shared.get("exercise_name", "unknown")
+        steps = shared.get("steps", "unknown")
+        query = shared.get("query", "")
+
+        # Basic exercise data
+        exercise_data = {
+            "type": category,
+            "name": exercise_name,
+            "steps": steps,
+            "notes": "",
+            "input": query,
+            "created": datetime.now().isoformat(),
+            "status": "pending"
+        }
+
+        # Handle muscles for all exercise types
+        muscles = shared.get("muscles")
+        if muscles:
+            if isinstance(muscles, dict):
+                exercise_data["primaryMuscles"] = muscles.get("primaryMuscles", [])
+                exercise_data["secondaryMuscles"] = muscles.get("secondaryMuscles", [])
+            elif isinstance(muscles, list):
+                # For flexibility exercises, muscles is often a simple list
+                exercise_data["primaryMuscles"] = muscles
+                exercise_data["secondaryMuscles"] = []
+
+        return exercise_data
+
+    def exec(self, exercise_data):
+        """Save the exercise to the appropriate JSON file."""
+        # Create an Exercise object
+        exercise = Exercise(**exercise_data)
+
+        # Determine which file to use based on exercise type
+        file_path = "exercises.json"
+
+        # Read existing exercises if file exists
+        exercises = []
+        if os.path.exists(file_path):
+            try:
+                with open(file_path, 'r') as f:
+                    exercises = json.load(f)
+            except json.JSONDecodeError:
+                LOGGER.error(f"Error reading {file_path}. Creating a new file.")
+
+        # Append the new exercise
+        exercises.append(asdict(exercise))
+
+        # Write back to file
+        with open(file_path, 'w') as f:
+            json.dump(exercises, f, indent=2)
+
+        return {"file": file_path, "exercise": asdict(exercise)}
+
+    def post(self, shared, prep_res, exec_res):
+        """Update shared store with save results."""
+        shared["save_result"] = exec_res
+        return "default"
+
+
 class ExerciseNode(Node):
     def process(self, message):
         # Create nodes
@@ -187,11 +279,17 @@ class ExerciseNode(Node):
         strength_node = StrengthNode()
         cardio_node = CardioNode()
         flexibility_node = FlexibilityNode()
+        save_node = SaveExerciseNode()
 
         # Define the transitions between nodes using the action-based syntax
         llm_query_node - "strength" >> strength_node
         llm_query_node - "cardio" >> cardio_node
         llm_query_node - "flexibility" >> flexibility_node
+
+        # Add save node after each exercise type node
+        strength_node >> save_node
+        cardio_node >> save_node
+        flexibility_node >> save_node
 
         # Create flow with the start node
         flow = Flow(start=llm_query_node)
@@ -203,7 +301,14 @@ class ExerciseNode(Node):
         flow.run(shared)
 
         # Return response based on the result
-        return f"Category: {shared.get('category', 'unknown')}\n{shared.get('result', 'No result')}"
+        response = "Complete."
+
+        # Add save information
+        if "save_result" in shared:
+            save_info = shared["save_result"]
+            response += f"\n\nExercise saved to {save_info['file']}"
+
+        return response
 
 
 # Initialize the node
