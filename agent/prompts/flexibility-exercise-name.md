@@ -98,7 +98,7 @@ Output: Hands-and-Knees Lower Back Rotation – Band
 Yoga Block Chest Stretch
 Steps: To perform the yoga block chest stretch, lie on your belly on a padded surface such as a yoga mat. Position your shoulder by abducting it to 90 degrees and bend your elbow to 90 degrees as well. Place your palm facing down and prop your hand and wrist up on a yoga block, keeping your elbow in contact with the floor. Using your free hand, rotate your torso away from the propped arm to initiate the stretch. Hold this position for 20 to 30 seconds.
 
-Output: One-Arm Prone Chest Stretch – Yoga Block
+Output: One-Arm Lying Spine Twist – Yoga Block
 
 ### Third Example
 

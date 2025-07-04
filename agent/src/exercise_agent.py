@@ -3,6 +3,8 @@ import os
 from dataclasses import asdict, dataclass
 from datetime import datetime
 from typing import List, Optional
+
+import llm
 from pocketflow import Flow, Node
 
 from config import Configuration
@@ -87,10 +89,10 @@ class FlexibilityNode(Node):
 
     def post(self, shared, prep_res, exec_res):
         # Store the results in the shared store
-        exercise_name = exec_res.get('exercise_name', 'Unknown')
-        steps = exec_res.get('steps', [])
-        muscles = exec_res.get('muscles', [])
-        
+        exercise_name = exec_res.get("exercise_name", "Unknown")
+        steps = exec_res.get("steps", [])
+        muscles = exec_res.get("muscles", [])
+
         # Log the exercise information
         LOGGER.info(f"Exercise: {exercise_name}\n\nSteps:\n")
         for step in steps:
@@ -99,7 +101,7 @@ class FlexibilityNode(Node):
         # Add muscles information if available
         if muscles:
             LOGGER.info(f"\nMuscles: {muscles}")
-        
+
         # Store in shared for SaveExerciseNode to use
         shared["exercise_name"] = exercise_name
         shared["steps"] = steps
@@ -169,15 +171,19 @@ class FlexibilityMusclesNode(Node):
 
 class FlexibilityNameNode(Node):
     def prep(self, shared):
-        return {"query": shared.get("query", ""), "steps": shared.get("steps", "")}
+        return {
+            "query": shared.get("query", ""),
+            "steps": shared.get("steps", ""),
+            "model_name": AGENT_MODELS.get_model(self.__class__.__name__),
+        }
 
     def exec(self, prep_data):
         # Read the prompt template
         with open("prompts/flexibility-exercise-name.md", "r") as f:
             prompt_template = f.read()
 
-        # Call LLM to get the exercise name
-        model = AGENT_MODELS.get_model(self.__class__.__name__)
+        model = llm.get_model(prep_data["model_name"])
+
         response = model.prompt(
             prompt_template + f"\n\n{prep_data['query']}\nSteps: {prep_data['steps']}"
         )
@@ -193,16 +199,17 @@ class FlexibilityNameNode(Node):
 @dataclass
 class Exercise:
     """Data class representing an exercise with all its attributes."""
+
     type: str  # "strength" | "cardio" | "flexibility"
     name: str  # the name of the exercise
+    steps: List[str]  # steps to perform the exercise
+    created: str  # timestamp when the exercise was created
     primaryMuscles: Optional[List[str]] = None  # optional for "cardio" exercises
     secondaryMuscles: Optional[List[str]] = None  # optional for "cardio" exercises
-    steps: List[str] = None  # steps to perform the exercise
     notes: str = ""  # notes about the exercise
     status: str = "pending"  # "pending" | "approved" | "rejected" | "revised"
     llmNotes: Optional[str] = None  # LLM considerations or assumptions
     input: str = ""  # original user input
-    created: str = None  # timestamp when the exercise was created
 
 
 class SaveExerciseNode(Node):
@@ -224,7 +231,7 @@ class SaveExerciseNode(Node):
             "notes": "",
             "input": query,
             "created": datetime.now().isoformat(),
-            "status": "pending"
+            "status": "pending",
         }
 
         # Handle muscles for all exercise types
@@ -252,7 +259,7 @@ class SaveExerciseNode(Node):
         exercises = []
         if os.path.exists(file_path):
             try:
-                with open(file_path, 'r') as f:
+                with open(file_path, "r") as f:
                     exercises = json.load(f)
             except json.JSONDecodeError:
                 LOGGER.error(f"Error reading {file_path}. Creating a new file.")
@@ -261,7 +268,7 @@ class SaveExerciseNode(Node):
         exercises.append(asdict(exercise))
 
         # Write back to file
-        with open(file_path, 'w') as f:
+        with open(file_path, "w") as f:
             json.dump(exercises, f, indent=2)
 
         return {"file": file_path, "exercise": asdict(exercise)}
