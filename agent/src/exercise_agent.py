@@ -36,10 +36,10 @@ class LLMQueryNode(Node):
             model=model,
             messages=[
                 {
-                    "role": "user", 
-                    "content": f"Analyze this exercise name and description. Categorize the exercise as only one of these options: 'strength', 'cardio', or 'flexibility'. Return only the option: {query}"
+                    "role": "user",
+                    "content": f"Analyze this exercise name and description. Categorize the exercise as only one of these options: 'strength', 'cardio', or 'flexibility'. Return only the option: {query}",
                 }
-            ]
+            ],
         )
         return response.choices[0].message.content.strip().lower()
 
@@ -132,10 +132,10 @@ class FlexibilityStepsNode(Node):
             model=model,
             messages=[
                 {
-                    "role": "user", 
-                    "content": prompt_template + f"\n\nInput: {prep_data['query']}"
+                    "role": "user",
+                    "content": prompt_template + f"\n\nInput: {prep_data['query']}",
                 }
-            ]
+            ],
         )
 
         # Parse the JSON response
@@ -168,10 +168,11 @@ class FlexibilityMusclesNode(Node):
             model=model,
             messages=[
                 {
-                    "role": "user", 
-                    "content": prompt_template + f"\n\n{prep_data['query']}\nSteps: {prep_data['steps']}"
+                    "role": "user",
+                    "content": prompt_template
+                    + f"\n\n{prep_data['query']}\nSteps: {prep_data['steps']}",
                 }
-            ]
+            ],
         )
 
         # Parse the JSON response
@@ -206,10 +207,11 @@ class FlexibilityNameNode(Node):
             model=prep_data["model_name"],
             messages=[
                 {
-                    "role": "user", 
-                    "content": prompt_template + f"\n\n{prep_data['query']}\nSteps: {prep_data['steps']}"
+                    "role": "user",
+                    "content": prompt_template
+                    + f"\n\n{prep_data['query']}\nSteps: {prep_data['steps']}",
                 }
-            ]
+            ],
         )
 
         return response.choices[0].message.content.strip()

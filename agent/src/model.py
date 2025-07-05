@@ -1,6 +1,4 @@
-from typing import Any, Dict
-
-import litellm
+from typing import Dict
 
 from log import get_logger
 
