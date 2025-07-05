@@ -4,7 +4,7 @@ from dataclasses import asdict, dataclass
 from datetime import datetime
 from typing import List, Optional
 
-import llm
+import litellm
 from pocketflow import Flow, Node
 
 from config import Configuration
@@ -32,10 +32,16 @@ class LLMQueryNode(Node):
     def exec(self, query):
         # Call LLM to analyze the query
         model = AGENT_MODELS.get_model(self.__class__.__name__)
-        response = model.prompt(
-            f"Analyze this exercise name and description. Categorize the exercise as only one of these options: 'strength', 'cardio', or 'flexibility'. Return only the option: {query}"
+        response = litellm.completion(
+            model=model,
+            messages=[
+                {
+                    "role": "user", 
+                    "content": f"Analyze this exercise name and description. Categorize the exercise as only one of these options: 'strength', 'cardio', or 'flexibility'. Return only the option: {query}"
+                }
+            ]
         )
-        return response.text().strip().lower()
+        return response.choices[0].message.content.strip().lower()
 
     def post(self, shared, prep_res, exec_res):
         # Store the category in shared store
@@ -122,13 +128,21 @@ class FlexibilityStepsNode(Node):
 
         # Call LLM to get the exercise steps
         model = AGENT_MODELS.get_model(self.__class__.__name__)
-        response = model.prompt(prompt_template + f"\n\nInput: {prep_data['query']}")
+        response = litellm.completion(
+            model=model,
+            messages=[
+                {
+                    "role": "user", 
+                    "content": prompt_template + f"\n\nInput: {prep_data['query']}"
+                }
+            ]
+        )
 
         # Parse the JSON response
         import json
 
         try:
-            steps = json.loads(response.text().strip())
+            steps = json.loads(response.choices[0].message.content.strip())
             return steps
         except json.JSONDecodeError:
             return ["Unable to parse steps"]
@@ -150,15 +164,21 @@ class FlexibilityMusclesNode(Node):
 
         # Call LLM to get the exercise name
         model = AGENT_MODELS.get_model(self.__class__.__name__)
-        response = model.prompt(
-            prompt_template + f"\n\n{prep_data["query"]}\nSteps: {prep_data['steps']}"
+        response = litellm.completion(
+            model=model,
+            messages=[
+                {
+                    "role": "user", 
+                    "content": prompt_template + f"\n\n{prep_data['query']}\nSteps: {prep_data['steps']}"
+                }
+            ]
         )
 
         # Parse the JSON response
         import json
 
         try:
-            muscles = json.loads(response.text().strip())
+            muscles = json.loads(response.choices[0].message.content.strip())
             return muscles
         except json.JSONDecodeError:
             return ["Unable to parse muscles"]
@@ -182,13 +202,17 @@ class FlexibilityNameNode(Node):
         with open("prompts/flexibility-exercise-name.md", "r") as f:
             prompt_template = f.read()
 
-        model = llm.get_model(prep_data["model_name"])
-
-        response = model.prompt(
-            prompt_template + f"\n\n{prep_data['query']}\nSteps: {prep_data['steps']}"
+        response = litellm.completion(
+            model=prep_data["model_name"],
+            messages=[
+                {
+                    "role": "user", 
+                    "content": prompt_template + f"\n\n{prep_data['query']}\nSteps: {prep_data['steps']}"
+                }
+            ]
         )
 
-        return response.text().strip()
+        return response.choices[0].message.content.strip()
 
     def post(self, shared, prep_res, exec_res):
         # Store the exercise name in shared store

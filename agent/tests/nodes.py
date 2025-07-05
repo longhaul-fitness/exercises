@@ -57,13 +57,11 @@ test_cases = [
 
 # Models to test
 models_to_test = [
-    "bedrock-claude-v3.5-sonnet",
-    "bedrock-claude-v3.7-sonnet",
-    "gpt-4.1",
-    "nova-lite",
-    "nova-micro",
-    "nova-pro",
-    "o4-mini",
+    "bedrock/amazon.nova-lite-v1:0",
+    "bedrock/amazon.nova-micro-v1:0",
+    "bedrock/amazon.nova-pro-v1:0",
+    "bedrock/us.anthropic.claude-3-7-sonnet-20250219-v1:0",
+    "bedrock/us.meta.llama3-2-3b-instruct-v1:0",
 ]
 
 # Global score tracker

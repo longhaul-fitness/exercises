@@ -1,6 +1,6 @@
 from typing import Any, Dict
 
-import llm
+import litellm
 
 from log import get_logger
 
@@ -27,15 +27,15 @@ class Model:
         self.config = models_config
         self.default_model = default_model
 
-    def get_model(self, node_name: str) -> Any:
+    def get_model(self, node_name: str) -> str:
         """
-        Get the appropriate model for a given node.
+        Get the appropriate model name for a given node.
 
         Args:
             node_name: Name of the node requesting a model
 
         Returns:
-            An LLM model instance
+            A model name string to use with litellm
         """
         model_name = self.config.get(node_name)
 
@@ -46,11 +46,4 @@ class Model:
             )
             model_name = self.default_model
 
-        try:
-            return llm.get_model(model_name)
-        except Exception as e:
-            LOGGER.error(
-                f"Failed to load model '{model_name}': {str(e)}. "
-                f"Falling back to default model: {self.default_model}"
-            )
-            return llm.get_model(self.default_model)
+        return model_name
