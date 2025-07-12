@@ -14,13 +14,12 @@ The exercise name you create should follow this format:
 
 Try to make the exercise name fit this format. You will have to analyze the steps, positions, and equipment to create an intuitive name.
 
-Here are examples of how the "Chest Stretch" can evolve to follow this format:
+Here are examples of how the exercise named "Chest Stretch" can evolve to follow this format:
 
 1. "Doorway Chest Stretch" shows the format "<Variation> <Exercise Name>"
 2. "Kneeling Doorway Chest Stretch" shows the format "<Position> <Variation> <Exercise Name>"
 3. "One-Arm Kneeling Doorway Chest Stretch" shows the format "<Asymmetric Modifier> <Position> <Variation> <Exercise Name>"
-4. "One-Arm Floor Chest Stretch" shows the format "<Asymmetric Modifier> <Position> <Variation> <Exercise Name>"
-5. "One-Arm Prone Chest Stretch – Yoga Block" shows the format "<Asymmetric Modifier> <Position> <Exercise Name> – <Equipment>"
+4. "One-Arm Prone Chest Stretch – Yoga Block" shows the format "<Asymmetric Modifier> <Position> <Exercise Name> – <Equipment>"
 
 Let's define each of the format modifiers.
 
@@ -30,7 +29,7 @@ If an exercise is meant to be performed on one side at a time, the asymmetric mo
 
 ### Position
 
-Assume the exercise is meant to be performed from a standing position, do not specify "standing" as it's assumed. If the exercise is not performed from a standing position, label the exercise with a position. Here are prescribed positions:
+Assume the exercise is meant to be performed from a standing position, do not specify "standing" for an exercise's position as it's assumed. If the exercise is not performed from a standing position, label the exercise with a position. Here are prescribed positions:
 
 - "Seated" for exercises that are primarily in a seated posture
 - "Kneeling" for exercises that are primarily performed on the knees
@@ -76,7 +75,7 @@ A non-exhaustive list of equipment includes:
 - Stability Ball
 - Yoga Block
 
-For some exercises it's not important if the client uses equipment with the exercise. In these cases add the suffix "(Optional)" after the equipment.
+For some exercises it's not important if the client uses equipment with the exercise. If the equipment isn't critical, do not list it.
 
 ## Constraints
 
