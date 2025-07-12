@@ -41,30 +41,59 @@ class LLMQueryNode(Node):
                 }
             ],
         )
-        return response.choices[0].message.content.strip().lower()
+        # Extract cost information
+        cost = response._hidden_params.get("response_cost", 0)
+        result = response.choices[0].message.content.strip().lower()
+        return {"response": result, "cost": cost}
 
     def post(self, shared, prep_res, exec_res):
         # Store the category in shared store
-        shared["category"] = exec_res
+        shared["category"] = exec_res["response"]
+        
+        # Initialize cost tracking if not present
+        if "cost" not in shared:
+            shared["cost"] = {}
+        
+        # Store the cost for this node
+        shared["cost"][self.__class__.__name__] = exec_res["cost"]
+        
         # Return the next node based on the category
-        return exec_res
+        return exec_res["response"]
 
 
 class StrengthNode(Node):
     def exec(self, _):
-        return "Processing strength exercise request"
+        result = "Processing strength exercise request"
+        return {"response": result, "cost": 0}  # No LLM call, so cost is 0
 
     def post(self, shared, prep_res, exec_res):
-        shared["result"] = exec_res
+        shared["result"] = exec_res["response"]
+        
+        # Initialize cost tracking if not present
+        if "cost" not in shared:
+            shared["cost"] = {}
+        
+        # Store the cost for this node
+        shared["cost"][self.__class__.__name__] = exec_res["cost"]
+        
         return "default"
 
 
 class CardioNode(Node):
     def exec(self, _):
-        return "Processing cardio exercise request"
+        result = "Processing cardio exercise request"
+        return {"response": result, "cost": 0}  # No LLM call, so cost is 0
 
     def post(self, shared, prep_res, exec_res):
-        shared["result"] = exec_res
+        shared["result"] = exec_res["response"]
+        
+        # Initialize cost tracking if not present
+        if "cost" not in shared:
+            shared["cost"] = {}
+        
+        # Store the cost for this node
+        shared["cost"][self.__class__.__name__] = exec_res["cost"]
+        
         return "default"
 
 
@@ -90,14 +119,22 @@ class FlexibilityNode(Node):
 
         # Run the flow
         flow.run(flex_shared)
-
-        return flex_shared
+        
+        # Calculate total cost from sub-flow if available
+        total_cost = 0
+        if "cost" in flex_shared:
+            total_cost = sum(flex_shared["cost"].values())
+        
+        return {"response": flex_shared, "cost": total_cost}
 
     def post(self, shared, prep_res, exec_res):
+        # Get the response data
+        flex_shared = exec_res["response"]
+        
         # Store the results in the shared store
-        exercise_name = exec_res.get("exercise_name", "Unknown")
-        steps = exec_res.get("steps", [])
-        muscles = exec_res.get("muscles", [])
+        exercise_name = flex_shared.get("exercise_name", "Unknown")
+        steps = flex_shared.get("steps", [])
+        muscles = flex_shared.get("muscles", [])
 
         # Log the exercise information
         LOGGER.info(f"Exercise: {exercise_name}\n\nSteps:\n")
@@ -112,6 +149,18 @@ class FlexibilityNode(Node):
         shared["exercise_name"] = exercise_name
         shared["steps"] = steps
         shared["muscles"] = muscles
+        
+        # Initialize cost tracking if not present
+        if "cost" not in shared:
+            shared["cost"] = {}
+        
+        # Store the cost for this node
+        shared["cost"][self.__class__.__name__] = exec_res["cost"]
+        
+        # If the sub-flow has costs, merge them into the main flow's costs
+        if "cost" in flex_shared:
+            for node_name, node_cost in flex_shared["cost"].items():
+                shared["cost"][node_name] = node_cost
 
         return "default"
 
@@ -138,18 +187,29 @@ class FlexibilityStepsNode(Node):
             ],
         )
 
+        # Extract cost information
+        cost = response._hidden_params.get("response_cost", 0)
+        
         # Parse the JSON response
         import json
 
         try:
             steps = json.loads(response.choices[0].message.content.strip())
-            return steps
+            return {"response": steps, "cost": cost}
         except json.JSONDecodeError:
-            return ["Unable to parse steps"]
+            return {"response": ["Unable to parse steps"], "cost": cost}
 
     def post(self, shared, prep_res, exec_res):
         # Store the steps in shared store
-        shared["steps"] = exec_res
+        shared["steps"] = exec_res["response"]
+        
+        # Initialize cost tracking if not present
+        if "cost" not in shared:
+            shared["cost"] = {}
+        
+        # Store the cost for this node
+        shared["cost"][self.__class__.__name__] = exec_res["cost"]
+        
         return "default"
 
 
@@ -175,18 +235,29 @@ class FlexibilityMusclesNode(Node):
             ],
         )
 
+        # Extract cost information
+        cost = response._hidden_params.get("response_cost", 0)
+        
         # Parse the JSON response
         import json
 
         try:
             muscles = json.loads(response.choices[0].message.content.strip())
-            return muscles
+            return {"response": muscles, "cost": cost}
         except json.JSONDecodeError:
-            return ["Unable to parse muscles"]
+            return {"response": ["Unable to parse muscles"], "cost": cost}
 
     def post(self, shared, prep_res, exec_res):
         # Store the muscles in shared store
-        shared["muscles"] = exec_res
+        shared["muscles"] = exec_res["response"]
+        
+        # Initialize cost tracking if not present
+        if "cost" not in shared:
+            shared["cost"] = {}
+        
+        # Store the cost for this node
+        shared["cost"][self.__class__.__name__] = exec_res["cost"]
+        
         return "default"
 
 
@@ -214,11 +285,23 @@ class FlexibilityNameNode(Node):
             ],
         )
 
-        return response.choices[0].message.content.strip()
+        # Extract cost information
+        cost = response._hidden_params.get("response_cost", 0)
+        result = response.choices[0].message.content.strip()
+        
+        return {"response": result, "cost": cost}
 
     def post(self, shared, prep_res, exec_res):
         # Store the exercise name in shared store
-        shared["exercise_name"] = exec_res
+        shared["exercise_name"] = exec_res["response"]
+        
+        # Initialize cost tracking if not present
+        if "cost" not in shared:
+            shared["cost"] = {}
+        
+        # Store the cost for this node
+        shared["cost"][self.__class__.__name__] = exec_res["cost"]
+        
         return "default"
 
 
@@ -297,11 +380,20 @@ class SaveExerciseNode(Node):
         with open(file_path, "w") as f:
             json.dump(exercises, f, indent=2)
 
-        return {"file": file_path, "exercise": asdict(exercise)}
+        result = {"file": file_path, "exercise": asdict(exercise)}
+        return {"response": result, "cost": 0}  # No LLM call, so cost is 0
 
     def post(self, shared, prep_res, exec_res):
         """Update shared store with save results."""
-        shared["save_result"] = exec_res
+        shared["save_result"] = exec_res["response"]
+        
+        # Initialize cost tracking if not present
+        if "cost" not in shared:
+            shared["cost"] = {}
+        
+        # Store the cost for this node
+        shared["cost"][self.__class__.__name__] = exec_res["cost"]
+        
         return "default"
 
 
@@ -340,6 +432,15 @@ class ExerciseNode(Node):
         if "save_result" in shared:
             save_info = shared["save_result"]
             response += f"\n\nExercise saved to {save_info['file']}"
+            
+        # Add cost information if available
+        if "cost" in shared:
+            total_cost = sum(shared["cost"].values())
+            response += f"\n\nTotal LLM cost: ${total_cost:.6f}"
+            response += "\n\nCost breakdown:"
+            for node, cost in shared["cost"].items():
+                if cost > 0:
+                    response += f"\n- {node}: ${cost:.6f}"
 
         return response
 

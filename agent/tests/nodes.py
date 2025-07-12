@@ -111,7 +111,7 @@ def test_flexibility_name_node(test_case, model_name, score_tracker):
 
     # Run the node's prep and exec methods
     node = FlexibilityNameNode()
-    result = node.exec(prep_data)
+    result = node.exec(prep_data)["response"]
 
     # Calculate similarity score
     similarity_score = fuzz.token_sort_ratio(result, test_case["expected_output"])
