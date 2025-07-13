@@ -9,7 +9,7 @@ from fuzzywuzzy import fuzz
 # Add the src directory to the Python path
 sys.path.append(os.path.join(os.path.dirname(__file__), "../src"))
 
-from exercise_agent import FlexibilityNameNode
+from nodes import FlexibilityNameNode
 
 # Test cases
 test_cases = [
@@ -61,6 +61,7 @@ models_to_test = [
     "bedrock/amazon.nova-micro-v1:0",
     "bedrock/amazon.nova-pro-v1:0",
     "bedrock/us.anthropic.claude-3-7-sonnet-20250219-v1:0",
+    "bedrock/us.anthropic.claude-sonnet-4-20250514-v1:0",
     "bedrock/us.meta.llama3-2-3b-instruct-v1:0",
 ]
 
