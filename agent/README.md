@@ -50,6 +50,7 @@ python main.py "hamstring stretch"
 ```
 
 The system will:
+
 1. Categorize the exercise (strength, cardio, or flexibility)
 2. Generate detailed steps
 3. Identify target muscles
@@ -58,6 +59,7 @@ The system will:
 ### Testing
 
 Run traditional unit tests:
+
 ```bash
 pytest tests/
 ```

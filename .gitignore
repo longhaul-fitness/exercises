@@ -5,3 +5,6 @@ out/
 .venv
 config.json
 agent/exercises.json
+
+# Experiment results
+agent/experiments/results/
