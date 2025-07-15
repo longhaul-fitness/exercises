@@ -20,7 +20,7 @@ DEFAULT_MODELS = [
 ]
 
 
-def load_test_data(data_path: str = None) -> List[Dict[str, Any]]:
+def load_test_data(data_path: Optional[str] = None) -> List[Dict[str, Any]]:
     """Load test data from JSON file."""
     if data_path is None:
         data_path = os.path.join(os.path.dirname(__file__), "../data/flexibility.json")
@@ -103,7 +103,7 @@ def run_flexibility_name_node(
     node = FlexibilityNameNode()
 
     for model in models:
-        for idx, test_case in enumerate(test_data):
+        for test_case in test_data:
             # Prepare input data
             prep_data = {
                 "query": test_case["input"]["query"],
