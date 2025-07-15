@@ -1,11 +1,8 @@
 from pocketflow import Flow
-from nodes import (
-    LLMQueryNode,
-    StrengthNode,
-    CardioNode,
-    FlexibilityNode,
-    SaveExerciseNode
-)
+
+from nodes import (CardioNode, FlexibilityNode, LLMQueryNode, SaveExerciseNode,
+                   StrengthNode)
+
 
 def create_exercise_flow():
     """Create and return the main exercise processing flow."""

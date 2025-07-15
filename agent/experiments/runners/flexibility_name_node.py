@@ -1,8 +1,9 @@
 import json
 import os
 import sys
+import time
 from datetime import datetime
-from typing import List, Dict, Any, Optional
+from typing import Any, Dict, List, Optional
 
 # Add the src directory to the Python path
 sys.path.append(os.path.join(os.path.dirname(__file__), "../../src"))
@@ -18,17 +19,20 @@ DEFAULT_MODELS = [
     "bedrock/us.meta.llama3-2-3b-instruct-v1:0",
 ]
 
+
 def load_test_data(data_path: str = None) -> List[Dict[str, Any]]:
     """Load test data from JSON file."""
     if data_path is None:
         data_path = os.path.join(os.path.dirname(__file__), "../data/flexibility.json")
 
-    with open(data_path, 'r') as f:
+    with open(data_path, "r") as f:
         return json.load(f)
+
 
 def sanitize_model_name(model_name: str) -> str:
     """Sanitize model name for use in filename."""
-    return model_name.replace('/', '-').replace(':', '-').replace('.', '-')
+    return model_name.replace("/", "-").replace(":", "-").replace(".", "-")
+
 
 def generate_filename(models: List[str], timestamp: str) -> str:
     """Generate filename based on models used."""
@@ -39,6 +43,7 @@ def generate_filename(models: List[str], timestamp: str) -> str:
     else:
         return f"{timestamp}_select-models.json"
 
+
 def save_results(results: List[Dict[str, Any]], models: List[str]) -> str:
     """Save results to JSON file and return the filepath."""
     # Create timestamp (local time, no colons)
@@ -48,20 +53,23 @@ def save_results(results: List[Dict[str, Any]], models: List[str]) -> str:
     filename = generate_filename(models, timestamp)
 
     # Create results directory structure
-    results_dir = os.path.join(os.path.dirname(__file__), "../results/flexibility_name_node/runs")
+    results_dir = os.path.join(
+        os.path.dirname(__file__), "../results/flexibility_name_node/runs"
+    )
     os.makedirs(results_dir, exist_ok=True)
 
     # Save results
     filepath = os.path.join(results_dir, filename)
-    with open(filepath, 'w') as f:
+    with open(filepath, "w") as f:
         json.dump(results, f, indent=2)
 
     return filepath
 
+
 def run_flexibility_name_node(
     models: Optional[List[str]] = None,
     test_case_id: Optional[str] = None,
-    data_path: Optional[str] = None
+    data_path: Optional[str] = None,
 ) -> List[Dict[str, Any]]:
     """
     Run FlexibilityNameNode with specified models and test cases.
@@ -86,7 +94,9 @@ def run_flexibility_name_node(
         matching_cases = [case for case in test_data if case["id"] == test_case_id]
         if not matching_cases:
             available_ids = [case["id"] for case in test_data]
-            raise ValueError(f"test_case_id {test_case_id} not found. Available IDs: {available_ids}")
+            raise ValueError(
+                f"test_case_id {test_case_id} not found. Available IDs: {available_ids}"
+            )
         test_data = matching_cases
 
     results = []
@@ -102,36 +112,58 @@ def run_flexibility_name_node(
             }
 
             try:
-                # Execute the node
+                # Execute the node with timing
+                start_time = time.time()
                 result = node.exec(prep_data)
+                execution_time_ms = int((time.time() - start_time) * 1000)
+
                 actual_output = result["response"]
+                cost = result.get("cost", 0)
 
                 # Store result
-                results.append({
-                    "model": model,
-                    "test_case_id": test_case["id"],
-                    "query": test_case["input"]["query"],
-                    "steps": test_case["input"]["steps"],
-                    "expected": test_case["expected_output"],
-                    "actual": actual_output,
-                    "success": True,
-                    "error": None
-                })
+                results.append(
+                    {
+                        "model": model,
+                        "test_case_id": test_case["id"],
+                        "input": {
+                            "query": test_case["input"]["query"],
+                            "steps": test_case["input"]["steps"],
+                        },
+                        "output": {
+                            "expected": test_case["expected_output"],
+                            "actual": actual_output,
+                        },
+                        "metadata": {
+                            "execution_time_ms": execution_time_ms,
+                            "cost": f"{cost:.10f}",
+                        },
+                        "success": True,
+                        "error": None,
+                    }
+                )
 
             except Exception as e:
                 # Store error result
-                results.append({
-                    "model": model,
-                    "test_case_id": test_case["id"],
-                    "query": test_case["input"]["query"],
-                    "steps": test_case["input"]["steps"],
-                    "expected": test_case["expected_output"],
-                    "actual": None,
-                    "success": False,
-                    "error": str(e)
-                })
+                results.append(
+                    {
+                        "model": model,
+                        "test_case_id": test_case["id"],
+                        "input": {
+                            "query": test_case["input"]["query"],
+                            "steps": test_case["input"]["steps"],
+                        },
+                        "output": {
+                            "expected": test_case["expected_output"],
+                            "actual": None,
+                        },
+                        "metadata": {"execution_time_ms": None, "cost": None},
+                        "success": False,
+                        "error": str(e),
+                    }
+                )
 
     return results
+
 
 def main():
     """CLI interface for running the flexibility name node experiments."""
@@ -140,7 +172,9 @@ def main():
     parser = argparse.ArgumentParser(description="Run FlexibilityNameNode experiments")
     parser.add_argument("--model", type=str, help="Single model to test")
     parser.add_argument("--models", nargs="+", help="List of models to test")
-    parser.add_argument("--test-case-id", type=str, help="Specific test case UUID to run")
+    parser.add_argument(
+        "--test-case-id", type=str, help="Specific test case UUID to run"
+    )
     parser.add_argument("--data-path", type=str, help="Path to test data JSON file")
     parser.add_argument("--output", type=str, help="Output file for results (JSON)")
 
@@ -155,15 +189,13 @@ def main():
 
     # Run the experiments
     results = run_flexibility_name_node(
-        models=models,
-        test_case_id=args.test_case_id,
-        data_path=args.data_path
+        models=models, test_case_id=args.test_case_id, data_path=args.data_path
     )
 
     # Save results to file
     if args.output:
         # Use custom output path
-        with open(args.output, 'w') as f:
+        with open(args.output, "w") as f:
             json.dump(results, f, indent=2)
         print(f"Results saved to {args.output}")
     else:
@@ -175,6 +207,7 @@ def main():
     print(f"\nRan {len(results)} experiments")
     print(f"Successful: {sum(1 for r in results if r['success'])}")
     print(f"Failed: {sum(1 for r in results if not r['success'])}")
+
 
 if __name__ == "__main__":
     main()

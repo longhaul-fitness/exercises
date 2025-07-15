@@ -1,5 +1,7 @@
 import sys
+
 from flows import create_exercise_flow
+
 
 def main():
     # Check if an argument was provided
@@ -12,10 +14,10 @@ def main():
 
     # Create and run the flow
     flow = create_exercise_flow()
-    
+
     # Initialize shared store with the user query
     shared = {"query": query}
-    
+
     # Run the flow
     flow.run(shared)
 
@@ -38,6 +40,7 @@ def main():
 
     print(response)
     return response
+
 
 if __name__ == "__main__":
     main()
