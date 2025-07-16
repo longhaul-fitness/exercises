@@ -8,7 +8,7 @@ from typing import Any, Dict, List, Optional
 # Add the src directory to the Python path
 sys.path.append(os.path.join(os.path.dirname(__file__), "../../src"))
 
-from nodes import FlexibilityNameNode
+from nodes import FlexibilityMusclesNode
 
 DEFAULT_MODELS = [
     "bedrock/amazon.nova-lite-v1:0",
@@ -54,7 +54,7 @@ def save_results(results: List[Dict[str, Any]], models: List[str]) -> str:
 
     # Create results directory structure
     results_dir = os.path.join(
-        os.path.dirname(__file__), "../results/flexibility_name_node/runs"
+        os.path.dirname(__file__), "../results/flexibility_muscles_node/runs"
     )
     os.makedirs(results_dir, exist_ok=True)
 
@@ -66,13 +66,13 @@ def save_results(results: List[Dict[str, Any]], models: List[str]) -> str:
     return filepath
 
 
-def run_flexibility_name_node(
+def run_flexibility_muscles_node(
     models: Optional[List[str]] = None,
     test_case_id: Optional[str] = None,
     data_path: Optional[str] = None,
 ) -> List[Dict[str, Any]]:
     """
-    Run FlexibilityNameNode with specified models and test cases.
+    Run FlexibilityMusclesNode with specified models and test cases.
 
     Args:
         models: List of model names to test. If None, uses DEFAULT_MODELS.
@@ -100,15 +100,14 @@ def run_flexibility_name_node(
         test_data = matching_cases
 
     results = []
-    node = FlexibilityNameNode()
+    node = FlexibilityMusclesNode()
 
     for model in models:
         for test_case in test_data:
-            # Prepare input data
+            # Prepare input data - FlexibilityMusclesNode needs both name and steps
             prep_data = {
                 "query": test_case["input"]["name"],
                 "steps": test_case["input"]["steps"],
-                "model_name": model,
             }
 
             try:
@@ -130,7 +129,7 @@ def run_flexibility_name_node(
                             "steps": test_case["input"]["steps"],
                         },
                         "output": {
-                            "expected": test_case["output"]["expected_name"],
+                            "expected": test_case["output"]["expected_muscles"],
                             "actual": actual_output,
                         },
                         "metadata": {
@@ -153,7 +152,7 @@ def run_flexibility_name_node(
                             "steps": test_case["input"]["steps"],
                         },
                         "output": {
-                            "expected": test_case["output"]["expected_name"],
+                            "expected": test_case["output"]["expected_muscles"],
                             "actual": None,
                         },
                         "metadata": {"execution_time_ms": None, "cost": None},
@@ -166,10 +165,12 @@ def run_flexibility_name_node(
 
 
 def main():
-    """CLI interface for running the flexibility name node experiments."""
+    """CLI interface for running the flexibility muscles node experiments."""
     import argparse
 
-    parser = argparse.ArgumentParser(description="Run FlexibilityNameNode experiments")
+    parser = argparse.ArgumentParser(
+        description="Run FlexibilityMusclesNode experiments"
+    )
     parser.add_argument("--model", type=str, help="Single model to test")
     parser.add_argument("--models", nargs="+", help="List of models to test")
     parser.add_argument(
@@ -188,7 +189,7 @@ def main():
         models = args.models
 
     # Run the experiments
-    results = run_flexibility_name_node(
+    results = run_flexibility_muscles_node(
         models=models, test_case_id=args.test_case_id, data_path=args.data_path
     )
 
