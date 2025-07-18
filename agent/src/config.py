@@ -1,5 +1,4 @@
 import json
-import logging
 import os
 from typing import Any, Dict
 
@@ -25,30 +24,22 @@ class Configuration:
         """Load the configuration file."""
         try:
             if not os.path.exists(self.config_path):
-                logging.warning(
-                    f"Config file not found at {self.config_path}. Using defaults."
-                )
+                # Config file not found, use defaults silently
                 return
 
             with open(self.config_path, "r") as f:
                 self.config = json.load(f)
 
             if not isinstance(self.config, dict):
-                logging.error("Config file must contain a JSON object/dictionary.")
+                # Config file must contain a JSON object/dictionary
                 self.config = {}
 
         except json.JSONDecodeError:
-            logging.error(
-                f"Failed to parse config file at {self.config_path}. Using defaults."
-            )
+            # Failed to parse config file, use defaults
             self.config = {}
-        except Exception as e:
-            logging.error(f"Error loading config file: {str(e)}. Using defaults.")
+        except Exception:
+            # Error loading config file, use defaults
             self.config = {}
-
-    def get_logging_config(self) -> Dict[str, Any]:
-        """Get logging configuration section."""
-        return self.config.get("logging", {})
 
     def get_models_config(self) -> Dict[str, str]:
         """Get models configuration section."""
