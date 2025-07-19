@@ -108,6 +108,7 @@ def run_flexibility_muscles_node(
             prep_data = {
                 "query": test_case["input"]["name"],
                 "steps": test_case["input"]["steps"],
+                "model_name": model,
             }
 
             try:

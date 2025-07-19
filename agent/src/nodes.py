@@ -6,18 +6,11 @@ from typing import List, Optional
 
 from pocketflow import Node
 
-from config import Configuration
 from log import get_logger
-from model import Model, call_llm
-
-# Load configuration
-APP_CONFIG = Configuration("./config.json")
+from model import call_llm, get_model_for_node
 
 # Get module-specific logger
 LOGGER = get_logger(__name__)
-
-# Initialize the model abstraction with the models configuration
-AGENT_MODELS = Model(APP_CONFIG.get_models_config())
 
 
 class LLMQueryNode(Node):
@@ -25,7 +18,7 @@ class LLMQueryNode(Node):
         # Get the query from shared store
         return {
             "query": shared.get("query", ""),
-            "model_name": AGENT_MODELS.get_model(self.__class__.__name__),
+            "model_name": get_model_for_node(self.__class__.__name__),
         }
 
     def exec(self, prep_data):
@@ -57,7 +50,7 @@ class FlexibilityStepsNode(Node):
         # Get the exercise name and original query
         return {
             "query": shared.get("query", ""),
-            "model_name": AGENT_MODELS.get_model(self.__class__.__name__),
+            "model_name": get_model_for_node(self.__class__.__name__),
         }
 
     def exec(self, prep_data):
@@ -99,7 +92,7 @@ class FlexibilityMusclesNode(Node):
         return {
             "query": shared.get("query", ""),
             "steps": shared.get("steps", ""),
-            "model_name": AGENT_MODELS.get_model(self.__class__.__name__),
+            "model_name": get_model_for_node(self.__class__.__name__),
         }
 
     def exec(self, prep_data):
@@ -143,7 +136,7 @@ class FlexibilityNameNode(Node):
         return {
             "query": shared.get("query", ""),
             "steps": shared.get("steps", ""),
-            "model_name": AGENT_MODELS.get_model(self.__class__.__name__),
+            "model_name": get_model_for_node(self.__class__.__name__),
         }
 
     def exec(self, prep_data):
