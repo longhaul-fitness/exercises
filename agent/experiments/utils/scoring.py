@@ -201,7 +201,7 @@ def calculate_comprehensive_similarity(
     lexical_scores = calculate_lexical_similarity(expected, actual)
 
     # Weighted combination (adjust weights based on your needs)
-    combined_score = (0.7 * semantic_score) + (0.3 * lexical_scores["token_sort_ratio"])
+    combined_score = (0.7 * semantic_score) + (0.3 * lexical_scores["ratio"])
 
     return {
         "semantic_similarity": semantic_score,
