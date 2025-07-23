@@ -4,6 +4,7 @@ import sys
 from dataclasses import dataclass
 
 import numpy as np
+from fuzzywuzzy import fuzz
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Add the src directory to the Python path
@@ -124,3 +125,86 @@ def calculate_fuzzy_metrics(
     fuzzy_f1 = calculate_f1(precision=fuzzy_precision, recall=fuzzy_recall)
 
     return FuzzyMetrics(f1=fuzzy_f1, precision=fuzzy_precision, recall=fuzzy_recall)
+
+
+def calculate_semantic_similarity(
+    expected: str, actual: str, embedding_client
+) -> float:
+    """Calculate cosine similarity between two strings using embeddings.
+
+    Args:
+        expected: The expected/ground truth string
+        actual: The actual/predicted string
+        embedding_client: Client with get_embedding(text) method
+
+    Returns:
+        Cosine similarity score between 0.0 and 1.0
+    """
+    expected_embedding = embedding_client.get_embedding(expected)
+    actual_embedding = embedding_client.get_embedding(actual)
+
+    similarity = cosine_similarity([expected_embedding], [actual_embedding])[0][0]
+    return float(similarity)
+
+
+def calculate_lexical_similarity(expected: str, actual: str) -> dict:
+    """Calculate various lexical similarity scores using fuzzywuzzy.
+
+    Args:
+        expected: The expected/ground truth string
+        actual: The actual/predicted string
+
+    Returns:
+        Dictionary with lexical similarity scores (all between 0.0 and 1.0):
+        - ratio: Overall similarity
+        - partial_ratio: Substring matching
+        - token_sort_ratio: Word order independent
+        - token_set_ratio: Set-based comparison
+    """
+    if fuzz is None:
+        LOGGER.warning("fuzzywuzzy not available, returning zero scores")
+        return {
+            "ratio": 0.0,
+            "partial_ratio": 0.0,
+            "token_sort_ratio": 0.0,
+            "token_set_ratio": 0.0,
+        }
+
+    return {
+        "ratio": fuzz.ratio(expected, actual) / 100.0,
+        "partial_ratio": fuzz.partial_ratio(expected, actual) / 100.0,
+        "token_sort_ratio": fuzz.token_sort_ratio(expected, actual) / 100.0,
+        "token_set_ratio": fuzz.token_set_ratio(expected, actual) / 100.0,
+    }
+
+
+def calculate_comprehensive_similarity(
+    expected: str, actual: str, embedding_client
+) -> dict:
+    """Calculate both semantic and lexical similarity scores for two strings.
+
+    Args:
+        expected: The expected/ground truth string
+        actual: The actual/predicted string
+        embedding_client: Client with get_embedding(text) method
+
+    Returns:
+        Dictionary containing:
+        - semantic_similarity: Cosine similarity using embeddings (0.0 to 1.0)
+        - lexical_similarity: Dictionary of fuzzywuzzy scores
+        - combined_score: Weighted combination (70% semantic, 30% lexical token_sort_ratio)
+    """
+    # Semantic similarity
+    semantic_score = calculate_semantic_similarity(expected, actual, embedding_client)
+
+    # Lexical similarity
+    lexical_scores = calculate_lexical_similarity(expected, actual)
+
+    # Weighted combination (adjust weights based on your needs)
+    combined_score = (0.7 * semantic_score) + (0.3 * lexical_scores["token_sort_ratio"])
+
+    return {
+        "semantic_similarity": semantic_score,
+        "lexical_similarity": lexical_scores,
+        "combined_score": combined_score,
+    }

@@ -9,7 +9,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "../../src"))
 sys.path.append(os.path.join(os.path.dirname(__file__), "../utils"))
 
 import litellm
-from scoring import calculate_fuzzy_metrics
+from scoring import calculate_comprehensive_similarity
 
 
 class EmbeddingClient:
@@ -56,7 +56,7 @@ def find_results_files(
 def evaluate_results(
     results: List[Dict[str, Any]], embedding_client: EmbeddingClient
 ) -> List[Dict[str, Any]]:
-    """Evaluate results using fuzzy F1 scoring."""
+    """Evaluate results using semantic and lexical similarity scoring."""
     evaluated_results = []
 
     for result in results:
@@ -66,9 +66,14 @@ def evaluate_results(
                 {
                     **result,
                     "evaluation": {
-                        "f1_score": 0.0,
-                        "precision": 0.0,
-                        "recall": 0.0,
+                        "semantic_similarity": 0.0,
+                        "lexical_similarity": {
+                            "ratio": 0.0,
+                            "partial_ratio": 0.0,
+                            "token_sort_ratio": 0.0,
+                            "token_set_ratio": 0.0,
+                        },
+                        "combined_score": 0.0,
                         "error": "Original execution failed",
                     },
                 }
@@ -83,9 +88,14 @@ def evaluate_results(
                 {
                     **result,
                     "evaluation": {
-                        "f1_score": 0.0,
-                        "precision": 0.0,
-                        "recall": 0.0,
+                        "semantic_similarity": 0.0,
+                        "lexical_similarity": {
+                            "ratio": 0.0,
+                            "partial_ratio": 0.0,
+                            "token_sort_ratio": 0.0,
+                            "token_set_ratio": 0.0,
+                        },
+                        "combined_score": 0.0,
                         "error": "No actual output to evaluate",
                     },
                 }
@@ -93,10 +103,10 @@ def evaluate_results(
             continue
 
         try:
-            # Calculate fuzzy metrics using semantic similarity
-            metrics = calculate_fuzzy_metrics(
-                true_list=[expected],
-                pred_list=[actual],
+            # Calculate comprehensive similarity scores
+            similarity_scores = calculate_comprehensive_similarity(
+                expected=expected,
+                actual=actual,
                 embedding_client=embedding_client,
             )
 
@@ -104,9 +114,9 @@ def evaluate_results(
                 {
                     **result,
                     "evaluation": {
-                        "f1_score": metrics.f1,
-                        "precision": metrics.precision,
-                        "recall": metrics.recall,
+                        "semantic_similarity": similarity_scores["semantic_similarity"],
+                        "lexical_similarity": similarity_scores["lexical_similarity"],
+                        "combined_score": similarity_scores["combined_score"],
                         "error": None,
                     },
                 }
@@ -117,9 +127,14 @@ def evaluate_results(
                 {
                     **result,
                     "evaluation": {
-                        "f1_score": 0.0,
-                        "precision": 0.0,
-                        "recall": 0.0,
+                        "semantic_similarity": 0.0,
+                        "lexical_similarity": {
+                            "ratio": 0.0,
+                            "partial_ratio": 0.0,
+                            "token_sort_ratio": 0.0,
+                            "token_set_ratio": 0.0,
+                        },
+                        "combined_score": 0.0,
                         "error": f"Evaluation error: {str(e)}",
                     },
                 }
@@ -245,22 +260,23 @@ def main():
         r for r in evaluated_results if r["evaluation"]["error"] is None
     ]
     if successful_evals:
-        avg_f1 = sum(r["evaluation"]["f1_score"] for r in successful_evals) / len(
-            successful_evals
-        )
-        avg_precision = sum(
-            r["evaluation"]["precision"] for r in successful_evals
+        avg_semantic = sum(
+            r["evaluation"]["semantic_similarity"] for r in successful_evals
         ) / len(successful_evals)
-        avg_recall = sum(r["evaluation"]["recall"] for r in successful_evals) / len(
-            successful_evals
-        )
+        avg_combined = sum(
+            r["evaluation"]["combined_score"] for r in successful_evals
+        ) / len(successful_evals)
+        avg_lexical_token_sort = sum(
+            r["evaluation"]["lexical_similarity"]["token_sort_ratio"]
+            for r in successful_evals
+        ) / len(successful_evals)
 
         print(f"\nEvaluated {len(evaluated_results)} results")
         print(f"Successful evaluations: {len(successful_evals)}")
         print(f"Failed evaluations: {len(evaluated_results) - len(successful_evals)}")
-        print(f"Average F1 Score: {avg_f1:.4f}")
-        print(f"Average Precision: {avg_precision:.4f}")
-        print(f"Average Recall: {avg_recall:.4f}")
+        print(f"Average Semantic Similarity: {avg_semantic:.4f}")
+        print(f"Average Lexical Similarity (Token Sort): {avg_lexical_token_sort:.4f}")
+        print(f"Average Combined Score: {avg_combined:.4f}")
     else:
         print(f"No successful evaluations out of {len(evaluated_results)} results")
 
