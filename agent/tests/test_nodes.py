@@ -4,7 +4,7 @@ from collections import defaultdict
 
 import pandas as pd
 import pytest
-from fuzzywuzzy import fuzz
+from thefuzz import fuzz
 
 # Add the src directory to the Python path
 sys.path.append(os.path.join(os.path.dirname(__file__), "../src"))

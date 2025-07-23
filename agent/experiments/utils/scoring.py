@@ -4,8 +4,8 @@ import sys
 from dataclasses import dataclass
 
 import numpy as np
-from fuzzywuzzy import fuzz
 from sklearn.metrics.pairwise import cosine_similarity
+from thefuzz import fuzz
 
 # Add the src directory to the Python path
 sys.path.append(os.path.join(os.path.dirname(__file__), "../src"))
