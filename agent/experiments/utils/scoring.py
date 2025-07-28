@@ -58,6 +58,47 @@ class FuzzyMetrics:
     recall: float
 
 
+def calculate_exact_muscle_metrics(
+    expected_muscles: list[str], actual_muscles: list[str]
+) -> dict:
+    """Calculate precision, recall, and F1 using exact string matching for muscle names.
+
+    Args:
+        expected_muscles: Ground truth muscle names
+        actual_muscles: Predicted muscle names
+
+    Returns:
+        Dictionary containing:
+            - f1: F1 score (0.0 to 1.0)
+            - precision: Precision score (0.0 to 1.0)
+            - recall: Recall score (0.0 to 1.0)
+            - true_positives: Number of correct predictions
+            - false_positives: Number of incorrect predictions
+            - false_negatives: Number of missed ground truth items
+    """
+    # Convert to sets for easier comparison
+    expected_set = set(expected_muscles)
+    actual_set = set(actual_muscles)
+
+    # Calculate metrics
+    true_positives = len(expected_set.intersection(actual_set))
+    false_positives = len(actual_set - expected_set)
+    false_negatives = len(expected_set - actual_set)
+
+    precision = true_positives / len(actual_set) if len(actual_set) > 0 else 0.0
+    recall = true_positives / len(expected_set) if len(expected_set) > 0 else 0.0
+    f1 = calculate_f1(precision, recall)
+
+    return {
+        "f1": f1,
+        "precision": precision,
+        "recall": recall,
+        "true_positives": true_positives,
+        "false_positives": false_positives,
+        "false_negatives": false_negatives,
+    }
+
+
 def calculate_fuzzy_metrics(
     true_list: list[str],
     pred_list: list[str],

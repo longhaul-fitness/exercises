@@ -8,20 +8,37 @@ from typing import Any, Dict, List, Optional
 sys.path.append(os.path.join(os.path.dirname(__file__), "../../src"))
 sys.path.append(os.path.join(os.path.dirname(__file__), "../utils"))
 
-import litellm
-from scoring import calculate_fuzzy_metrics
+from scoring import calculate_exact_muscle_metrics
+
+# Valid muscles from the prompt
+VALID_MUSCLES = {
+    "abdominal",
+    "bicep",
+    "calf",
+    "chest",
+    "forearm - inner",
+    "forearm - outer",
+    "glute",
+    "hamstring",
+    "lat",
+    "lower back",
+    "oblique",
+    "quad",
+    "rotator cuff - back",
+    "rotator cuff - front",
+    "shoulder - back",
+    "shoulder - front",
+    "shoulder - side",
+    "thigh - inner",
+    "thigh - outer",
+    "trap",
+    "tricep",
+}
 
 
-class EmbeddingClient:
-    """Simple embedding client using litellm."""
-
-    def __init__(self, model: str = "bedrock/amazon.titan-embed-text-v2:0"):
-        self.model = model
-
-    def get_embedding(self, text: str) -> List[float]:
-        """Get embedding for a text string."""
-        response = litellm.embedding(model=self.model, input=[text])
-        return response.data[0].embedding
+def validate_muscles(muscles: List[str]) -> List[str]:
+    """Return list of invalid muscle names."""
+    return [m for m in muscles if m not in VALID_MUSCLES]
 
 
 def load_runner_results(input_path: str) -> List[Dict[str, Any]]:
@@ -53,10 +70,8 @@ def find_results_files(
     return [os.path.join(results_dir, f) for f in json_files]
 
 
-def evaluate_results(
-    results: List[Dict[str, Any]], embedding_client: EmbeddingClient
-) -> List[Dict[str, Any]]:
-    """Evaluate results using fuzzy F1 scoring."""
+def evaluate_results(results: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Evaluate results using exact muscle matching with separate primary/secondary scoring."""
     evaluated_results = []
 
     for result in results:
@@ -69,6 +84,9 @@ def evaluate_results(
                         "f1_score": 0.0,
                         "precision": 0.0,
                         "recall": 0.0,
+                        "primary_metrics": None,
+                        "secondary_metrics": None,
+                        "invalid_muscles": {"primary": [], "secondary": []},
                         "error": "Original execution failed",
                     },
                 }
@@ -86,6 +104,9 @@ def evaluate_results(
                         "f1_score": 0.0,
                         "precision": 0.0,
                         "recall": 0.0,
+                        "primary_metrics": None,
+                        "secondary_metrics": None,
+                        "invalid_muscles": {"primary": [], "secondary": []},
                         "error": "No actual output to evaluate",
                     },
                 }
@@ -93,43 +114,73 @@ def evaluate_results(
             continue
 
         try:
-            # Handle muscle data structure - convert to comparable format
-            if isinstance(expected, dict):
-                # Extract all muscles from expected structure
-                expected_muscles = []
-                if "primaryMuscles" in expected:
-                    expected_muscles.extend(expected["primaryMuscles"])
-                if "secondaryMuscles" in expected:
-                    expected_muscles.extend(expected["secondaryMuscles"])
-            else:
-                expected_muscles = (
-                    expected if isinstance(expected, list) else [expected]
-                )
-
-            if isinstance(actual, dict):
-                # Extract all muscles from actual structure
-                actual_muscles = []
-                if "primaryMuscles" in actual:
-                    actual_muscles.extend(actual["primaryMuscles"])
-                if "secondaryMuscles" in actual:
-                    actual_muscles.extend(actual["secondaryMuscles"])
-            else:
-                actual_muscles = actual if isinstance(actual, list) else [actual]
-
-            # Calculate fuzzy metrics using semantic similarity
-            metrics = calculate_fuzzy_metrics(
-                true_list=expected_muscles,
-                pred_list=actual_muscles,
-                embedding_client=embedding_client,
+            # Extract primary and secondary muscles separately
+            expected_primary = (
+                expected.get("primaryMuscles", []) if isinstance(expected, dict) else []
             )
+            expected_secondary = (
+                expected.get("secondaryMuscles", [])
+                if isinstance(expected, dict)
+                else []
+            )
+
+            actual_primary = (
+                actual.get("primaryMuscles", []) if isinstance(actual, dict) else []
+            )
+            actual_secondary = (
+                actual.get("secondaryMuscles", []) if isinstance(actual, dict) else []
+            )
+
+            # Check for invalid muscles (for reporting only)
+            primary_invalid = validate_muscles(actual_primary)
+            secondary_invalid = validate_muscles(actual_secondary)
+
+            # Calculate metrics for primary and secondary muscles separately
+            primary_metrics = calculate_exact_muscle_metrics(
+                expected_primary, actual_primary
+            )
+            secondary_metrics = calculate_exact_muscle_metrics(
+                expected_secondary, actual_secondary
+            )
+
+            # Calculate weighted F1 score (70% primary, 30% secondary)
+            weighted_f1 = (0.7 * primary_metrics["f1"]) + (
+                0.3 * secondary_metrics["f1"]
+            )
+
+            # Calculate weighted precision and recall
+            total_expected = len(expected_primary) + len(expected_secondary)
+            total_actual = len(actual_primary) + len(actual_secondary)
+
+            if total_actual > 0:
+                weighted_precision = (
+                    (0.7 * primary_metrics["precision"] * len(actual_primary))
+                    + (0.3 * secondary_metrics["precision"] * len(actual_secondary))
+                ) / total_actual
+            else:
+                weighted_precision = 0.0
+
+            if total_expected > 0:
+                weighted_recall = (
+                    (0.7 * primary_metrics["recall"] * len(expected_primary))
+                    + (0.3 * secondary_metrics["recall"] * len(expected_secondary))
+                ) / total_expected
+            else:
+                weighted_recall = 0.0
 
             evaluated_results.append(
                 {
                     **result,
                     "evaluation": {
-                        "f1_score": metrics.f1,
-                        "precision": metrics.precision,
-                        "recall": metrics.recall,
+                        "f1_score": weighted_f1,
+                        "precision": weighted_precision,
+                        "recall": weighted_recall,
+                        "primary_metrics": primary_metrics,
+                        "secondary_metrics": secondary_metrics,
+                        "invalid_muscles": {
+                            "primary": primary_invalid,
+                            "secondary": secondary_invalid,
+                        },
                         "error": None,
                     },
                 }
@@ -143,6 +194,9 @@ def evaluate_results(
                         "f1_score": 0.0,
                         "precision": 0.0,
                         "recall": 0.0,
+                        "primary_metrics": None,
+                        "secondary_metrics": None,
+                        "invalid_muscles": {"primary": [], "secondary": []},
                         "error": f"Evaluation error: {str(e)}",
                     },
                 }
@@ -177,15 +231,13 @@ def save_evaluation_results(results: List[Dict[str, Any]], source_filename: str)
 def run_flexibility_muscles_evaluator(
     test_case_id: Optional[str] = None,
     input_path: Optional[str] = None,
-    embedding_model: str = "bedrock/amazon.titan-embed-text-v2:0",
 ) -> List[Dict[str, Any]]:
     """
-    Evaluate FlexibilityMusclesNode results using fuzzy F1 scoring.
+    Evaluate FlexibilityMusclesNode results using exact muscle matching.
 
     Args:
         test_case_id: Specific test case UUID to evaluate. If None, evaluates all.
         input_path: Path to specific results JSON file. If None, finds files automatically.
-        embedding_model: Model to use for generating embeddings.
 
     Returns:
         List of evaluated result dictionaries with added evaluation metrics.
@@ -213,11 +265,8 @@ def run_flexibility_muscles_evaluator(
     if not results:
         raise ValueError("No results found matching the specified criteria")
 
-    # Initialize embedding client
-    embedding_client = EmbeddingClient(model=embedding_model)
-
     # Evaluate results
-    evaluated_results = evaluate_results(results, embedding_client)
+    evaluated_results = evaluate_results(results)
 
     return evaluated_results, source_filename
 
@@ -236,12 +285,6 @@ def main():
         "--input-path", type=str, help="Path to specific runner results JSON file"
     )
     parser.add_argument(
-        "--embedding-model",
-        type=str,
-        default="bedrock/amazon.titan-embed-text-v2:0",
-        help="Model to use for embeddings",
-    )
-    parser.add_argument(
         "--output", type=str, help="Output file for evaluation results (JSON)"
     )
 
@@ -251,7 +294,6 @@ def main():
     evaluated_results, source_filename = run_flexibility_muscles_evaluator(
         test_case_id=args.test_case_id,
         input_path=args.input_path,
-        embedding_model=args.embedding_model,
     )
 
     # Save results to file
