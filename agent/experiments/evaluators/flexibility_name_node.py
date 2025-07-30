@@ -1,7 +1,6 @@
 import json
 import os
 import sys
-from datetime import datetime
 from typing import Any, Dict, List, Optional
 
 # Add the src directory to the Python path
@@ -9,6 +8,8 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "../../src"))
 sys.path.append(os.path.join(os.path.dirname(__file__), "../utils"))
 
 import litellm
+from experiment_utils import (find_latest_files, load_json_data,
+                              save_evaluation_results)
 from scoring import calculate_comprehensive_similarity
 
 
@@ -22,35 +23,6 @@ class EmbeddingClient:
         """Get embedding for a text string."""
         response = litellm.embedding(model=self.model, input=[text])
         return response.data[0].embedding
-
-
-def load_runner_results(input_path: str) -> List[Dict[str, Any]]:
-    """Load results from the runner JSON file."""
-    with open(input_path, "r") as f:
-        return json.load(f)
-
-
-def find_results_files(
-    test_case_id: Optional[str] = None, results_dir: Optional[str] = None
-) -> List[str]:
-    """Find matching results files based on criteria."""
-    if results_dir is None:
-        results_dir = os.path.join(
-            os.path.dirname(__file__), "../results/flexibility_name_node/runs"
-        )
-
-    if not os.path.exists(results_dir):
-        return []
-
-    # Get all JSON files in the results directory
-    json_files = [f for f in os.listdir(results_dir) if f.endswith(".json")]
-
-    # Sort by modification time, most recent first
-    json_files.sort(
-        key=lambda f: os.path.getmtime(os.path.join(results_dir, f)), reverse=True
-    )
-
-    return [os.path.join(results_dir, f) for f in json_files]
 
 
 def evaluate_results(
@@ -143,29 +115,6 @@ def evaluate_results(
     return evaluated_results
 
 
-def save_evaluation_results(results: List[Dict[str, Any]], source_filename: str) -> str:
-    """Save evaluation results to JSON file and return the filepath."""
-    # Create timestamp (local time, no colons)
-    timestamp = datetime.now().strftime("%Y-%m-%dT%H%M%S")
-
-    # Generate filename based on source file
-    base_name = os.path.splitext(os.path.basename(source_filename))[0]
-    filename = f"{timestamp}_{base_name}_evaluated.json"
-
-    # Create results directory structure
-    results_dir = os.path.join(
-        os.path.dirname(__file__), "../results/flexibility_name_node/evaluations"
-    )
-    os.makedirs(results_dir, exist_ok=True)
-
-    # Save results
-    filepath = os.path.join(results_dir, filename)
-    with open(filepath, "w") as f:
-        json.dump(results, f, indent=2)
-
-    return filepath
-
-
 def run_flexibility_name_evaluator(
     test_case_id: Optional[str] = None,
     input_path: Optional[str] = None,
@@ -185,17 +134,17 @@ def run_flexibility_name_evaluator(
     # Load results
     if input_path:
         # Load specific results file
-        results = load_runner_results(input_path)
+        results = load_json_data(input_path)
         source_filename = input_path
     else:
         # Find and load matching results files
-        results_files = find_results_files(test_case_id=test_case_id)
+        results_files = find_latest_files("flexibility_name_node", "runs", test_case_id)
         if not results_files:
             raise ValueError("No results files found matching the criteria")
 
         # Load the most recent file
         source_filename = results_files[0]
-        results = load_runner_results(source_filename)
+        results = load_json_data(source_filename)
         print(f"Loaded results from: {source_filename}")
 
     # Filter results by test_case_id if specified
@@ -252,7 +201,9 @@ def main():
         print(f"Evaluation results saved to {args.output}")
     else:
         # Use default results directory structure
-        filepath = save_evaluation_results(evaluated_results, source_filename)
+        filepath = save_evaluation_results(
+            evaluated_results, source_filename, "flexibility_name_node"
+        )
         print(f"Evaluation results saved to {filepath}")
 
     # Print summary to console
