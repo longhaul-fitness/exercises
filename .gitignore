@@ -2,6 +2,7 @@ out/
 
 # agent
 .aider*
+.claude*
 .venv
 config.json
 agent/exercises.json

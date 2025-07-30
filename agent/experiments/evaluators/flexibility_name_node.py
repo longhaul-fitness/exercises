@@ -231,9 +231,13 @@ def main():
 
             print(f"\nEvaluated {len(evaluated_results)} results")
             print(f"Successful evaluations: {len(successful_evals)}")
-            print(f"Failed evaluations: {len(evaluated_results) - len(successful_evals)}")
+            print(
+                f"Failed evaluations: {len(evaluated_results) - len(successful_evals)}"
+            )
             print(f"Average Semantic Similarity: {avg_semantic:.4f}")
-            print(f"Average Lexical Similarity (Token Sort): {avg_lexical_token_sort:.4f}")
+            print(
+                f"Average Lexical Similarity (Token Sort): {avg_lexical_token_sort:.4f}"
+            )
             print(f"Average Combined Score: {avg_combined:.4f}")
         else:
             print(f"No successful evaluations out of {len(evaluated_results)} results")
