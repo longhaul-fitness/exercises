@@ -1,69 +1,24 @@
-import json
 import os
 import sys
-import time
-from datetime import datetime
 from typing import Any, Dict, List, Optional
 
 # Add the src directory to the Python path
 sys.path.append(os.path.join(os.path.dirname(__file__), "../../src"))
+sys.path.append(os.path.join(os.path.dirname(__file__), "../utils"))
+
+from experiment_utils import (DEFAULT_MODELS, run_node_experiments,
+                              save_json_results)
 
 from nodes import FlexibilityMusclesNode
 
-DEFAULT_MODELS = [
-    "bedrock/amazon.nova-lite-v1:0",
-    "bedrock/amazon.nova-micro-v1:0",
-    "bedrock/amazon.nova-pro-v1:0",
-    "bedrock/us.anthropic.claude-3-7-sonnet-20250219-v1:0",
-    "bedrock/us.anthropic.claude-sonnet-4-20250514-v1:0",
-    "bedrock/us.meta.llama3-2-3b-instruct-v1:0",
-]
 
-
-def load_test_data(data_path: Optional[str] = None) -> List[Dict[str, Any]]:
-    """Load test data from JSON file."""
-    if data_path is None:
-        data_path = os.path.join(os.path.dirname(__file__), "../data/flexibility.json")
-
-    with open(data_path, "r") as f:
-        return json.load(f)
-
-
-def sanitize_model_name(model_name: str) -> str:
-    """Sanitize model name for use in filename."""
-    return model_name.replace("/", "-").replace(":", "-").replace(".", "-")
-
-
-def generate_filename(models: List[str], timestamp: str) -> str:
-    """Generate filename based on models used."""
-    if len(models) == len(DEFAULT_MODELS) and set(models) == set(DEFAULT_MODELS):
-        return f"{timestamp}_all-models.json"
-    elif len(models) == 1:
-        return f"{timestamp}_{sanitize_model_name(models[0])}.json"
-    else:
-        return f"{timestamp}_select-models.json"
-
-
-def save_results(results: List[Dict[str, Any]], models: List[str]) -> str:
-    """Save results to JSON file and return the filepath."""
-    # Create timestamp (local time, no colons)
-    timestamp = datetime.now().strftime("%Y-%m-%dT%H%M%S")
-
-    # Generate filename
-    filename = generate_filename(models, timestamp)
-
-    # Create results directory structure
-    results_dir = os.path.join(
-        os.path.dirname(__file__), "../results/flexibility_muscles_node/runs"
-    )
-    os.makedirs(results_dir, exist_ok=True)
-
-    # Save results
-    filepath = os.path.join(results_dir, filename)
-    with open(filepath, "w") as f:
-        json.dump(results, f, indent=2)
-
-    return filepath
+def prepare_muscles_node_input(test_case: Dict[str, Any], model: str) -> Dict[str, Any]:
+    """Prepare input data for FlexibilityMusclesNode."""
+    return {
+        "query": test_case["input"]["name"],
+        "steps": test_case["input"]["steps"],
+        "model_name": model,
+    }
 
 
 def run_flexibility_muscles_node(
@@ -82,87 +37,14 @@ def run_flexibility_muscles_node(
     Returns:
         List of result dictionaries containing model, test_case_id, input, expected, actual, etc.
     """
-    # Use default models if none specified
-    if models is None:
-        models = DEFAULT_MODELS
-
-    # Load test data
-    test_data = load_test_data(data_path)
-
-    # Filter to specific test case if requested
-    if test_case_id is not None:
-        matching_cases = [case for case in test_data if case["id"] == test_case_id]
-        if not matching_cases:
-            available_ids = [case["id"] for case in test_data]
-            raise ValueError(
-                f"test_case_id {test_case_id} not found. Available IDs: {available_ids}"
-            )
-        test_data = matching_cases
-
-    results = []
-    node = FlexibilityMusclesNode()
-
-    for model in models:
-        for test_case in test_data:
-            # Prepare input data - FlexibilityMusclesNode needs both name and steps
-            prep_data = {
-                "query": test_case["input"]["name"],
-                "steps": test_case["input"]["steps"],
-                "model_name": model,
-            }
-
-            try:
-                # Execute the node with timing
-                start_time = time.time()
-                result = node.exec(prep_data)
-                execution_time_ms = int((time.time() - start_time) * 1000)
-
-                actual_output = result["response"]
-                cost = result.get("cost", 0)
-
-                # Store result
-                results.append(
-                    {
-                        "model": model,
-                        "test_case_id": test_case["id"],
-                        "input": {
-                            "name": test_case["input"]["name"],
-                            "steps": test_case["input"]["steps"],
-                        },
-                        "output": {
-                            "expected": test_case["output"]["expected_muscles"],
-                            "actual": actual_output,
-                        },
-                        "metadata": {
-                            "execution_time_ms": execution_time_ms,
-                            "cost": f"{cost:.10f}",
-                        },
-                        "success": True,
-                        "error": None,
-                    }
-                )
-
-            except Exception as e:
-                # Store error result
-                results.append(
-                    {
-                        "model": model,
-                        "test_case_id": test_case["id"],
-                        "input": {
-                            "name": test_case["input"]["name"],
-                            "steps": test_case["input"]["steps"],
-                        },
-                        "output": {
-                            "expected": test_case["output"]["expected_muscles"],
-                            "actual": None,
-                        },
-                        "metadata": {"execution_time_ms": None, "cost": None},
-                        "success": False,
-                        "error": str(e),
-                    }
-                )
-
-    return results
+    return run_node_experiments(
+        node_class=FlexibilityMusclesNode,
+        expected_field="expected_muscles",
+        input_preparer=prepare_muscles_node_input,
+        models=models,
+        test_case_id=test_case_id,
+        data_path=data_path,
+    )
 
 
 def main():
@@ -197,12 +79,16 @@ def main():
     # Save results to file
     if args.output:
         # Use custom output path
+        import json
+
         with open(args.output, "w") as f:
             json.dump(results, f, indent=2)
         print(f"Results saved to {args.output}")
     else:
         # Use default results directory structure
-        filepath = save_results(results, models or DEFAULT_MODELS)
+        filepath = save_json_results(
+            results, models or DEFAULT_MODELS, "flexibility_muscles_node"
+        )
         print(f"Results saved to {filepath}")
 
     # Print summary to console
