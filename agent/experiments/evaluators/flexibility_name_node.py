@@ -183,6 +183,9 @@ def main():
     parser.add_argument(
         "--output", type=str, help="Output file for evaluation results (JSON)"
     )
+    parser.add_argument(
+        "--stdout", action="store_true", help="Output results to stdout instead of file"
+    )
 
     args = parser.parse_args()
 
@@ -193,8 +196,11 @@ def main():
         embedding_model=args.embedding_model,
     )
 
-    # Save results to file
-    if args.output:
+    # Handle output
+    if args.stdout:
+        # Output directly to stdout
+        print(json.dumps(evaluated_results, indent=2))
+    elif args.output:
         # Use custom output path
         with open(args.output, "w") as f:
             json.dump(evaluated_results, f, indent=2)
@@ -206,30 +212,31 @@ def main():
         )
         print(f"Evaluation results saved to {filepath}")
 
-    # Print summary to console
-    successful_evals = [
-        r for r in evaluated_results if r["evaluation"]["error"] is None
-    ]
-    if successful_evals:
-        avg_semantic = sum(
-            r["evaluation"]["semantic_similarity"] for r in successful_evals
-        ) / len(successful_evals)
-        avg_combined = sum(
-            r["evaluation"]["combined_score"] for r in successful_evals
-        ) / len(successful_evals)
-        avg_lexical_token_sort = sum(
-            r["evaluation"]["lexical_similarity"]["token_sort_ratio"]
-            for r in successful_evals
-        ) / len(successful_evals)
+    # Print summary to console (only if not outputting to stdout)
+    if not args.stdout:
+        successful_evals = [
+            r for r in evaluated_results if r["evaluation"]["error"] is None
+        ]
+        if successful_evals:
+            avg_semantic = sum(
+                r["evaluation"]["semantic_similarity"] for r in successful_evals
+            ) / len(successful_evals)
+            avg_combined = sum(
+                r["evaluation"]["combined_score"] for r in successful_evals
+            ) / len(successful_evals)
+            avg_lexical_token_sort = sum(
+                r["evaluation"]["lexical_similarity"]["token_sort_ratio"]
+                for r in successful_evals
+            ) / len(successful_evals)
 
-        print(f"\nEvaluated {len(evaluated_results)} results")
-        print(f"Successful evaluations: {len(successful_evals)}")
-        print(f"Failed evaluations: {len(evaluated_results) - len(successful_evals)}")
-        print(f"Average Semantic Similarity: {avg_semantic:.4f}")
-        print(f"Average Lexical Similarity (Token Sort): {avg_lexical_token_sort:.4f}")
-        print(f"Average Combined Score: {avg_combined:.4f}")
-    else:
-        print(f"No successful evaluations out of {len(evaluated_results)} results")
+            print(f"\nEvaluated {len(evaluated_results)} results")
+            print(f"Successful evaluations: {len(successful_evals)}")
+            print(f"Failed evaluations: {len(evaluated_results) - len(successful_evals)}")
+            print(f"Average Semantic Similarity: {avg_semantic:.4f}")
+            print(f"Average Lexical Similarity (Token Sort): {avg_lexical_token_sort:.4f}")
+            print(f"Average Combined Score: {avg_combined:.4f}")
+        else:
+            print(f"No successful evaluations out of {len(evaluated_results)} results")
 
 
 if __name__ == "__main__":
