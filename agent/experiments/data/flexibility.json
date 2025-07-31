@@ -2,8 +2,18 @@
   {
     "id": "a1b2c3d4-e5f6-4890-abcd-ef1234567890",
     "input": {
-      "name": "Yoga Block Chest Stretch",
-      "steps": "The yoga block chest stretch is used to target the pectoralis muscles. Start by laying on your belly on a padded surface like a yoga mat. Abduct the shoulder to 90 degrees and bend the elbow to 90 degrees as well. With your palm facing down, prop the hand and wrist up with a yoga block while maintaining floor contact with your elbow. Begin the stretch by rotating the torso away from the propped arm using the free hand. Hold this stretch for 20-30 seconds."
+      "query": "Yoga Block Chest Stretch - The yoga block chest stretch is used to target the pectoralis muscles. Start by laying on your belly on a padded surface like a yoga mat. Abduct the shoulder to 90 degrees and bend the elbow to 90 degrees as well. With your palm facing down, prop the hand and wrist up with a yoga block while maintaining floor contact with your elbow. Begin the stretch by rotating the torso away from the propped arm using the free hand. Hold this stretch for 20-30 seconds.",
+      "steps": [
+        "Lie on your belly on a padded surface, such as a yoga mat.",
+        "Raise your arm out to the side so it is level with your shoulder, and bend your elbow to 90 degrees.",
+        "Place your palm facing down and prop your hand and wrist up on a yoga block, keeping your elbow touching the floor.",
+        "Using your free hand, rotate your torso away from the propped arm to begin the stretch.",
+        "Hold the stretch for the desired time and switch to the other side."
+      ],
+      "muscles": {
+        "primaryMuscles": ["chest", "shoulder - front"],
+        "secondaryMuscles": ["lat", "oblique"]
+      }
     },
     "output": {
       "expected_name": "One-Arm Prone Chest Stretch – Yoga Block",
@@ -23,8 +33,18 @@
   {
     "id": "b2c3d4e5-f617-4901-bcde-f23456789012",
     "input": {
-      "name": "Bicep Stretch",
-      "steps": "This is a stretch for your biceps brachii muscle. Start by raising your arm up next to you to roughly shoulder height. Rotate the wrist so that the palm faces downwards and anchor it against a doorframe, squat rack or wall. Twist away from the anchor point to feel a stretch in your biceps muscle."
+      "query": "Bicep Stretch - This is a stretch for your biceps brachii muscle. Start by raising your arm up next to you to roughly shoulder height. Rotate the wrist so that the palm faces downwards and anchor it against a doorframe, squat rack or wall. Twist away from the anchor point to feel a stretch in your biceps muscle.",
+      "steps": [
+        "Raise one arm to shoulder height next to your body.",
+        "Rotate your wrist so your palm faces down.",
+        "Place your palm firmly against a doorframe, squat rack, or wall.",
+        "Twist your body away from your anchored arm to stretch your biceps.",
+        "Hold the stretch for the desired time and switch to the other side."
+      ],
+      "muscles": {
+        "primaryMuscles": ["bicep"],
+        "secondaryMuscles": ["chest", "shoulder - front"]
+      }
     },
     "output": {
       "expected_name": "One-Arm Bicep Stretch",
@@ -44,7 +64,7 @@
   {
     "id": "c3d4e5f6-a7b8-4012-cdef-345678901234",
     "input": {
-      "name": "Isometric Shoulder Flexion",
+      "query": "Isometric Shoulder Flexion",
       "steps": [
         "Stand facing a wall with your elbows straight and aligned below your shoulders.",
         "Place your palms on the wall with fingers pointing forward.",
@@ -52,7 +72,11 @@
         "Hold the maximal push for 5-7 seconds without moving your elbows.",
         "Slowly decrease the pressure back to rest over 3 seconds.",
         "Repeat the exercise for the desired amount of time."
-      ]
+      ],
+      "muscles": {
+        "primaryMuscles": ["rotator cuff - front", "shoulder - front"],
+        "secondaryMuscles": []
+      }
     },
     "output": {
       "expected_name": "Low Arms Rotator Cuff Forward Wall Press",
@@ -73,8 +97,18 @@
   {
     "id": "ddd4e5f6-a7b8-4012-cdef-345678901234",
     "input": {
-      "name": "Wall Assisted Shoulder Flexion",
-      "steps": "This is a stretch that uses a wall to help push your shoulder into deeper shoulder flexion. That by placing on hand on the wall in front of you. Bend forwards at the hips to raise the arm in front of you. Hold for 3-5 breaths or up to 30 seconds. Relax and repeat as required."
+      "query": "Wall Assisted Shoulder Flexion - This is a stretch that uses a wall to help push your shoulder into deeper shoulder flexion. That by placing on hand on the wall in front of you. Bend forwards at the hips to raise the arm in front of you. Hold for 3-5 breaths or up to 30 seconds. Relax and repeat as required.",
+      "steps": [
+        "Stand facing a wall and place one hand flat against it at shoulder height.",
+        "Step back slightly and bend forward at the hips, keeping your arm straight and pressed into the wall.",
+        "Lift your arm upward along the wall to increase the stretch in the front of your shoulder.",
+        "Keep your back flat and your core engaged to avoid arching.",
+        "Hold the stretch for the desired time and switch to the other side."
+      ],
+      "muscles": {
+        "primaryMuscles": ["chest", "lat", "shoulder - front"],
+        "secondaryMuscles": []
+      }
     },
     "output": {
       "expected_name": "One-Arm Wall Push Front Bend",

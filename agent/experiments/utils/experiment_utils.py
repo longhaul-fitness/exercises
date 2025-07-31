@@ -168,15 +168,15 @@ def run_node_experiments(
                 actual_output = result["response"]
                 cost = result.get("cost", 0)
 
+                # Create input dict from prep_data, excluding model_name
+                input_data = {k: v for k, v in prep_data.items() if k != "model_name"}
+
                 # Store result
                 results.append(
                     {
                         "model": model,
                         "test_case_id": test_case["id"],
-                        "input": {
-                            "name": test_case["input"]["name"],
-                            "steps": test_case["input"]["steps"],
-                        },
+                        "input": input_data,
                         "output": {
                             "expected": test_case["output"][expected_field],
                             "actual": actual_output,
@@ -191,15 +191,15 @@ def run_node_experiments(
                 )
 
             except Exception as e:
+                # Create input dict from prep_data, excluding model_name
+                input_data = {k: v for k, v in prep_data.items() if k != "model_name"}
+
                 # Store error result
                 results.append(
                     {
                         "model": model,
                         "test_case_id": test_case["id"],
-                        "input": {
-                            "name": test_case["input"]["name"],
-                            "steps": test_case["input"]["steps"],
-                        },
+                        "input": input_data,
                         "output": {
                             "expected": test_case["output"][expected_field],
                             "actual": None,

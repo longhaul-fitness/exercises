@@ -54,7 +54,7 @@ class FlexibilityNode(Node):
         muscles_node = FlexibilityMusclesNode()
         name_node = FlexibilityNameNode()
 
-        # Define the flow: name -> steps -> muscles
+        # Define the flow
         steps_node >> muscles_node >> name_node
 
         # Create the flow

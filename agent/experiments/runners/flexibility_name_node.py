@@ -15,8 +15,9 @@ from nodes import FlexibilityNameNode
 def prepare_name_node_input(test_case: Dict[str, Any], model: str) -> Dict[str, Any]:
     """Prepare input data for FlexibilityNameNode."""
     return {
-        "query": test_case["input"]["name"],
+        "query": test_case["input"]["query"],
         "steps": test_case["input"]["steps"],
+        "muscles": test_case["input"]["muscles"],
         "model_name": model,
     }
 

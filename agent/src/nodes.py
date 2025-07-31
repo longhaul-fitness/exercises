@@ -136,6 +136,7 @@ class FlexibilityNameNode(Node):
         return {
             "query": shared.get("query", ""),
             "steps": shared.get("steps", ""),
+            "muscles": shared.get("muscles", {}),
             "model_name": get_model_for_node(self.__class__.__name__),
         }
 
@@ -144,9 +145,17 @@ class FlexibilityNameNode(Node):
         with open("prompts/flexibility-exercise-name.md", "r") as f:
             prompt_template = f.read()
 
+        # Extract primary and secondary muscles from the muscles data
+        muscles_data = prep_data["muscles"]
+        primary_muscles = muscles_data.get("primaryMuscles", [])
+        secondary_muscles = muscles_data.get("secondaryMuscles", [])
+
         # Build the full prompt
         full_prompt = (
-            prompt_template + f"\n\n{prep_data['query']}\nSteps: {prep_data['steps']}"
+            prompt_template + f"\n\n**Query:** {prep_data['query']}\n"
+            f"**Steps:** {prep_data['steps']}\n"
+            f"**Primary Muscles:** {primary_muscles}\n"
+            f"**Secondary Muscles:** {secondary_muscles}"
         )
 
         # Make the LLM call
