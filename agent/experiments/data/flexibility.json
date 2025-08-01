@@ -47,7 +47,7 @@
       }
     },
     "output": {
-      "expected_name": "One-Arm Bicep Stretch",
+      "expected_name": "One-Arm Wall Bicep Stretch",
       "expected_muscles": {
         "primaryMuscles": ["bicep"],
         "secondaryMuscles": ["chest", "shoulder - front"]
