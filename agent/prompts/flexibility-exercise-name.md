@@ -68,7 +68,7 @@ Describes how the exercise differs from the basic version (e.g., "Wide-Legged").
 
 ### Exercise Name
 
-Use common names when available (e.g., "Downward Dog"). Otherwise, name based on what the exercise actually does:
+Use common names when available (e.g., "Downward Dog"). Otherwise, name based on what the exercise actually does. Consider the query, steps, and muscles involved. The purpose of the exercise name is to convey what the person will be doing when they perform this exercise. The exercise name is meant to be meaningful and distinguishing in as few words as possible.
 
 Movement patterns:
 - Wall pressing with low arms -> "Wall Press"
@@ -99,11 +99,11 @@ If you include a muscle from this list in the name of the exercise, make sure th
 
 ### Equipment
 
-Equipment is anything that you have to get before performing the exercise. If something is readily available (a "wall" or the "floor") do not list it as equipment. Key: do not list "Wall" as equipment.
+Equipment is anything that you have to get before performing the exercise. If something is readily available (a "wall" or the "floor") do not list it as equipment. Key: do not list "Wall" as equipment!
 
 Common equipment: Band, Dowel, Foam Roller, Stability Ball, Yoga Block
 
-Only include equipment in the exercise name if it's essential to the exercise.
+Only include equipment in the exercise name if it's essential to the exercise. If there is no essential equipment, do not write the " – <Equipment>" portion of the name format.
 
 ## Constraints
 
