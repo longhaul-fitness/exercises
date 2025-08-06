@@ -37,7 +37,7 @@
       "steps": [
         "Raise one arm to shoulder height next to your body.",
         "Rotate your wrist so your palm faces down.",
-        "Place your palm firmly against a doorframe, squat rack, or wall.",
+        "Place your palm firmly against a stationary vertical object like the wall.",
         "Twist your body away from your anchored arm to stretch your biceps.",
         "Hold the stretch for the desired time and switch to the other side."
       ],
@@ -47,7 +47,7 @@
       }
     },
     "output": {
-      "expected_name": "One-Arm Wall Bicep Stretch",
+      "expected_name": "One-Arm Bicep Wall Stretch",
       "expected_muscles": {
         "primaryMuscles": ["bicep"],
         "secondaryMuscles": ["chest", "shoulder - front"]
@@ -55,7 +55,7 @@
       "expected_steps": [
         "Raise one arm to shoulder height next to your body.",
         "Rotate your wrist so your palm faces down.",
-        "Place your palm firmly against a doorframe, squat rack, or wall.",
+        "Place your palm firmly against a  stationary vertical object like the wall.",
         "Twist your body away from your anchored arm to stretch your biceps.",
         "Hold the stretch for the desired time and switch to the other side."
       ]
@@ -64,14 +64,15 @@
   {
     "id": "c3d4e5f6-a7b8-4012-cdef-345678901234",
     "input": {
-      "query": "Isometric Shoulder Flexion",
+      "query": "SEATED FLOOR TAPS (BENT OVER THORACIC ROTATION) - This is a thoracic rotation mobility exercise that can be done at your desk or office. Place one hand behind your head and use the other one to reach towards the floor. Follow the pathway of your inner shin as your reach downwards. Bench over at the low back to uncouple rotation movement from the lumbar spine.",
       "steps": [
-        "Stand facing a wall with your elbows straight and aligned below your shoulders.",
-        "Place your palms on the wall with fingers pointing forward.",
-        "Press your palms into the wall, gradually increasing the force over 3 seconds.",
-        "Hold the maximal push for 5-7 seconds without moving your elbows.",
-        "Slowly decrease the pressure back to rest over 3 seconds.",
-        "Repeat the exercise for the desired amount of time."
+        "Sit upright in a chair or on the floor.",
+        "Place one hand behind your head with your elbow pointing out to the side.",
+        "Bend forward at your lower back to create a stable base.",
+        "Use your free hand to reach down toward the floor, following the pathway along your inner shin.",
+        "Rotate your upper back and ribcage as you reach downward, keeping your lower back bent and stable.",
+        "Return to the starting position and repeat the movement.",
+        "Continue repetitions for the desired amount of time and switch to the other side."
       ],
       "muscles": {
         "primaryMuscles": ["rotator cuff - front", "shoulder - front"],
@@ -79,18 +80,19 @@
       }
     },
     "output": {
-      "expected_name": "Low Arms Rotator Cuff Forward Wall Press",
+      "expected_name": "One-Arm Seated Floor Tap Rotation",
       "expected_muscles": {
-        "primaryMuscles": ["rotator cuff - front", "shoulder - front"],
-        "secondaryMuscles": []
+        "primaryMuscles": ["lower back", "oblique"],
+        "secondaryMuscles": ["lat"]
       },
       "expected_steps": [
-        "Stand facing a wall with your elbows straight and aligned below your shoulders.",
-        "Place your palms on the wall with fingers pointing forward.",
-        "Press your palms into the wall, gradually increasing the force over 3 seconds.",
-        "Hold the maximal push for 5-7 seconds without moving your elbows.",
-        "Slowly decrease the pressure back to rest over 3 seconds.",
-        "Repeat the exercise for the desired amount of time."
+        "Sit upright in a chair or on the floor.",
+        "Place one hand behind your head with your elbow pointing out to the side.",
+        "Bend forward at your lower back to create a stable base.",
+        "Use your free hand to reach down toward the floor, following the pathway along your inner shin.",
+        "Rotate your upper back and ribcage as you reach downward, keeping your lower back bent and stable.",
+        "Return to the starting position and repeat the movement.",
+        "Continue repetitions for the desired amount of time and switch to the other side."
       ]
     }
   },
@@ -111,7 +113,7 @@
       }
     },
     "output": {
-      "expected_name": "One-Arm Wall Push Front Bend",
+      "expected_name": "One-Arm Front Bend Wall Push",
       "expected_muscles": {
         "primaryMuscles": ["chest", "lat", "shoulder - front"],
         "secondaryMuscles": []

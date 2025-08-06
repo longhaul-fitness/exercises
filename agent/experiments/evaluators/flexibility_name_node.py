@@ -73,7 +73,6 @@ def evaluate_results(
                 }
             )
             continue
-
         try:
             # Calculate comprehensive similarity scores
             similarity_scores = calculate_comprehensive_similarity(

@@ -1,16 +1,53 @@
 import json
 import os
+import sys
 from dataclasses import asdict, dataclass
 from datetime import datetime
-from typing import List, Optional
+from typing import List, Literal, Optional
 
 from pocketflow import Node
+
+# Add the experiments/utils directory to the Python path for importing experiment_utils
+sys.path.append(os.path.join(os.path.dirname(__file__), "../experiments/utils"))
+from experiment_utils import extract_json_from_response
 
 from log import get_logger
 from model import call_llm, get_model_for_node
 
 # Get module-specific logger
 LOGGER = get_logger(__name__)
+
+
+@dataclass
+class FlexibilityExerciseName:
+    asymmetric: Optional[str]
+    position: Optional[
+        Literal["Seated", "Kneeling", "Lunging", "Hands-and-Knees", "Lying", "Prone"]
+    ]
+    body_part: Optional[str]
+    variation: Optional[str]
+    name: str
+    equipment: Optional[str]
+
+    def assemble_name(self) -> str:
+        """Assemble the components into a final exercise name string."""
+        parts = []
+        if self.asymmetric:
+            parts.append(self.asymmetric)
+        if self.position:
+            parts.append(self.position)
+        if self.variation:
+            parts.append(self.variation)
+        if self.body_part:
+            parts.append(self.body_part)
+        parts.append(self.name)
+        if self.equipment:
+            parts.append(f"– {self.equipment}")
+        return " ".join(parts)
+
+    def to_dict(self) -> dict:
+        """Convert the dataclass to a dictionary for JSON serialization."""
+        return asdict(self)
 
 
 class LLMQueryNode(Node):
@@ -148,23 +185,50 @@ class FlexibilityNameNode(Node):
         # Extract primary and secondary muscles from the muscles data
         muscles_data = prep_data["muscles"]
         primary_muscles = muscles_data.get("primaryMuscles", [])
-        secondary_muscles = muscles_data.get("secondaryMuscles", [])
 
         # Build the full prompt
         full_prompt = (
-            prompt_template + f"\n\n**Query:** {prep_data['query']}\n"
-            f"**Steps:** {prep_data['steps']}\n"
-            f"**Primary Muscles:** {primary_muscles}\n"
-            f"**Secondary Muscles:** {secondary_muscles}"
+            prompt_template + f"\n\nQuery: {prep_data['query']}\n"
+            f"Steps: {prep_data['steps']}\n"
+            f"Primary Muscles: {primary_muscles}\n"
         )
 
         # Make the LLM call
         result, cost = call_llm(model_name=prep_data["model_name"], prompt=full_prompt)
 
-        return {"response": result, "cost": cost}
+        # Parse the JSON response into dataclass instance
+        try:
+            # Clean the response to remove markdown delimiters
+            clean_json = extract_json_from_response(result)
+            json_data = json.loads(clean_json)
+            name_components = FlexibilityExerciseName(**json_data)
+
+            # Post-process: Remove Wall/Floor as equipment (defensive programming)
+            if name_components.equipment and name_components.equipment.lower() in [
+                "wall",
+                "floor",
+            ]:
+                LOGGER.warning(
+                    f"Removed environmental equipment '{name_components.equipment}' from components"
+                )
+                name_components.equipment = None
+
+            return {"response": name_components.assemble_name(), "cost": cost}
+        except (json.JSONDecodeError, TypeError):
+            # Fallback structure if JSON parsing fails
+            LOGGER.error(f"result: {result}")
+            fallback = FlexibilityExerciseName(
+                asymmetric=None,
+                position=None,
+                body_part=None,
+                variation=None,
+                name="Exercise Name Parse Error",
+                equipment=None,
+            )
+            return {"response": fallback.assemble_name(), "cost": cost}
 
     def post(self, shared, prep_res, exec_res):
-        # Store the exercise name in shared store
+        # Store the name components in shared store
         shared["exercise_name"] = exec_res["response"]
 
         # Initialize cost tracking if not present
@@ -199,7 +263,7 @@ class SaveExerciseNode(Node):
     def prep(self, shared):
         """Prepare the exercise data from the shared store."""
         category = shared.get("category", "unknown")
-        exercise_name = shared.get("exercise_name", "unknown")
+        exercise_name = shared.get("exercise_name")
         steps = shared.get("steps", "unknown")
         query = shared.get("query", "")
 

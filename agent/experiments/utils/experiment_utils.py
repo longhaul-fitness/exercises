@@ -1,5 +1,6 @@
 import json
 import os
+import re
 from datetime import datetime
 from typing import Any, Dict, List, Optional
 
@@ -11,6 +12,41 @@ DEFAULT_MODELS = [
     "bedrock/us.anthropic.claude-sonnet-4-20250514-v1:0",
     "bedrock/us.meta.llama3-2-3b-instruct-v1:0",
 ]
+
+
+def extract_json_from_response(response: str) -> str:
+    """
+    Extract JSON content from LLM response, handling markdown code blocks and finding JSON within text.
+
+    Args:
+        response: Raw LLM response that may contain ```json delimiters or other text
+
+    Returns:
+        Clean JSON string without markdown delimiters
+    """
+    # Strip whitespace
+    response = response.strip()
+
+    # First, try to find JSON within curly braces using regex
+    # This handles cases where JSON is embedded in other text
+    json_pattern = r"\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}"
+    json_matches = re.findall(json_pattern, response, re.DOTALL)
+
+    if json_matches:
+        # Return the first (and likely only) JSON object found
+        return json_matches[0].strip()
+
+    # Fallback: Remove markdown code block delimiters if present
+    if response.startswith("```json"):
+        response = response[7:]  # Remove ```json
+    elif response.startswith("```"):
+        response = response[3:]  # Remove ```
+
+    if response.endswith("```"):
+        response = response[:-3]  # Remove trailing ```
+
+    # Strip any remaining whitespace
+    return response.strip()
 
 
 def load_json_data(data_path: str) -> List[Dict[str, Any]]:
