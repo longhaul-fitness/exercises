@@ -7,7 +7,10 @@ requires-python = ">=3.13"
 dependencies = [
     "boto3>=1.39.11",
     "litellm>=1.74.0",
+    "plotly>=6.2.0",
     "pocketflow>=0.0.2",
+    "scikit-learn>=1.7.0",
+    "thefuzz>=0.22.1",
 ]
 
 [dependency-groups]
@@ -18,7 +21,5 @@ dev = [
     "pandas>=2.3.0",
     "pytest>=8.4.1",
     "ruff>=0.11.13",
-    "scikit-learn>=1.7.0",
-    "thefuzz>=0.22.1",
     "ty>=0.0.1a10",
 ]
