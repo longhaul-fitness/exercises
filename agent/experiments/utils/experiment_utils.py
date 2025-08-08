@@ -7,10 +7,10 @@ from typing import Any, Dict, List, Optional
 DEFAULT_MODELS = [
     "bedrock/amazon.nova-lite-v1:0",
     "bedrock/amazon.nova-micro-v1:0",
+    "bedrock/us.amazon.nova-premier-v1:0",
     "bedrock/amazon.nova-pro-v1:0",
     "bedrock/us.anthropic.claude-3-7-sonnet-20250219-v1:0",
     "bedrock/us.anthropic.claude-sonnet-4-20250514-v1:0",
-    "bedrock/us.meta.llama3-2-3b-instruct-v1:0",
 ]
 
 
