@@ -61,7 +61,7 @@ def get_model_for_node(
 
 
 def call_llm(
-    model_name: str, prompt: str, system_prompt: Optional[str] = None
+    model_name: str, prompt: str, system_prompt: Optional[str] = None, json_schema: Optional[dict] = None
 ) -> Tuple[str, float]:
     """
     Make an LLM call and return the response with cost information.
@@ -70,6 +70,7 @@ def call_llm(
         model_name: The specific model name to use for the call
         prompt: The user prompt to send to the LLM
         system_prompt: Optional system prompt
+        json_schema: Optional JSON schema for structured output
 
     Returns:
         Tuple of (response_content, cost)
@@ -80,7 +81,15 @@ def call_llm(
     messages.append({"role": "user", "content": prompt})
 
     try:
-        response = litellm.completion(model=model_name, messages=messages)
+        completion_kwargs = {"model": model_name, "messages": messages}
+        
+        if json_schema:
+            completion_kwargs["response_format"] = {
+                "type": "json_schema",
+                "json_schema": json_schema
+            }
+        
+        response = litellm.completion(**completion_kwargs)
 
         # Extract cost information
         cost = response._hidden_params.get("response_cost", 0)

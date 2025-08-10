@@ -19,11 +19,11 @@ from model import call_llm, get_model_for_node
 LOGGER = get_logger(__name__)
 
 # Project root path for file operations
-PROJECT_ROOT = Path(__file__).parent.parent.parent
+PROJECT_ROOT = Path(__file__).parent.parent
 
 
 @dataclass
-class FlexibilityExerciseName:
+class ExerciseNameComponents:
     asymmetric: Optional[str]
     position: Optional[
         Literal["Seated", "Kneeling", "Lunging", "Hands-and-Knees", "Lying", "Prone"]
@@ -43,7 +43,9 @@ class FlexibilityExerciseName:
         if self.variation:
             parts.append(self.variation)
         if self.body_part:
-            parts.append(self.body_part)
+            # Only add body_part if it's not already in the name
+            if self.body_part.lower() not in self.name.lower():
+                parts.append(self.body_part)
         parts.append(self.name)
         if self.equipment:
             parts.append(f"– {self.equipment}")
@@ -97,7 +99,7 @@ class FlexibilityStepsNode(Node):
     def exec(self, prep_data):
         # Read the prompt template
         prompt_path = (
-            PROJECT_ROOT / "agent" / "prompts" / "flexibility-exercise-steps.md"
+            PROJECT_ROOT / "prompts" / "flexibility-exercise-steps.md"
         )
         with open(prompt_path, "r") as f:
             prompt_template = f.read()
@@ -142,7 +144,7 @@ class FlexibilityMusclesNode(Node):
     def exec(self, prep_data):
         # Read the prompt template
         prompt_path = (
-            PROJECT_ROOT / "agent" / "prompts" / "flexibility-exercise-muscles.md"
+            PROJECT_ROOT / "prompts" / "flexibility-exercise-muscles.md"
         )
         with open(prompt_path, "r") as f:
             prompt_template = f.read()
@@ -190,7 +192,7 @@ class FlexibilityNameNode(Node):
     def exec(self, prep_data):
         # Read the prompt template
         prompt_path = (
-            PROJECT_ROOT / "agent" / "prompts" / "flexibility-exercise-name.md"
+            PROJECT_ROOT / "prompts" / "flexibility-exercise-name.md"
         )
         with open(prompt_path, "r") as f:
             prompt_template = f.read()
@@ -214,7 +216,7 @@ class FlexibilityNameNode(Node):
             # Clean the response to remove markdown delimiters
             clean_json = extract_json_from_response(result)
             json_data = json.loads(clean_json)
-            name_components = FlexibilityExerciseName(**json_data)
+            name_components = ExerciseNameComponents(**json_data)
 
             # Post-process: Remove Wall/Floor as equipment (defensive programming)
             if name_components.equipment and name_components.equipment.lower() in [
@@ -230,7 +232,201 @@ class FlexibilityNameNode(Node):
         except (json.JSONDecodeError, TypeError):
             # Fallback structure if JSON parsing fails
             LOGGER.error(f"result: {result}")
-            fallback = FlexibilityExerciseName(
+            fallback = ExerciseNameComponents(
+                asymmetric=None,
+                position=None,
+                body_part=None,
+                variation=None,
+                name="Exercise Name Parse Error",
+                equipment=None,
+            )
+            return {"response": fallback.assemble_name(), "cost": cost}
+
+    def post(self, shared, prep_res, exec_res):
+        # Store the name components in shared store
+        shared["exercise_name"] = exec_res["response"]
+
+        # Initialize cost tracking if not present
+        if "cost" not in shared:
+            shared["cost"] = {}
+
+        # Store the cost for this node
+        shared["cost"][self.__class__.__name__] = exec_res["cost"]
+
+        return "default"
+
+
+class StrengthStepsNode(Node):
+    def prep(self, shared):
+        # Get the exercise name and original query
+        return {
+            "query": shared.get("query", ""),
+            "model_name": get_model_for_node(self.__class__.__name__),
+        }
+
+    def exec(self, prep_data):
+        # Read the prompt template
+        prompt_path = (
+            PROJECT_ROOT / "prompts" / "strength-exercise-steps.md"
+        )
+        with open(prompt_path, "r") as f:
+            prompt_template = f.read()
+
+        # Build the full prompt
+        full_prompt = prompt_template + f"\n\nInput: {prep_data['query']}"
+
+        # Make the LLM call
+        result, cost = call_llm(model_name=prep_data["model_name"], prompt=full_prompt)
+
+        # Parse the JSON response
+        import json
+
+        try:
+            steps = json.loads(result)
+            return {"response": steps, "cost": cost}
+        except json.JSONDecodeError:
+            return {"response": ["Unable to parse steps"], "cost": cost}
+
+    def post(self, shared, prep_res, exec_res):
+        # Store the steps in shared store
+        shared["steps"] = exec_res["response"]
+
+        # Initialize cost tracking if not present
+        if "cost" not in shared:
+            shared["cost"] = {}
+
+        # Store the cost for this node
+        shared["cost"][self.__class__.__name__] = exec_res["cost"]
+
+        return "default"
+
+
+class StrengthMusclesNode(Node):
+    def prep(self, shared):
+        return {
+            "query": shared.get("query", ""),
+            "steps": shared.get("steps", ""),
+            "model_name": get_model_for_node(self.__class__.__name__),
+        }
+
+    def exec(self, prep_data):
+        # Read the prompt template
+        prompt_path = (
+            PROJECT_ROOT / "prompts" / "strength-exercise-muscles.md"
+        )
+        with open(prompt_path, "r") as f:
+            prompt_template = f.read()
+
+        # Build the full prompt
+        full_prompt = (
+            prompt_template + f"\n\n{prep_data['query']}\nSteps: {prep_data['steps']}"
+        )
+
+        # Make the LLM call
+        result, cost = call_llm(model_name=prep_data["model_name"], prompt=full_prompt)
+
+        # Parse the JSON response
+        import json
+
+        try:
+            muscles = json.loads(result)
+            return {"response": muscles, "cost": cost}
+        except json.JSONDecodeError:
+            return {"response": ["Unable to parse muscles"], "cost": cost}
+
+    def post(self, shared, prep_res, exec_res):
+        # Store the muscles in shared store
+        shared["muscles"] = exec_res["response"]
+
+        # Initialize cost tracking if not present
+        if "cost" not in shared:
+            shared["cost"] = {}
+
+        # Store the cost for this node
+        shared["cost"][self.__class__.__name__] = exec_res["cost"]
+
+        return "default"
+
+
+class StrengthNameNode(Node):
+    def prep(self, shared):
+        return {
+            "query": shared.get("query", ""),
+            "steps": shared.get("steps", ""),
+            "muscles": shared.get("muscles", {}),
+            "model_name": get_model_for_node(self.__class__.__name__),
+        }
+
+    def exec(self, prep_data):
+        # Read the prompt template
+        prompt_path = (
+            PROJECT_ROOT / "prompts" / "strength-name-exercise.md"
+        )
+        with open(prompt_path, "r") as f:
+            prompt_template = f.read()
+
+        # Extract primary and secondary muscles from the muscles data
+        muscles_data = prep_data["muscles"]
+        primary_muscles = muscles_data.get("primaryMuscles", [])
+        secondary_muscles = muscles_data.get("secondaryMuscles", [])
+
+        # Build the full prompt
+        full_prompt = (
+            prompt_template + f"\n\nQuery: {prep_data['query']}\n"
+            f"Steps: {prep_data['steps']}\n"
+            f"Primary Muscles: {primary_muscles}\n"
+            f"Secondary Muscles: {secondary_muscles}\n"
+        )
+
+        # Define JSON schema for structured output
+        json_schema = {
+            "name": "exercise_name_components",
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "asymmetric": {"type": ["string", "null"]},
+                    "position": {"type": ["string", "null"]},
+                    "body_part": {"type": ["string", "null"]},
+                    "variation": {"type": ["string", "null"]},
+                    "name": {"type": "string"},
+                    "equipment": {"type": ["string", "null"]}
+                },
+                "required": ["name"],
+                "additionalProperties": False
+            },
+            "strict": True
+        }
+
+        # Make the LLM call with JSON schema
+        result, cost = call_llm(
+            model_name=prep_data["model_name"], 
+            prompt=full_prompt, 
+            json_schema=json_schema
+        )
+
+        # Parse the JSON response into dataclass instance
+        try:
+            # Clean the response to remove markdown delimiters
+            clean_json = extract_json_from_response(result)
+            json_data = json.loads(clean_json)
+            
+            # Ensure all required fields exist with defaults
+            component_data = {
+                "asymmetric": json_data.get("asymmetric"),
+                "position": json_data.get("position"),
+                "body_part": json_data.get("body_part"),
+                "variation": json_data.get("variation"),
+                "name": json_data.get("name", "Unknown Exercise"),
+                "equipment": json_data.get("equipment")
+            }
+            
+            name_components = ExerciseNameComponents(**component_data)
+
+            return {"response": name_components.assemble_name(), "cost": cost}
+        except (json.JSONDecodeError, TypeError):
+            # Fallback structure if JSON parsing fails
+            LOGGER.error(f"result: {result}")
+            fallback = ExerciseNameComponents(
                 asymmetric=None,
                 position=None,
                 body_part=None,
@@ -310,7 +506,7 @@ class SaveExerciseNode(Node):
         exercise = Exercise(**exercise_data)
 
         # Determine which file to use based on exercise type
-        file_path = PROJECT_ROOT / "agent" / "exercises.json"
+        file_path = PROJECT_ROOT / "exercises.json"
 
         # Read existing exercises if file exists
         exercises = []
