@@ -98,9 +98,7 @@ class FlexibilityStepsNode(Node):
 
     def exec(self, prep_data):
         # Read the prompt template
-        prompt_path = (
-            PROJECT_ROOT / "prompts" / "flexibility-exercise-steps.md"
-        )
+        prompt_path = PROJECT_ROOT / "prompts" / "flexibility-exercise-steps.md"
         with open(prompt_path, "r") as f:
             prompt_template = f.read()
 
@@ -143,9 +141,7 @@ class FlexibilityMusclesNode(Node):
 
     def exec(self, prep_data):
         # Read the prompt template
-        prompt_path = (
-            PROJECT_ROOT / "prompts" / "flexibility-exercise-muscles.md"
-        )
+        prompt_path = PROJECT_ROOT / "prompts" / "flexibility-exercise-muscles.md"
         with open(prompt_path, "r") as f:
             prompt_template = f.read()
 
@@ -191,9 +187,7 @@ class FlexibilityNameNode(Node):
 
     def exec(self, prep_data):
         # Read the prompt template
-        prompt_path = (
-            PROJECT_ROOT / "prompts" / "flexibility-exercise-name.md"
-        )
+        prompt_path = PROJECT_ROOT / "prompts" / "flexibility-exercise-name.md"
         with open(prompt_path, "r") as f:
             prompt_template = f.read()
 
@@ -266,9 +260,7 @@ class StrengthStepsNode(Node):
 
     def exec(self, prep_data):
         # Read the prompt template
-        prompt_path = (
-            PROJECT_ROOT / "prompts" / "strength-exercise-steps.md"
-        )
+        prompt_path = PROJECT_ROOT / "prompts" / "strength-exercise-steps.md"
         with open(prompt_path, "r") as f:
             prompt_template = f.read()
 
@@ -311,9 +303,7 @@ class StrengthMusclesNode(Node):
 
     def exec(self, prep_data):
         # Read the prompt template
-        prompt_path = (
-            PROJECT_ROOT / "prompts" / "strength-exercise-muscles.md"
-        )
+        prompt_path = PROJECT_ROOT / "prompts" / "strength-exercise-muscles.md"
         with open(prompt_path, "r") as f:
             prompt_template = f.read()
 
@@ -359,9 +349,7 @@ class StrengthNameNode(Node):
 
     def exec(self, prep_data):
         # Read the prompt template
-        prompt_path = (
-            PROJECT_ROOT / "prompts" / "strength-name-exercise.md"
-        )
+        prompt_path = PROJECT_ROOT / "prompts" / "strength-name-exercise.md"
         with open(prompt_path, "r") as f:
             prompt_template = f.read()
 
@@ -389,19 +377,19 @@ class StrengthNameNode(Node):
                     "body_part": {"type": ["string", "null"]},
                     "variation": {"type": ["string", "null"]},
                     "name": {"type": "string"},
-                    "equipment": {"type": ["string", "null"]}
+                    "equipment": {"type": ["string", "null"]},
                 },
                 "required": ["name"],
-                "additionalProperties": False
+                "additionalProperties": False,
             },
-            "strict": True
+            "strict": True,
         }
 
         # Make the LLM call with JSON schema
         result, cost = call_llm(
-            model_name=prep_data["model_name"], 
-            prompt=full_prompt, 
-            json_schema=json_schema
+            model_name=prep_data["model_name"],
+            prompt=full_prompt,
+            json_schema=json_schema,
         )
 
         # Parse the JSON response into dataclass instance
@@ -409,7 +397,7 @@ class StrengthNameNode(Node):
             # Clean the response to remove markdown delimiters
             clean_json = extract_json_from_response(result)
             json_data = json.loads(clean_json)
-            
+
             # Ensure all required fields exist with defaults
             component_data = {
                 "asymmetric": json_data.get("asymmetric"),
@@ -417,9 +405,9 @@ class StrengthNameNode(Node):
                 "body_part": json_data.get("body_part"),
                 "variation": json_data.get("variation"),
                 "name": json_data.get("name", "Unknown Exercise"),
-                "equipment": json_data.get("equipment")
+                "equipment": json_data.get("equipment"),
             }
-            
+
             name_components = ExerciseNameComponents(**component_data)
 
             return {"response": name_components.assemble_name(), "cost": cost}

@@ -152,9 +152,7 @@ def run_flexibility_steps_evaluator(
         source_filename = input_path
     else:
         # Find and load matching results files
-        results_files = find_latest_files(
-            "strength_steps_node", "runs", test_case_id
-        )
+        results_files = find_latest_files("strength_steps_node", "runs", test_case_id)
         if not results_files:
             raise ValueError("No results files found matching the criteria")
 
@@ -183,9 +181,7 @@ def main():
     """CLI interface for running the strength steps node evaluator."""
     import argparse
 
-    parser = argparse.ArgumentParser(
-        description="Evaluate StrengthStepsNode results"
-    )
+    parser = argparse.ArgumentParser(description="Evaluate StrengthStepsNode results")
     parser.add_argument(
         "--test-case-id", type=str, help="Specific test case UUID to evaluate"
     )
