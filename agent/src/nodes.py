@@ -36,19 +36,38 @@ class ExerciseNameComponents:
     def assemble_name(self) -> str:
         """Assemble the components into a final exercise name string."""
         parts = []
+
+        # Add asymmetric with proper capitalization and hyphenation
         if self.asymmetric:
-            parts.append(self.asymmetric)
-        if self.position:
-            parts.append(self.position)
+            asymmetric_clean = self.asymmetric.strip().title()
+            # Ensure proper hyphenation for single limb exercises
+            if asymmetric_clean.lower() in ["single arm", "one arm"]:
+                asymmetric_clean = "One-Arm"
+            elif asymmetric_clean.lower() in ["single leg", "one leg"]:
+                asymmetric_clean = "One-Leg"
+            parts.append(asymmetric_clean)
+
+        # Skip position if it's "standing" (standing is assumed)
+        if self.position and self.position.lower() != "standing":
+            parts.append(self.position.strip().title())
+
+        # Add variation with proper capitalization
         if self.variation:
-            parts.append(self.variation)
+            parts.append(self.variation.strip().title())
+
+        # Add body_part only if it's not already in the name
         if self.body_part:
-            # Only add body_part if it's not already in the name
-            if self.body_part.lower() not in self.name.lower():
-                parts.append(self.body_part)
-        parts.append(self.name)
+            body_part_clean = self.body_part.strip().title()
+            if body_part_clean.lower() not in self.name.lower():
+                parts.append(body_part_clean)
+
+        # Add main name with proper capitalization
+        parts.append(self.name.strip().title())
+
+        # Add equipment with proper formatting
         if self.equipment:
-            parts.append(f"– {self.equipment}")
+            parts.append(f"– {self.equipment.strip().title()}")
+
         return " ".join(parts)
 
     def to_dict(self) -> dict:

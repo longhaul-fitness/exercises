@@ -28,7 +28,7 @@ Return ONLY a valid JSON object with these exact fields:
 ## Field Definitions
 
 ### asymmetric (string or null)
-Use "Single-Arm" or "Single-Leg" when an exercise works one side at a time.
+Use "One-Arm" or "One-Leg" when an exercise works one side at a time.
 
 Asymmetric indicators:
 - "single arm", "single hand", "one arm", "one hand"
@@ -111,7 +111,7 @@ Only include equipment if it's essential to the exercise. If no essential equipm
 
 ### Example 2
 **Input:**
-- Query: "Squat – Barbell" 
+- Query: "Squat – Barbell"
 - Steps: ["Stand with your feet shoulder-width apart...", "Position a barbell on your shoulders behind your neck..."]
 - Primary Muscles: ["glute", "quad"]
 - Secondary Muscles: ["calf", "lower back", "thigh"]
