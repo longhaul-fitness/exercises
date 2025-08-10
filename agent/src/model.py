@@ -11,8 +11,9 @@ _models_config = None
 
 
 def _find_config():
-    """Find config.json by walking up from current directory."""
-    current = os.getcwd()
+    """Find config.json by walking up from the script's directory."""
+    # Start from the directory containing this script file
+    current = os.path.dirname(os.path.abspath(__file__))
     while current != os.path.dirname(current):  # Not at filesystem root
         config_path = os.path.join(current, "config.json")
         if os.path.exists(config_path):
@@ -41,7 +42,9 @@ def _load_models_config():
     return _models_config
 
 
-def get_model_for_node(node_name: str, default_model: str = "nova-micro") -> str:
+def get_model_for_node(
+    node_name: str, default_model: str = "bedrock/amazon.nova-micro-v1:0"
+) -> str:
     """Get model name for a node - auto-configures on first use."""
     models_config = _load_models_config()
     model_name = models_config.get(node_name)

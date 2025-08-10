@@ -3,6 +3,7 @@ import os
 import sys
 from dataclasses import asdict, dataclass
 from datetime import datetime
+from pathlib import Path
 from typing import List, Literal, Optional
 
 from pocketflow import Node
@@ -16,6 +17,9 @@ from model import call_llm, get_model_for_node
 
 # Get module-specific logger
 LOGGER = get_logger(__name__)
+
+# Project root path for file operations
+PROJECT_ROOT = Path(__file__).parent.parent.parent
 
 
 @dataclass
@@ -92,7 +96,10 @@ class FlexibilityStepsNode(Node):
 
     def exec(self, prep_data):
         # Read the prompt template
-        with open("prompts/flexibility-exercise-steps.md", "r") as f:
+        prompt_path = (
+            PROJECT_ROOT / "agent" / "prompts" / "flexibility-exercise-steps.md"
+        )
+        with open(prompt_path, "r") as f:
             prompt_template = f.read()
 
         # Build the full prompt
@@ -134,7 +141,10 @@ class FlexibilityMusclesNode(Node):
 
     def exec(self, prep_data):
         # Read the prompt template
-        with open("prompts/flexibility-exercise-muscles.md", "r") as f:
+        prompt_path = (
+            PROJECT_ROOT / "agent" / "prompts" / "flexibility-exercise-muscles.md"
+        )
+        with open(prompt_path, "r") as f:
             prompt_template = f.read()
 
         # Build the full prompt
@@ -179,7 +189,10 @@ class FlexibilityNameNode(Node):
 
     def exec(self, prep_data):
         # Read the prompt template
-        with open("prompts/flexibility-exercise-name.md", "r") as f:
+        prompt_path = (
+            PROJECT_ROOT / "agent" / "prompts" / "flexibility-exercise-name.md"
+        )
+        with open(prompt_path, "r") as f:
             prompt_template = f.read()
 
         # Extract primary and secondary muscles from the muscles data
@@ -297,7 +310,7 @@ class SaveExerciseNode(Node):
         exercise = Exercise(**exercise_data)
 
         # Determine which file to use based on exercise type
-        file_path = "exercises.json"
+        file_path = PROJECT_ROOT / "agent" / "exercises.json"
 
         # Read existing exercises if file exists
         exercises = []

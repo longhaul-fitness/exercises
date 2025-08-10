@@ -8,8 +8,9 @@ _configured = False
 
 
 def _find_config():
-    """Find config.json by walking up from current directory."""
-    current = os.getcwd()
+    """Find config.json by walking up from the script's directory."""
+    # Start from the directory containing this script file
+    current = os.path.dirname(os.path.abspath(__file__))
     while current != os.path.dirname(current):  # Not at filesystem root
         config_path = os.path.join(current, "config.json")
         if os.path.exists(config_path):

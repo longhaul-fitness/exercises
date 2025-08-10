@@ -1,3 +1,13 @@
+#!/usr/bin/env -S uv run
+# /// script
+# requires-python = ">=3.13"
+# dependencies = [
+#    "boto3>=1.39.11",
+#     "litellm<1.75",
+#     "pocketflow>=0.0.2",
+# ]
+# ///
+
 import sys
 
 from flows import create_exercise_flow

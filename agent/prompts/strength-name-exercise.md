@@ -58,6 +58,7 @@ A non-exhaustive list of equipment includes:
 - Cable with Rope
 - Dumbbell
 - Kettlebell
+- Hand Weights (meaning "Dumbbell" or "Kettlebell" if either can be used)
 
 For some exercises it's not important if the client uses dumbbells or a kettlebell. In these cases, refer to the equipment as the generic term "Hand Weights".
 
