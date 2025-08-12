@@ -2,8 +2,9 @@ from pocketflow import Flow, Node
 
 from log import get_logger
 from nodes import (FlexibilityMusclesNode, FlexibilityNameNode,
-                   FlexibilityStepsNode, LLMQueryNode, SaveExerciseNode,
-                   StrengthMusclesNode, StrengthNameNode, StrengthStepsNode)
+                   FlexibilityStepsNode, LLMQueryNode, NoValidMusclesError,
+                   SaveExerciseNode, StrengthMusclesNode, StrengthNameNode,
+                   StrengthStepsNode)
 
 LOGGER = get_logger(__name__)
 
@@ -14,47 +15,55 @@ class StrengthNode(Node):
         return shared.get("query", "")
 
     def exec(self, query):
-        # Create a flow of strength-specific nodes
-        steps_node = StrengthStepsNode()
-        muscles_node = StrengthMusclesNode()
-        name_node = StrengthNameNode()
+        try:
+            # Create a flow of strength-specific nodes
+            steps_node = StrengthStepsNode()
+            muscles_node = StrengthMusclesNode()
+            name_node = StrengthNameNode()
 
-        # Define the flow
-        steps_node >> muscles_node >> name_node
+            # Define the flow
+            steps_node >> muscles_node >> name_node
 
-        # Create the flow
-        flow = Flow(start=steps_node)
+            # Create the flow
+            flow = Flow(start=steps_node)
 
-        # Initialize shared store with the query
-        strength_shared = {"query": query}
+            # Initialize shared store with the query
+            strength_shared = {"query": query}
 
-        # Run the flow
-        flow.run(strength_shared)
+            # Run the flow
+            flow.run(strength_shared)
 
-        # Calculate total cost from sub-flow if available
-        total_cost = 0
-        if "cost" in strength_shared:
-            total_cost = sum(strength_shared["cost"].values())
+            # Calculate total cost from sub-flow if available
+            total_cost = 0
+            if "cost" in strength_shared:
+                total_cost = sum(strength_shared["cost"].values())
 
-        return {"response": strength_shared, "cost": total_cost}
+            return {"response": strength_shared, "cost": total_cost}
+
+        except NoValidMusclesError as e:
+            LOGGER.error(f"Muscle identification failed: {e}")
+            # Return error information instead of normal response
+            return {
+                "response": {
+                    "error": True,
+                    "error_message": str(e),
+                    "error_type": "no_muscles",
+                },
+                "cost": 0,
+            }
 
     def post(self, shared, prep_res, exec_res):
-        # Get the response data
         strength_shared = exec_res["response"]
+
+        # Check if there was an error
+        if isinstance(strength_shared, dict) and strength_shared.get("error"):
+            shared["processing_error"] = strength_shared
+            return "error"  # Return error action to stop normal flow
 
         # Store the results in the shared store
         exercise_name = strength_shared.get("exercise_name", "Unknown")
         steps = strength_shared.get("steps", [])
         muscles = strength_shared.get("muscles", [])
-
-        # Log the exercise information
-        LOGGER.info(f"Exercise: {exercise_name}\n\nSteps:\n")
-        for step in steps:
-            LOGGER.info(f"{step}\n")
-
-        # Add muscles information if available
-        if muscles:
-            LOGGER.info(f"\nMuscles: {muscles}")
 
         # Store in shared for SaveExerciseNode to use
         shared["exercise_name"] = exercise_name
@@ -100,47 +109,55 @@ class FlexibilityNode(Node):
         return shared.get("query", "")
 
     def exec(self, query):
-        # Create a flow of flexibility-specific nodes
-        steps_node = FlexibilityStepsNode()
-        muscles_node = FlexibilityMusclesNode()
-        name_node = FlexibilityNameNode()
+        try:
+            # Create a flow of flexibility-specific nodes
+            steps_node = FlexibilityStepsNode()
+            muscles_node = FlexibilityMusclesNode()
+            name_node = FlexibilityNameNode()
 
-        # Define the flow
-        steps_node >> muscles_node >> name_node
+            # Define the flow
+            steps_node >> muscles_node >> name_node
 
-        # Create the flow
-        flow = Flow(start=steps_node)
+            # Create the flow
+            flow = Flow(start=steps_node)
 
-        # Initialize shared store with the query
-        flex_shared = {"query": query}
+            # Initialize shared store with the query
+            flex_shared = {"query": query}
 
-        # Run the flow
-        flow.run(flex_shared)
+            # Run the flow
+            flow.run(flex_shared)
 
-        # Calculate total cost from sub-flow if available
-        total_cost = 0
-        if "cost" in flex_shared:
-            total_cost = sum(flex_shared["cost"].values())
+            # Calculate total cost from sub-flow if available
+            total_cost = 0
+            if "cost" in flex_shared:
+                total_cost = sum(flex_shared["cost"].values())
 
-        return {"response": flex_shared, "cost": total_cost}
+            return {"response": flex_shared, "cost": total_cost}
+
+        except NoValidMusclesError as e:
+            LOGGER.error(f"Muscle identification failed: {e}")
+            # Return error information instead of normal response
+            return {
+                "response": {
+                    "error": True,
+                    "error_message": str(e),
+                    "error_type": "no_muscles",
+                },
+                "cost": 0,
+            }
 
     def post(self, shared, prep_res, exec_res):
-        # Get the response data
         flex_shared = exec_res["response"]
+
+        # Check if there was an error
+        if isinstance(flex_shared, dict) and flex_shared.get("error"):
+            shared["processing_error"] = flex_shared
+            return "error"  # Return error action to stop normal flow
 
         # Store the results in the shared store
         exercise_name = flex_shared.get("exercise_name", "Unknown")
         steps = flex_shared.get("steps", [])
         muscles = flex_shared.get("muscles", [])
-
-        # Log the exercise information
-        LOGGER.info(f"Exercise: {exercise_name}\n\nSteps:\n")
-        for step in steps:
-            LOGGER.info(f"{step}\n")
-
-        # Add muscles information if available
-        if muscles:
-            LOGGER.info(f"\nMuscles: {muscles}")
 
         # Store in shared for SaveExerciseNode to use
         shared["exercise_name"] = exercise_name

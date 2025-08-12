@@ -45,6 +45,11 @@ def _auto_setup():
         handlers=[logging.StreamHandler(sys.stdout)],
         force=True,  # Override any existing configuration
     )
+
+    # Silence litellm logs
+    logging.getLogger("litellm").setLevel(logging.WARNING)
+    logging.getLogger("LiteLLM").setLevel(logging.WARNING)
+
     _configured = True
 
 

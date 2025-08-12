@@ -18,6 +18,13 @@ from model import call_llm, get_model_for_node
 # Get module-specific logger
 LOGGER = get_logger(__name__)
 
+
+class NoValidMusclesError(Exception):
+    """Raised when no valid muscles can be identified for an exercise."""
+
+    pass
+
+
 # Project root path for file operations
 PROJECT_ROOT = Path(__file__).parent.parent
 
@@ -182,8 +189,22 @@ class FlexibilityMusclesNode(Node):
             return {"response": ["Unable to parse muscles"], "cost": cost}
 
     def post(self, shared, prep_res, exec_res):
+        muscles = exec_res["response"]
+
+        # Check if we have valid primary muscles
+        if isinstance(muscles, dict):
+            primary_muscles = muscles.get("primaryMuscles", [])
+            if not primary_muscles:
+                raise NoValidMusclesError(
+                    f"No primary muscles identified for exercise: {shared.get('query', 'Unknown')}"
+                )
+        elif isinstance(muscles, list) and not muscles:
+            raise NoValidMusclesError(
+                f"No muscles identified for exercise: {shared.get('query', 'Unknown')}"
+            )
+
         # Store the muscles in shared store
-        shared["muscles"] = exec_res["response"]
+        shared["muscles"] = muscles
 
         # Initialize cost tracking if not present
         if "cost" not in shared:
@@ -344,8 +365,22 @@ class StrengthMusclesNode(Node):
             return {"response": ["Unable to parse muscles"], "cost": cost}
 
     def post(self, shared, prep_res, exec_res):
+        muscles = exec_res["response"]
+
+        # Check if we have valid primary muscles
+        if isinstance(muscles, dict):
+            primary_muscles = muscles.get("primaryMuscles", [])
+            if not primary_muscles:
+                raise NoValidMusclesError(
+                    f"No primary muscles identified for exercise: {shared.get('query', 'Unknown')}"
+                )
+        elif isinstance(muscles, list) and not muscles:
+            raise NoValidMusclesError(
+                f"No muscles identified for exercise: {shared.get('query', 'Unknown')}"
+            )
+
         # Store the muscles in shared store
-        shared["muscles"] = exec_res["response"]
+        shared["muscles"] = muscles
 
         # Initialize cost tracking if not present
         if "cost" not in shared:
@@ -374,6 +409,7 @@ class StrengthNameNode(Node):
 
         # Extract primary and secondary muscles from the muscles data
         muscles_data = prep_data["muscles"]
+        LOGGER.warning(f"muscles_data: {muscles_data}")
         primary_muscles = muscles_data.get("primaryMuscles", [])
         secondary_muscles = muscles_data.get("secondaryMuscles", [])
 
@@ -511,6 +547,7 @@ class SaveExerciseNode(Node):
         """Save the exercise to the appropriate JSON file."""
         # Create an Exercise object
         exercise = Exercise(**exercise_data)
+        LOGGER.debug(f"exercise: {exercise}")
 
         # Determine which file to use based on exercise type
         file_path = PROJECT_ROOT / "exercises.json"
