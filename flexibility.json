@@ -3,8 +3,8 @@
     "pk": 1,
     "name": "Prone Assisted Neck Bridge",
     "slug": "prone-assisted-neck-bridge",
-    "primaryMuscles": ["shoulder - back", "trap"],
-    "secondaryMuscles": ["lower back", "tricep"],
+    "primaryMuscles": ["lower back"],
+    "secondaryMuscles": ["glute", "hamstring", "trap"],
     "steps": [
       "Place a yoga or exercise mat on the floor for head padding.",
       "Position the top of your head on the floor with your arms bent at the elbows, hands on the ground by both sides of your head, supporting your upper body.",
@@ -18,8 +18,8 @@
   },
   {
     "pk": 2,
-    "name": "One-Arm Hands-and-Knees Spine Twist",
-    "slug": "one-arm-hands-and-knees-spine-twist",
+    "name": "One-Arm Tabletop Spine Twist",
+    "slug": "one-arm-tabletop-spine-twist",
     "primaryMuscles": ["lower back", "oblique"],
     "secondaryMuscles": ["shoulder - back", "trap"],
     "steps": [
@@ -30,22 +30,6 @@
       "Hold the stretch for 5 seconds.",
       "Slowly return to the starting position.",
       "Repeat the stretch for the desired number of repetitions on each side."
-    ],
-    "notes": ""
-  },
-  {
-    "pk": 3,
-    "name": "One-Leg Hip Dip",
-    "slug": "one-leg-hip-dip",
-    "primaryMuscles": ["glute"],
-    "secondaryMuscles": ["calf", "quad"],
-    "steps": [
-      "Stand on one leg with the other leg bent and lifted off the ground.",
-      "Keep the knee of the standing leg straight and your spine neutral.",
-      "Tilt your hips by lowering the side with the lifted leg towards the ground slowly.",
-      "Lift the hip of the suspended leg towards the ceiling by engaging the hip muscles.",
-      "Avoid leaning your torso to keep the spine neutral throughout the movement.",
-      "Repeat the movement for the desired number of repetitions and then switch to the other leg."
     ],
     "notes": ""
   },
@@ -67,8 +51,8 @@
   },
   {
     "pk": 5,
-    "name": "One-Leg Rock-Paper-Scissor Toes",
-    "slug": "one-leg-rock-paper-scissor-toes",
+    "name": "One-Leg Seated Rock-Paper-Scissor Toes",
+    "slug": "one-leg-seated-rock-paper-scissor-toes",
     "primaryMuscles": ["calf"],
     "secondaryMuscles": [],
     "steps": [
@@ -98,9 +82,9 @@
     "notes": ""
   },
   {
-    "pk": 7,
-    "name": "Calf Massage \u2013 Lacrosse Ball",
-    "slug": "calf-massage-lacrosse-ball",
+    "pk": "765372ba-e08c-4103-9e7a-b7dc532fe86e",
+    "name": "Seated Calf Massage \u2013 Lacrosse Ball",
+    "slug": "seated-calf-massage-lacrosse-ball",
     "primaryMuscles": ["calf"],
     "secondaryMuscles": [],
     "steps": [
@@ -115,8 +99,8 @@
   },
   {
     "pk": 8,
-    "name": "One-Arm Wall Push Front Bend",
-    "slug": "one-arm-wall-push-front-bend",
+    "name": "One-Arm Front Bend Wall Push",
+    "slug": "one-arm-front-bend-wall-push",
     "primaryMuscles": ["chest", "lat", "shoulder - front"],
     "secondaryMuscles": [],
     "steps": [
@@ -141,25 +125,6 @@
       "Simultaneously lift your head off the ground and at your chest while pointing your toes away from you (plantarflex).",
       "Then, lower your head and look towards the ceiling while pulling your raised foot toward you (dorsiflex).",
       "Repeat the movement for the desired number of repetitions then switch sides."
-    ],
-    "notes": ""
-  },
-  {
-    "pk": 10,
-    "name": "One-Leg Three-Point Lunge",
-    "slug": "one-leg-three-point-lunge",
-    "primaryMuscles": ["glute", "quad"],
-    "secondaryMuscles": ["hamstring"],
-    "steps": [
-      "Stand with the right leg planted firmly on the ground.",
-      "Visualize standing in the center of a triangle with one point in front of you and two behind.",
-      "Bend the right knee slightly and lunge the left leg back to the rear-left triangle point. Tap the rear-left triangle point with your left toes without putting weight on that foot.",
-      "Return to standing position.",
-      "Bend the right knee and gently tap the floor front triangle point with your left heel.",
-      "Return to standing position.",
-      "Bend the right knee again and reach the left leg back to the rear-right triangle point. Your left leg will cross behind your right. Your left knee will drop nearly to the floor in a \"curtsy\". Touch the rear-right triangle point with your toes without putting weight on that foot.",
-      "Return to standing position. This is one repetition.",
-      "Continue repeating the movement for the desired number of repetitions then switch target legs."
     ],
     "notes": ""
   },
@@ -205,22 +170,7 @@
       "Rotate your neck all the way to the opposite side.",
       "Return your head to center to complete one repetition.",
       "Alternate the starting side with each new set.",
-      "Repeat the exercise for the desired number of repetitions."
-    ],
-    "notes": ""
-  },
-  {
-    "pk": 14,
-    "name": "One-Leg Seated Hip Flexor Hold",
-    "slug": "one-leg-seated-hip-flexor-hold",
-    "primaryMuscles": ["quad"],
-    "secondaryMuscles": ["lower back"],
-    "steps": [
-      "Sit on a comfortable surface with a neutral spine.",
-      "Lift one knee as high as possible without arching or rounding your back.",
-      "Place both hands on the lifted thigh and push down firmly while resisting the movement with your hip muscles.",
-      "Maintain the contraction at the desired intensity for the set duration.",
-      "Hold the contraction for the desired time and switch to the other side."
+      "Repeat the exercise for the desired amount of time or repetitions."
     ],
     "notes": ""
   },
@@ -240,104 +190,9 @@
     "notes": ""
   },
   {
-    "pk": 16,
-    "name": "One-Arm Side Shoulder Pull \u2013 Band",
-    "slug": "one-arm-side-shoulder-pull-band",
-    "primaryMuscles": ["shoulder - side"],
-    "secondaryMuscles": ["rotator cuff - back", "rotator cuff - front"],
-    "steps": [
-      "Anchor one end of a thick strength band to a stable pull-up bar or object.",
-      "Loop the free end of the band around your wrist with your arm raised to shoulder height beside you.",
-      "Lean your body away from the band, moving to the opposite side while keeping your arm raised.",
-      "Relax your shoulder muscles and let gravity pull your arm gently to stretch the shoulder.",
-      "Hold the stretch for the desired time and switch to the other side."
-    ],
-    "notes": ""
-  },
-  {
-    "pk": 17,
-    "name": "One-Leg Assisted Side Lunge",
-    "slug": "one-leg-assisted-side-lunge",
-    "primaryMuscles": ["glute", "quad", "thigh - inner"],
-    "secondaryMuscles": [],
-    "steps": [
-      "Stand next to a chair, wall, or stable counter and hold it for support.",
-      "Bend the knee of the leg closest to the support, ensuring it stays aligned with the middle of your foot.",
-      "Step the other leg out to the side, keeping your leg straight, foot flat, and toes pointing forward.",
-      "Use your support to help balance as you lower into the side lunge. Move your hips towards the support, stretching your inner thigh on your straight leg.",
-      "Push through the bent leg to return to standing, extending your knee.",
-      "Repeat the stretch for the desired number of repetitions, then switch to the other side."
-    ],
-    "notes": ""
-  },
-  {
-    "pk": 18,
-    "name": "Shoulder Blade Push Up",
-    "slug": "shoulder-blade-push-up",
-    "primaryMuscles": ["lat", "trap"],
-    "secondaryMuscles": ["shoulder - front"],
-    "steps": [
-      "Start in a high plank position with your arms straight and hands under your shoulders.",
-      "Squeeze your shoulder blades together, pulling them back toward each other.",
-      "Push your shoulder blades forward as far as possible, spreading them apart.",
-      "Repeat the movement for the desired number of repetitions."
-    ],
-    "notes": "Keep your elbows straight and upper back flat throughout the exercise. Modify by doing the exercise from your knees if the high plank is too challenging."
-  },
-  {
-    "pk": 19,
-    "name": "Lying Hamstring Bridge With Adductor Squeeze \u2013 Yoga Block",
-    "slug": "lying-hamstring-bridge-with-adductor-squeeze-yoga-block",
-    "primaryMuscles": ["glute", "hamstring", "thigh - inner"],
-    "secondaryMuscles": [],
-    "steps": [
-      "Lie on your back on a padded surface with a yoga block or foam roller between your knees.",
-      "Squeeze the block with your inner thighs to engage your hip adductors.",
-      "Bend your knees to more than 90 degrees and keep your feet hip-distance apart.",
-      "Brace your core to keep a neutral spine.",
-      "Drive your heels into the ground and lift your hips until your thighs align with your torso.",
-      "Hold the lift for the desired time or lower your hips back down to the floor to complete one repetition.",
-      "Repeat the exercise for the desired time or number of repetitions."
-    ],
-    "notes": ""
-  },
-  {
-    "pk": 20,
-    "name": "One-Leg Kick Back Hold \u2013 Band",
-    "slug": "one-leg-kick-back-hold-band",
-    "primaryMuscles": ["glute", "hamstring"],
-    "secondaryMuscles": [],
-    "steps": [
-      "Loop a band around both ankles, keeping feet hip-width apart.",
-      "Stand upright and engage your core to stabilize your body.",
-      "Slowly extend one leg backward by kicking your foot behind you, keeping your knee straight.",
-      "Hold the extended position, squeezing your glutes for up to 7 seconds.",
-      "Return your leg to the starting neutral position with control.",
-      "Repeat the stretch for the desired number of repetitions before switching to the other leg."
-    ],
-    "notes": ""
-  },
-  {
-    "pk": 21,
-    "name": "Heel Raise Hold",
-    "slug": "heel-raise-hold",
-    "primaryMuscles": ["calf"],
-    "secondaryMuscles": [],
-    "steps": [
-      "Stand with your feet flat on the ground, shoulder-width apart.",
-      "Shift your weight evenly across the balls of all your toes.",
-      "Slowly raise your heels about 1 inch (2.5 cm) off the ground.",
-      "Keep your toes and balls of your feet firmly planted and stable.",
-      "Hold this raised position for 15-30 seconds.",
-      "Lower your heels back down with control.",
-      "Repeat the exercise for the desired number of repetitions."
-    ],
-    "notes": ""
-  },
-  {
     "pk": 22,
-    "name": "One-Leg Lying Outer Hip Twist",
-    "slug": "one-leg-lying-outer-hip-twist",
+    "name": "One-Leg Lying Outer Thigh Hip Twist",
+    "slug": "one-leg-lying-outer-thigh-hip-twist",
     "primaryMuscles": ["thigh - outer"],
     "secondaryMuscles": [],
     "steps": [
@@ -347,39 +202,6 @@
       "Slowly rotate your hips away from the crossed leg, letting the bottom thigh fall toward the floor.",
       "Use the weight of the crossed leg to deepen the stretch in your outer hip.",
       "Hold the stretch for the desired time and switch to the other side."
-    ],
-    "notes": ""
-  },
-  {
-    "pk": 23,
-    "name": "One-Leg Lying Outer Thigh Contraction \u2013 Band",
-    "slug": "one-leg-lying-outer-thigh-contraction-band",
-    "primaryMuscles": ["thigh - outer"],
-    "secondaryMuscles": ["glute"],
-    "steps": [
-      "Anchor a ~100 lbs pull-up assist band to a stable object so that the free end hangs at about hip height.",
-      "Loop your ankle through the free end of the band.",
-      "Lie on your back on a padded surface with the band anchor opposite the target hip.",
-      "Allow the band to gently pull your hip outward until you feel a light stretch on the outer hip.",
-      "Hold the stretch for 5-7 seconds while relaxing into the band\u2019s pull.",
-      "Contract the hip muscles to resist the band\u2019s pull and hold the contraction for 5-7 seconds.",
-      "Release the contraction and return to the stretch position to complete one repetition.",
-      "Continue repetitions for the desired amount of time."
-    ],
-    "notes": ""
-  },
-  {
-    "pk": 24,
-    "name": "One-Arm Rotator Cuff Backwards Wall Press \u2013 Yoga Block",
-    "slug": "one-arm-rotator-cuff-backwards-wall-press-yoga-block",
-    "primaryMuscles": ["rotator cuff - back"],
-    "secondaryMuscles": ["shoulder - back"],
-    "steps": [
-      "Stand with your back against a wall and raise your arm to shoulder height.",
-      "Bend your elbow to 90 degrees, so that your hand points to the ceiling.",
-      "Hold a yoga block or foam roller with the back of your raised hand, pressing it against the wall.",
-      "Push your hand into the block without moving your arm or elbow.",
-      "Hold the stretch for the desired time then switch to the other side."
     ],
     "notes": ""
   },
@@ -401,49 +223,17 @@
     "notes": ""
   },
   {
-    "pk": 26,
-    "name": "One-Arm Rotator Cuff Forward Wall Press \u2013 Yoga Block",
-    "slug": "one-arm-rotator-cuff-forward-wall-press-yoga-block",
-    "primaryMuscles": ["rotator cuff - front"],
-    "secondaryMuscles": ["shoulder - front"],
-    "steps": [
-      "Stand with your chest against a wall and raise your arm to shoulder height.",
-      "Bend your elbow to 90 degrees, so that your hand points to the ceiling.",
-      "Hold a yoga block or foam roller with the front of your raised hand, pressing it against the wall.",
-      "Push your hand into the block without moving your arm or elbow.",
-      "Hold the stretch for the desired time then switch to the other side."
-    ],
-    "notes": ""
-  },
-  {
     "pk": 27,
-    "name": "One-Arm Lunging Spinal Wall Twist",
+    "name": "One-Arm Lunging Lower Back Wall Twist",
     "slug": "one-arm-lunging-spinal-wall-twist",
     "primaryMuscles": ["lower back", "oblique", "trap"],
     "secondaryMuscles": [],
     "steps": [
       "Start in a split squat position with your front leg against the wall, foot flat on the ground. Place your back leg's knee and toes on the ground.",
-      "Raise the arm on the same side as your front leg to 90 degrees in front of you. Keep the back of your hand and forearm in contact with the wall.",
-      "Rotate your torso slowly away from the front leg side, reaching your other arm back to touch the back of that hand to the wall behind you.",
+      "Raise the arm on the same side as your front leg parallel to the ground in front of you. Keep the back of your hand and forearm in contact with the wall.",
+      "Rotate your torso slowly away from the front leg side, reaching your other arm back, parallel to the ground, to touch the back of that hand to the wall behind you.",
       "Keep your hips facing forward and chest open as you rotate.",
       "Hold the stretch for the desired time and switch to the other side."
-    ],
-    "notes": ""
-  },
-  {
-    "pk": 28,
-    "name": "Alternating Sit-to-Rise Cossack Squat",
-    "slug": "alternating-sit-to-rise-cossack-squat",
-    "primaryMuscles": ["glute", "quad", "thigh - inner"],
-    "secondaryMuscles": ["hamstring"],
-    "steps": [
-      "Sit with your legs in front of you, shoulder-width apart.",
-      "While remaining seated, lift one leg and rotate it outwards towards a 90-degree angle with the stationary leg.",
-      "As you rotate the leg, bend your knee to bring your foot flat on the ground and close to your glute as possible.",
-      "Perform a Cossack squat by pushing on the bent and straight legs to stand upright in a wide-leg stance.",
-      "Push through the wide-leg stance to continue to lower yourself to a Cossack squat on the other side. Reversing the movement all the way to sit on the floor.",
-      "Lift the bent knee, rotate and straighten it to sit with your legs in front of you. You should be in the same position as when you first started the exercise, but facing the opposite direction.",
-      "Continue alternating the movement on each side for the desired amount of time."
     ],
     "notes": ""
   },
@@ -480,8 +270,8 @@
   },
   {
     "pk": 31,
-    "name": "One-Arm Shoulder-Height Bicep Stretch",
-    "slug": "one-arm-shoulder-height-bicep-stretch",
+    "name": "One-Arm Bicep Wall Stretch",
+    "slug": "one-arm-bicep-wall-stretch",
     "primaryMuscles": ["bicep"],
     "secondaryMuscles": ["chest", "shoulder - front"],
     "steps": [
@@ -490,38 +280,6 @@
       "Place your palm firmly against a doorframe, squat rack, or wall.",
       "Twist your body away from your anchored arm to stretch your biceps.",
       "Hold the stretch for the desired time and switch to the other side."
-    ],
-    "notes": ""
-  },
-  {
-    "pk": 32,
-    "name": "Hip Hinge \u2013 Dowel",
-    "slug": "hip-hinge-dowel",
-    "primaryMuscles": ["glute", "hamstring"],
-    "secondaryMuscles": ["lower back"],
-    "steps": [
-      "Place a dowel along your back, anchoring it against your head, between your shoulder blades, and on your tailbone.",
-      "Stand with feet hip-width apart and keep a slight bend in your knees.",
-      "Hinge forward at the hips, pushing your butt back while maintaining contact of the dowel at all three points.",
-      "Avoid rounding your back or letting the dowel lose contact with your head, upper back, or tailbone.",
-      "Stand back up straight, keeping the dowel in position.",
-      "Continue repetitions for the desired amount of time."
-    ],
-    "notes": ""
-  },
-  {
-    "pk": 33,
-    "name": "Low Arms Rotator Cuff Forward Wall Press",
-    "slug": "low-arms-rotator-cuff-forward-wall-press",
-    "primaryMuscles": ["rotator cuff - front", "shoulder - front"],
-    "secondaryMuscles": [],
-    "steps": [
-      "Stand facing a wall with your elbows straight and aligned below your shoulders.",
-      "Place your palms on the wall with fingers pointing forward.",
-      "Press your palms into the wall, gradually increasing the force over 3 seconds.",
-      "Hold the maximal push for 5-7 seconds without moving your elbows.",
-      "Slowly decrease the pressure back to rest over 3 seconds.",
-      "Repeat the exercise for the desired amount of time."
     ],
     "notes": ""
   }
