@@ -396,5 +396,20 @@
       "Continue alternating the movement on each side for the desired amount of time."
     ],
     "notes": ""
+  },
+  {
+    "pk": "f15d4766-7fa4-4802-8146-c53f45a64970",
+    "name": "Seated Crossed Leg Forward Stretch",
+    "slug": "seated-crossed-leg-forward-stretch",
+    "primaryMuscles": ["glute", "lower back"],
+    "secondaryMuscles": ["hamstring", "thigh - inner", "thigh - outer"],
+    "steps": [
+      "Sit on the floor with your legs crossed.",
+      "Place your hands on the floor beside your hips.",
+      "Begin to lean forward, leading with your hands.",
+      "Crawl your hands forward to deepen the stretch.",
+      "Hold the stretch for the desired time while focusing on relaxed breaths."
+    ],
+    "notes": ""
   }
 ]
