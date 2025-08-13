@@ -426,5 +426,21 @@
       "Hold the stretch for the desired time and switch to the other side."
     ],
     "notes": ""
+  },
+  {
+    "pk": "6713b6cf-8f67-4ee1-b546-436e5f4fba21",
+    "name": "Overhead Shrug Neck Rotation",
+    "slug": "overhead-shrug-neck-rotation",
+    "primaryMuscles": ["trap"],
+    "secondaryMuscles": ["shoulder - back", "shoulder - front"],
+    "steps": [
+      "Raise both arms with your elbows straight overhead.",
+      "Shrug your shoulders upwards.",
+      "Slowly rotate your head and neck completely to one side without dropping the shoulders.",
+      "Rotate your head and neck completely to the opposite side.",
+      "Return to neutral cervical spine rotation.",
+      "Continue these rotations for the desired amount of time."
+    ],
+    "notes": ""
   }
 ]
