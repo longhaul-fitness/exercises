@@ -375,5 +375,26 @@
       "Continue rolling and massaging the quadriceps for the desired amount of time."
     ],
     "notes": ""
+  },
+  {
+    "pk": "edd0f4bb-7f54-4f56-a1ee-5e5547cae18c",
+    "name": "Shoulder Teepee \u2013 Dowel",
+    "slug": "shoulder-teepee-dowel",
+    "primaryMuscles": ["shoulder - back", "shoulder - front"],
+    "secondaryMuscles": [
+      "tricep",
+      "bicep",
+      "forearm - inner",
+      "forearm - outer"
+    ],
+    "steps": [
+      "Grab a dowel or broomstick with hands wider than shoulder-width apart, holding it parallel to the ground in front of your waist.",
+      "Raise one end of the dowel above your head and then behind your back, keeping the other hand at hip level.",
+      "Lower the dowel so that it's parallel to the ground behind your back.",
+      "Raise the other hand to pull the dowel up and over your body bringing it parallel to the ground in front of you again.",
+      "Alternate directions, performing the same steps going the other direction.",
+      "Continue alternating the movement on each side for the desired amount of time."
+    ],
+    "notes": ""
   }
 ]
