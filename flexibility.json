@@ -68,7 +68,7 @@
   },
   {
     "pk": "180aa683-0df8-4e12-ae0d-2e247e8c1889",
-    "name": "One-Leg Seated Knee-to-Chest – Foam Roller",
+    "name": "One-Leg Seated Knee-to-Chest \u2013 Foam Roller",
     "slug": "one-leg-seated-knee-to-chest-foam-roller",
     "primaryMuscles": ["glute", "lower back"],
     "secondaryMuscles": ["hamstring", "quad"],
@@ -83,7 +83,7 @@
   },
   {
     "pk": "765372ba-e08c-4103-9e7a-b7dc532fe86e",
-    "name": "Seated Calf Massage – Lacrosse Ball",
+    "name": "Seated Calf Massage \u2013 Lacrosse Ball",
     "slug": "seated-calf-massage-lacrosse-ball",
     "primaryMuscles": ["calf"],
     "secondaryMuscles": [],
@@ -130,7 +130,7 @@
   },
   {
     "pk": "803604bd-04f2-44fa-b4e4-57b6b61a4e72",
-    "name": "Lying Overhead Shoulder Rotation – Dowel",
+    "name": "Lying Overhead Shoulder Rotation \u2013 Dowel",
     "slug": "lying-overhead-shoulder-rotation-dowel",
     "primaryMuscles": ["shoulder - front"],
     "secondaryMuscles": ["rotator cuff - front"],
@@ -143,7 +143,7 @@
   },
   {
     "pk": "1425a757-46dd-41a0-8fcc-67bdb24e3ee0",
-    "name": "Neck Twist – Lacrosse Ball",
+    "name": "Neck Twist \u2013 Lacrosse Ball",
     "slug": "neck-twist-lacrosse-ball",
     "primaryMuscles": ["trap"],
     "secondaryMuscles": [],
@@ -176,7 +176,7 @@
   },
   {
     "pk": "7ee4abdd-e815-49d1-9d47-ec92a26a6b75",
-    "name": "One-Arm Lying Spine Twist – Yoga Block",
+    "name": "One-Arm Lying Spine Twist \u2013 Yoga Block",
     "slug": "one-arm-lying-spine-twist-yoga-block",
     "primaryMuscles": ["lower back", "oblique"],
     "secondaryMuscles": ["chest", "trap"],
@@ -207,7 +207,7 @@
   },
   {
     "pk": "95cb9f28-ab4d-40ec-8c17-fddf859538b9",
-    "name": "One-Leg Foot Plank – Yoga Block",
+    "name": "One-Leg Foot Plank \u2013 Yoga Block",
     "slug": "one-leg-foot-plank-yoga-block",
     "primaryMuscles": ["calf"],
     "secondaryMuscles": [],
@@ -239,7 +239,7 @@
   },
   {
     "pk": "aab77e3c-32ac-4676-92f3-bc5a0589891b",
-    "name": "One-Leg Seated Hamstring Roll – Foam Roller",
+    "name": "One-Leg Seated Hamstring Roll \u2013 Foam Roller",
     "slug": "one-leg-seated-hamstring-roll-foam-roller",
     "primaryMuscles": ["hamstring"],
     "secondaryMuscles": [],
@@ -280,6 +280,21 @@
       "Place your palm firmly against a doorframe, squat rack, or wall.",
       "Twist your body away from your anchored arm to stretch your biceps.",
       "Hold the stretch for the desired time and switch to the other side."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "df1179cd-ad11-4374-b414-fe67eba0cd3b",
+    "name": "Segmental Lower Back Flexion",
+    "slug": "segmental-lower-back-flexion",
+    "primaryMuscles": ["trap", "lower back"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Sit or stand with a neutral spine.",
+      "Flex your neck by bringing your chin towards your chest.",
+      "Slump your shoulders forward and flex your upper back.",
+      "Bend forward incrementally at each segment of the thoracic spine.",
+      "Continue the movement for the desired amount of time."
     ],
     "notes": ""
   }
