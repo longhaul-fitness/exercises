@@ -297,5 +297,22 @@
       "Continue the movement for the desired amount of time."
     ],
     "notes": ""
+  },
+  {
+    "pk": "98a43391-4d1f-4de1-8036-c0787307c84e",
+    "name": "One-Leg Incline Reverse Pigeon \u2013 Bench",
+    "slug": "one-leg-incline-reverse-pigeon-bench",
+    "primaryMuscles": ["glute", "hamstring", "thigh - inner"],
+    "secondaryMuscles": ["thigh - outer"],
+    "steps": [
+      "Set up an exercise bench at a 30 to 45 degree incline.",
+      "Place the shin of the leg you want to stretch on the inclined bench with the knee elevated above the foot.",
+      "Position the other leg behind you to support your bodyweight.",
+      "Drop the hip of the leg on the bench towards the ground and use your hands to support your body.",
+      "Keep your spine neutral to focus the stretch on your hips.",
+      "Hinge forward at the hips while maintaining a neutral spine to deepen the stretch.",
+      "Hold the stretch for the desired time and switch to the other side."
+    ],
+    "notes": ""
   }
 ]
