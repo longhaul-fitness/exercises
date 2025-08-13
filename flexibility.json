@@ -331,5 +331,20 @@
       "Hold the stretch for the desired time and switch to the other side."
     ],
     "notes": ""
+  },
+  {
+    "pk": "b99edace-a641-4113-b730-f8c8de670dc7",
+    "name": "One-Leg Seated Pretzel Stretch",
+    "slug": "one-leg-seated-pretzel-stretch",
+    "primaryMuscles": ["glute", "hamstring"],
+    "secondaryMuscles": ["lower back"],
+    "steps": [
+      "Sit on a chair with your feet flat on the floor.",
+      "Place one ankle on the opposite knee by rotating the leg.",
+      "Push the folded knee towards the floor while leaning forward by hinging at the hips.",
+      "Keep the spine neutral to uncouple motion between the hip and back.",
+      "Hold the stretch for the desired time and switch to the other side."
+    ],
+    "notes": ""
   }
 ]
