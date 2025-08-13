@@ -254,8 +254,8 @@
   },
   {
     "pk": "fc2c3807-61c2-4b79-a5db-d20820a1892e",
-    "name": "One-Leg Elevated Pidgeon Stretch",
-    "slug": "one-leg-elevated-pidgeon-stretch",
+    "name": "One-Leg Elevated Pigeon Stretch",
+    "slug": "one-leg-elevated-pigeon-stretch",
     "primaryMuscles": ["glute"],
     "secondaryMuscles": ["hamstring"],
     "steps": [
