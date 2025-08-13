@@ -346,5 +346,20 @@
       "Hold the stretch for the desired time and switch to the other side."
     ],
     "notes": ""
+  },
+  {
+    "pk": "d3040d3b-c208-45a4-aa70-b31416d060a3",
+    "name": "One-Leg Lying Pretzel Stretch",
+    "slug": "one-leg-lying-pretzel-stretch",
+    "primaryMuscles": ["glute", "hamstring"],
+    "secondaryMuscles": ["lower back"],
+    "steps": [
+      "Lie on your back with your feet flat on the floor, knees bent.",
+      "Place one ankle on the opposite knee by rotating the leg.",
+      "Reach around the leg with the foot on the floor to grab that leg's shin.",
+      "Keep your back on the floor and pull your knee towards your chest.",
+      "Hold the stretch for the desired time and switch to the other side."
+    ],
+    "notes": ""
   }
 ]
