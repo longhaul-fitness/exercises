@@ -361,5 +361,19 @@
       "Hold the stretch for the desired time and switch to the other side."
     ],
     "notes": ""
+  },
+  {
+    "pk": "8770385f-5661-4027-98c1-adc13f4a9140",
+    "name": "Prone Quad Rolling \u2013 Foam Roller",
+    "slug": "prone-quad-rolling-foam-roller",
+    "primaryMuscles": ["quad"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Lay down, facing the floor, on a foam roller placed on a tender spot on your quadriceps muscle.",
+      "Use your arms and other leg to control the amount of bodyweight you distribute on the foam roller.",
+      "Slowly flex and extend your knee to get an active massage.",
+      "Continue rolling and massaging the quadriceps for the desired amount of time."
+    ],
+    "notes": ""
   }
 ]
