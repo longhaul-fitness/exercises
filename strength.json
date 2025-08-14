@@ -6097,5 +6097,21 @@
       "Repeat the movement for your desired number of repetitions."
     ],
     "notes": ""
+  },
+  {
+    "pk": "6a68e84c-8965-4dfe-b3c3-56ccb396a89e",
+    "name": "One-Leg Prone Hip Extension",
+    "slug": "one-leg-prone-hip-extension",
+    "primaryMuscles": ["glute", "hamstring"],
+    "secondaryMuscles": ["lower back"],
+    "steps": [
+      "Lie down on your stomach with your arms extended out in front of you for support.",
+      "Engage your core to stabilize your lower back and minimize anterior pelvic tilt.",
+      "Lift one heel up towards the ceiling while keeping the knee straight and the foot flexed.",
+      "Hold the lifted position for 5-10 seconds, focusing on the contraction in the glutes and hamstrings.",
+      "Slowly lower your leg back down to the ground.",
+      "Repeat the movement on the same side for your desired number of repetitions, then switch to the other leg."
+    ],
+    "notes": ""
   }
 ]
