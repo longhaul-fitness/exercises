@@ -6081,5 +6081,21 @@
       "Repeat the movement for your desired number of repetitions."
     ],
     "notes": ""
+  },
+  {
+    "pk": "edbc1829-75f7-4ea7-96db-0a6b3b7f994f",
+    "name": "One-Arm Row Lunge \u2013 Band",
+    "slug": "one-arm-row-lunge-band",
+    "primaryMuscles": ["glute", "lat", "trap", "quad"],
+    "secondaryMuscles": ["calf"],
+    "steps": [
+      "Anchor a resistance band at the level of your belly button in front of you.",
+      "Grip the band with your target arm and start in a lunge position with the front leg opposite the target arm.",
+      "Simultaneously pull the band through a row motion while transitioning into a single leg stand on the front leg.",
+      "Raise the knee of the same side leg as the target arm to hip height as you pull the band, squeezing your back muscles.",
+      "Reverse the motion by lowering the knee and returning to the starting lunge position.",
+      "Repeat the movement for your desired number of repetitions."
+    ],
+    "notes": ""
   }
 ]
