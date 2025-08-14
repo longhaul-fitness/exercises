@@ -1,6 +1,6 @@
 [
   {
-    "pk": 1,
+    "pk": "1232d6bd-1b97-4c14-b8e6-de4a40cae8db",
     "name": "Pull-Up",
     "slug": "pull-up",
     "primaryMuscles": ["lat"],
@@ -22,8 +22,8 @@
     "notes": "Try assisted variations using resistance bands or an assisted pull-up machine until you build the necessary strength."
   },
   {
-    "pk": 2,
-    "name": "Squat \u2013 Barbell",
+    "pk": "dc033c10-988c-4558-bf74-3ab5be6c59fc",
+    "name": "Squat – Barbell",
     "slug": "squat-barbell",
     "primaryMuscles": ["glute", "lower back", "quad", "thigh - inner"],
     "secondaryMuscles": ["calf"],
@@ -38,7 +38,7 @@
     "notes": ""
   },
   {
-    "pk": 3,
+    "pk": "7a971512-0265-490a-8ac0-871c0e1013de",
     "name": "Push-Up",
     "slug": "push-up",
     "primaryMuscles": ["chest", "shoulder - front", "tricep"],
@@ -54,8 +54,8 @@
     "notes": ""
   },
   {
-    "pk": 4,
-    "name": "Romanian Deadlift \u2013 Barbell",
+    "pk": "335f9629-c7c2-4cc2-a7e2-d3e2866790f0",
+    "name": "Romanian Deadlift – Barbell",
     "slug": "romanian-deadlift-barbell",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
     "secondaryMuscles": [
@@ -70,7 +70,7 @@
       "Stand with your feet hip-width apart, and grip the barbell with hands just outside your thighs using an overhand grip.",
       "Begin the movement with a slight bend in your knees, and keep your back straight and chest up throughout the exercise.",
       "Push your hips back, hinging at the hips to lower the barbell, while keeping it close to your body as the bar descends.",
-      "Lower the weight to just below your knees or to mid-shin level \u2014 the exact point depends on your hamstring flexibility, without rounding your back.",
+      "Lower the weight to just below your knees or to mid-shin level — the exact point depends on your hamstring flexibility, without rounding your back.",
       "Pause briefly at the bottom of the movement, maintaining a braced core and tension in your hamstrings and glutes.",
       "Reverse the motion by driving your hips forward to return to a fully upright position, squeezing your glutes at the top of the movement.",
       "Repeat for the desired number of repetitions, ensuring that the tension is maintained in the target muscles without resting the bar on the floor between reps."
@@ -78,8 +78,8 @@
     "notes": "Differences between a RDL and a standard deadlift:<ul><li>Keep your legs relatively straight with only a slight bend in your knees.</li><li>Focus on the eccentric phase while hinging at the hips and lowering the weight.</li><li>Lower the bar just below the knees or to mid-shin level without touching the ground to maintain tension on the hamstrings and glutes throughout the exercise.</li></ul>"
   },
   {
-    "pk": 5,
-    "name": "Romanian Deadlift \u2013 Dumbbell",
+    "pk": "6556cc6a-40c4-4474-8424-f48794f57438",
+    "name": "Romanian Deadlift – Dumbbell",
     "slug": "romanian-deadlift-dumbbell",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
     "secondaryMuscles": [
@@ -101,8 +101,8 @@
     "notes": "Differences between a RDL and a standard deadlift:<ul><li>Keep your legs relatively straight with only a slight bend in your knees.</li><li>Focus on the eccentric phase while hinging at the hips and lowering the weight.</li><li>Lower the bar just below the knees or to mid-shin level without touching the ground to maintain tension on the hamstrings and glutes throughout the exercise.</li></ul>"
   },
   {
-    "pk": 6,
-    "name": "Single-Leg Romanian Deadlift \u2013 Dumbbell",
+    "pk": "703d017a-492a-417d-9ff5-5f78f7d29d7a",
+    "name": "Single-Leg Romanian Deadlift – Dumbbell",
     "slug": "single-leg-romanian-deadlift-dumbbell",
     "primaryMuscles": ["calf", "glute", "hamstring", "lower back"],
     "secondaryMuscles": ["forearm - inner", "forearm - outer", "trap", "quad"],
@@ -117,8 +117,8 @@
     "notes": ""
   },
   {
-    "pk": 7,
-    "name": "Squat \u2013 Bodyweight",
+    "pk": "d74842c0-577f-4dca-ac4d-6bb52aa6976b",
+    "name": "Squat – Bodyweight",
     "slug": "squat-bodyweight",
     "primaryMuscles": ["glute", "quad", "thigh - inner"],
     "secondaryMuscles": ["calf"],
@@ -135,7 +135,7 @@
     "notes": ""
   },
   {
-    "pk": 8,
+    "pk": "6bc882f1-29e7-44c0-99b4-a36a4c91fc08",
     "name": "Face Pull",
     "slug": "face-pull",
     "primaryMuscles": ["rotator cuff - back", "trap", "shoulder - back"],
@@ -153,8 +153,8 @@
     "notes": "Focus on using your back muscles to perform the movement rather than relying on your arms or shoulders."
   },
   {
-    "pk": 9,
-    "name": "Bench Press \u2013 Barbell",
+    "pk": "23cf1e36-69e0-424b-8403-fc4e30de15da",
+    "name": "Bench Press – Barbell",
     "slug": "bench-press-barbell",
     "primaryMuscles": ["chest", "shoulder - front"],
     "secondaryMuscles": ["tricep"],
@@ -170,8 +170,8 @@
     "notes": "Ensure your back is flat against the bench, and your feet are firmly planted on the ground.  Keep your core tight, and your elbows close to your body throughout the movement. Exhale as you push the bar away from your chest, and inhale as you lower it down."
   },
   {
-    "pk": 10,
-    "name": "Squat \u2013 Dumbbell",
+    "pk": "6849d9f8-8f62-4873-aed0-e85a4b0fa8ca",
+    "name": "Squat – Dumbbell",
     "slug": "squat-dumbbell",
     "primaryMuscles": ["glute", "lower back", "quad", "thigh - inner"],
     "secondaryMuscles": ["calf"],
@@ -188,8 +188,8 @@
     "notes": "Keep your knees in line with your toes throughout the movement."
   },
   {
-    "pk": 11,
-    "name": "Deadlift \u2013 Barbell",
+    "pk": "ba2387cd-2192-42d5-8895-4c8ad78b3607",
+    "name": "Deadlift – Barbell",
     "slug": "deadlift-barbell",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
     "secondaryMuscles": [
@@ -212,7 +212,7 @@
     "notes": ""
   },
   {
-    "pk": 12,
+    "pk": "60576989-d045-492b-82b0-743bb4a3ce62",
     "name": "Plank",
     "slug": "plank",
     "primaryMuscles": ["abdominal", "lower back"],
@@ -221,8 +221,8 @@
     "notes": ""
   },
   {
-    "pk": 13,
-    "name": "Leg Press \u2013 Machine",
+    "pk": "859b2211-9bb0-462b-987c-620a3e37d688",
+    "name": "Leg Press – Machine",
     "slug": "leg-press-machine",
     "primaryMuscles": ["glute", "quad", "thigh - inner"],
     "secondaryMuscles": ["hamstring"],
@@ -236,7 +236,7 @@
     "notes": "Keep your back flat against the seat throughout the movement. Keep your feet flat on the footplate, and make sure your knees are tracking in line with your toes. Exhale as you push the footplate away from your body, and inhale as you lower it back down. Avoid locking out your knees at the top of the movement, as this can put unnecessary stress on the joint."
   },
   {
-    "pk": 14,
+    "pk": "2b9085c4-ad46-466b-acc9-f863a93dbaa9",
     "name": "One-Handed Cross-Body Curl",
     "slug": "one-handed-cross-body-curl",
     "primaryMuscles": ["bicep"],
@@ -252,7 +252,7 @@
     "notes": ""
   },
   {
-    "pk": 15,
+    "pk": "8a96a73c-0c69-4102-a2c9-f103c8497e7e",
     "name": "Frog Pumps",
     "slug": "frog-pumps",
     "primaryMuscles": ["glute"],
@@ -267,7 +267,7 @@
     "notes": "Place a dumbbell or plate on your lower abdomen for extra difficulty."
   },
   {
-    "pk": 16,
+    "pk": "37115036-6477-4046-96dc-5c48d077a201",
     "name": "Lying Windshield Wiper",
     "slug": "lying-windshield-wiper",
     "primaryMuscles": ["oblique"],
@@ -283,8 +283,8 @@
     "notes": "Avoid swinging or using momentum to perform the movement; instead, control the action with your core muscles."
   },
   {
-    "pk": 17,
-    "name": "Dip \u2013 Bar",
+    "pk": "102850fa-8459-4cd0-81b5-88cc982d5de4",
+    "name": "Dip – Bar",
     "slug": "dip-bar",
     "primaryMuscles": ["chest", "tricep"],
     "secondaryMuscles": ["rotator cuff - front", "shoulder - front"],
@@ -299,7 +299,7 @@
     "notes": "You can also add variations to the dip, such as weighted dips or assisted dips, to increase or decrease the intensity of the exercise."
   },
   {
-    "pk": 18,
+    "pk": "3bc232a6-36f1-4322-948c-61c0df58cb15",
     "name": "Arnold Press",
     "slug": "arnold-press",
     "primaryMuscles": ["shoulder - back", "shoulder - side"],
@@ -315,7 +315,7 @@
     "notes": ""
   },
   {
-    "pk": 19,
+    "pk": "328b8330-4a04-4f43-a255-f17cba659635",
     "name": "Back Extension",
     "slug": "back-extension",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
@@ -332,7 +332,7 @@
     "notes": "Hold weights such as plates to your chest to increase the exercise difficulty."
   },
   {
-    "pk": 20,
+    "pk": "ab0da03b-dd54-4a7f-bb06-40c866dfa88c",
     "name": "One-Legged Glute Bridge",
     "slug": "one-legged-glute-bridge",
     "primaryMuscles": ["glute", "hamstring"],
@@ -348,8 +348,8 @@
     "notes": "For increased difficult, hold your leg parallel with your torso instead of extending your leg to the ceiling."
   },
   {
-    "pk": 21,
-    "name": "Curl \u2013 Bodyweight",
+    "pk": "23a7be0e-9a15-4c72-a635-697d0bc3d261",
+    "name": "Curl – Bodyweight",
     "slug": "curl-bodyweight",
     "primaryMuscles": ["bicep", "lat"],
     "secondaryMuscles": ["forearm - inner"],
@@ -365,7 +365,7 @@
     "notes": ""
   },
   {
-    "pk": 22,
+    "pk": "cbbdaae8-7600-456f-b025-12d2050b3765",
     "name": "Hanging Leg Raise",
     "slug": "hanging-leg-raise",
     "primaryMuscles": ["abdominal", "forearm - inner", "forearm - outer"],
@@ -382,8 +382,8 @@
     "notes": "There are hanging leg raise machines that allow you to balance on your forearms rather than hang from a bar. Also, you could perform this exercise by holding yourself up on dip bars. Consider using either machine if you want to remove most of the forearm activation and focus on the abdominal work."
   },
   {
-    "pk": 24,
-    "name": "Burpee \u2013 BOSU",
+    "pk": "7e703b05-364f-4847-af0f-a1a22aab19f6",
+    "name": "Burpee – BOSU",
     "slug": "burpee-bosu",
     "primaryMuscles": [
       "chest",
@@ -404,8 +404,8 @@
     "notes": ""
   },
   {
-    "pk": 25,
-    "name": "Shoulder Press \u2013 Machine",
+    "pk": "f954e30f-cb89-488b-99da-4358244fd815",
+    "name": "Shoulder Press – Machine",
     "slug": "shoulder-press-machine",
     "primaryMuscles": ["shoulder - front"],
     "secondaryMuscles": ["shoulder - side", "tricep"],
@@ -419,7 +419,7 @@
     "notes": ""
   },
   {
-    "pk": 26,
+    "pk": "47d61f40-0743-47af-95a5-545a6a9a4824",
     "name": "Leg Extension",
     "slug": "leg-extension",
     "primaryMuscles": ["quad"],
@@ -435,8 +435,8 @@
     "notes": ""
   },
   {
-    "pk": 27,
-    "name": "Close-Grip Feet-Up Bench Press \u2013 Barbell",
+    "pk": "e6e1ebd0-65dc-45cf-86e9-a79a28721fe3",
+    "name": "Close-Grip Feet-Up Bench Press – Barbell",
     "slug": "close-grip-feet-up-bench-press-barbell",
     "primaryMuscles": ["tricep"],
     "secondaryMuscles": ["chest", "shoulder - front"],
@@ -451,8 +451,8 @@
     "notes": ""
   },
   {
-    "pk": 28,
-    "name": "Rear Delt Row \u2013 Barbell",
+    "pk": "a02747d9-7ee8-41d5-aade-d3c7c8556c3a",
+    "name": "Rear Delt Row – Barbell",
     "slug": "rear-delt-row-barbell",
     "primaryMuscles": ["shoulder - back", "trap"],
     "secondaryMuscles": [
@@ -473,8 +473,8 @@
     "notes": ""
   },
   {
-    "pk": 29,
-    "name": "Hip Abduction \u2013 Machine",
+    "pk": "7e95b8b5-a6eb-41b6-a3c9-ae06a9ba7ac4",
+    "name": "Hip Abduction – Machine",
     "slug": "hip-abduction-machine",
     "primaryMuscles": ["thigh - outer"],
     "secondaryMuscles": ["glute"],
@@ -488,8 +488,8 @@
     "notes": ""
   },
   {
-    "pk": 30,
-    "name": "Cable Curl \u2013 Rope",
+    "pk": "80582f01-1e34-4f03-ba2f-1964d8e33de3",
+    "name": "Cable Curl – Rope",
     "slug": "cable-curl-rope",
     "primaryMuscles": ["bicep"],
     "secondaryMuscles": ["forearm - inner"],
@@ -504,7 +504,7 @@
     "notes": ""
   },
   {
-    "pk": 31,
+    "pk": "a06410b6-c871-45c0-aee5-db6df750f494",
     "name": "Plank - BOSU",
     "slug": "plank-bosu",
     "primaryMuscles": ["abdominal", "lower back"],
@@ -519,8 +519,8 @@
     "notes": "Instead of placing your forearms on the flat side of the BOSU, you can grab the edges with both hands and plank from a straight-armed position."
   },
   {
-    "pk": 32,
-    "name": "Glute Kickback \u2013 Machine",
+    "pk": "dee8ca71-a01b-4ffd-b85e-426080e92f1e",
+    "name": "Glute Kickback – Machine",
     "slug": "glute-kickback-machine",
     "primaryMuscles": ["glute"],
     "secondaryMuscles": ["hamstring", "thigh - inner"],
@@ -534,8 +534,8 @@
     "notes": ""
   },
   {
-    "pk": 33,
-    "name": "Pause Squat \u2013 Barbell",
+    "pk": "55639d34-075c-4183-9976-b08f8bfc3f0c",
+    "name": "Pause Squat – Barbell",
     "slug": "pause-squat-barbell",
     "primaryMuscles": ["glute", "lower back", "quad", "thigh - inner"],
     "secondaryMuscles": ["calf"],
@@ -549,8 +549,8 @@
     "notes": ""
   },
   {
-    "pk": 34,
-    "name": "Walking Lunge \u2013 Barbell",
+    "pk": "dce6d67f-877e-4595-9277-3a3f0f19dc46",
+    "name": "Walking Lunge – Barbell",
     "slug": "walking-lunge-barbell",
     "primaryMuscles": ["glute", "quad", "thigh - inner"],
     "secondaryMuscles": [],
@@ -564,8 +564,8 @@
     "notes": ""
   },
   {
-    "pk": 35,
-    "name": "Rotational Throw \u2013 Medicine Ball",
+    "pk": "ed36669e-3f5c-411d-8eab-8fb757a21e93",
+    "name": "Rotational Throw – Medicine Ball",
     "slug": "rotational-throw-medicine-ball",
     "primaryMuscles": ["oblique"],
     "secondaryMuscles": ["abdominal", "shoulder - front"],
@@ -579,8 +579,8 @@
     "notes": ""
   },
   {
-    "pk": 36,
-    "name": "Row \u2013 T-Bar",
+    "pk": "a40205d6-396c-4c0b-a4b9-8ffbef49ed32",
+    "name": "Row – T-Bar",
     "slug": "row-t-bar",
     "primaryMuscles": ["lat", "shoulder - back", "trap"],
     "secondaryMuscles": [
@@ -602,8 +602,8 @@
     "notes": ""
   },
   {
-    "pk": 37,
-    "name": "Shoulder Press \u2013 Dumbbell",
+    "pk": "64c75731-36c2-45ae-b8c1-c8b481f34144",
+    "name": "Shoulder Press – Dumbbell",
     "slug": "standing-shoulder-press-dumbbell",
     "primaryMuscles": ["shoulder - front"],
     "secondaryMuscles": ["shoulder - side", "tricep"],
@@ -617,8 +617,8 @@
     "notes": ""
   },
   {
-    "pk": 38,
-    "name": "Upright Row \u2013 Barbell",
+    "pk": "91ee79b7-397d-4b90-8988-9a41bff9d639",
+    "name": "Upright Row – Barbell",
     "slug": "upright-row-barbell",
     "primaryMuscles": ["shoulder - side"],
     "secondaryMuscles": ["bicep", "shoulder - front", "trap"],
@@ -633,8 +633,8 @@
     "notes": ""
   },
   {
-    "pk": 39,
-    "name": "Rear Delt Row \u2013 Dumbbell",
+    "pk": "e8dc87a4-79e1-4114-90a4-418a4b67359f",
+    "name": "Rear Delt Row – Dumbbell",
     "slug": "rear-delt-row-dumbbell",
     "primaryMuscles": ["shoulder - back", "trap"],
     "secondaryMuscles": [
@@ -656,8 +656,8 @@
     "notes": ""
   },
   {
-    "pk": 40,
-    "name": "Floor Press \u2013 Dumbbell",
+    "pk": "c5116ba3-8a9d-4318-80e5-678a927cf916",
+    "name": "Floor Press – Dumbbell",
     "slug": "floor-press-dumbbell",
     "primaryMuscles": ["chest", "shoulder - front"],
     "secondaryMuscles": ["tricep"],
@@ -672,8 +672,8 @@
     "notes": ""
   },
   {
-    "pk": 41,
-    "name": "Incline Curl \u2013 Dumbbell",
+    "pk": "90d7e253-d5c6-4683-bb18-6c12a4fccef9",
+    "name": "Incline Curl – Dumbbell",
     "slug": "incline-curl-dumbbell",
     "primaryMuscles": ["bicep"],
     "secondaryMuscles": ["forearm - inner"],
@@ -688,7 +688,7 @@
     "notes": ""
   },
   {
-    "pk": 42,
+    "pk": "ea48a790-a04d-49a0-b149-a327908d2420",
     "name": "Eccentric Heel Drop",
     "slug": "eccentric-heel-drop",
     "primaryMuscles": ["calf"],
@@ -704,8 +704,8 @@
     "notes": ""
   },
   {
-    "pk": 43,
-    "name": "Squat \u2013 Belt",
+    "pk": "224efa9a-0e81-47e5-af0b-8ba0100f0a8e",
+    "name": "Squat – Belt",
     "slug": "squat-belt",
     "primaryMuscles": ["glute", "quad", "thigh - inner"],
     "secondaryMuscles": ["calf"],
@@ -722,7 +722,7 @@
     "notes": ""
   },
   {
-    "pk": 44,
+    "pk": "8431323c-ca05-4424-9e2f-995e85f4f9e3",
     "name": "Hang Power Clean",
     "slug": "hang-power-clean",
     "primaryMuscles": ["glute", "lower back"],
@@ -746,7 +746,7 @@
     "notes": ""
   },
   {
-    "pk": 45,
+    "pk": "e4ada608-1354-43e6-99cb-c7af0c76edde",
     "name": "V-Up",
     "slug": "v-up",
     "primaryMuscles": ["abdominal"],
@@ -761,8 +761,8 @@
     "notes": ""
   },
   {
-    "pk": 46,
-    "name": "Hack Squat \u2013 Barbell",
+    "pk": "288eae8d-af58-42db-9f10-16b599e11876",
+    "name": "Hack Squat – Barbell",
     "slug": "hack-squat-barbell",
     "primaryMuscles": ["quad"],
     "secondaryMuscles": [
@@ -784,7 +784,7 @@
     "notes": ""
   },
   {
-    "pk": 47,
+    "pk": "a189b026-3641-426f-b9a2-d32678ccb99f",
     "name": "Straight Arm Lat Pulldown",
     "slug": "straight-arm-lat-pulldown",
     "primaryMuscles": ["lat"],
@@ -804,8 +804,8 @@
     "notes": ""
   },
   {
-    "pk": 48,
-    "name": "Lying Internal Shoulder Rotation \u2013 Dumbbell",
+    "pk": "8f9fe1df-e342-4884-927e-070598eaed0b",
+    "name": "Lying Internal Shoulder Rotation – Dumbbell",
     "slug": "lying-internal-shoulder-rotation-dumbbell",
     "primaryMuscles": ["rotator cuff - front"],
     "secondaryMuscles": [],
@@ -821,8 +821,8 @@
     "notes": "Keep your elbow tucked into your side and pinned to the bench throughout the exercise."
   },
   {
-    "pk": 49,
-    "name": "Squat \u2013 Landmine",
+    "pk": "8e620f2a-f028-47c4-b86e-37d0dc0021cb",
+    "name": "Squat – Landmine",
     "slug": "squat-landmine",
     "primaryMuscles": ["glute", "quad", "thigh - inner"],
     "secondaryMuscles": ["calf"],
@@ -838,8 +838,8 @@
     "notes": ""
   },
   {
-    "pk": 50,
-    "name": "Push-Up \u2013 Feet in Rings",
+    "pk": "456cefbe-0d73-4b6e-a8e3-b4530ca8df37",
+    "name": "Push-Up – Feet in Rings",
     "slug": "push-up-feet-in-rings",
     "primaryMuscles": ["chest", "shoulder - front", "tricep"],
     "secondaryMuscles": ["abdominal"],
@@ -852,8 +852,8 @@
     "notes": ""
   },
   {
-    "pk": 51,
-    "name": "Lateral Walk \u2013 Band",
+    "pk": "c46c643f-d109-4720-8ce9-3b5d24b9cdec",
+    "name": "Lateral Walk – Band",
     "slug": "lateral-walk-band",
     "primaryMuscles": ["glute", "thigh - outer"],
     "secondaryMuscles": ["calf", "hamstring", "quad", "thigh - inner"],
@@ -868,7 +868,7 @@
     "notes": ""
   },
   {
-    "pk": 52,
+    "pk": "13ce59d9-4fd0-4aea-857a-3afc186c3074",
     "name": "Sit-Up",
     "slug": "sit-up",
     "primaryMuscles": ["abdominal"],
@@ -883,8 +883,8 @@
     "notes": "Do not rest at the top or bottom of the movement. Avoid using momentum or pulling on your neck to lift your upper body. This goes for most exercises, but it's better to do fewer, controlled reps with proper form than to do more reps with poor form."
   },
   {
-    "pk": 53,
-    "name": "Incline Bench Press \u2013 Smith Machine",
+    "pk": "286bb89e-4b1c-4e9e-ba26-0e6d81baeaed",
+    "name": "Incline Bench Press – Smith Machine",
     "slug": "incline-bench-press-smith-machine",
     "primaryMuscles": ["chest", "shoulder - front"],
     "secondaryMuscles": ["tricep"],
@@ -901,8 +901,8 @@
     "notes": ""
   },
   {
-    "pk": 54,
-    "name": "Chest Fly \u2013 Dumbbell",
+    "pk": "0c5940e6-419e-476b-a1eb-39302e0aebe5",
+    "name": "Chest Fly – Dumbbell",
     "slug": "chest-fly-dumbbell",
     "primaryMuscles": ["chest"],
     "secondaryMuscles": ["bicep", "forearm - inner", "shoulder - front"],
@@ -917,7 +917,7 @@
     "notes": ""
   },
   {
-    "pk": 55,
+    "pk": "e13cf8a4-6b48-4d9e-9a24-a30d5f98d713",
     "name": "Mountain Climbers",
     "slug": "mountain-climbers",
     "primaryMuscles": ["abdominal"],
@@ -933,8 +933,8 @@
     "notes": ""
   },
   {
-    "pk": 56,
-    "name": "Tricep Pushdown \u2013 Cable With Bar",
+    "pk": "edb21df1-0a7a-49f8-94e3-fa47138af935",
+    "name": "Tricep Pushdown – Cable With Bar",
     "slug": "tricep-pushdown-cable-with-bar",
     "primaryMuscles": ["tricep"],
     "secondaryMuscles": [],
@@ -950,8 +950,8 @@
     "notes": ""
   },
   {
-    "pk": 57,
-    "name": "Horizontal External Shoulder Rotation \u2013 Dumbbell",
+    "pk": "ae722011-8bc7-4714-8465-0f3969482e52",
+    "name": "Horizontal External Shoulder Rotation – Dumbbell",
     "slug": "horizontal-external-shoulder-rotation-dumbbell",
     "primaryMuscles": ["rotator cuff - back"],
     "secondaryMuscles": [],
@@ -969,7 +969,7 @@
     "notes": ""
   },
   {
-    "pk": 58,
+    "pk": "03ded3cd-bba0-4f04-9afd-f7e321aec282",
     "name": "Supinated Grip Lat Pulldown",
     "slug": "supinated-grip-lat-pulldown",
     "primaryMuscles": ["lat"],
@@ -993,8 +993,8 @@
     "notes": ""
   },
   {
-    "pk": 59,
-    "name": "Wrist Curl Behind the Back \u2013 Barbell",
+    "pk": "f1c844bd-28c8-4191-9b2a-d0233e6941e1",
+    "name": "Wrist Curl Behind the Back – Barbell",
     "slug": "wrist-curl-behind-the-back-barbell",
     "primaryMuscles": ["forearm - inner"],
     "secondaryMuscles": [],
@@ -1010,7 +1010,7 @@
     "notes": ""
   },
   {
-    "pk": 60,
+    "pk": "a837f634-8aca-48b6-800e-2cc82f1335dd",
     "name": "Incline Push-Up",
     "slug": "incline-push-up",
     "primaryMuscles": ["chest", "shoulder - front", "tricep"],
@@ -1027,8 +1027,8 @@
     "notes": ""
   },
   {
-    "pk": 61,
-    "name": "High to Low Wood Chop \u2013 Cable",
+    "pk": "080ed4be-cc9a-4890-97cc-d6676aad6031",
+    "name": "High to Low Wood Chop – Cable",
     "slug": "high-to-low-wood-chop-cable",
     "primaryMuscles": ["oblique"],
     "secondaryMuscles": ["abdominal"],
@@ -1044,8 +1044,8 @@
     "notes": ""
   },
   {
-    "pk": 62,
-    "name": "Deadlift \u2013 Dumbbell",
+    "pk": "c1f18283-30bf-4a26-9682-7dca971b901a",
+    "name": "Deadlift – Dumbbell",
     "slug": "deadlift-dumbbell",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
     "secondaryMuscles": [
@@ -1067,7 +1067,7 @@
     "notes": ""
   },
   {
-    "pk": 63,
+    "pk": "f5c582d5-955e-4859-9635-1317c63e3015",
     "name": "Block Snatch",
     "slug": "block-snatch",
     "primaryMuscles": ["glute", "lower back", "quad", "thigh - inner"],
@@ -1087,8 +1087,8 @@
     "notes": "Lower the barbell's starting height to increase the difficulty of the exercise. Raise the barbell's starting height for a easier lift."
   },
   {
-    "pk": 64,
-    "name": "Chest Fly \u2013 Machine",
+    "pk": "15f7dd4a-04a8-437a-813a-9c8029040edc",
+    "name": "Chest Fly – Machine",
     "slug": "chest-fly-machine",
     "primaryMuscles": ["chest"],
     "secondaryMuscles": ["bicep", "forearm - inner", "shoulder - front"],
@@ -1102,8 +1102,8 @@
     "notes": ""
   },
   {
-    "pk": 65,
-    "name": "Chest Press \u2013 Cable",
+    "pk": "de4cd379-702b-411c-a127-41a7ac78c658",
+    "name": "Chest Press – Cable",
     "slug": "chest-press-cable",
     "primaryMuscles": ["chest"],
     "secondaryMuscles": ["shoulder - front", "tricep"],
@@ -1118,7 +1118,7 @@
     "notes": ""
   },
   {
-    "pk": 66,
+    "pk": "9b8d159f-a4a0-4c33-b5bd-b62390b092cc",
     "name": "Kneeling Side Plank",
     "slug": "kneeling-side-plank",
     "primaryMuscles": ["oblique"],
@@ -1132,8 +1132,8 @@
     "notes": ""
   },
   {
-    "pk": 67,
-    "name": "Hip Thrust \u2013 Band",
+    "pk": "a12409b6-5e95-47ae-a83a-3f3ed439aaff",
+    "name": "Hip Thrust – Band",
     "slug": "hip-thrust-band",
     "primaryMuscles": ["glute"],
     "secondaryMuscles": ["hamstring", "thigh - inner"],
@@ -1147,8 +1147,8 @@
     "notes": ""
   },
   {
-    "pk": 68,
-    "name": "Row \u2013 Dumbbell",
+    "pk": "842cfbf1-1a71-48c6-832d-3713d3f6811b",
+    "name": "Row – Dumbbell",
     "slug": "row-dumbbell",
     "primaryMuscles": ["lat", "shoulder - back", "trap"],
     "secondaryMuscles": [
@@ -1168,8 +1168,8 @@
     "notes": ""
   },
   {
-    "pk": 69,
-    "name": "Stiff-Legged Deadlift \u2013 Barbell",
+    "pk": "06909d78-5f81-41f3-918b-d90abaf07c3f",
+    "name": "Stiff-Legged Deadlift – Barbell",
     "slug": "stiff-legged-deadlift-barbell",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
     "secondaryMuscles": [
@@ -1194,8 +1194,8 @@
     "notes": ""
   },
   {
-    "pk": 70,
-    "name": "Incline Bench Press \u2013 Dumbbell",
+    "pk": "4bd3658e-1c1b-4c19-92e1-4097c206203f",
+    "name": "Incline Bench Press – Dumbbell",
     "slug": "incline-bench-press-dumbbell",
     "primaryMuscles": ["chest", "shoulder - front"],
     "secondaryMuscles": ["tricep"],
@@ -1210,8 +1210,8 @@
     "notes": ""
   },
   {
-    "pk": 71,
-    "name": "Calf Raise \u2013 Machine",
+    "pk": "7997b04d-b3f0-4b6c-a795-8b32c13bc650",
+    "name": "Calf Raise – Machine",
     "slug": "calf-raise-machine",
     "primaryMuscles": ["calf"],
     "secondaryMuscles": [],
@@ -1224,8 +1224,8 @@
     "notes": ""
   },
   {
-    "pk": 72,
-    "name": "Squat \u2013 Smith Machine",
+    "pk": "5315e4c2-9fb0-4240-b863-7b450bfbc57a",
+    "name": "Squat – Smith Machine",
     "slug": "squat-smith-machine",
     "primaryMuscles": ["glute", "lower back", "quad", "thigh - inner"],
     "secondaryMuscles": ["calf"],
@@ -1242,7 +1242,7 @@
     "notes": ""
   },
   {
-    "pk": 73,
+    "pk": "145092cb-b4a3-4aed-8e94-cd6ff65d9147",
     "name": "Power Jerk",
     "slug": "power-jerk",
     "primaryMuscles": ["shoulder - front"],
@@ -1267,8 +1267,8 @@
     "notes": ""
   },
   {
-    "pk": 74,
-    "name": "Preacher Curl \u2013 Barbell",
+    "pk": "6c9d30d3-a001-4529-a3c6-65c6db15ca42",
+    "name": "Preacher Curl – Barbell",
     "slug": "preacher-curl-barbell",
     "primaryMuscles": ["bicep"],
     "secondaryMuscles": ["forearm - inner"],
@@ -1285,7 +1285,7 @@
     "notes": ""
   },
   {
-    "pk": 75,
+    "pk": "6b36f879-6076-463a-b8f3-06f61cd3bcbe",
     "name": "Clean and Jerk",
     "slug": "clean-and-jerk",
     "primaryMuscles": [
@@ -1317,7 +1317,7 @@
     "notes": ""
   },
   {
-    "pk": 76,
+    "pk": "2f8924fe-39e6-4a6c-a14b-e9095acc24b5",
     "name": "Hang Clean",
     "slug": "hang-clean",
     "primaryMuscles": ["glute", "lower back", "quad", "thigh - inner"],
@@ -1336,7 +1336,7 @@
     "notes": ""
   },
   {
-    "pk": 77,
+    "pk": "51679e6f-6119-4c0e-b5ef-8dc25b6e0b4a",
     "name": "Glute Bridge",
     "slug": "glute-bridge",
     "primaryMuscles": ["glute", "hamstring"],
@@ -1352,8 +1352,8 @@
     "notes": ""
   },
   {
-    "pk": 78,
-    "name": "Incline Bench Press \u2013 Barbell",
+    "pk": "497e1bbc-3010-4738-88b6-8eef91520ee9",
+    "name": "Incline Bench Press – Barbell",
     "slug": "incline-bench-press-barbell",
     "primaryMuscles": ["chest", "shoulder - front"],
     "secondaryMuscles": ["tricep"],
@@ -1369,8 +1369,8 @@
     "notes": ""
   },
   {
-    "pk": 79,
-    "name": "Lateral Raise \u2013 Machine",
+    "pk": "f292c579-0f86-4080-8f84-bc42ab3e3661",
+    "name": "Lateral Raise – Machine",
     "slug": "lateral-raise-machine",
     "primaryMuscles": ["shoulder - side"],
     "secondaryMuscles": ["shoulder - front"],
@@ -1385,7 +1385,7 @@
     "notes": ""
   },
   {
-    "pk": 80,
+    "pk": "2b7f437c-8b4c-4fa5-9f8e-6307cef2797d",
     "name": "One-Handed Plate Pinch",
     "slug": "one-handed-plate-pinch",
     "primaryMuscles": ["forearm - inner"],
@@ -1402,8 +1402,8 @@
     "notes": ""
   },
   {
-    "pk": 81,
-    "name": "Hip Thrust \u2013 Barbell",
+    "pk": "60a68833-4f4c-4f42-9bf6-7113cdcc12b7",
+    "name": "Hip Thrust – Barbell",
     "slug": "hip-thrust-barbell",
     "primaryMuscles": ["glute"],
     "secondaryMuscles": ["hamstring", "thigh - inner"],
@@ -1416,8 +1416,8 @@
     "notes": ""
   },
   {
-    "pk": 82,
-    "name": "Preacher Curl \u2013 Dumbbell",
+    "pk": "4af58df1-7f89-490d-85c8-2f92146f7bed",
+    "name": "Preacher Curl – Dumbbell",
     "slug": "preacher-curl-dumbbell",
     "primaryMuscles": ["bicep"],
     "secondaryMuscles": ["forearm - inner"],
@@ -1432,8 +1432,8 @@
     "notes": ""
   },
   {
-    "pk": 83,
-    "name": "External Shoulder Rotation \u2013 Band",
+    "pk": "04067604-fb64-4303-9d44-d26e7fed7e96",
+    "name": "External Shoulder Rotation – Band",
     "slug": "external-shoulder-rotation-band",
     "primaryMuscles": ["rotator cuff - back"],
     "secondaryMuscles": [],
@@ -1451,8 +1451,8 @@
     "notes": ""
   },
   {
-    "pk": 84,
-    "name": "Internal Shoulder Rotation \u2013 Band",
+    "pk": "4c9aaf26-6f09-4cc6-9203-176db1271621",
+    "name": "Internal Shoulder Rotation – Band",
     "slug": "internal-shoulder-rotation-band",
     "primaryMuscles": ["rotator cuff - front"],
     "secondaryMuscles": [],
@@ -1470,7 +1470,7 @@
     "notes": ""
   },
   {
-    "pk": 85,
+    "pk": "c8482f26-d46b-42be-a7ef-132b2aba5658",
     "name": "Good Morning",
     "slug": "good-morning",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
@@ -1486,7 +1486,7 @@
     "notes": ""
   },
   {
-    "pk": 86,
+    "pk": "b0f5eb25-3d65-42fe-b7e4-ba104698bcd9",
     "name": "Chin-Up",
     "slug": "chin-up",
     "primaryMuscles": ["lat"],
@@ -1509,8 +1509,8 @@
     "notes": ""
   },
   {
-    "pk": 87,
-    "name": "Wrist Extension \u2013 Barbell",
+    "pk": "d2b2ae91-3363-4894-995a-82a07ae5294f",
+    "name": "Wrist Extension – Barbell",
     "slug": "wrist-extension-barbell",
     "primaryMuscles": ["forearm - outer"],
     "secondaryMuscles": [],
@@ -1526,7 +1526,7 @@
     "notes": ""
   },
   {
-    "pk": 88,
+    "pk": "d6bb8d08-e991-4b4a-8531-eedf42e915e6",
     "name": "Rack Pull",
     "slug": "rack-pull",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
@@ -1549,8 +1549,8 @@
     "notes": "With its elevated starting point, the Rack Pull is an easier version of the Deadlift."
   },
   {
-    "pk": 89,
-    "name": "Front Raise \u2013 Dumbbell",
+    "pk": "8ed275bd-45a2-4d23-9f2a-ad19bd6f4328",
+    "name": "Front Raise – Dumbbell",
     "slug": "front-raise-dumbbell",
     "primaryMuscles": ["shoulder - front"],
     "secondaryMuscles": ["shoulder - side"],
@@ -1563,8 +1563,8 @@
     "notes": ""
   },
   {
-    "pk": 90,
-    "name": "Standing Glute Kickback \u2013 Machine",
+    "pk": "af12bb86-3b46-4e79-bd31-71f74b81ded1",
+    "name": "Standing Glute Kickback – Machine",
     "slug": "standing-glute-kickback-machine",
     "primaryMuscles": ["glute"],
     "secondaryMuscles": ["hamstring", "thigh - inner"],
@@ -1579,7 +1579,7 @@
     "notes": ""
   },
   {
-    "pk": 91,
+    "pk": "f41cdfa8-b3f5-4735-9ec9-2e45d27771c0",
     "name": "Hang Snatch",
     "slug": "hang-snatch",
     "primaryMuscles": ["glute", "lower back", "quad", "thigh - inner"],
@@ -1596,7 +1596,7 @@
     "notes": ""
   },
   {
-    "pk": 92,
+    "pk": "9fb879e4-df56-4601-b65a-b7d99c87c994",
     "name": "Kneeling Ab Wheel Roll-Out",
     "slug": "kneeling-ab-wheel-roll-out",
     "primaryMuscles": ["abdominal"],
@@ -1612,8 +1612,8 @@
     "notes": ""
   },
   {
-    "pk": 93,
-    "name": "Pull-Apart \u2013 Band",
+    "pk": "a48140ad-b181-4f83-9883-5456bd26ee9a",
+    "name": "Pull-Apart – Band",
     "slug": "pull-apart-band",
     "primaryMuscles": ["rotator cuff - back", "shoulder - back"],
     "secondaryMuscles": ["rotator cuff - front"],
@@ -1628,7 +1628,7 @@
     "notes": ""
   },
   {
-    "pk": 95,
+    "pk": "9f3951d0-23e5-45c6-8ccb-2951d0f9ddce",
     "name": "Monkey Row",
     "slug": "monkey-row",
     "primaryMuscles": ["shoulder - side"],
@@ -1644,8 +1644,8 @@
     "notes": ""
   },
   {
-    "pk": 96,
-    "name": "Decline Bench Press \u2013 Dumbbell",
+    "pk": "518578bb-130c-42f3-9fb8-1df14c5d7585",
+    "name": "Decline Bench Press – Dumbbell",
     "slug": "decline-bench-press-dumbbell",
     "primaryMuscles": ["chest", "shoulder - front"],
     "secondaryMuscles": ["tricep"],
@@ -1660,8 +1660,8 @@
     "notes": ""
   },
   {
-    "pk": 97,
-    "name": "Pullover \u2013 Barbell",
+    "pk": "0ac565aa-c74d-4bde-8ff4-c269ec63e2ae",
+    "name": "Pullover – Barbell",
     "slug": "pullover-barbell",
     "primaryMuscles": ["chest", "lat", "tricep"],
     "secondaryMuscles": ["rotator cuff - back", "rotator cuff - front"],
@@ -1677,7 +1677,7 @@
     "notes": ""
   },
   {
-    "pk": 98,
+    "pk": "ea4fe379-e8e5-469d-a9ef-45f1be7c98ac",
     "name": "One-Legged Hip Thrust",
     "slug": "one-legged-hip-thrust",
     "primaryMuscles": ["glute"],
@@ -1693,8 +1693,8 @@
     "notes": "Consider variations of this exercises where your back is on a bench and your feet are still on the floor, or adding weight to your hips."
   },
   {
-    "pk": 99,
-    "name": "Reverse Fly \u2013 Dumbbell",
+    "pk": "41ebcee3-f853-4078-a1c2-39e16937d713",
+    "name": "Reverse Fly – Dumbbell",
     "slug": "reverse-fly-dumbbell",
     "primaryMuscles": ["rotator cuff - back", "shoulder - back"],
     "secondaryMuscles": ["trap"],
@@ -1709,8 +1709,8 @@
     "notes": ""
   },
   {
-    "pk": 100,
-    "name": "Curl \u2013 Dumbbell",
+    "pk": "b9781769-e3b3-4b44-949a-399139c35825",
+    "name": "Curl – Dumbbell",
     "slug": "curl-dumbbell",
     "primaryMuscles": ["bicep"],
     "secondaryMuscles": ["forearm - inner"],
@@ -1724,7 +1724,7 @@
     "notes": ""
   },
   {
-    "pk": 101,
+    "pk": "12b39c55-c510-4cd7-b957-e989750bb03a",
     "name": "Torso Rotation Machine",
     "slug": "torso-rotation-machine",
     "primaryMuscles": ["oblique"],
@@ -1740,8 +1740,8 @@
     "notes": ""
   },
   {
-    "pk": 102,
-    "name": "Seated Row \u2013 Machine",
+    "pk": "0939d4bb-12f4-4c7a-a03b-d3c7893c5f53",
+    "name": "Seated Row – Machine",
     "slug": "seated-row-machine",
     "primaryMuscles": ["lat", "shoulder - back", "trap"],
     "secondaryMuscles": [
@@ -1761,8 +1761,8 @@
     "notes": ""
   },
   {
-    "pk": 103,
-    "name": "Pullover \u2013 Dumbbell",
+    "pk": "af240c84-074c-4992-9448-2fd9f1b09400",
+    "name": "Pullover – Dumbbell",
     "slug": "pullover-dumbbell",
     "primaryMuscles": ["chest", "lat", "tricep"],
     "secondaryMuscles": ["rotator cuff - back", "rotator cuff - front"],
@@ -1778,7 +1778,7 @@
     "notes": ""
   },
   {
-    "pk": 104,
+    "pk": "9e5d1c13-5383-4dce-a250-909d6c7c3633",
     "name": "Farmers Walk",
     "slug": "farmers-walk",
     "primaryMuscles": ["forearm - inner", "glute", "oblique", "trap"],
@@ -1799,8 +1799,8 @@
     "notes": ""
   },
   {
-    "pk": 105,
-    "name": "Lunge \u2013 Bodyweight",
+    "pk": "2cc23389-d818-4527-a180-eb7a8d3db5fd",
+    "name": "Lunge – Bodyweight",
     "slug": "lunge-bodyweight",
     "primaryMuscles": ["glute", "quad", "thigh - inner"],
     "secondaryMuscles": [],
@@ -1814,8 +1814,8 @@
     "notes": ""
   },
   {
-    "pk": 106,
-    "name": "Curl \u2013 Barbell",
+    "pk": "92a2e3fc-e8f7-433e-b398-2eb37cbc06d8",
+    "name": "Curl – Barbell",
     "slug": "curl-barbell",
     "primaryMuscles": ["bicep"],
     "secondaryMuscles": ["forearm - inner"],
@@ -1830,8 +1830,8 @@
     "notes": ""
   },
   {
-    "pk": 107,
-    "name": "Dip \u2013 Bench",
+    "pk": "3386d943-19a7-4d80-b10d-402e4aababe1",
+    "name": "Dip – Bench",
     "slug": "dip-bench",
     "primaryMuscles": ["tricep"],
     "secondaryMuscles": ["chest", "rotator cuff - front", "shoulder - front"],
@@ -1845,8 +1845,8 @@
     "notes": ""
   },
   {
-    "pk": 108,
-    "name": "Horizontal Internal Shoulder Rotation \u2013 Dumbbell",
+    "pk": "c8794b07-358b-458a-8e09-80f7277797d3",
+    "name": "Horizontal Internal Shoulder Rotation – Dumbbell",
     "slug": "horizontal-internal-shoulder-rotation-dumbbell",
     "primaryMuscles": ["rotator cuff - front"],
     "secondaryMuscles": [],
@@ -1861,7 +1861,7 @@
     "notes": ""
   },
   {
-    "pk": 109,
+    "pk": "6f7b19e2-af13-4a5e-b0a1-329b6b642c1e",
     "name": "Bar Hang",
     "slug": "bar-hang",
     "primaryMuscles": ["forearm - inner", "forearm - outer"],
@@ -1877,8 +1877,8 @@
     "notes": ""
   },
   {
-    "pk": 110,
-    "name": "Rear Delt Row \u2013 Cable",
+    "pk": "32df2e84-04fd-4338-8c6d-86b54f0fef36",
+    "name": "Rear Delt Row – Cable",
     "slug": "rear-delt-row-cable",
     "primaryMuscles": ["shoulder - back", "trap"],
     "secondaryMuscles": [
@@ -1900,7 +1900,7 @@
     "notes": ""
   },
   {
-    "pk": 111,
+    "pk": "430ec1c7-0abe-41e6-b5e8-c127aeb0b43a",
     "name": "Goblet Squat",
     "slug": "goblet-squat",
     "primaryMuscles": ["glute", "quad", "thigh - inner"],
@@ -1914,8 +1914,8 @@
     "notes": ""
   },
   {
-    "pk": 112,
-    "name": "Seated Shoulder Press \u2013 Dumbbell",
+    "pk": "b571988a-f667-4131-88ed-1467a5a19fb7",
+    "name": "Seated Shoulder Press – Dumbbell",
     "slug": "seated-shoulder-press-dumbbell",
     "primaryMuscles": ["shoulder - front"],
     "secondaryMuscles": ["shoulder - side", "tricep"],
@@ -1929,8 +1929,8 @@
     "notes": ""
   },
   {
-    "pk": 113,
-    "name": "Deadlift \u2013 Trap Bar High Handles",
+    "pk": "15531742-c61c-4baa-876d-a01acfc6827b",
+    "name": "Deadlift – Trap Bar High Handles",
     "slug": "deadlift-trap-bar-high-handles",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
     "secondaryMuscles": [
@@ -1953,8 +1953,8 @@
     "notes": ""
   },
   {
-    "pk": 114,
-    "name": "Shallow Lunge \u2013 Bodyweight",
+    "pk": "a7fc1047-4296-4122-93fa-9f1d5ddfb2a0",
+    "name": "Shallow Lunge – Bodyweight",
     "slug": "shallow-lunge-bodyweight",
     "primaryMuscles": ["glute", "quad", "thigh - inner"],
     "secondaryMuscles": ["hamstring"],
@@ -1968,8 +1968,8 @@
     "notes": "Remember to keep the lunge shallow. Your back knee should stay several inches above the ground. This exercise is an easier version of the Body Weight Lunge."
   },
   {
-    "pk": 115,
-    "name": "Sumo Deadlift \u2013 Barbell",
+    "pk": "c85b6e20-7a2c-45fe-99b2-854f4c2c6fd8",
+    "name": "Sumo Deadlift – Barbell",
     "slug": "sumo-deadlift-barbell",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
     "secondaryMuscles": [
@@ -1989,8 +1989,8 @@
     "notes": ""
   },
   {
-    "pk": 116,
-    "name": "Twist \u2013 Cable",
+    "pk": "dba9a235-84f3-400c-a389-c4bdaca0e2a8",
+    "name": "Twist – Cable",
     "slug": "twist-cable",
     "primaryMuscles": ["oblique"],
     "secondaryMuscles": ["abdominal"],
@@ -2004,7 +2004,7 @@
     "notes": ""
   },
   {
-    "pk": 117,
+    "pk": "1ac7c960-3381-40dc-a146-a1e08e0332c8",
     "name": "Seated Leg Curl",
     "slug": "seated-leg-curl",
     "primaryMuscles": ["hamstring"],
@@ -2020,7 +2020,7 @@
     "notes": ""
   },
   {
-    "pk": 118,
+    "pk": "a3d128e0-85d3-4f1e-b543-e3fcd9c2e1b8",
     "name": "Hanging Knee Raise",
     "slug": "hanging-knee-raise",
     "primaryMuscles": ["abdominal", "forearm - inner", "forearm - outer"],
@@ -2036,8 +2036,8 @@
     "notes": "There are hanging knee raise machines that allow you to balance on your forearms rather than hang from a bar. Also, you could perform this exercise by holding yourself up on dip bars. Consider using either machine if you want to remove most of the forearm activation and focus on the abdominal work."
   },
   {
-    "pk": 119,
-    "name": "Push Press \u2013 Dumbbell",
+    "pk": "930d9fc3-52c0-4a87-aaee-923552ffbb94",
+    "name": "Push Press – Dumbbell",
     "slug": "push-press-dumbbell",
     "primaryMuscles": ["shoulder - front"],
     "secondaryMuscles": [
@@ -2059,8 +2059,8 @@
     "notes": ""
   },
   {
-    "pk": 120,
-    "name": "Push Press \u2013 Barbell",
+    "pk": "7b853e82-8131-408b-984e-451b74251b81",
+    "name": "Push Press – Barbell",
     "slug": "push-press-barbell",
     "primaryMuscles": ["shoulder - front"],
     "secondaryMuscles": [
@@ -2080,8 +2080,8 @@
     "notes": ""
   },
   {
-    "pk": 121,
-    "name": "Overhead Tricep Extension \u2013 Bodyweight",
+    "pk": "46dea0e2-e740-4901-9f5b-c7370d5e0da1",
+    "name": "Overhead Tricep Extension – Bodyweight",
     "slug": "overhead-tricep-extension-bodyweight",
     "primaryMuscles": ["tricep"],
     "secondaryMuscles": [],
@@ -2095,8 +2095,8 @@
     "notes": ""
   },
   {
-    "pk": 122,
-    "name": "Horizontal Wood Chop \u2013 Band",
+    "pk": "70485eac-6986-49e0-83ea-a714dd634c4f",
+    "name": "Horizontal Wood Chop – Band",
     "slug": "horizontal-wood-chop-band",
     "primaryMuscles": ["oblique"],
     "secondaryMuscles": ["abdominal"],
@@ -2112,7 +2112,7 @@
     "notes": ""
   },
   {
-    "pk": 123,
+    "pk": "5656bd84-ba8f-4d06-b06e-bc4f53be27a6",
     "name": "Kneeling Push-Up",
     "slug": "kneeling-push-up",
     "primaryMuscles": ["chest", "shoulder - front", "tricep"],
@@ -2129,8 +2129,8 @@
     "notes": ""
   },
   {
-    "pk": 124,
-    "name": "Side Kicks \u2013 Band",
+    "pk": "7e48d467-c289-4dd8-b6e8-479a0bcc7cc6",
+    "name": "Side Kicks – Band",
     "slug": "side-kicks-band",
     "primaryMuscles": ["thigh - outer"],
     "secondaryMuscles": ["glute"],
@@ -2143,8 +2143,8 @@
     "notes": ""
   },
   {
-    "pk": 125,
-    "name": "Lateral Raise \u2013 Dumbbell",
+    "pk": "2a4b4f9e-4ed5-4e60-acce-1514d5cc6f43",
+    "name": "Lateral Raise – Dumbbell",
     "slug": "lateral-raise-dumbbell",
     "primaryMuscles": ["shoulder - side"],
     "secondaryMuscles": ["shoulder - front"],
@@ -2157,8 +2157,8 @@
     "notes": ""
   },
   {
-    "pk": 126,
-    "name": "Front Raise \u2013 Barbell",
+    "pk": "cc331b1d-d223-4281-bb95-83eb06d43d7b",
+    "name": "Front Raise – Barbell",
     "slug": "front-raise-barbell",
     "primaryMuscles": ["shoulder - front"],
     "secondaryMuscles": ["shoulder - side"],
@@ -2172,8 +2172,8 @@
     "notes": ""
   },
   {
-    "pk": 127,
-    "name": "One-Handed Row \u2013 Dumbbell",
+    "pk": "8b94a531-c6e9-4eb4-94d2-46352ce849f8",
+    "name": "One-Handed Row – Dumbbell",
     "slug": "one-handed-row-dumbbell",
     "primaryMuscles": ["lat", "shoulder - back", "trap"],
     "secondaryMuscles": [
@@ -2195,7 +2195,7 @@
     "notes": "Brace yourself against a bench with your free hand to take some of the effort off your lower back."
   },
   {
-    "pk": 128,
+    "pk": "43311985-7fa7-4e1a-89ee-b8dc0cf5e73f",
     "name": "Roll-Up",
     "slug": "roll-up",
     "primaryMuscles": ["abdominal"],
@@ -2210,7 +2210,7 @@
     "notes": ""
   },
   {
-    "pk": 129,
+    "pk": "0641b6f6-8ef5-4120-907c-c3352d801432",
     "name": "Inverted Row",
     "slug": "inverted-row",
     "primaryMuscles": ["lat", "shoulder - back", "trap"],
@@ -2234,7 +2234,7 @@
     "notes": "Raise the bar higher to increase the angle of your body to the ground and make the exercise easier."
   },
   {
-    "pk": 130,
+    "pk": "70e0b9fd-a6e8-4e68-b804-2ef6b81dda4f",
     "name": "Crunch",
     "slug": "crunch",
     "primaryMuscles": ["abdominal"],
@@ -2250,8 +2250,8 @@
     "notes": "For additional intensity, hold a weight during the crunch. You have two options. One, you can place the weight on your upper chest. Two, you can hold the weight directly above your chest with straight arms except for a slight bend in your elbows."
   },
   {
-    "pk": 131,
-    "name": "One-Handed Overhead Tricep Extension \u2013 Dumbbell",
+    "pk": "07d48bff-e7e9-41a1-8ade-934b8bc6a4f7",
+    "name": "One-Handed Overhead Tricep Extension – Dumbbell",
     "slug": "one-handed-overhead-tricep-extension-dumbbell",
     "primaryMuscles": ["tricep"],
     "secondaryMuscles": [],
@@ -2265,7 +2265,7 @@
     "notes": ""
   },
   {
-    "pk": 132,
+    "pk": "345ec620-4a66-429b-9804-354b4bbbc37c",
     "name": "Close-Grip Push-Up",
     "slug": "close-grip-push-up",
     "primaryMuscles": ["chest", "shoulder - front", "tricep"],
@@ -2279,8 +2279,8 @@
     "notes": ""
   },
   {
-    "pk": 133,
-    "name": "Behind the Neck Press \u2013 Barbell",
+    "pk": "e9281159-6200-4fa6-bc8d-46314494dd7f",
+    "name": "Behind the Neck Press – Barbell",
     "slug": "behind-the-neck-press-barbell",
     "primaryMuscles": ["shoulder - front", "shoulder - side"],
     "secondaryMuscles": ["trap", "tricep"],
@@ -2295,7 +2295,7 @@
     "notes": ""
   },
   {
-    "pk": 134,
+    "pk": "d52ab563-adac-47d9-a85a-3593b285e041",
     "name": "Power Clean",
     "slug": "power-clean",
     "primaryMuscles": ["glute", "hamstring", "quad", "trap"],
@@ -2319,7 +2319,7 @@
     "notes": ""
   },
   {
-    "pk": 135,
+    "pk": "b7575f4e-3a17-4e4d-8f85-bf9f80352f1c",
     "name": "Deficit Deadlift",
     "slug": "deficit-deadlift",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
@@ -2344,8 +2344,8 @@
     "notes": "The barbell travels extra distance since you've raised your body off the ground. With that extra stretch reaching for the barbell, this exercise is more difficult than a standard Deadlift."
   },
   {
-    "pk": 136,
-    "name": "Wrist Curl \u2013 Barbell",
+    "pk": "eb6a6487-383c-4648-b6e4-0d12bfcfa26f",
+    "name": "Wrist Curl – Barbell",
     "slug": "wrist-curl-barbell",
     "primaryMuscles": ["forearm - inner"],
     "secondaryMuscles": [],
@@ -2359,8 +2359,8 @@
     "notes": ""
   },
   {
-    "pk": 137,
-    "name": "Crunch \u2013 Cable",
+    "pk": "284e9630-4315-43b0-bbf3-e2ee25ac9d75",
+    "name": "Crunch – Cable",
     "slug": "crunch-cable",
     "primaryMuscles": ["abdominal"],
     "secondaryMuscles": ["oblique"],
@@ -2376,7 +2376,7 @@
     "notes": ""
   },
   {
-    "pk": 138,
+    "pk": "fb2f3298-0414-4426-a4a7-8a0b7d62f90b",
     "name": "Decline Sit-Up",
     "slug": "decline-sit-up",
     "primaryMuscles": ["abdominal"],
@@ -2391,7 +2391,7 @@
     "notes": ""
   },
   {
-    "pk": 139,
+    "pk": "549cc378-561e-4ab6-ac8e-f381c6167a65",
     "name": "Flutter Kick",
     "slug": "flutter-kick",
     "primaryMuscles": ["abdominal"],
@@ -2406,7 +2406,7 @@
     "notes": ""
   },
   {
-    "pk": 140,
+    "pk": "b2a6e0e6-70ae-4326-84ae-92f053eec3b8",
     "name": "Dead Bug",
     "slug": "dead-bug",
     "primaryMuscles": ["abdominal"],
@@ -2421,8 +2421,8 @@
     "notes": ""
   },
   {
-    "pk": 141,
-    "name": "Chest Press \u2013 Machine",
+    "pk": "ddc8990f-9190-4d23-ba77-64cfb39a7e1b",
+    "name": "Chest Press – Machine",
     "slug": "chest-press-machine",
     "primaryMuscles": ["chest", "shoulder - front"],
     "secondaryMuscles": ["tricep"],
@@ -2437,7 +2437,7 @@
     "notes": ""
   },
   {
-    "pk": 142,
+    "pk": "aacfe3df-63af-4a27-9ade-80907bd89e31",
     "name": "Gripper",
     "slug": "gripper",
     "primaryMuscles": ["forearm - inner"],
@@ -2456,8 +2456,8 @@
     "notes": ""
   },
   {
-    "pk": 143,
-    "name": "Lying External Shoulder Rotation \u2013 Dumbbell",
+    "pk": "a26e9750-8c80-48e1-be34-e552123bf18f",
+    "name": "Lying External Shoulder Rotation – Dumbbell",
     "slug": "lying-external-shoulder-rotation-dumbbell",
     "primaryMuscles": ["rotator cuff - back"],
     "secondaryMuscles": [],
@@ -2473,8 +2473,8 @@
     "notes": "Keep your elbow pinned to your torso throughout the exercise."
   },
   {
-    "pk": 144,
-    "name": "Overhead Tricep Extension \u2013 Cable With Rope",
+    "pk": "7b34c325-1800-4bb0-a99e-d1a868bb07c1",
+    "name": "Overhead Tricep Extension – Cable With Rope",
     "slug": "overhead-tricep-extension-cable-with-rope",
     "primaryMuscles": ["tricep"],
     "secondaryMuscles": [],
@@ -2490,7 +2490,7 @@
     "notes": ""
   },
   {
-    "pk": 145,
+    "pk": "372c2021-cdab-467e-a65d-be2c0ab2fe5b",
     "name": "Snatch Grip Deadlift",
     "slug": "snatch-grip-deadlift",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
@@ -2513,7 +2513,7 @@
     "notes": ""
   },
   {
-    "pk": 146,
+    "pk": "1e5593eb-8b88-46c3-81db-28feffa30f86",
     "name": "Towel Pull-Up",
     "slug": "towel-pull-up",
     "primaryMuscles": ["forearm - inner", "lat"],
@@ -2536,7 +2536,7 @@
     "notes": ""
   },
   {
-    "pk": 147,
+    "pk": "d3e4fbd5-7177-4243-b4ba-519b6a0f5ab8",
     "name": "Oblique Crunch",
     "slug": "oblique-crunch",
     "primaryMuscles": ["oblique"],
@@ -2552,7 +2552,7 @@
     "notes": "Make this exercise more difficult by putting both hands behind your head, or even more difficult by stretching your hands beyond your head."
   },
   {
-    "pk": 148,
+    "pk": "580ce603-efcc-450d-921f-4f36b14496e3",
     "name": "Lying Windshield Wiper with Bent Knees",
     "slug": "lying-windshield-wiper-with-bent-knees",
     "primaryMuscles": ["oblique"],
@@ -2567,8 +2567,8 @@
     "notes": ""
   },
   {
-    "pk": 149,
-    "name": "Push-Up \u2013 Hands in Rings",
+    "pk": "b1909b37-f9f5-476e-be62-04bb790e534c",
+    "name": "Push-Up – Hands in Rings",
     "slug": "push-up-hands-in-rings",
     "primaryMuscles": ["chest", "shoulder - front", "tricep"],
     "secondaryMuscles": ["abdominal"],
@@ -2583,8 +2583,8 @@
     "notes": ""
   },
   {
-    "pk": 150,
-    "name": "Single-Arm Hang \u2013 Bar",
+    "pk": "75662402-905e-4f0d-92c3-ea37d528e0f7",
+    "name": "Single-Arm Hang – Bar",
     "slug": "single-arm-hang-bar",
     "primaryMuscles": ["forearm - inner", "forearm - outer"],
     "secondaryMuscles": [],
@@ -2597,8 +2597,8 @@
     "notes": ""
   },
   {
-    "pk": 151,
-    "name": "Shoulder Press \u2013 Barbell",
+    "pk": "ef5fd2d5-95b0-429e-96aa-bdf8fc3df367",
+    "name": "Shoulder Press – Barbell",
     "slug": "standing-shoulder-press-barbell",
     "primaryMuscles": ["shoulder - front"],
     "secondaryMuscles": ["shoulder - side", "tricep"],
@@ -2612,7 +2612,7 @@
     "notes": ""
   },
   {
-    "pk": 152,
+    "pk": "ee2f03bd-b805-49fb-b216-c118e226b95c",
     "name": "Close Grip Seated Row",
     "slug": "close-grip-seated-row",
     "primaryMuscles": ["lat", "shoulder - back", "trap"],
@@ -2635,7 +2635,7 @@
     "notes": ""
   },
   {
-    "pk": 153,
+    "pk": "7f13d2c2-73bc-4ff1-a02b-fde9a6f0f5f3",
     "name": "Power Clean and Press",
     "slug": "power-clean-and-press",
     "primaryMuscles": [
@@ -2665,7 +2665,7 @@
     "notes": ""
   },
   {
-    "pk": 154,
+    "pk": "9dcaa104-06fe-4d18-88ea-ecadcda7b4c1",
     "name": "Snatch",
     "slug": "snatch",
     "primaryMuscles": ["glute", "lower back", "quad", "thigh - inner"],
@@ -2683,8 +2683,8 @@
     "notes": ""
   },
   {
-    "pk": 155,
-    "name": "Hammer Curl \u2013 Dumbbell",
+    "pk": "6f6f3ba2-98ee-4c0d-9f2a-75e5dfc91206",
+    "name": "Hammer Curl – Dumbbell",
     "slug": "hammer-curl-dumbbell",
     "primaryMuscles": ["bicep"],
     "secondaryMuscles": ["forearm - outer"],
@@ -2698,8 +2698,8 @@
     "notes": ""
   },
   {
-    "pk": 156,
-    "name": "Hip Abduction \u2013 Band",
+    "pk": "dd85ffa7-ed9f-4911-a0f2-dc3ebb5676d6",
+    "name": "Hip Abduction – Band",
     "slug": "hip-abduction-band",
     "primaryMuscles": ["thigh - outer"],
     "secondaryMuscles": ["glute"],
@@ -2715,8 +2715,8 @@
     "notes": ""
   },
   {
-    "pk": 157,
-    "name": "Seated One-Handed Row \u2013 Cable",
+    "pk": "e44bab0f-44f9-4921-a39e-453a14ea249e",
+    "name": "Seated One-Handed Row – Cable",
     "slug": "seated-one-handed-row-cable",
     "primaryMuscles": ["lat", "shoulder - back", "trap"],
     "secondaryMuscles": [
@@ -2739,8 +2739,8 @@
     "notes": ""
   },
   {
-    "pk": 158,
-    "name": "Lunge \u2013 Dumbbell",
+    "pk": "67cc9514-9294-4772-b7c3-e2ba8e00e92a",
+    "name": "Lunge – Dumbbell",
     "slug": "lunge-dumbbell",
     "primaryMuscles": ["glute", "quad", "thigh - inner"],
     "secondaryMuscles": ["forearm - inner"],
@@ -2755,8 +2755,8 @@
     "notes": ""
   },
   {
-    "pk": 159,
-    "name": "Cable Curl \u2013 Bar",
+    "pk": "34ce41d3-2e8e-4b9f-82eb-9461b32e95b1",
+    "name": "Cable Curl – Bar",
     "slug": "cable-curl-bar",
     "primaryMuscles": ["bicep"],
     "secondaryMuscles": ["forearm - inner"],
@@ -2773,8 +2773,8 @@
     "notes": ""
   },
   {
-    "pk": 160,
-    "name": "Hack Squat \u2013 Landmine",
+    "pk": "1fe97035-c45a-4a2c-9485-92ad42a03105",
+    "name": "Hack Squat – Landmine",
     "slug": "hack-squat-landmine",
     "primaryMuscles": ["glute", "quad", "thigh - inner"],
     "secondaryMuscles": [],
@@ -2791,7 +2791,7 @@
     "notes": ""
   },
   {
-    "pk": 161,
+    "pk": "b8b5d80e-fc68-4e95-84a8-d20cc3a9b95b",
     "name": "Concentration Curl",
     "slug": "concentration-curl",
     "primaryMuscles": ["bicep"],
@@ -2808,8 +2808,8 @@
     "notes": ""
   },
   {
-    "pk": 162,
-    "name": "One-Handed Tricep Pushdown \u2013 Cable",
+    "pk": "0c6fa94e-c285-474f-9d27-637568050770",
+    "name": "One-Handed Tricep Pushdown – Cable",
     "slug": "one-handed-tricep-pushdown-cable",
     "primaryMuscles": ["tricep"],
     "secondaryMuscles": [],
@@ -2826,8 +2826,8 @@
     "notes": ""
   },
   {
-    "pk": 163,
-    "name": "Hip Thrust \u2013 Machine",
+    "pk": "6b346b4a-c672-466b-a4d5-e5b84aa3a526",
+    "name": "Hip Thrust – Machine",
     "slug": "hip-thrust-machine",
     "primaryMuscles": ["glute"],
     "secondaryMuscles": ["hamstring", "thigh - inner"],
@@ -2843,7 +2843,7 @@
     "notes": ""
   },
   {
-    "pk": 165,
+    "pk": "fdaa0f69-50af-4f17-8a40-88d7006860a4",
     "name": "Squat Jerk",
     "slug": "squat-jerk",
     "primaryMuscles": [
@@ -2865,7 +2865,7 @@
     "notes": ""
   },
   {
-    "pk": 166,
+    "pk": "6ce7b2fa-f145-4864-8b6e-12883465557d",
     "name": "Seated Calf Raise",
     "slug": "seated-calf-raise",
     "primaryMuscles": ["calf"],
@@ -2882,7 +2882,7 @@
     "notes": ""
   },
   {
-    "pk": 167,
+    "pk": "a00f925a-5af9-4d79-a054-9cc42256a83f",
     "name": "Split Jerk",
     "slug": "split-jerk",
     "primaryMuscles": ["shoulder - front"],
@@ -2907,7 +2907,7 @@
     "notes": ""
   },
   {
-    "pk": 168,
+    "pk": "a63f2b45-f72d-4c47-967e-4388a89b276a",
     "name": "Seated Snatch Grip Behind the Neck Press",
     "slug": "seated-snatch-grip-behind-the-neck-press",
     "primaryMuscles": ["shoulder - front", "shoulder - side"],
@@ -2925,7 +2925,7 @@
     "notes": ""
   },
   {
-    "pk": 169,
+    "pk": "fdb2513d-bed3-49e0-86fc-af9e86d2cd78",
     "name": "Standing Snatch Grip Behind the Neck Press",
     "slug": "standing-snatch-grip-behind-the-neck-press",
     "primaryMuscles": ["shoulder - front", "shoulder - side"],
@@ -2942,7 +2942,7 @@
     "notes": ""
   },
   {
-    "pk": 170,
+    "pk": "719c9b11-bb34-4f4a-95fd-332ee68c1ff7",
     "name": "Close-Grip Bench Press",
     "slug": "close-grip-bench-press",
     "primaryMuscles": ["tricep"],
@@ -2960,7 +2960,7 @@
     "notes": ""
   },
   {
-    "pk": 171,
+    "pk": "d5349874-565e-4e21-b808-aa3ee10ec357",
     "name": "Clean",
     "slug": "clean",
     "primaryMuscles": ["glute", "lower back", "quad", "thigh - inner"],
@@ -2977,8 +2977,8 @@
     "notes": ""
   },
   {
-    "pk": 172,
-    "name": "One-Handed Wrist Curl \u2013 Dumbbell",
+    "pk": "c8ad50b1-38c4-4074-9465-67b7c0e2a20a",
+    "name": "One-Handed Wrist Curl – Dumbbell",
     "slug": "one-handed-wrist-curl-dumbbell",
     "primaryMuscles": ["forearm - inner"],
     "secondaryMuscles": [],
@@ -2994,8 +2994,8 @@
     "notes": ""
   },
   {
-    "pk": 173,
-    "name": "Standing Chest Fly \u2013 Cable",
+    "pk": "6d2ea3ce-084a-478b-95ce-a5b65ccbe580",
+    "name": "Standing Chest Fly – Cable",
     "slug": "standing-chest-fly-cable",
     "primaryMuscles": ["chest"],
     "secondaryMuscles": ["bicep", "forearm - inner", "shoulder - front"],
@@ -3010,7 +3010,7 @@
     "notes": ""
   },
   {
-    "pk": 174,
+    "pk": "1b1e585e-53c4-4d4e-8649-b41ef17baf55",
     "name": "Floor Back Extension",
     "slug": "floor-back-extension",
     "primaryMuscles": ["lower back"],
@@ -3028,7 +3028,7 @@
     "notes": ""
   },
   {
-    "pk": 175,
+    "pk": "abf570d0-c26e-4865-a2d6-4b40c332b82c",
     "name": "Side Plank",
     "slug": "side-plank",
     "primaryMuscles": ["oblique"],
@@ -3044,7 +3044,7 @@
     "notes": ""
   },
   {
-    "pk": 176,
+    "pk": "9ec287f0-bb82-4cd6-bae6-fec86b3094e7",
     "name": "Pec Deck",
     "slug": "pec-deck",
     "primaryMuscles": ["chest"],
@@ -3060,7 +3060,7 @@
     "notes": ""
   },
   {
-    "pk": 177,
+    "pk": "5c967fe6-d99f-4e10-9ac8-cd8e24d76367",
     "name": "Pronated Grip Lat Pulldown",
     "slug": "pronated-grip-lat-pulldown",
     "primaryMuscles": ["lat"],
@@ -3084,8 +3084,8 @@
     "notes": ""
   },
   {
-    "pk": 178,
-    "name": "Decline Bench Press \u2013 Barbell",
+    "pk": "ebe6214a-44c8-47a6-b4d5-c05d4088fc76",
+    "name": "Decline Bench Press – Barbell",
     "slug": "decline-bench-press-barbell",
     "primaryMuscles": ["chest"],
     "secondaryMuscles": ["shoulder - front", "tricep"],
@@ -3102,7 +3102,7 @@
     "notes": ""
   },
   {
-    "pk": 179,
+    "pk": "cbc3639e-776d-43ec-bd98-dd0df647aed6",
     "name": "Standing Cable Leg Curl",
     "slug": "standing-cable-leg-curl",
     "primaryMuscles": ["hamstring"],
@@ -3120,7 +3120,7 @@
     "notes": ""
   },
   {
-    "pk": 180,
+    "pk": "627f9ef6-8d10-4b15-a647-397166cd5f3a",
     "name": "Cable Pull Through",
     "slug": "cable-pull-through",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
@@ -3136,8 +3136,8 @@
     "notes": ""
   },
   {
-    "pk": 181,
-    "name": "Shrug \u2013 Barbell",
+    "pk": "5e5f39a1-c950-49a9-abde-2e7aadd90f1b",
+    "name": "Shrug – Barbell",
     "slug": "shrug-barbell",
     "primaryMuscles": ["trap"],
     "secondaryMuscles": ["forearm - inner"],
@@ -3152,7 +3152,7 @@
     "notes": ""
   },
   {
-    "pk": 182,
+    "pk": "6e94e3fd-7403-4597-98f5-3861d83b8f72",
     "name": "Bulgarian Split Squat",
     "slug": "bulgarian-split-squat",
     "primaryMuscles": ["glute", "quad", "thigh - inner"],
@@ -3168,8 +3168,8 @@
     "notes": ""
   },
   {
-    "pk": 183,
-    "name": "Crunch \u2013 Machine",
+    "pk": "4afe32fd-8821-45bf-82a6-4b23acf3885f",
+    "name": "Crunch – Machine",
     "slug": "crunch-machine",
     "primaryMuscles": ["abdominal"],
     "secondaryMuscles": ["oblique"],
@@ -3186,8 +3186,8 @@
     "notes": ""
   },
   {
-    "pk": 184,
-    "name": "Shrug \u2013 Dumbbell",
+    "pk": "17d42c9b-b211-4a85-aa9e-8060387c7380",
+    "name": "Shrug – Dumbbell",
     "slug": "shrug-dumbbell",
     "primaryMuscles": ["trap"],
     "secondaryMuscles": ["forearm - inner"],
@@ -3201,7 +3201,7 @@
     "notes": ""
   },
   {
-    "pk": 185,
+    "pk": "e64417c3-e4b6-4dcc-b902-c095067282a6",
     "name": "One-Legged Balance",
     "slug": "one-legged-balance",
     "primaryMuscles": ["calf"],
@@ -3218,8 +3218,8 @@
     "notes": "Try this exercise with closed eyes for increased difficulty."
   },
   {
-    "pk": 186,
-    "name": "Feet-Up Bench Press \u2013 Barbell",
+    "pk": "98251de8-8e5c-408f-9a47-e959493aedd1",
+    "name": "Feet-Up Bench Press – Barbell",
     "slug": "feet-up-bench-press-barbell",
     "primaryMuscles": ["chest", "shoulder - front"],
     "secondaryMuscles": ["tricep"],
@@ -3236,8 +3236,8 @@
     "notes": ""
   },
   {
-    "pk": 187,
-    "name": "Curl \u2013 Machine",
+    "pk": "9b629ff7-e212-413d-b44c-bc2a5e4979c1",
+    "name": "Curl – Machine",
     "slug": "curl-machine",
     "primaryMuscles": ["bicep"],
     "secondaryMuscles": ["forearm - inner"],
@@ -3253,8 +3253,8 @@
     "notes": ""
   },
   {
-    "pk": 188,
-    "name": "Reverse Fly \u2013 Machine",
+    "pk": "9b3a5a87-3555-47d9-8eca-64f9ee819c4b",
+    "name": "Reverse Fly – Machine",
     "slug": "reverse-fly-machine",
     "primaryMuscles": ["rotator cuff - back", "shoulder - back"],
     "secondaryMuscles": ["trap"],
@@ -3270,7 +3270,7 @@
     "notes": ""
   },
   {
-    "pk": 189,
+    "pk": "f7b65315-115a-4161-8b6b-3c9557c78098",
     "name": "Hang Power Snatch",
     "slug": "hang-power-snatch",
     "primaryMuscles": ["glute", "lower back", "quad", "thigh - inner"],
@@ -3288,7 +3288,7 @@
     "notes": ""
   },
   {
-    "pk": 190,
+    "pk": "cc340eb0-206a-4baa-ad49-575696e4613e",
     "name": "One-Handed Plate Wrist Curl",
     "slug": "one-handed-plate-wrist-curl",
     "primaryMuscles": ["forearm - inner"],
@@ -3305,7 +3305,7 @@
     "notes": ""
   },
   {
-    "pk": 191,
+    "pk": "f5f0a39a-5bdc-480f-a17c-cb64b6cbafc6",
     "name": "Kettlebell Swing",
     "slug": "kettlebell-swing",
     "primaryMuscles": ["glute", "lower back"],
@@ -3329,7 +3329,7 @@
     "notes": ""
   },
   {
-    "pk": 192,
+    "pk": "ff2c5e56-139c-4e79-913c-8479a0b20972",
     "name": "Seated Oblique Twist",
     "slug": "seated-oblique-twist",
     "primaryMuscles": ["oblique"],
@@ -3348,7 +3348,7 @@
     "notes": ""
   },
   {
-    "pk": 193,
+    "pk": "2bafa5cc-a98f-4113-8ec7-0adf62d190fd",
     "name": "Lying Leg Curl",
     "slug": "lying-leg-curl",
     "primaryMuscles": ["hamstring"],
@@ -3365,8 +3365,8 @@
     "notes": ""
   },
   {
-    "pk": 194,
-    "name": "Hack Squat \u2013 Machine",
+    "pk": "f08b4ec4-b3ee-4c67-adcf-d292f43f1e3e",
+    "name": "Hack Squat – Machine",
     "slug": "hack-squat-machine",
     "primaryMuscles": ["glute", "quad", "thigh - inner"],
     "secondaryMuscles": [],
@@ -3382,8 +3382,8 @@
     "notes": ""
   },
   {
-    "pk": 195,
-    "name": "One-Handed Wrist Extension \u2013 Dumbbell",
+    "pk": "e6f11c05-ae73-4a61-b791-4e86dd599227",
+    "name": "One-Handed Wrist Extension – Dumbbell",
     "slug": "one-handed-wrist-extension-dumbbell",
     "primaryMuscles": ["forearm - outer"],
     "secondaryMuscles": [],
@@ -3399,8 +3399,8 @@
     "notes": ""
   },
   {
-    "pk": 196,
-    "name": "Seated Shoulder Press \u2013 Barbell",
+    "pk": "3547bc2f-898c-4f53-9dbe-2459c477ede2",
+    "name": "Seated Shoulder Press – Barbell",
     "slug": "seated-overhead-press-barbell",
     "primaryMuscles": ["shoulder - front"],
     "secondaryMuscles": ["shoulder - side", "tricep"],
@@ -3416,8 +3416,8 @@
     "notes": ""
   },
   {
-    "pk": 200,
-    "name": "Lunge \u2013 Barbell",
+    "pk": "eff261cc-68a0-4867-92d2-dc099abf7d99",
+    "name": "Lunge – Barbell",
     "slug": "lunge-barbell",
     "primaryMuscles": ["glute", "quad", "thigh - inner"],
     "secondaryMuscles": [],
@@ -3434,7 +3434,7 @@
     "notes": ""
   },
   {
-    "pk": 201,
+    "pk": "5b4eb704-166c-457b-a95e-808c328f6fc4",
     "name": "Kneeling Incline Push-Up",
     "slug": "kneeling-incline-push-up",
     "primaryMuscles": ["chest", "shoulder - front", "tricep"],
@@ -3448,7 +3448,7 @@
     "notes": ""
   },
   {
-    "pk": 202,
+    "pk": "f93ff5e0-0d43-4771-8c63-63f27c66e659",
     "name": "Plate Front Raise",
     "slug": "plate-front-raise",
     "primaryMuscles": ["shoulder - front"],
@@ -3462,8 +3462,8 @@
     "notes": ""
   },
   {
-    "pk": 203,
-    "name": "Row \u2013 Barbell",
+    "pk": "e739a096-130b-4d30-a752-423d43866ec5",
+    "name": "Row – Barbell",
     "slug": "row-barbell",
     "primaryMuscles": ["lat", "shoulder - back", "trap"],
     "secondaryMuscles": [
@@ -3485,7 +3485,7 @@
     "notes": ""
   },
   {
-    "pk": 204,
+    "pk": "de2489dd-12c5-4e6c-b8a7-1c3ed9027135",
     "name": "One-Handed Lat Pulldown",
     "slug": "one-handed-lat-pulldown",
     "primaryMuscles": ["lat"],
@@ -3509,8 +3509,8 @@
     "notes": ""
   },
   {
-    "pk": 205,
-    "name": "Bench Press \u2013 Dumbbell",
+    "pk": "0be71de4-1995-4f8e-ac35-0b156604bb63",
+    "name": "Bench Press – Dumbbell",
     "slug": "bench-press-dumbbell",
     "primaryMuscles": ["chest", "shoulder - front"],
     "secondaryMuscles": ["tricep"],
@@ -3525,7 +3525,7 @@
     "notes": ""
   },
   {
-    "pk": 206,
+    "pk": "4eaa8bc3-1982-4de2-a0e3-c244205632c4",
     "name": "Pendlay Row",
     "slug": "pendlay-row",
     "primaryMuscles": ["lat", "shoulder - back", "trap"],
@@ -3548,8 +3548,8 @@
     "notes": ""
   },
   {
-    "pk": 207,
-    "name": "Deadlift \u2013 Fat Bar",
+    "pk": "33ce3ab8-7ae9-4e34-9d0f-8c45168f25cc",
+    "name": "Deadlift – Fat Bar",
     "slug": "deadlift-fat-bar",
     "primaryMuscles": [
       "forearm - inner",
@@ -3570,8 +3570,8 @@
     "notes": ""
   },
   {
-    "pk": 208,
-    "name": "One-Handed Standing Chest Fly \u2013 Band",
+    "pk": "c714f4a0-d27f-4909-9c0e-e9a34471d2dc",
+    "name": "One-Handed Standing Chest Fly – Band",
     "slug": "one-handed-standing-chest-fly-band",
     "primaryMuscles": ["chest"],
     "secondaryMuscles": ["bicep", "forearm - inner", "shoulder - front"],
@@ -3590,8 +3590,8 @@
     "notes": ""
   },
   {
-    "pk": 209,
-    "name": "Bench Press \u2013 Smith Machine",
+    "pk": "ef429bfb-4fe4-414c-a1d5-65e9668c5da9",
+    "name": "Bench Press – Smith Machine",
     "slug": "bench-press-smith-machine",
     "primaryMuscles": ["chest", "shoulder - front"],
     "secondaryMuscles": ["tricep"],
@@ -3609,7 +3609,7 @@
     "notes": ""
   },
   {
-    "pk": 210,
+    "pk": "1cc7bad9-63fb-4797-8c20-aabcdda115b9",
     "name": "Underhand Grip Inverted Row",
     "slug": "underhand-grip-inverted-row",
     "primaryMuscles": ["lat", "shoulder - back", "trap"],
@@ -3630,8 +3630,8 @@
     "notes": ""
   },
   {
-    "pk": 211,
-    "name": "Mountain Climbers \u2013 BOSU",
+    "pk": "871eaca9-5404-4e13-98ce-114d2b840c6a",
+    "name": "Mountain Climbers – BOSU",
     "slug": "mountain-climbers-bosu",
     "primaryMuscles": ["abdominal"],
     "secondaryMuscles": ["oblique"],
@@ -3646,7 +3646,7 @@
     "notes": ""
   },
   {
-    "pk": 212,
+    "pk": "65e38827-9d2d-4854-b745-c66ad6901e14",
     "name": "Standing Bicycle Crunch",
     "slug": "standing-bicycle-crunch",
     "primaryMuscles": ["abdominal", "oblique"],
@@ -3668,7 +3668,7 @@
     "notes": ""
   },
   {
-    "pk": 213,
+    "pk": "9807a1e2-f8fa-4167-b5af-5ed13d3ae61b",
     "name": "Clamshells",
     "slug": "clamshells",
     "primaryMuscles": ["thigh - outer"],
@@ -3682,7 +3682,7 @@
     "notes": "Use a resistance band around your knees to increase the difficulty of the exercise."
   },
   {
-    "pk": 214,
+    "pk": "69fa145a-d0a0-4261-a2cd-111c273d7b6b",
     "name": "Fire Hydrants",
     "slug": "fire-hydrants",
     "primaryMuscles": ["glute", "thigh - outer"],
@@ -3698,7 +3698,7 @@
     "notes": ""
   },
   {
-    "pk": 215,
+    "pk": "09a46dba-4999-4c4b-9ef2-4d0d64b9db2d",
     "name": "Push-Up Against Wall",
     "slug": "push-up-against-wall",
     "primaryMuscles": ["chest", "shoulder - front", "tricep"],
@@ -3714,8 +3714,8 @@
     "notes": ""
   },
   {
-    "pk": 216,
-    "name": "Hip Adduction \u2013 Machine",
+    "pk": "c518bd9d-aa9d-425d-abc3-94036ec0dbc0",
+    "name": "Hip Adduction – Machine",
     "slug": "hip-adduction-machine",
     "primaryMuscles": ["thigh - inner"],
     "secondaryMuscles": [],
@@ -3731,8 +3731,8 @@
     "notes": ""
   },
   {
-    "pk": 217,
-    "name": "Pause Deadlift \u2013 Barbell",
+    "pk": "175f5483-4d9d-4e2f-8d71-9e669a42348f",
+    "name": "Pause Deadlift – Barbell",
     "slug": "pause-deadlift-barbell",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
     "secondaryMuscles": [
@@ -3755,8 +3755,8 @@
     "notes": ""
   },
   {
-    "pk": 218,
-    "name": "Deadlift \u2013 Trap Bar Low Handles",
+    "pk": "15a35cff-bb70-4c80-9f01-280ffd42e9b8",
+    "name": "Deadlift – Trap Bar Low Handles",
     "slug": "deadlift-trap-bar-low-handles",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
     "secondaryMuscles": [
@@ -3779,7 +3779,7 @@
     "notes": ""
   },
   {
-    "pk": 219,
+    "pk": "558402d1-588a-449a-9f71-c04f2ded6695",
     "name": "Runner's 5",
     "slug": "runners-5",
     "primaryMuscles": ["calf", "glute", "hamstring", "quad"],
@@ -3796,8 +3796,8 @@
     "notes": ""
   },
   {
-    "pk": 220,
-    "name": "Calf Raise \u2013 Barbell",
+    "pk": "23062382-d9f2-4f38-b999-4085a9dcb302",
+    "name": "Calf Raise – Barbell",
     "slug": "calf-raise-barbell",
     "primaryMuscles": ["calf"],
     "secondaryMuscles": [],
@@ -3814,7 +3814,7 @@
     "notes": ""
   },
   {
-    "pk": 221,
+    "pk": "4d646f27-a246-4b40-955e-5851ccba177e",
     "name": "Oblique Sit-Up",
     "slug": "oblique-sit-up",
     "primaryMuscles": ["oblique"],
@@ -3832,7 +3832,7 @@
     "notes": ""
   },
   {
-    "pk": 222,
+    "pk": "a6dae002-fc42-44eb-bf62-43c2d91e5f2c",
     "name": "Sled Push",
     "slug": "sled-push",
     "primaryMuscles": ["calf", "glute", "hamstring", "quad"],
@@ -3848,8 +3848,8 @@
     "notes": ""
   },
   {
-    "pk": 223,
-    "name": "Overhead Tricep Extension \u2013 Barbell",
+    "pk": "fdd30b0a-af69-4cd6-af02-25968b615b36",
+    "name": "Overhead Tricep Extension – Barbell",
     "slug": "overhead-tricep-extension-barbell",
     "primaryMuscles": ["tricep"],
     "secondaryMuscles": [],
@@ -3863,8 +3863,8 @@
     "notes": ""
   },
   {
-    "pk": 224,
-    "name": "Shrug \u2013  Trap Bar",
+    "pk": "c6d629ff-4e81-455c-a365-aed900ca9a57",
+    "name": "Shrug –  Trap Bar",
     "slug": "shrug-trap-bar",
     "primaryMuscles": ["trap"],
     "secondaryMuscles": ["forearm - inner"],
@@ -3880,8 +3880,8 @@
     "notes": ""
   },
   {
-    "pk": 225,
-    "name": "Tricep Pushdown \u2013 Cable With Rope",
+    "pk": "99f90af9-c3da-4afe-8988-57865cbb9b92",
+    "name": "Tricep Pushdown – Cable With Rope",
     "slug": "tricep-pushdown-cable-with-rope",
     "primaryMuscles": ["tricep"],
     "secondaryMuscles": [],
@@ -3899,7 +3899,7 @@
     "notes": "You can kneel in front of the cable machine, rather than stand, if the length of the cable and rope is too long for a full range of motion."
   },
   {
-    "pk": 226,
+    "pk": "9d9ac1be-4ef9-43e8-a5a5-d6a4d1e6b5de",
     "name": "Bicycle Crunch",
     "slug": "bicycle-crunch",
     "primaryMuscles": ["abdominal", "oblique"],
@@ -3914,8 +3914,8 @@
     "notes": ""
   },
   {
-    "pk": 227,
-    "name": "One-Handed Lateral Raise \u2013 Cable",
+    "pk": "a4ae2bd4-ba14-4187-81eb-7b8a5bf8b764",
+    "name": "One-Handed Lateral Raise – Cable",
     "slug": "one-handed-lateral-raise-cable",
     "primaryMuscles": ["shoulder - side"],
     "secondaryMuscles": ["shoulder - front"],
@@ -3933,7 +3933,7 @@
     "notes": ""
   },
   {
-    "pk": 228,
+    "pk": "4d904f9e-c70b-4e48-96cc-37079cf73fd8",
     "name": "Eccentric Chest Press",
     "slug": "eccentric-chest-press",
     "primaryMuscles": ["chest"],
@@ -3953,8 +3953,8 @@
     "notes": ""
   },
   {
-    "pk": 229,
-    "name": "Squat \u2013 Box",
+    "pk": "c714ca8d-3df3-439b-bae0-da66423b7daa",
+    "name": "Squat – Box",
     "slug": "squat-box",
     "primaryMuscles": ["glute", "lower back", "quad", "thigh - inner"],
     "secondaryMuscles": ["calf"],
@@ -3970,7 +3970,7 @@
     "notes": ""
   },
   {
-    "pk": 230,
+    "pk": "04f4ff32-ec03-4905-99a7-d669ff221de4",
     "name": "Front Squat",
     "slug": "front-squat",
     "primaryMuscles": ["glute", "lower back", "quad", "thigh - inner"],
@@ -3988,8 +3988,8 @@
     "notes": ""
   },
   {
-    "pk": 231,
-    "name": "Seated Shoulder Press \u2013 Smith Machine",
+    "pk": "20d6c2a0-6791-4393-aab6-9996d8857854",
+    "name": "Seated Shoulder Press – Smith Machine",
     "slug": "seated-shoulder-press-smith-machine",
     "primaryMuscles": ["shoulder - front"],
     "secondaryMuscles": ["shoulder - side", "tricep"],
@@ -4004,7 +4004,7 @@
     "notes": ""
   },
   {
-    "pk": 232,
+    "pk": "3f982fe0-0602-470f-9ecf-7d5e1616e5a2",
     "name": "Lying Leg Raise",
     "slug": "lying-leg-raise",
     "primaryMuscles": ["abdominal"],
@@ -4022,7 +4022,7 @@
     "notes": ""
   },
   {
-    "pk": 233,
+    "pk": "586887a1-88c8-462e-945a-230a87667e6f",
     "name": "Eccentric Leg Extension",
     "slug": "eccentric-leg-extension",
     "primaryMuscles": ["quad"],
@@ -4040,7 +4040,7 @@
     "notes": ""
   },
   {
-    "pk": 234,
+    "pk": "f25454d4-851d-41aa-b015-afc6dc734031",
     "name": "Power Snatch",
     "slug": "power-snatch",
     "primaryMuscles": ["glute", "lower back", "quad", "thigh - inner"],
@@ -4058,7 +4058,7 @@
     "notes": ""
   },
   {
-    "pk": 235,
+    "pk": "f2420af5-d84f-4152-81a0-8c44aeaba8a6",
     "name": "Half Air Squat",
     "slug": "half-air-squat",
     "primaryMuscles": ["glute", "quad", "thigh - inner"],
@@ -4075,8 +4075,8 @@
     "notes": ""
   },
   {
-    "pk": 236,
-    "name": "Front Hold \u2013 Plate",
+    "pk": "87118ae6-212c-499f-81e3-328e9596c08a",
+    "name": "Front Hold – Plate",
     "slug": "front-hold-plate",
     "primaryMuscles": ["shoulder - front"],
     "secondaryMuscles": ["shoulder - side"],
@@ -4089,7 +4089,7 @@
     "notes": ""
   },
   {
-    "pk": 237,
+    "pk": "d3fe33ec-cb3b-4a38-bef8-7391da0f9e68",
     "name": "Burpee",
     "slug": "burpee",
     "primaryMuscles": ["chest", "glute", "quad", "shoulder - front"],
@@ -4107,8 +4107,8 @@
     "notes": ""
   },
   {
-    "pk": 238,
-    "name": "One-Handed Chest Press \u2013 Dumbbell",
+    "pk": "af7ac4f1-0a7f-43cb-a4c9-33277fbff4ab",
+    "name": "One-Handed Chest Press – Dumbbell",
     "slug": "one-handed-chest-press-dumbbell",
     "primaryMuscles": ["chest"],
     "secondaryMuscles": [],
@@ -4123,8 +4123,8 @@
     "notes": ""
   },
   {
-    "pk": 239,
-    "name": "Wide Grip Seated Row \u2013 Cable",
+    "pk": "4e7fce7c-1b19-4585-92bc-ff97e74da2f0",
+    "name": "Wide Grip Seated Row – Cable",
     "slug": "wide-grip-seated-row-cable",
     "primaryMuscles": ["lat", "shoulder - back", "trap"],
     "secondaryMuscles": ["rotator cuff - back", "rotator cuff - front"],
@@ -4140,7 +4140,7 @@
     "notes": ""
   },
   {
-    "pk": 240,
+    "pk": "20406343-147f-4290-b985-e57fabc11069",
     "name": "Rope Wave",
     "slug": "rope-wave",
     "primaryMuscles": [
@@ -4163,7 +4163,7 @@
     "notes": "Keep your back straight and your head up throughout the exercise."
   },
   {
-    "pk": 241,
+    "pk": "c0ea6557-b06d-4263-b6d8-fbebedc4316c",
     "name": "Alternating Rope Wave",
     "slug": "alternating-rope-wave",
     "primaryMuscles": [
@@ -4186,8 +4186,8 @@
     "notes": "Keep your back straight and your head up throughout the exercise."
   },
   {
-    "pk": 242,
-    "name": "Squat \u2013 BOSU",
+    "pk": "27b42ba6-addb-4b0b-a9c9-19fe7558ef56",
+    "name": "Squat – BOSU",
     "slug": "squat-bosu",
     "primaryMuscles": ["glute", "quad"],
     "secondaryMuscles": ["abdominal", "calf", "hamstring", "thigh - inner"],
@@ -4203,7 +4203,7 @@
     "notes": "To increase the difficulty, perform the exercise with the BOSU's flat side up."
   },
   {
-    "pk": 243,
+    "pk": "f3f3df04-9b8a-43a3-84fe-2a7bd4330a0b",
     "name": "Perfect Hang",
     "slug": "perfect-hang",
     "primaryMuscles": ["forearm - inner", "forearm - outer", "lat"],
@@ -4212,15 +4212,15 @@
       "Grasp a pull-up bar with both hands at shoulder-width apart using an overhand grip.",
       "Hang from the bar with your feet off the ground and your arms fully extended.",
       "Engage your shoulder blades by pulling them back and down to stabilize your shoulders and upper back.",
-      "Lean back slightly to bring your chest parallel to the ground and your torso at a 45\u00b0 angle to the ground.",
+      "Lean back slightly to bring your chest parallel to the ground and your torso at a 45° angle to the ground.",
       "Curl your legs backwards. Imagine your body as the curve on the letter \"D\" if you were to see yourself from the side.",
       "Breathe deeply and hold the hang for as long as you can manage comfortably, ensuring your shoulder blades remain engaged."
     ],
     "notes": ""
   },
   {
-    "pk": 244,
-    "name": "Seated Incline Front Raise \u2013 Dumbbell",
+    "pk": "d30a00c4-438c-4860-b201-7203ac451c3b",
+    "name": "Seated Incline Front Raise – Dumbbell",
     "slug": "seated-incline-front-raise-dumbbell",
     "primaryMuscles": ["shoulder - front"],
     "secondaryMuscles": ["chest", "shoulder - side"],
@@ -4236,8 +4236,8 @@
     "notes": ""
   },
   {
-    "pk": 245,
-    "name": "Prone Incline Front Raise \u2013 Dumbbell",
+    "pk": "70398b40-1c71-41f7-9568-1a73b79cefe3",
+    "name": "Prone Incline Front Raise – Dumbbell",
     "slug": "prone-incline-front-raise-dumbbell",
     "primaryMuscles": ["shoulder - front"],
     "secondaryMuscles": ["chest", "shoulder - side", "trap"],
@@ -4253,14 +4253,14 @@
     "notes": ""
   },
   {
-    "pk": 246,
-    "name": "Kickstand Squat \u2013 Kettlebell",
+    "pk": "3cf8f2e0-5170-49e9-ae19-b22d14738473",
+    "name": "Kickstand Squat – Kettlebell",
     "slug": "kickstand-squat-kettlebell",
     "primaryMuscles": ["glute", "hamstring", "lower back", "quad"],
     "secondaryMuscles": ["abdominal", "calf", "oblique"],
     "steps": [
       "Stand with your feet hip-width apart, holding a kettlebell with both hands in front of your chest.",
-      "Shift your weight onto your left foot and place your right foot behind you, resting on the ball of your foot \u2013 this is your kickstand position.",
+      "Shift your weight onto your left foot and place your right foot behind you, resting on the ball of your foot – this is your kickstand position.",
       "Hinge your hips back slightly, ensuring a straight back and engaged core.",
       "Bend at your left knee to lower down into a squat, keeping the weight in your left heel and the kettlebell steady in front of your chest.",
       "Lower down until your left thigh is nearly parallel to the ground, or as low as you can go comfortably.",
@@ -4270,8 +4270,8 @@
     "notes": ""
   },
   {
-    "pk": 247,
-    "name": "One-Handed Shoulder Press \u2013 Landmine",
+    "pk": "9788d2f4-c8be-4c08-868c-a3ae758d09de",
+    "name": "One-Handed Shoulder Press – Landmine",
     "slug": "one-handed-shoulder-press-landmine",
     "primaryMuscles": [
       "chest",
@@ -4300,8 +4300,8 @@
     "notes": ""
   },
   {
-    "pk": 248,
-    "name": "External Shoulder Rotation \u2013 Cable",
+    "pk": "7eb6aca3-4a9b-483d-bbf4-56f9c7b28c4e",
+    "name": "External Shoulder Rotation – Cable",
     "slug": "external-shoulder-rotation-cable",
     "primaryMuscles": ["rotator cuff - back"],
     "secondaryMuscles": ["forearm - outer", "shoulder - back"],
@@ -4319,8 +4319,8 @@
     "notes": "Keep your feet shoulder-width apart for stable footing and engage your core. Keep your body straight and avoid rotating your hips or shoulders during the movement. Your forearm should be perpendicular to your torso throughout the exercise."
   },
   {
-    "pk": 249,
-    "name": "Internal Shoulder Rotation \u2013 Cable",
+    "pk": "8b8db841-8aa2-4248-91d4-6ad192d06f4a",
+    "name": "Internal Shoulder Rotation – Cable",
     "slug": "internal-shoulder-rotation-cable",
     "primaryMuscles": ["rotator cuff - front"],
     "secondaryMuscles": ["forearm - inner", "shoulder - front"],
@@ -4338,7 +4338,7 @@
     "notes": "Keep your feet shoulder-width apart for stable footing and engage your core. Keep your body straight and avoid rotating your hips or shoulders during the movement. Your forearm should be perpendicular to your torso throughout the exercise."
   },
   {
-    "pk": 250,
+    "pk": "a9adb61b-6dd1-4beb-b90c-be1ee60adc1f",
     "name": "Pallof Press",
     "slug": "pallof-press",
     "primaryMuscles": ["abdominal", "oblique"],
@@ -4366,7 +4366,7 @@
     "notes": ""
   },
   {
-    "pk": 251,
+    "pk": "79df21bd-9e07-4fac-b581-6b34f4f05651",
     "name": "Landmine Rotation",
     "slug": "landmine-rotation",
     "primaryMuscles": ["abdominal", "oblique"],
@@ -4390,8 +4390,8 @@
     "notes": ""
   },
   {
-    "pk": 252,
-    "name": "Eccentric Bicep Curl \u2013 Machine",
+    "pk": "c1800e75-33e8-4c3c-a1a0-a466c71830d7",
+    "name": "Eccentric Bicep Curl – Machine",
     "slug": "eccentric-bicep-curl-machine",
     "primaryMuscles": ["bicep"],
     "secondaryMuscles": ["forearm - inner", "forearm - outer"],
@@ -4401,7 +4401,7 @@
       "Sit or stand (depending on machine design) with your upper arm pressed against the arm pad, back straight, and feet flat on the floor for stability.",
       "Use both arms to lift the weight with a controlled motion, flexing the elbows without swinging the arms or leaning back.",
       "Release the handle with one hand. Your other arm completely controls the weight.",
-      "Gradually release the weight back to the starting position, emphasizing the downward movement\u2014this is the eccentric phase\u2014taking 3 to 4 seconds to lower the load.",
+      "Gradually release the weight back to the starting position, emphasizing the downward movement—this is the eccentric phase—taking 3 to 4 seconds to lower the load.",
       "Make sure to fully extend the arms at the bottom, but avoid locking the elbows.",
       "Grip the handles with both hands and use both arms to lift the weight again.",
       "Release the handle with the other hand.",
@@ -4411,8 +4411,8 @@
     "notes": "Keep the tension on the biceps throughout the movement without resting at the bottom."
   },
   {
-    "pk": 253,
-    "name": "Slam \u2013 Medicine Ball",
+    "pk": "2cce67fc-2bb1-4181-97dd-1c9342110801",
+    "name": "Slam – Medicine Ball",
     "slug": "slam-medicine-ball",
     "primaryMuscles": ["abdominal", "lat", "oblique", "shoulder - front"],
     "secondaryMuscles": [
@@ -4437,8 +4437,8 @@
     "notes": ""
   },
   {
-    "pk": 254,
-    "name": "Rotational Slam \u2013 Medicine Ball",
+    "pk": "f45f9e24-fc85-4974-b870-93b6479c0481",
+    "name": "Rotational Slam – Medicine Ball",
     "slug": "rotational-slam-medicine-ball",
     "primaryMuscles": ["abdominal", "lat", "oblique", "shoulder - front"],
     "secondaryMuscles": [
@@ -4467,7 +4467,7 @@
     "notes": "Keep your arms extended, elbows slightly bent, throughout the exercise. Focus on creating big circles with your arms, avoiding the tendency to create smaller, easier circles, close to your chest."
   },
   {
-    "pk": 255,
+    "pk": "7069565b-3ef8-4bd7-97c7-543dbd5f542d",
     "name": "Step-Up",
     "slug": "step-up",
     "primaryMuscles": ["glute", "quad"],
@@ -4484,7 +4484,7 @@
     "notes": "Hold weight in your hands to increase the exercise's resistance."
   },
   {
-    "pk": 256,
+    "pk": "d81d955d-3f93-4961-9519-608ee5f901b3",
     "name": "Box Step-Up",
     "slug": "box-step-up",
     "primaryMuscles": ["glute", "quad"],
@@ -4501,7 +4501,7 @@
     "notes": "Increase the platform's height to increase the exercise's resistance."
   },
   {
-    "pk": 257,
+    "pk": "079c8688-a04e-4eee-8761-c7caff04751d",
     "name": "Tire Flip",
     "slug": "tire-flip",
     "primaryMuscles": ["glute", "lower back", "quad", "thigh - inner"],
@@ -4519,8 +4519,8 @@
     "notes": ""
   },
   {
-    "pk": 258,
-    "name": "Push-Up \u2013 Medicine Ball",
+    "pk": "d0344102-ed3a-43bd-a786-27d4fbcba2f3",
+    "name": "Push-Up – Medicine Ball",
     "slug": "push-up-medicine-ball",
     "primaryMuscles": ["chest", "shoulder - front", "tricep"],
     "secondaryMuscles": ["abdominal", "forearm - inner", "forearm - outer"],
@@ -4534,8 +4534,8 @@
     "notes": ""
   },
   {
-    "pk": 259,
-    "name": "Rolling Push-Up \u2013 Medicine Ball",
+    "pk": "7d7182bd-b2a4-4d98-9065-df84013b14b3",
+    "name": "Rolling Push-Up – Medicine Ball",
     "slug": "rolling-push-up-medicine-ball",
     "primaryMuscles": ["chest", "shoulder - front", "tricep"],
     "secondaryMuscles": [
@@ -4558,7 +4558,7 @@
     "notes": ""
   },
   {
-    "pk": 260,
+    "pk": "baaa4aee-68fa-48cf-aa36-aeb60a2646fe",
     "name": "One-Handed Plank",
     "slug": "one-handed-plank",
     "primaryMuscles": ["abdominal", "shoulder - front"],
@@ -4575,7 +4575,7 @@
     "notes": ""
   },
   {
-    "pk": 261,
+    "pk": "464283e2-2725-40c6-9b28-d7b57d54863e",
     "name": "Sled Pull",
     "slug": "sled-pull",
     "primaryMuscles": ["calf", "glute", "hamstring", "quad"],
@@ -4594,8 +4594,8 @@
     "notes": "Leaning back slightly allows your weight to help move the sled. Avoid leaning too far back, as you can injure yourself or lose benefits of the exercise."
   },
   {
-    "pk": 262,
-    "name": "Forearm Roll-Up \u2013 Barbell",
+    "pk": "08125ff9-6197-44d2-810f-fcf0a65e3a54",
+    "name": "Forearm Roll-Up – Barbell",
     "slug": "forearm-roll-up-barbell",
     "primaryMuscles": ["forearm - inner", "forearm - outer"],
     "secondaryMuscles": [],
@@ -4614,8 +4614,8 @@
     "notes": ""
   },
   {
-    "pk": 263,
-    "name": "Forearm Twist \u2013 Dumbbell",
+    "pk": "a46155b5-3912-47c7-82ff-fe7fabd7b76c",
+    "name": "Forearm Twist – Dumbbell",
     "slug": "forearm-twist-dumbbell",
     "primaryMuscles": ["forearm - inner", "forearm - outer"],
     "secondaryMuscles": ["bicep"],
@@ -4630,7 +4630,7 @@
     "notes": ""
   },
   {
-    "pk": 264,
+    "pk": "e32f671a-5bb1-4d39-8b51-d21aa62c29bc",
     "name": "Zottman Curl",
     "slug": "zottman-curl",
     "primaryMuscles": ["bicep", "forearm - inner", "forearm - outer"],
@@ -4646,8 +4646,8 @@
     "notes": ""
   },
   {
-    "pk": 265,
-    "name": "Z Press \u2013 Dumbbell",
+    "pk": "92e7386f-e062-4ac5-b318-0d1f2b9fdff4",
+    "name": "Z Press – Dumbbell",
     "slug": "z-press-dumbbell",
     "primaryMuscles": ["shoulder - front", "shoulder - side"],
     "secondaryMuscles": [
@@ -4668,8 +4668,8 @@
     "notes": "Maintain core tension throughout the exercise to prevent arching your back or leaning back too far."
   },
   {
-    "pk": 266,
-    "name": "Z Press \u2013 Barbell",
+    "pk": "c2869e90-30b1-492b-8c8c-32927dc429fc",
+    "name": "Z Press – Barbell",
     "slug": "z-press-barbell",
     "primaryMuscles": ["shoulder - front", "shoulder - side"],
     "secondaryMuscles": [
@@ -4693,8 +4693,8 @@
     "notes": "Maintain core tension throughout the exercise to prevent arching your back or leaning back too far."
   },
   {
-    "pk": 267,
-    "name": "Incline Hex Press \u2013 Dumbbell",
+    "pk": "310d636b-c865-4d1a-b50d-50a6d9c0855f",
+    "name": "Incline Hex Press – Dumbbell",
     "slug": "incline-hex-press-dumbbell",
     "primaryMuscles": ["chest", "shoulder - front"],
     "secondaryMuscles": ["tricep"],
@@ -4709,8 +4709,8 @@
     "notes": "Lower the incline to reduce the load on your shoulders and make the exercise easier."
   },
   {
-    "pk": 268,
-    "name": "Skull Crusher \u2013 Barbell",
+    "pk": "14a89726-44da-46b6-8771-c193a1db083b",
+    "name": "Skull Crusher – Barbell",
     "slug": "skull-crusher-barbell",
     "primaryMuscles": ["tricep"],
     "secondaryMuscles": [],
@@ -4726,8 +4726,8 @@
     "notes": ""
   },
   {
-    "pk": 269,
-    "name": "Skull Crusher \u2013 Dumbbell",
+    "pk": "a2ee6995-f130-4005-9335-80a210060677",
+    "name": "Skull Crusher – Dumbbell",
     "slug": "skull-crusher-dumbbell",
     "primaryMuscles": ["tricep"],
     "secondaryMuscles": [],
@@ -4743,8 +4743,8 @@
     "notes": ""
   },
   {
-    "pk": 270,
-    "name": "Overhead Tricep Extension \u2013 Machine",
+    "pk": "50ed6871-7fa2-4e60-ba1c-ce07a503b2ba",
+    "name": "Overhead Tricep Extension – Machine",
     "slug": "overhead-tricep-extension-machine",
     "primaryMuscles": ["tricep"],
     "secondaryMuscles": [],
@@ -4760,7 +4760,7 @@
     "notes": ""
   },
   {
-    "pk": 271,
+    "pk": "6aea031b-4635-4135-b249-f8e0c1fca3c8",
     "name": "In-Out Rope Wave",
     "slug": "in-out-rope-wave",
     "primaryMuscles": [
@@ -4786,8 +4786,8 @@
     "notes": ""
   },
   {
-    "pk": 272,
-    "name": "Upright Downward Internal Rotation \u2013 Cable",
+    "pk": "59933119-adc2-48a5-a798-f5a4f81472aa",
+    "name": "Upright Downward Internal Rotation – Cable",
     "slug": "upright-downward-internal-rotation-cable",
     "primaryMuscles": ["rotator cuff - front"],
     "secondaryMuscles": [],
@@ -4802,8 +4802,8 @@
     "notes": ""
   },
   {
-    "pk": 273,
-    "name": "Upright Upward External Rotation \u2013 Cable",
+    "pk": "05ec369f-76e2-44c2-b748-648a5fe96323",
+    "name": "Upright Upward External Rotation – Cable",
     "slug": "upright-upward-external-rotation-cable",
     "primaryMuscles": ["rotator cuff - back"],
     "secondaryMuscles": [],
@@ -4819,7 +4819,7 @@
     "notes": ""
   },
   {
-    "pk": 274,
+    "pk": "b82e8a9a-d794-4a1e-8f5a-5659cafb607d",
     "name": "Plank Pull Through",
     "slug": "plank-pull-through",
     "primaryMuscles": ["abdominal", "shoulder - front"],
@@ -4835,8 +4835,8 @@
     "notes": ""
   },
   {
-    "pk": 275,
-    "name": "Reverse Curl \u2013 Barbell",
+    "pk": "5d9b404c-4b12-4a7a-8222-08ab0c7cb473",
+    "name": "Reverse Curl – Barbell",
     "slug": "reverse-curl-barbell",
     "primaryMuscles": ["forearm - outer"],
     "secondaryMuscles": ["bicep"],
@@ -4850,8 +4850,8 @@
     "notes": "Keep your elbows close to your body and avoid swinging the weight. This is a targetted exercise for a small, specific muscle. If you find yourself flaring your elbows, or using momentum to lift the weight, consider lowering the weight to maintain proper form."
   },
   {
-    "pk": 276,
-    "name": "Hammer Curl \u2013 Cable With Rope",
+    "pk": "634b5e9d-d092-4e2e-89d4-342369e91920",
+    "name": "Hammer Curl – Cable With Rope",
     "slug": "hammer-curl-cable-with-rope",
     "primaryMuscles": ["bicep"],
     "secondaryMuscles": ["forearm - outer"],
@@ -4867,7 +4867,7 @@
     "notes": ""
   },
   {
-    "pk": 277,
+    "pk": "9dad56f9-08a4-4631-845a-d0b7c58fbece",
     "name": "Meadows Row",
     "slug": "meadows-row",
     "primaryMuscles": ["lat", "trap", "shoulder - back"],
@@ -4886,7 +4886,7 @@
     "notes": ""
   },
   {
-    "pk": 278,
+    "pk": "f42b8e31-a3e6-44e4-85fb-14508bf84130",
     "name": "One-Handed High-Cable Row",
     "slug": "one-handed-high-cable-row",
     "primaryMuscles": ["lat"],
@@ -4909,8 +4909,8 @@
     "notes": ""
   },
   {
-    "pk": 279,
-    "name": "Calf Raise \u2013 Leg Press Machine",
+    "pk": "24dcec30-58a5-4ebb-8bec-49b39fe9a3ac",
+    "name": "Calf Raise – Leg Press Machine",
     "slug": "calf-raise-leg-press-machine",
     "primaryMuscles": ["calf"],
     "secondaryMuscles": [],
@@ -4926,8 +4926,8 @@
     "notes": ""
   },
   {
-    "pk": 280,
-    "name": "One-Handed Leaning Lateral Raise \u2013 Dumbbell",
+    "pk": "3edd4f6d-8f3b-43be-bec6-155baaee1382",
+    "name": "One-Handed Leaning Lateral Raise – Dumbbell",
     "slug": "one-handed-leaning-lateral-raise-dumbbell",
     "primaryMuscles": ["shoulder - side"],
     "secondaryMuscles": ["shoulder - front", "oblique"],
@@ -4942,8 +4942,8 @@
     "notes": "Ensure not to bend your elbow excessively. Also, avoid leaning with your feet too far from the wall, as this can shift the emphasis from your shoulders to your core muscles, altering the primary focus of the exercise."
   },
   {
-    "pk": 281,
-    "name": "Horizontal Wood Chop \u2013 Cable",
+    "pk": "24523e30-2b0c-435c-91a5-c0f913b18221",
+    "name": "Horizontal Wood Chop – Cable",
     "slug": "horizontal-wood-chop-cable",
     "primaryMuscles": ["oblique"],
     "secondaryMuscles": ["abdominal"],
@@ -4960,7 +4960,7 @@
     "notes": ""
   },
   {
-    "pk": 282,
+    "pk": "f3b288b8-bdc2-4b6f-9dae-dfee16fbd3f1",
     "name": "Single-Leg V-Up",
     "slug": "single-leg-v-up",
     "primaryMuscles": ["abdominal", "oblique"],
@@ -4977,7 +4977,7 @@
     "notes": ""
   },
   {
-    "pk": 283,
+    "pk": "b0be817d-8ef3-48f0-9485-b81d765fa31b",
     "name": "Single-Leg Tuck-Up",
     "slug": "single-leg-tuck-up",
     "primaryMuscles": ["abdominal", "oblique"],
@@ -4992,8 +4992,8 @@
     "notes": ""
   },
   {
-    "pk": 284,
-    "name": "Around the World \u2013 Kettlebell",
+    "pk": "d0c37823-891a-415a-bc8d-05f7b465977e",
+    "name": "Around the World – Kettlebell",
     "slug": "around-the-world-kettlebell",
     "primaryMuscles": ["oblique"],
     "secondaryMuscles": ["abdominal", "shoulder - front", "shoulder - side"],
@@ -5006,8 +5006,8 @@
     "notes": "Stay stable and centered as possible. Resisting the sway is a big part of the exercise."
   },
   {
-    "pk": 285,
-    "name": "Lu Raise \u2013 Dumbbell",
+    "pk": "8aa20360-bcb2-4044-a963-f45718362782",
+    "name": "Lu Raise – Dumbbell",
     "slug": "lu-raise-dumbbell",
     "primaryMuscles": ["shoulder - front", "shoulder - side"],
     "secondaryMuscles": ["rotator cuff - back", "rotator cuff - front", "trap"],
@@ -5021,8 +5021,8 @@
     "notes": ""
   },
   {
-    "pk": 286,
-    "name": "Standing External Shoulder Rotation \u2013 Dumbbell",
+    "pk": "00535621-681b-4765-9b4f-ca82dc4df55a",
+    "name": "Standing External Shoulder Rotation – Dumbbell",
     "slug": "standing-external-shoulder-rotation-dumbbell",
     "primaryMuscles": ["rotator cuff - back"],
     "secondaryMuscles": [
@@ -5042,8 +5042,8 @@
     "notes": ""
   },
   {
-    "pk": 287,
-    "name": "Crush Grip Curl \u2013 Dumbbell",
+    "pk": "c85eac17-4d0a-4a7b-b5ee-3ecaf08ab5f7",
+    "name": "Crush Grip Curl – Dumbbell",
     "slug": "crush-grip-curl-dumbbell",
     "primaryMuscles": ["bicep"],
     "secondaryMuscles": ["forearm - inner", "forearm - outer"],
@@ -5058,8 +5058,8 @@
     "notes": ""
   },
   {
-    "pk": 288,
-    "name": "One-Handed Hammer Curl \u2013 Dumbbell",
+    "pk": "e8c1430a-c1c6-4813-9f5d-ceef0bc39ca7",
+    "name": "One-Handed Hammer Curl – Dumbbell",
     "slug": "one-handed-hammer-curl-dumbbell",
     "primaryMuscles": ["bicep"],
     "secondaryMuscles": ["forearm - inner", "forearm - outer"],
@@ -5075,8 +5075,8 @@
     "notes": ""
   },
   {
-    "pk": 289,
-    "name": "One-Handed Hammer Isometric Hold \u2013 Dumbbell",
+    "pk": "65fb73cb-f41d-4326-8095-32a0cd9f1b89",
+    "name": "One-Handed Hammer Isometric Hold – Dumbbell",
     "slug": "one-handed-hammer-isometric-hold-dumbbell",
     "primaryMuscles": ["bicep"],
     "secondaryMuscles": ["forearm - inner", "forearm - outer"],
@@ -5092,7 +5092,7 @@
     "notes": "Ensure that your wrist remains straight and stable throughout the duration of the exercise."
   },
   {
-    "pk": 290,
+    "pk": "13d9db44-d9e9-4d6e-ac38-f26784fa6f9d",
     "name": "Hanging Side-To-Side Knee Drive",
     "slug": "hanging-side-to-side-knee-drive",
     "primaryMuscles": ["abdominal", "bicep", "lat", "oblique"],
@@ -5107,8 +5107,8 @@
     "notes": ""
   },
   {
-    "pk": 291,
-    "name": "Low Chest Fly \u2013 Cable",
+    "pk": "33b7c338-9835-40ac-b795-96c630563884",
+    "name": "Low Chest Fly – Cable",
     "slug": "low-chest-fly-cable",
     "primaryMuscles": ["chest"],
     "secondaryMuscles": ["rotator cuff - front", "shoulder - front"],
@@ -5127,8 +5127,8 @@
     "notes": "Focus on moving the cables with your chest muscles. Avoid creating momentum with other parts of your body."
   },
   {
-    "pk": 292,
-    "name": "Lateral Lunge \u2013 Dumbbell",
+    "pk": "2d152c59-7a71-42da-a19d-e573962a6343",
+    "name": "Lateral Lunge – Dumbbell",
     "slug": "lateral-lunge-dumbbell",
     "primaryMuscles": ["glute", "quad", "thigh - inner", "thigh - outer"],
     "secondaryMuscles": ["calf", "hamstring"],
@@ -5143,8 +5143,8 @@
     "notes": ""
   },
   {
-    "pk": 293,
-    "name": "Single-Arm Bottoms-Up Overhead Press \u2013 Kettlebell",
+    "pk": "2b7afcd7-9389-4d87-a634-3383576991e4",
+    "name": "Single-Arm Bottoms-Up Overhead Press – Kettlebell",
     "slug": "single-arm-bottoms-up-overhead-press-kettlebell",
     "primaryMuscles": ["shoulder - front"],
     "secondaryMuscles": [
@@ -5164,8 +5164,8 @@
     "notes": ""
   },
   {
-    "pk": 294,
-    "name": "Close-Grip Incline Bench Press \u2013 Dumbbell",
+    "pk": "33dc0a63-c6cc-4488-97af-0172483630a4",
+    "name": "Close-Grip Incline Bench Press – Dumbbell",
     "slug": "close-grip-incline-bench-press-dumbbell",
     "primaryMuscles": ["chest", "tricep"],
     "secondaryMuscles": ["shoulder - front"],
@@ -5181,7 +5181,7 @@
     "notes": "Lower the incline to reduce the load on your shoulders and move it to your chest."
   },
   {
-    "pk": 295,
+    "pk": "83961423-3b39-4147-94d6-0b8147f2aecb",
     "name": "Copenhagen Plank with Leg Lift",
     "slug": "copenhagen-plank-with-leg-lift",
     "primaryMuscles": ["oblique", "thigh - inner"],
@@ -5197,8 +5197,8 @@
     "notes": ""
   },
   {
-    "pk": 296,
-    "name": "Alternating Z Press \u2013 Double Kettlebell",
+    "pk": "599f3b85-fa7d-4296-8e03-d3d2d8d57234",
+    "name": "Alternating Z Press – Double Kettlebell",
     "slug": "alternating-z-press-double-kettlebell",
     "primaryMuscles": ["shoulder - front", "shoulder - side"],
     "secondaryMuscles": [
@@ -5221,8 +5221,8 @@
     "notes": "Maintain core tension throughout the exercise to prevent arching your back or leaning back too far."
   },
   {
-    "pk": 297,
-    "name": "Feet-Elevated Bulgarian Row \u2013 Ring",
+    "pk": "992fea61-616b-4576-a341-024b3b5609f6",
+    "name": "Feet-Elevated Bulgarian Row – Ring",
     "slug": "feet-elevated-bulgarian-row-ring",
     "primaryMuscles": ["bicep", "lat"],
     "secondaryMuscles": [
@@ -5244,8 +5244,8 @@
     "notes": ""
   },
   {
-    "pk": 298,
-    "name": "Alternating Arnold Press \u2013 Dumbbell",
+    "pk": "336eaa90-b12b-47a1-9dbf-8f4011093d99",
+    "name": "Alternating Arnold Press – Dumbbell",
     "slug": "alternating-arnold-press-dumbbell",
     "primaryMuscles": ["shoulder - front", "shoulder - side"],
     "secondaryMuscles": ["bicep", "rotator cuff - front", "tricep"],
@@ -5255,14 +5255,14 @@
       "Simultaneously maintain the starting position with the other arm, keeping the dumbbell at shoulder height and palm facing your body.",
       "Fully extend the pressing arm until it is straight overhead.",
       "Lower the dumbbell back to the starting position, rotating the wrist back to the starting position.",
-      "Immediately rotate the alternate hand\u2019s wrist, pressing the other dumbbell overhead with the same motion.",
+      "Immediately rotate the alternate hand’s wrist, pressing the other dumbbell overhead with the same motion.",
       "Continue alternating the press between each arm for the desired number of repetitions."
     ],
     "notes": ""
   },
   {
-    "pk": 299,
-    "name": "Feet-Elevated Oblique Crunch \u2013 Stability Ball",
+    "pk": "ea5ae8d5-89e3-478d-9513-795e2dfd4e4a",
+    "name": "Feet-Elevated Oblique Crunch – Stability Ball",
     "slug": "feet-elevated-oblique-crunch-stability-ball",
     "primaryMuscles": ["oblique"],
     "secondaryMuscles": ["abdominal"],
@@ -5277,7 +5277,7 @@
     "notes": ""
   },
   {
-    "pk": 300,
+    "pk": "9d2940c4-6fcc-49ee-b5f6-9d10d90c30aa",
     "name": "Nordic Hamstring Curl",
     "slug": "nordic-hamstring-curl",
     "primaryMuscles": ["hamstring"],
@@ -5294,8 +5294,8 @@
     "notes": ""
   },
   {
-    "pk": 301,
-    "name": "Kneeling Cuban Rotation \u2013 Barbell",
+    "pk": "1f825dcf-0ff2-4b1b-ab9d-f34ebf47f96e",
+    "name": "Kneeling Cuban Rotation – Barbell",
     "slug": "kneeling-cuban-rotation-barbell",
     "primaryMuscles": ["rotator cuff - back", "rotator cuff - front"],
     "secondaryMuscles": ["forearm - outer", "shoulder - side"],
@@ -5311,8 +5311,8 @@
     "notes": "Imagine that your upper arms are resting on a shelf as you perform the movement to focus the effort on your rotator cuffs."
   },
   {
-    "pk": 302,
-    "name": "Single-Arm Hang \u2013 Rings",
+    "pk": "eba49f91-3389-432f-b148-b51646b3724d",
+    "name": "Single-Arm Hang – Rings",
     "slug": "single-arm-hang-rings",
     "primaryMuscles": ["forearm - inner", "forearm - outer", "lat"],
     "secondaryMuscles": [
@@ -5331,8 +5331,8 @@
     "notes": ""
   },
   {
-    "pk": 303,
-    "name": "Single-Arm Front Rack Contralateral Walking Lunge \u2013 Kettlebell",
+    "pk": "6d9c3bff-a56e-424c-924f-db93da20f44f",
+    "name": "Single-Arm Front Rack Contralateral Walking Lunge – Kettlebell",
     "slug": "single-arm-front-rack-contralateral-walking-lunge-kettlebell",
     "primaryMuscles": ["glute", "quad"],
     "secondaryMuscles": [
@@ -5354,8 +5354,8 @@
     "notes": ""
   },
   {
-    "pk": 304,
-    "name": "Front Rack Knee Over Toe Split Squat \u2013 Dumbbell",
+    "pk": "660b4a26-21f5-44fc-8186-c82c1e5ce99e",
+    "name": "Front Rack Knee Over Toe Split Squat – Dumbbell",
     "slug": "front-rack-knee-over-toe-split-squat-dumbbell",
     "primaryMuscles": ["glute", "hamstring", "quad"],
     "secondaryMuscles": ["calf", "shoulder - front"],
@@ -5373,8 +5373,8 @@
     "notes": ""
   },
   {
-    "pk": 305,
-    "name": "Single-Arm Bulgarian Split Squat \u2013 Dumbbell",
+    "pk": "b9bf1ba7-459f-436e-a14c-d82aa7ce0251",
+    "name": "Single-Arm Bulgarian Split Squat – Dumbbell",
     "slug": "single-arm-bulgarian-split-squat-dumbbell",
     "primaryMuscles": ["glute", "hamstring", "quad"],
     "secondaryMuscles": ["abdominal", "calf", "oblique"],
@@ -5391,8 +5391,8 @@
     "notes": ""
   },
   {
-    "pk": 306,
-    "name": "Single-Leg Romanian Deadlift \u2013 Landmine",
+    "pk": "90fb272a-1f4e-4a49-b7bf-e613e5570930",
+    "name": "Single-Leg Romanian Deadlift – Landmine",
     "slug": "single-leg-romanian-deadlift-landmine",
     "primaryMuscles": ["glute", "hamstring"],
     "secondaryMuscles": ["abdominal", "calf", "lower back", "oblique", "quad"],
@@ -5409,8 +5409,8 @@
     "notes": ""
   },
   {
-    "pk": 307,
-    "name": "Bench Press \u2013 Machine",
+    "pk": "8daa6758-aa1a-46a9-ab25-7c1274eeecb5",
+    "name": "Bench Press – Machine",
     "slug": "bench-press-machine",
     "primaryMuscles": ["chest", "shoulder - front", "tricep"],
     "secondaryMuscles": ["rotator cuff - front"],
@@ -5427,8 +5427,8 @@
     "notes": "Ensure your back is flat against the bench, and your feet are firmly planted on the ground.  Keep your core tight. Exhale as you push the bar away from your chest, and inhale as you lower it down."
   },
   {
-    "pk": 308,
-    "name": "Incline Bench Press \u2013 Machine",
+    "pk": "13c792a7-e6b2-4520-a468-34fe741751d3",
+    "name": "Incline Bench Press – Machine",
     "slug": "incline-bench-press-machine",
     "primaryMuscles": ["chest", "shoulder - front", "tricep"],
     "secondaryMuscles": ["rotator cuff - front"],
@@ -5445,8 +5445,8 @@
     "notes": "Ensure your back is flat against the bench, and your feet are firmly planted on the ground.  Keep your core tight. Exhale as you push the bar away from your chest, and inhale as you lower it down."
   },
   {
-    "pk": 309,
-    "name": "Decline Bench Press \u2013 Machine",
+    "pk": "d130d9cb-bc1b-4f41-a833-c493de07abc6",
+    "name": "Decline Bench Press – Machine",
     "slug": "decline-bench-press-machine",
     "primaryMuscles": ["chest", "shoulder - front", "tricep"],
     "secondaryMuscles": ["rotator cuff - front"],
@@ -5463,8 +5463,8 @@
     "notes": "Ensure your back is flat against the bench, and your feet are firmly planted on the ground.  Keep your core tight. Exhale as you push the bar away from your chest, and inhale as you lower it down."
   },
   {
-    "pk": 310,
-    "name": "One-Handed Overhead Contralateral Step-Up \u2013 Dumbbell",
+    "pk": "6ddf0c74-d1ee-4f51-8e7e-bef2d3ff653e",
+    "name": "One-Handed Overhead Contralateral Step-Up – Dumbbell",
     "slug": "one-handed-overhead-contralateral-step-up-dumbbell",
     "primaryMuscles": ["glute", "quad"],
     "secondaryMuscles": [
@@ -5487,8 +5487,8 @@
     "notes": ""
   },
   {
-    "pk": 311,
-    "name": "Sumo Squat \u2013 Dumbbell",
+    "pk": "326de9b0-967a-4f87-bce9-49026fdad139",
+    "name": "Sumo Squat – Dumbbell",
     "slug": "sumo-squat-dumbbell",
     "primaryMuscles": ["glute", "hamstring", "quad", "thigh - inner"],
     "secondaryMuscles": ["calf", "lower back"],
@@ -5502,8 +5502,8 @@
     "notes": ""
   },
   {
-    "pk": 312,
-    "name": "Sumo Squat \u2013 Barbell",
+    "pk": "eac4cfc0-3da3-4609-85c7-335d3d221cc9",
+    "name": "Sumo Squat – Barbell",
     "slug": "sumo-squat-barbell",
     "primaryMuscles": ["glute", "hamstring", "quad", "thigh - inner"],
     "secondaryMuscles": ["calf", "lower back"],
@@ -5517,8 +5517,8 @@
     "notes": ""
   },
   {
-    "pk": 313,
-    "name": "One-Handed Suitcase Walking Lunge \u2013 Dumbbell",
+    "pk": "c98e0b0a-87d1-4202-9f19-36b174e65ab2",
+    "name": "One-Handed Suitcase Walking Lunge – Dumbbell",
     "slug": "one-handed-suitcase-walking-lunge-dumbbell",
     "primaryMuscles": ["glute", "hamstring", "quad"],
     "secondaryMuscles": [
@@ -5542,8 +5542,8 @@
     "notes": ""
   },
   {
-    "pk": 314,
-    "name": "One-Handed Standing Chest Fly \u2013 Cable",
+    "pk": "9a4c2b68-eb2b-456a-bb3a-dec25f870b23",
+    "name": "One-Handed Standing Chest Fly – Cable",
     "slug": "one-handed-standing-chest-fly-cable",
     "primaryMuscles": ["chest", "shoulder - front"],
     "secondaryMuscles": ["abdominal", "oblique", "rotator cuff - front"],
@@ -5560,7 +5560,7 @@
     "notes": ""
   },
   {
-    "pk": 315,
+    "pk": "81b24d3f-91b4-4b51-96c2-5b1440d8cbae",
     "name": "Kneeling Pallof Press",
     "slug": "kneeling-pallof-press",
     "primaryMuscles": ["abdominal", "oblique"],
@@ -5587,7 +5587,7 @@
     "notes": ""
   },
   {
-    "pk": 316,
+    "pk": "343dc5c0-3ad2-49cd-a576-1a9ad8866caa",
     "name": "Isometric Pull-Up Hold",
     "slug": "isometric-pull-up-hold",
     "primaryMuscles": [
@@ -5608,8 +5608,8 @@
     "notes": ""
   },
   {
-    "pk": 317,
-    "name": "Jump Squat \u2013 Bodyweight",
+    "pk": "0b1665ab-19bc-4c97-8b83-bcebf1af3362",
+    "name": "Jump Squat – Bodyweight",
     "slug": "jump-squat-bodyweight",
     "primaryMuscles": ["calf", "glute", "hamstring", "quad"],
     "secondaryMuscles": ["abdominal", "lower back"],
@@ -5627,7 +5627,7 @@
     "notes": ""
   },
   {
-    "pk": 318,
+    "pk": "a3b737e2-d859-4e69-b52c-efc572c58a9a",
     "name": "Quadruped Hip Extension",
     "slug": "quadruped-hip-extension",
     "primaryMuscles": ["glute", "hamstring"],
@@ -5643,8 +5643,8 @@
     "notes": "Placing a band around both knees is a good way to add resistance to this exercise."
   },
   {
-    "pk": 319,
-    "name": "Single-Arm Front Rack Walking Lunge \u2013 Dumbbell",
+    "pk": "4e837ea7-d71c-439c-97bf-6e5bf0d86edf",
+    "name": "Single-Arm Front Rack Walking Lunge – Dumbbell",
     "slug": "single-arm-front-rack-walking-lunge-dumbbell",
     "primaryMuscles": ["glute", "quad"],
     "secondaryMuscles": [
@@ -5666,7 +5666,7 @@
     "notes": ""
   },
   {
-    "pk": 320,
+    "pk": "ecd9d14f-93e9-4160-b0a9-8d4652732f50",
     "name": "Single-Leg Romanian Deadlift Jump",
     "slug": "single-leg-romanian-deadlift-jump",
     "primaryMuscles": ["calf", "glute", "hamstring", "quad"],
@@ -5683,8 +5683,8 @@
     "notes": "To increase difficulty, try to remain balanced on the working leg throughout the set."
   },
   {
-    "pk": 321,
-    "name": "Single-Arm Thruster \u2013 Landmine",
+    "pk": "9a5dd7ca-59c0-4bc3-b865-0bdc51fb7a48",
+    "name": "Single-Arm Thruster – Landmine",
     "slug": "single-arm-thruster-landmine",
     "primaryMuscles": ["glute", "quad", "shoulder - front"],
     "secondaryMuscles": ["abdominal", "lat", "oblique", "tricep"],
@@ -5700,7 +5700,7 @@
     "notes": ""
   },
   {
-    "pk": 322,
+    "pk": "30960fcd-ff15-4722-b065-31a48f9b6dcf",
     "name": "Forearm Plank Knee to Elbow",
     "slug": "forearm-plank-knee-to-elbow",
     "primaryMuscles": ["abdominal", "oblique"],
@@ -5716,8 +5716,8 @@
     "notes": ""
   },
   {
-    "pk": 323,
-    "name": "Skull Crusher \u2013 Cable with Rope",
+    "pk": "5f509f4e-6008-49d8-aa02-3aad760c7296",
+    "name": "Skull Crusher – Cable with Rope",
     "slug": "skull-crusher-cable-with-rope",
     "primaryMuscles": ["tricep"],
     "secondaryMuscles": ["forearm - inner", "forearm - outer"],
@@ -5734,8 +5734,8 @@
     "notes": ""
   },
   {
-    "pk": 324,
-    "name": "One-Handed Bayesian Curl \u2013 Cable",
+    "pk": "0c08a586-856b-405d-82dc-518c3948250e",
+    "name": "One-Handed Bayesian Curl – Cable",
     "slug": "one-handed-bayesian-curl-cable",
     "primaryMuscles": ["bicep"],
     "secondaryMuscles": ["forearm - inner", "forearm - outer"],
@@ -5752,8 +5752,8 @@
     "notes": ""
   },
   {
-    "pk": 325,
-    "name": "Bottoms Up Seesaw Overhead Press \u2013 Kettlebell",
+    "pk": "defa7c1b-b8d8-4979-ac65-ae3faaf285d1",
+    "name": "Bottoms Up Seesaw Overhead Press – Kettlebell",
     "slug": "bottoms-up-seesaw-overhead-press-kettlebell",
     "primaryMuscles": ["shoulder - front", "shoulder - side"],
     "secondaryMuscles": [
@@ -5772,8 +5772,8 @@
     "notes": ""
   },
   {
-    "pk": 326,
-    "name": "Stability Ball Pullover \u2013 Dumbbell",
+    "pk": "9a3d7102-c171-4532-8173-a34a3834493d",
+    "name": "Stability Ball Pullover – Dumbbell",
     "slug": "stability-ball-pullover-dumbbell",
     "primaryMuscles": ["chest", "lat"],
     "secondaryMuscles": ["abdominal", "tricep"],
@@ -5790,8 +5790,8 @@
     "notes": ""
   },
   {
-    "pk": 327,
-    "name": "Front Rack Low Switch Cossack Squat \u2013 Kettlebell",
+    "pk": "78a8e45c-0b2a-407c-8cc3-6fd1cb7f0135",
+    "name": "Front Rack Low Switch Cossack Squat – Kettlebell",
     "slug": "front-rack-low-switch-cossack-squat-kettlebell",
     "primaryMuscles": ["glute", "quad", "thigh - inner"],
     "secondaryMuscles": [
@@ -5814,8 +5814,8 @@
     "notes": "Ensure your front rack position is stable, keeping the chest lifted and core engaged throughout the exercise."
   },
   {
-    "pk": 328,
-    "name": "Alternating Single-Arm Dead Clean to Push Press \u2013 Kettlebell",
+    "pk": "79df8346-799a-4040-b8f2-bcd7f6dabbbc",
+    "name": "Alternating Single-Arm Dead Clean to Push Press – Kettlebell",
     "slug": "alternating-single-arm-dead-clean-to-push-press-kettlebell",
     "primaryMuscles": ["glute", "quad", "shoulder - front"],
     "secondaryMuscles": ["calf", "hamstring", "lower back", "tricep"],
@@ -5833,8 +5833,8 @@
     "notes": ""
   },
   {
-    "pk": 329,
-    "name": "Single Arm Half Kneeling High Row \u2013 Cable",
+    "pk": "c029b94a-907a-481d-83b2-079b978deb9a",
+    "name": "Single Arm Half Kneeling High Row – Cable",
     "slug": "single-arm-half-kneeling-high-row-cable",
     "primaryMuscles": ["lat"],
     "secondaryMuscles": [
@@ -5856,8 +5856,8 @@
     "notes": ""
   },
   {
-    "pk": 330,
-    "name": "Archer Push Up \u2013 Rings",
+    "pk": "76b1b81d-88fd-4f66-b6cb-ea104d66c464",
+    "name": "Archer Push Up – Rings",
     "slug": "archer-push-up-rings",
     "primaryMuscles": ["chest", "tricep"],
     "secondaryMuscles": ["abdominal", "shoulder - side", "trap"],
@@ -5874,8 +5874,8 @@
     "notes": "Raise the ring height to take weight off the push-up and make it easier to perform. Lower the ring height to make the exercise more difficult."
   },
   {
-    "pk": 331,
-    "name": "Front Rack March \u2013 Kettlebell",
+    "pk": "7b9ae742-67f9-48cc-b560-ec9c9518dbf6",
+    "name": "Front Rack March – Kettlebell",
     "slug": "front-rack-march-kettlebell",
     "primaryMuscles": ["abdominal", "shoulder - front"],
     "secondaryMuscles": ["calf", "glute", "quad"],
@@ -5889,8 +5889,8 @@
     "notes": ""
   },
   {
-    "pk": 332,
-    "name": "Front Rack Curtsy Lunge \u2013 Barbell",
+    "pk": "93524891-f216-4dc0-8d87-2f32d655bd3d",
+    "name": "Front Rack Curtsy Lunge – Barbell",
     "slug": "front-rack-curtsy-lunge-barbell",
     "primaryMuscles": ["glute", "quad", "thigh - inner", "thigh - outer"],
     "secondaryMuscles": ["calf", "hamstring"],
@@ -5907,7 +5907,7 @@
     "notes": ""
   },
   {
-    "pk": 333,
+    "pk": "fae8985f-1235-4791-8b40-d0982797325f",
     "name": "Hang Power Clean and Jerk",
     "slug": "hang-power-clean-and-jerk",
     "primaryMuscles": ["glute", "lower back", "shoulder - front"],
@@ -5934,8 +5934,8 @@
     "notes": ""
   },
   {
-    "pk": 334,
-    "name": "Monster Walk \u2013 Band",
+    "pk": "15bf0bb1-406f-49b2-b29a-1d1cd41ffe38",
+    "name": "Monster Walk – Band",
     "slug": "monster-walk-band",
     "primaryMuscles": ["glute", "thigh - outer"],
     "secondaryMuscles": ["quad"],
@@ -5944,7 +5944,7 @@
       "Stand with your feet shoulder-width apart and your knees slightly bent.",
       "Engage your core and keep your hands at your sides or on your hips. This is your starting position.",
       "Take a diagonal step forward and to the side with one foot, keeping tension in the band and your body low.",
-      "Follow with the other foot, stepping diagonally forward to meet the first foot, maintaining the band\u2019s tension.",
+      "Follow with the other foot, stepping diagonally forward to meet the first foot, maintaining the band’s tension.",
       "Continue moving forward by alternating diagonal steps with each foot.",
       "Keep your steps controlled and the band tense, moving steadily forward across the room.",
       "Repeat for the desired number of repetitions."
@@ -5952,8 +5952,8 @@
     "notes": "Stay in the semi-squat position throughout the exercise to maintain focus on the hip and thigh muscles."
   },
   {
-    "pk": 335,
-    "name": "Seated Good Morning \u2013 Barbell",
+    "pk": "dfb13090-2373-438e-988d-dcb6f851802a",
+    "name": "Seated Good Morning – Barbell",
     "slug": "seated-good-morning-barbell",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
     "secondaryMuscles": ["abdominal", "thigh - inner"],
@@ -5970,8 +5970,8 @@
     "notes": ""
   },
   {
-    "pk": 336,
-    "name": "Alternating Tall Kneeling Arnold Press \u2013 Hand Weights",
+    "pk": "934a015c-8515-4652-bb12-1e9e0ce3c1f1",
+    "name": "Alternating Tall Kneeling Arnold Press – Hand Weights",
     "slug": "alternating-tall-kneeling-arnold-press-hand-weights",
     "primaryMuscles": ["shoulder - front", "shoulder - side"],
     "secondaryMuscles": ["abdominal", "bicep", "tricep"],
@@ -5987,8 +5987,8 @@
     "notes": ""
   },
   {
-    "pk": 337,
-    "name": "Seated Rotational Slam \u2013 Medicine Ball",
+    "pk": "01212465-6e78-4c7a-826a-c7ca2dcdae2c",
+    "name": "Seated Rotational Slam – Medicine Ball",
     "slug": "seated-rotational-slam-medicine-ball",
     "primaryMuscles": ["abdominal", "oblique"],
     "secondaryMuscles": ["lat", "lower back", "shoulder - front"],
@@ -6003,8 +6003,8 @@
     "notes": "Keep your arms extended, elbows slightly bent, throughout the exercise. Focus on creating big circles with your arms, avoiding the tendency to create smaller, easier circles, close to your chest."
   },
   {
-    "pk": 338,
-    "name": "Horn Grip Bicep Curl \u2013 Kettlebell",
+    "pk": "fa1e4680-bb98-42cd-b638-8d0ef4478b3b",
+    "name": "Horn Grip Bicep Curl – Kettlebell",
     "slug": "horn-grip-bicep-curl-kettlebell",
     "primaryMuscles": ["bicep"],
     "secondaryMuscles": ["forearm - inner", "forearm - outer"],
@@ -6019,8 +6019,8 @@
     "notes": ""
   },
   {
-    "pk": 339,
-    "name": "Swing and High Pull \u2013 Double Kettlebell",
+    "pk": "b3ecbc78-8c4d-4adf-b575-454438a45208",
+    "name": "Swing and High Pull – Double Kettlebell",
     "slug": "swing-and-high-pull-double-kettlebell",
     "primaryMuscles": [
       "glute",
@@ -6048,8 +6048,8 @@
     "notes": ""
   },
   {
-    "pk": 340,
-    "name": "Split Squat \u2013 Barbell",
+    "pk": "f4d35499-bbfe-4d37-b89d-8229873bdb45",
+    "name": "Split Squat – Barbell",
     "slug": "split-squat-barbell",
     "primaryMuscles": ["glute", "hamstring", "quad"],
     "secondaryMuscles": ["calf", "lower back"],
