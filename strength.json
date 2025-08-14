@@ -5609,8 +5609,8 @@
   },
   {
     "pk": "0b1665ab-19bc-4c97-8b83-bcebf1af3362",
-    "name": "Jump Squat – Bodyweight",
-    "slug": "jump-squat-bodyweight",
+    "name": "Jump Squat",
+    "slug": "jump-squat",
     "primaryMuscles": ["calf", "glute", "hamstring", "quad"],
     "secondaryMuscles": ["abdominal", "lower back"],
     "steps": [
