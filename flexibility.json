@@ -442,5 +442,21 @@
       "Continue these rotations for the desired amount of time."
     ],
     "notes": ""
+  },
+  {
+    "pk": "4a9f61c9-eab8-4321-80d0-369abf0ca206",
+    "name": "Front Line Opener",
+    "slug": "front-line-opener",
+    "primaryMuscles": ["chest", "lower back"],
+    "secondaryMuscles": ["abdominal", "shoulder - front"],
+    "steps": [
+      "Stand with your feet hip-width apart.",
+      "Bend forward, rounding your back and neck, tucking your chin. Tuck your chin and round your back far enough so that the crown of your head points directly in front of you.",
+      "Reach towards the floor with your arms internally rotated, touching the back of your wrists to each other in front of you.",
+      "Once you've reached your end range, extend your spine to straighten it and lift your chin to look directly in front.",
+      "As you're extending your spine, rotate your arms out and to your sides, palm facing forward, to open your chest muscles.",
+      "Continue repetitions for the desired amount of time."
+    ],
+    "notes": ""
   }
 ]
