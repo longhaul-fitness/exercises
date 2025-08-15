@@ -27,9 +27,9 @@
       "Place both elbows on the ground in front of you.",
       "Raise one arm and place your hand behind your head.",
       "Rotate your upper body towards the side with the raised arm, looking up.",
-      "Hold the stretch for 5 seconds.",
+      "Hold the stretch for the desired time.",
       "Slowly return to the starting position.",
-      "Repeat the stretch for the desired number of repetitions on each side."
+      "Repeat the stretch for the same time on the other side."
     ],
     "notes": ""
   },
@@ -456,6 +456,37 @@
       "Once you've reached your end range, extend your spine to straighten it and lift your chin to look directly in front.",
       "As you're extending your spine, rotate your arms out and to your sides, palm facing forward, to open your chest muscles.",
       "Continue repetitions for the desired amount of time."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "5f281096-ed92-4b29-b189-7e91c50024be",
+    "name": "One-Arm Kneeling Spine Twist",
+    "slug": "one-arm-kneeling-spine-twist",
+    "primaryMuscles": ["oblique", "lower back"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Sit on your heels to isolate the movement from your low back.",
+      "Place one palm flat on the floor and the other just behind your head or neck. This is your starting position.",
+      "Rotate your upper body as far as you can or until your elbow points straight up to the ceiling.",
+      "Hold the rotation for the desired amount of time.",
+      "Slowly return to the start position.",
+      "Repeat the exercise on the other side for the same time."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "d010a335-71e9-4660-ae1d-fd6f384b5458",
+    "name": "One-Leg Prone Quad Stretch \u2013 Band",
+    "slug": "one-leg-prone-quad-stretch-band",
+    "primaryMuscles": ["quad"],
+    "secondaryMuscles": ["hamstring"],
+    "steps": [
+      "Loop a strength band or pull-up assist band around one ankle.",
+      "Lie down on your stomach.",
+      "Hold the band with both hands, over your back, over the same shoulder as the looped ankle, all the way until it's in front of your forehead as your lying down.",
+      "Pull the band away from your forehead to flex your quad.",
+      "Hold the stretch for the desired time and switch to the other side."
     ],
     "notes": ""
   }
