@@ -6113,5 +6113,22 @@
       "Repeat the movement on the same side for your desired number of repetitions, then switch to the other leg."
     ],
     "notes": ""
+  },
+  {
+    "pk": "c7fc3f17-22f5-41bd-8b2e-8b433ca4350f",
+    "name": "Drinking Bird Row \u2013 Band",
+    "slug": "drinking-bird-row-band",
+    "primaryMuscles": ["lat", "lower back", "trap"],
+    "secondaryMuscles": ["bicep", "glute", "hamstring"],
+    "steps": [
+      "Tie a resistance band down in front of you at sternum height and hold it with both hands using an overhand grip.",
+      "Stand with your feet shoulder-width apart and hinge at the hips forward while keeping your spine neutral and a slight bend in the knees.",
+      "Reach your hands out overhead as you hinge forward, maintaining tension in the band. This is your starting position.",
+      "Reverse the hinge and stand straight up while pulling the band towards your sternum, leading with your elbows.",
+      "Squeeze your back muscles as your hands reach your sternum and you're standing up straight.",
+      "Slowly return to the starting position by hinging forward at the hips again.",
+      "Repeat the movement for your desired number of repetitions."
+    ],
+    "notes": ""
   }
 ]
