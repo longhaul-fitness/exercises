@@ -15,8 +15,8 @@ from nodes import FlexibilityMusclesNode
 def prepare_muscles_node_input(test_case: Dict[str, Any], model: str) -> Dict[str, Any]:
     """Prepare input data for FlexibilityMusclesNode."""
     return {
-        "query": test_case["input"]["query"],
-        "steps": test_case["input"]["steps"],
+        "query": test_case["query"],
+        "steps": test_case["expected"]["steps"],
         "model_name": model,
     }
 
@@ -39,7 +39,7 @@ def run_flexibility_muscles_node(
     """
     return run_node_experiments(
         node_class=FlexibilityMusclesNode,
-        expected_field="expected_muscles",
+        expected_field="muscles",
         input_preparer=prepare_muscles_node_input,
         models=models,
         test_case_id=test_case_id,

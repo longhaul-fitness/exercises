@@ -214,7 +214,7 @@ def run_node_experiments(
                         "test_case_id": test_case["id"],
                         "input": input_data,
                         "output": {
-                            "expected": test_case["output"][expected_field],
+                            "expected": test_case["expected"][expected_field],
                             "actual": actual_output,
                         },
                         "metadata": {
@@ -237,7 +237,7 @@ def run_node_experiments(
                         "test_case_id": test_case["id"],
                         "input": input_data,
                         "output": {
-                            "expected": test_case["output"][expected_field],
+                            "expected": test_case["expected"][expected_field],
                             "actual": None,
                         },
                         "metadata": {"execution_time_ms": None, "cost": None},
