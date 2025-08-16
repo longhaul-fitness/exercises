@@ -1,8 +1,9 @@
 [
   {
     "id": "str-001",
-    "input": {
-      "query": "Pull-Up",
+    "query": "Pull-Up",
+    "expected": {
+      "name": "Pull-Up",
       "steps": [
         "Begin by finding a sturdy horizontal bar high enough off the ground that you can hang from it with your feet off the floor.",
         "Stand underneath the bar and jump up, grabbing onto the bar with an overhand grip (palms facing away from you) and your hands slightly wider than shoulder-width apart. Your arms should be fully extended.",
@@ -12,30 +13,16 @@
         "Repeat the movement for your desired number of repetitions."
       ],
       "muscles": {
-        "primaryMuscles": ["lat"],
-        "secondaryMuscles": ["bicep", "forearm", "rotator cuff", "shoulder"]
+        "primary": ["lat"],
+        "secondary": ["bicep", "forearm", "rotator cuff", "shoulder"]
       }
-    },
-    "output": {
-      "expected_name": "Pull-Up",
-      "expected_muscles": {
-        "primaryMuscles": ["lat"],
-        "secondaryMuscles": ["bicep", "forearm", "rotator cuff", "shoulder"]
-      },
-      "expected_steps": [
-        "Begin by finding a sturdy horizontal bar high enough off the ground that you can hang from it with your feet off the floor.",
-        "Stand underneath the bar and jump up, grabbing onto the bar with an overhand grip (palms facing away from you) and your hands slightly wider than shoulder-width apart. Your arms should be fully extended.",
-        "Engage your core and retract your shoulder blades as you pull your body up towards the bar. Keep your elbows pointed downwards and your head in a neutral position.",
-        "Continue pulling your body up until your chin is above the bar. Keep your core tight and your shoulders engaged throughout the movement.",
-        "Pause briefly at the top of the movement, then slowly lower yourself back down to the starting position with control. Make sure to maintain a controlled descent and avoid letting your body swing or drop.",
-        "Repeat the movement for your desired number of repetitions."
-      ]
     }
   },
   {
     "id": "str-002",
-    "input": {
-      "query": "Squat – Barbell",
+    "query": "Squat – Barbell",
+    "expected": {
+      "name": "Squat – Barbell",
       "steps": [
         "Begin by standing with your feet shoulder-width apart and your toes pointing forward. Hold a barbell behind your neck, resting it on your shoulders with your elbows pointing down and your palms facing forward.",
         "Engage your core and keep your chest lifted as you bend your knees and lower your hips back and down as if sitting in a chair. Make sure to keep your weight on your heels and your knees tracking in line with your toes.",
@@ -45,30 +32,16 @@
         "Place the barbell on the rack after you've finished your set."
       ],
       "muscles": {
-        "primaryMuscles": ["glute", "quad", "thigh"],
-        "secondaryMuscles": ["calf", "lower back"]
+        "primary": ["glute", "quad", "thigh"],
+        "secondary": ["calf", "lower back"]
       }
-    },
-    "output": {
-      "expected_name": "Squat – Barbell",
-      "expected_muscles": {
-        "primaryMuscles": ["glute", "quad", "thigh"],
-        "secondaryMuscles": ["calf", "lower back"]
-      },
-      "expected_steps": [
-        "Begin by standing with your feet shoulder-width apart and your toes pointing forward. Hold a barbell behind your neck, resting it on your shoulders with your elbows pointing down and your palms facing forward.",
-        "Engage your core and keep your chest lifted as you bend your knees and lower your hips back and down as if sitting in a chair. Make sure to keep your weight on your heels and your knees tracking in line with your toes.",
-        "As you descend into the squat, inhale and maintain proper form. Lean forward so that your chest is over your thighs. Keep your back straight and your core engaged. Lower your body until your thighs parallel the ground, and your hips should align with your knees.",
-        "Pause briefly at the bottom of the movement, then exhale and push through your heels to stand back up to the starting position. Keep your core engaged and your chest lifted until you're fully standing.",
-        "Repeat the movement for your desired number of repetitions.",
-        "Place the barbell on the rack after you've finished your set."
-      ]
     }
   },
   {
     "id": "str-003",
-    "input": {
-      "query": "Push-Up",
+    "query": "Push-Up",
+    "expected": {
+      "name": "Push-Up",
       "steps": [
         "Start in a plank position, with your hands shoulder-width apart and your fingers pointing forward.",
         "Keep your core engaged, your back straight, and your hips in line with your shoulders.",
@@ -78,30 +51,16 @@
         "Repeat"
       ],
       "muscles": {
-        "primaryMuscles": ["chest", "shoulder", "tricep"],
-        "secondaryMuscles": ["abdominal"]
+        "primary": ["chest", "shoulder", "tricep"],
+        "secondary": ["abdominal"]
       }
-    },
-    "output": {
-      "expected_name": "Push-Up",
-      "expected_muscles": {
-        "primaryMuscles": ["chest", "shoulder", "tricep"],
-        "secondaryMuscles": ["abdominal"]
-      },
-      "expected_steps": [
-        "Start in a plank position, with your hands shoulder-width apart and your fingers pointing forward.",
-        "Keep your core engaged, your back straight, and your hips in line with your shoulders.",
-        "Lower your body towards the ground by bending your elbows, keeping your upper arms close to your sides.",
-        "Keep your elbows at a 45-degree angle to your body, and continue lowering until your chest touches the ground.",
-        "Push back up to the starting position by straightening your arms, keeping your core engaged and your body in a straight line throughout the movement.",
-        "Repeat"
-      ]
     }
   },
   {
     "id": "str-004",
-    "input": {
-      "query": "Romanian Deadlift – Barbell",
+    "query": "Romanian Deadlift – Barbell",
+    "expected": {
+      "name": "Romanian Deadlift – Barbell",
       "steps": [
         "Preferably, start with a loaded barbell at hip height on a squat rack. Alternatively, you can lift the barbell from the floor to the starting position.",
         "Stand with your feet hip-width apart, and grip the barbell with hands just outside your thighs using an overhand grip.",
@@ -113,32 +72,16 @@
         "Repeat for the desired number of repetitions, ensuring that the tension is maintained in the target muscles without resting the bar on the floor between reps."
       ],
       "muscles": {
-        "primaryMuscles": ["glute", "hamstring", "lower back"],
-        "secondaryMuscles": ["calf", "forearm", "trap", "quad"]
+        "primary": ["glute", "hamstring", "lower back"],
+        "secondary": ["calf", "forearm", "trap", "quad"]
       }
-    },
-    "output": {
-      "expected_name": "Romanian Deadlift – Barbell",
-      "expected_muscles": {
-        "primaryMuscles": ["glute", "hamstring", "lower back"],
-        "secondaryMuscles": ["calf", "forearm", "trap", "quad"]
-      },
-      "expected_steps": [
-        "Preferably, start with a loaded barbell at hip height on a squat rack. Alternatively, you can lift the barbell from the floor to the starting position.",
-        "Stand with your feet hip-width apart, and grip the barbell with hands just outside your thighs using an overhand grip.",
-        "Begin the movement with a slight bend in your knees, and keep your back straight and chest up throughout the exercise.",
-        "Push your hips back, hinging at the hips to lower the barbell, while keeping it close to your body as the bar descends.",
-        "Lower the weight to just below your knees or to mid-shin level — the exact point depends on your hamstring flexibility, without rounding your back.",
-        "Pause briefly at the bottom of the movement, maintaining a braced core and tension in your hamstrings and glutes.",
-        "Reverse the motion by driving your hips forward to return to a fully upright position, squeezing your glutes at the top of the movement.",
-        "Repeat for the desired number of repetitions, ensuring that the tension is maintained in the target muscles without resting the bar on the floor between reps."
-      ]
     }
   },
   {
     "id": "str-005",
-    "input": {
-      "query": "Single-Leg Romanian Deadlift – Dumbbell",
+    "query": "Single-Leg Romanian Deadlift – Dumbbell",
+    "expected": {
+      "name": "Single-Leg Romanian Deadlift – Dumbbell",
       "steps": [
         "Begin by standing on one leg, with a slight bend in the knee. Keep your other leg off the ground and behind you.",
         "Hold a dumbbell or kettlebell in the opposite hand of the leg you are standing on.",
@@ -148,30 +91,16 @@
         "Repeat for the desired number of repetitions on one leg before switching to the other."
       ],
       "muscles": {
-        "primaryMuscles": ["calf", "glute", "hamstring", "lower back"],
-        "secondaryMuscles": ["forearm", "trap", "quad"]
+        "primary": ["calf", "glute", "hamstring", "lower back"],
+        "secondary": ["forearm", "trap", "quad"]
       }
-    },
-    "output": {
-      "expected_name": "Single-Leg Romanian Deadlift – Dumbbell",
-      "expected_muscles": {
-        "primaryMuscles": ["calf", "glute", "hamstring", "lower back"],
-        "secondaryMuscles": ["forearm", "trap", "quad"]
-      },
-      "expected_steps": [
-        "Begin by standing on one leg, with a slight bend in the knee. Keep your other leg off the ground and behind you.",
-        "Hold a dumbbell or kettlebell in the opposite hand of the leg you are standing on.",
-        "Brace your core, keep your chest up, and slowly hinge forward at the hips, keeping your back straight and your shoulders down. As you hinge, lift your non-standing leg behind you, keeping it in line with your torso.",
-        "Continue lowering the weight until you feel a stretch in your hamstring. Your standing knee should be slightly bent but not locked.",
-        "Pause briefly at the bottom of the movement, then slowly reverse the motion by driving your hips forward and standing up tall while bringing your lifted leg back down to the ground.",
-        "Repeat for the desired number of repetitions on one leg before switching to the other."
-      ]
     }
   },
   {
     "id": "str-006",
-    "input": {
-      "query": "Squat – Bodyweight",
+    "query": "Squat – Bodyweight",
+    "expected": {
+      "name": "Squat",
       "steps": [
         "Stand with your feet shoulder-width apart and point your toes slightly outward.",
         "Keep your chest up, shoulders back, and core engaged.",
@@ -183,32 +112,16 @@
         "Stand up straight and repeat."
       ],
       "muscles": {
-        "primaryMuscles": ["glute", "quad", "thigh"],
-        "secondaryMuscles": ["calf"]
+        "primary": ["glute", "quad", "thigh"],
+        "secondary": ["calf"]
       }
-    },
-    "output": {
-      "expected_name": "Squat",
-      "expected_muscles": {
-        "primaryMuscles": ["glute", "quad", "thigh"],
-        "secondaryMuscles": ["calf"]
-      },
-      "expected_steps": [
-        "Stand with your feet shoulder-width apart and point your toes slightly outward.",
-        "Keep your chest up, shoulders back, and core engaged.",
-        "Lower your body by bending your knees and pushing your hips back as if you were sitting in a chair.",
-        "Keep your weight on your heels and your knees behind your toes.",
-        "Lower yourself until your thighs are parallel to the ground or as low as you can comfortably go while maintaining good form.",
-        "Pause briefly at the bottom of the squat.",
-        "Push through your heels to stand back up, driving your hips forward as you do.",
-        "Stand up straight and repeat."
-      ]
     }
   },
   {
     "id": "str-007",
-    "input": {
-      "query": "Face Pull",
+    "query": "Face Pull",
+    "expected": {
+      "name": "Face Pull – Cable",
       "steps": [
         "Start by attaching a single long rope or two shorter ropes to a eye-level pulley on a cable machine.",
         "Grasp the rope or cable with both hands using an overhand grip, with your palms facing each other. You want your thumbs to be able to point backwards, guiding the movement.",
@@ -220,32 +133,16 @@
         "Repeat for the desired number of repetitions."
       ],
       "muscles": {
-        "primaryMuscles": ["rotator cuff", "trap", "shoulder"],
-        "secondaryMuscles": ["forearm"]
+        "primary": ["rotator cuff", "trap", "shoulder"],
+        "secondary": ["forearm"]
       }
-    },
-    "output": {
-      "expected_name": "Face Pull – Cable",
-      "expected_muscles": {
-        "primaryMuscles": ["rotator cuff", "trap", "shoulder"],
-        "secondaryMuscles": ["forearm"]
-      },
-      "expected_steps": [
-        "Start by attaching a single long rope or two shorter ropes to a eye-level pulley on a cable machine.",
-        "Grasp the rope or cable with both hands using an overhand grip, with your palms facing each other. You want your thumbs to be able to point backwards, guiding the movement.",
-        "Step back a few feet from the cable machine, so there is tension in the rope or cable.",
-        "Stand with your feet shoulder-width apart, and engage your core muscles to maintain good posture throughout the exercise. This is your starting position.",
-        "Pull the handles towards your face, separating your hands and arms as they go back.",
-        "Keep your elbows high and out to the sides as you pull the rope backwards. End the pull with each arm at a 90-degree angle at the elbow.",
-        "Hold the position for a second, then slowly lower the rope back to the starting position.",
-        "Repeat for the desired number of repetitions."
-      ]
     }
   },
   {
     "id": "str-008",
-    "input": {
-      "query": "Bench Press – Barbell",
+    "query": "Bench Press – Barbell",
+    "expected": {
+      "name": "Lying Bench Press – Barbell",
       "steps": [
         "Lie on a flat bench with your feet firmly planted on the ground.",
         "Grip the barbell with your hands slightly wider than shoulder-width apart, with your palms facing away from your body.",
@@ -256,31 +153,16 @@
         "Repeat."
       ],
       "muscles": {
-        "primaryMuscles": ["chest", "shoulder"],
-        "secondaryMuscles": ["tricep"]
+        "primary": ["chest", "shoulder"],
+        "secondary": ["tricep"]
       }
-    },
-    "output": {
-      "expected_name": "Lying Bench Press – Barbell",
-      "expected_muscles": {
-        "primaryMuscles": ["chest", "shoulder"],
-        "secondaryMuscles": ["tricep"]
-      },
-      "expected_steps": [
-        "Lie on a flat bench with your feet firmly planted on the ground.",
-        "Grip the barbell with your hands slightly wider than shoulder-width apart, with your palms facing away from your body.",
-        "Lift the bar off the rack and hold it directly above your chest with extended arms.",
-        "Slowly lower the bar down to your chest, keeping your elbows close to your body.",
-        "Pause briefly when the bar touches your chest.",
-        "Push the bar back up to the starting position by extending your arms.",
-        "Repeat."
-      ]
     }
   },
   {
     "id": "str-009",
-    "input": {
-      "query": "Romanian Deadlift – Dumbbell",
+    "query": "Romanian Deadlift – Dumbbell",
+    "expected": {
+      "name": "Romanian Deadlift – Dumbbell",
       "steps": [
         "Stand with your feet hip-width apart, holding a dumbbell in each hand with palms facing your body.",
         "Begin with a slight bend in your knees, keep your back straight, chest up, and shoulders back throughout the exercise.",
@@ -291,31 +173,16 @@
         "Repeat the movement for the desired number of repetitions without letting the dumbbells touch the floor between reps to keep tension on the muscles."
       ],
       "muscles": {
-        "primaryMuscles": ["glute", "hamstring", "lower back"],
-        "secondaryMuscles": ["calf", "forearm", "trap", "quad"]
+        "primary": ["glute", "hamstring", "lower back"],
+        "secondary": ["calf", "forearm", "trap", "quad"]
       }
-    },
-    "output": {
-      "expected_name": "Romanian Deadlift – Dumbbell",
-      "expected_muscles": {
-        "primaryMuscles": ["glute", "hamstring", "lower back"],
-        "secondaryMuscles": ["calf", "forearm", "trap", "quad"]
-      },
-      "expected_steps": [
-        "Stand with your feet hip-width apart, holding a dumbbell in each hand with palms facing your body.",
-        "Begin with a slight bend in your knees, keep your back straight, chest up, and shoulders back throughout the exercise.",
-        "Push your hips back and hinge at the hips to lower the dumbbells along the front of your legs, maintaining a neutral spine.",
-        "Lower the dumbbells to just below your knees or to mid-shin level, depending on your flexibility, while keeping the weights close to your legs.",
-        "Pause briefly at the bottom of the movement, ensuring your core is braced and your hamstrings and glutes are engaged.",
-        "Thrust your hips forward to lift your torso back to the starting position, simultaneously contracting your glutes at the top of the movement.",
-        "Repeat the movement for the desired number of repetitions without letting the dumbbells touch the floor between reps to keep tension on the muscles."
-      ]
     }
   },
   {
     "id": "str-010",
-    "input": {
-      "query": "Squat – Dumbbell",
+    "query": "Squat – Dumbbell",
+    "expected": {
+      "name": "Squat – Dumbbell",
       "steps": [
         "Stand with your feet shoulder-width apart, with your toes pointing slightly outward.",
         "Hold a dumbbell in each hand by your sides, with your palms facing inward.",
@@ -327,26 +194,9 @@
         "Repeat."
       ],
       "muscles": {
-        "primaryMuscles": ["glute", "quad", "thigh"],
-        "secondaryMuscles": ["calf", "lower back"]
+        "primary": ["glute", "quad", "thigh"],
+        "secondary": ["calf", "lower back"]
       }
-    },
-    "output": {
-      "expected_name": "Squat – Dumbbell",
-      "expected_muscles": {
-        "primaryMuscles": ["glute", "quad", "thigh"],
-        "secondaryMuscles": ["calf", "lower back"]
-      },
-      "expected_steps": [
-        "Stand with your feet shoulder-width apart, with your toes pointing slightly outward.",
-        "Hold a dumbbell in each hand by your sides, with your palms facing inward.",
-        "Engage your core and keep your chest lifted throughout the movement.",
-        "Lower your body by bending at the hips and knees as if sitting on a chair.",
-        "Keep your weight in your heels, and make sure your knees are tracking over your toes.",
-        "Lower your body until your thighs are parallel to the ground or until you reach your desired depth.",
-        "Push through your heels to stand back up to the starting position.",
-        "Repeat."
-      ]
     }
   }
 ]

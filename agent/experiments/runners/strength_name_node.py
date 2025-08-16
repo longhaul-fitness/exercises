@@ -15,9 +15,9 @@ from nodes import StrengthNameNode
 def prepare_name_node_input(test_case: Dict[str, Any], model: str) -> Dict[str, Any]:
     """Prepare input data for StrengthNameNode."""
     return {
-        "query": test_case["input"]["query"],
-        "steps": test_case["input"]["steps"],
-        "muscles": test_case["input"]["muscles"],
+        "query": test_case["query"],
+        "steps": test_case["expected"]["steps"],
+        "muscles": test_case["expected"]["muscles"],
         "model_name": model,
     }
 
@@ -40,7 +40,7 @@ def run_strength_name_node(
     """
     return run_node_experiments(
         node_class=StrengthNameNode,
-        expected_field="expected_name",
+        expected_field="name",
         input_preparer=prepare_name_node_input,
         models=models,
         test_case_id=test_case_id,

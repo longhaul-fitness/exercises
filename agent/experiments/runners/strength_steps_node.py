@@ -15,7 +15,7 @@ from nodes import StrengthStepsNode
 def prepare_steps_node_input(test_case: Dict[str, Any], model: str) -> Dict[str, Any]:
     """Prepare input data for StrengthStepsNode."""
     return {
-        "query": test_case["input"]["query"],
+        "query": test_case["query"],
         "model_name": model,
     }
 
@@ -38,7 +38,7 @@ def run_strength_steps_node(
     """
     return run_node_experiments(
         node_class=StrengthStepsNode,
-        expected_field="expected_steps",
+        expected_field="steps",
         input_preparer=prepare_steps_node_input,
         models=models,
         test_case_id=test_case_id,
