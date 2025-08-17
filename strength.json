@@ -6130,5 +6130,22 @@
       "Repeat the movement for your desired number of repetitions."
     ],
     "notes": ""
+  },
+  {
+    "pk": "87856d89-8e9a-464c-bf9f-61b4454f9f4d",
+    "name": "Lying Hamstring Bridge",
+    "slug": "lying-hamstring-bridge",
+    "primaryMuscles": ["glute", "hamstring"],
+    "secondaryMuscles": ["lower back"],
+    "steps": [
+      "Lie down on your back with your knees bent at about 110 degrees.",
+      "Keep your heels planted on the floor and raise your toes up.",
+      "Engage your core to maintain a neutral spine.",
+      "Lift your pelvis off the ground, squeezing your hamstrings and glutes.",
+      "Hold the lifted position for a moment, ensuring your spine remains neutral.",
+      "Slowly lower your pelvis back down to the starting position.",
+      "Repeat the movement for your desired number of repetitions."
+    ],
+    "notes": ""
   }
 ]
