@@ -51,7 +51,7 @@
         "Repeat"
       ],
       "muscles": {
-        "primary": ["chest", "shoulder", "tricep"],
+        "primary": ["chest", "shoulder - front", "tricep"],
         "secondary": ["abdominal"]
       }
     }
@@ -73,7 +73,7 @@
       ],
       "muscles": {
         "primary": ["glute", "hamstring", "lower back"],
-        "secondary": ["calf", "forearm", "trap", "quad"]
+        "secondary": ["calf", "trap", "quad"]
       }
     }
   },
@@ -92,7 +92,7 @@
       ],
       "muscles": {
         "primary": ["calf", "glute", "hamstring", "lower back"],
-        "secondary": ["forearm", "trap", "quad"]
+        "secondary": ["trap", "quad"]
       }
     }
   },
@@ -133,8 +133,8 @@
         "Repeat for the desired number of repetitions."
       ],
       "muscles": {
-        "primary": ["rotator cuff", "trap", "shoulder"],
-        "secondary": ["forearm"]
+        "primary": ["rotator cuff - back", "trap", "shoulder - back"],
+        "secondary": []
       }
     }
   },
@@ -142,7 +142,7 @@
     "id": "str-008",
     "query": "Bench Press – Barbell",
     "expected": {
-      "name": "Lying Bench Press – Barbell",
+      "name": "Bench Press – Barbell",
       "steps": [
         "Lie on a flat bench with your feet firmly planted on the ground.",
         "Grip the barbell with your hands slightly wider than shoulder-width apart, with your palms facing away from your body.",

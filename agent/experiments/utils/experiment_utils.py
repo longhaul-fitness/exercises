@@ -174,7 +174,16 @@ def run_node_experiments(
 
     # Load test data
     if data_path is None:
-        data_path = os.path.join(os.path.dirname(__file__), "../data/flexibility.json")
+        # Determine data file based on node class name
+        node_name = node_class.__name__.lower()
+        if "strength" in node_name:
+            data_file = "strength.json"
+        elif "flexibility" in node_name:
+            data_file = "flexibility.json"
+        else:
+            # Default fallback
+            data_file = "flexibility.json"
+        data_path = os.path.join(os.path.dirname(__file__), f"../data/{data_file}")
     test_data = load_json_data(data_path)
 
     # Filter to specific test case if requested
