@@ -8,11 +8,11 @@ dependencies = [
     "backoff>=2.2.1",
     "boto3>=1.39.11",
     "kaleido>=1.0.0",
-    "litellm<1.75",
+    "litellm~=1.75.0",
     "plotly>=6.2.0",
     "pocketflow>=0.0.2",
+    "rapidfuzz>=3.13.0",
     "scikit-learn>=1.7.0",
-    "thefuzz>=0.22.1",
 ]
 
 [dependency-groups]

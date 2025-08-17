@@ -183,9 +183,14 @@ class FlexibilityMusclesNode(Node):
         import json
 
         try:
-            muscles = json.loads(result)
+            # Clean the response to remove markdown delimiters
+            clean_json = extract_json_from_response(result)
+            muscles = json.loads(clean_json)
             return {"response": muscles, "cost": cost}
         except json.JSONDecodeError:
+            LOGGER.error(
+                f"FlexibilityMusclesNode JSON parse error. Raw result: {result}"
+            )
             return {"response": ["Unable to parse muscles"], "cost": cost}
 
     def post(self, shared, prep_res, exec_res):
@@ -359,9 +364,12 @@ class StrengthMusclesNode(Node):
         import json
 
         try:
-            muscles = json.loads(result)
+            # Clean the response to remove markdown delimiters
+            clean_json = extract_json_from_response(result)
+            muscles = json.loads(clean_json)
             return {"response": muscles, "cost": cost}
         except json.JSONDecodeError:
+            LOGGER.error(f"StrengthMusclesNode JSON parse error. Raw result: {result}")
             return {"response": ["Unable to parse muscles"], "cost": cost}
 
     def post(self, shared, prep_res, exec_res):
@@ -409,7 +417,6 @@ class StrengthNameNode(Node):
 
         # Extract primary and secondary muscles from the muscles data
         muscles_data = prep_data["muscles"]
-        LOGGER.warning(f"muscles_data: {muscles_data}")
         primary_muscles = muscles_data.get("primaryMuscles", [])
         secondary_muscles = muscles_data.get("secondaryMuscles", [])
 

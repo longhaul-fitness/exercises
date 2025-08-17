@@ -3,9 +3,10 @@ out/
 # agent
 .aider*
 .claude*
+.env
 .venv
-config.json
 agent/exercises.json
+config.json
 
 # Experiment results
 agent/experiments/results/

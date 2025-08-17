@@ -3,7 +3,7 @@
 # requires-python = ">=3.13"
 # dependencies = [
 #    "boto3>=1.39.11",
-#     "litellm<1.75",
+#     "litellm~=1.75.0",
 #     "pocketflow>=0.0.2",
 # ]
 # ///

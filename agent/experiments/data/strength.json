@@ -13,8 +13,15 @@
         "Repeat the movement for your desired number of repetitions."
       ],
       "muscles": {
-        "primary": ["lat"],
-        "secondary": ["bicep", "forearm", "rotator cuff", "shoulder"]
+        "primary": [
+          "lat"
+        ],
+        "secondary": [
+          "bicep",
+          "forearm - inner",
+          "rotator cuff - back",
+          "shoulder - back"
+        ]
       }
     }
   },
@@ -32,8 +39,15 @@
         "Place the barbell on the rack after you've finished your set."
       ],
       "muscles": {
-        "primary": ["glute", "quad", "thigh"],
-        "secondary": ["calf", "lower back"]
+        "primary": [
+          "glute",
+          "lower back",
+          "quad",
+          "thigh - inner"
+        ],
+        "secondary": [
+          "calf"
+        ]
       }
     }
   },
@@ -51,8 +65,14 @@
         "Repeat"
       ],
       "muscles": {
-        "primary": ["chest", "shoulder", "tricep"],
-        "secondary": ["abdominal"]
+        "primary": [
+          "chest",
+          "shoulder - front",
+          "tricep"
+        ],
+        "secondary": [
+          "abdominal"
+        ]
       }
     }
   },
@@ -72,8 +92,16 @@
         "Repeat for the desired number of repetitions, ensuring that the tension is maintained in the target muscles without resting the bar on the floor between reps."
       ],
       "muscles": {
-        "primary": ["glute", "hamstring", "lower back"],
-        "secondary": ["calf", "forearm", "trap", "quad"]
+        "primary": [
+          "glute",
+          "hamstring",
+          "lower back"
+        ],
+        "secondary": [
+          "calf",
+          "trap",
+          "quad"
+        ]
       }
     }
   },
@@ -91,8 +119,16 @@
         "Repeat for the desired number of repetitions on one leg before switching to the other."
       ],
       "muscles": {
-        "primary": ["calf", "glute", "hamstring", "lower back"],
-        "secondary": ["forearm", "trap", "quad"]
+        "primary": [
+          "calf",
+          "glute",
+          "hamstring",
+          "lower back"
+        ],
+        "secondary": [
+          "trap",
+          "quad"
+        ]
       }
     }
   },
@@ -112,8 +148,14 @@
         "Stand up straight and repeat."
       ],
       "muscles": {
-        "primary": ["glute", "quad", "thigh"],
-        "secondary": ["calf"]
+        "primary": [
+          "glute",
+          "quad",
+          "thigh - inner"
+        ],
+        "secondary": [
+          "calf"
+        ]
       }
     }
   },
@@ -133,8 +175,15 @@
         "Repeat for the desired number of repetitions."
       ],
       "muscles": {
-        "primary": ["rotator cuff", "trap", "shoulder"],
-        "secondary": ["forearm"]
+        "primary": [
+          "rotator cuff - back",
+          "trap",
+          "shoulder - back"
+        ],
+        "secondary": [
+          "shoulder - side",
+          "forearm - outer"
+        ]
       }
     }
   },
@@ -142,7 +191,7 @@
     "id": "str-008",
     "query": "Bench Press – Barbell",
     "expected": {
-      "name": "Lying Bench Press – Barbell",
+      "name": "Bench Press – Barbell",
       "steps": [
         "Lie on a flat bench with your feet firmly planted on the ground.",
         "Grip the barbell with your hands slightly wider than shoulder-width apart, with your palms facing away from your body.",
@@ -153,8 +202,13 @@
         "Repeat."
       ],
       "muscles": {
-        "primary": ["chest", "shoulder"],
-        "secondary": ["tricep"]
+        "primary": [
+          "chest",
+          "shoulder - front"
+        ],
+        "secondary": [
+          "tricep"
+        ]
       }
     }
   },
@@ -173,8 +227,16 @@
         "Repeat the movement for the desired number of repetitions without letting the dumbbells touch the floor between reps to keep tension on the muscles."
       ],
       "muscles": {
-        "primary": ["glute", "hamstring", "lower back"],
-        "secondary": ["calf", "forearm", "trap", "quad"]
+        "primary": [
+          "glute",
+          "hamstring",
+          "lower back"
+        ],
+        "secondary": [
+          "calf",
+          "trap",
+          "quad"
+        ]
       }
     }
   },
@@ -194,8 +256,15 @@
         "Repeat."
       ],
       "muscles": {
-        "primary": ["glute", "quad", "thigh"],
-        "secondary": ["calf", "lower back"]
+        "primary": [
+          "glute",
+          "lower back",
+          "quad",
+          "thigh - inner"
+        ],
+        "secondary": [
+          "calf"
+        ]
       }
     }
   }

@@ -5,8 +5,8 @@ from dataclasses import dataclass
 from typing import List, Tuple
 
 import numpy as np
+from rapidfuzz import fuzz
 from sklearn.metrics.pairwise import cosine_similarity
-from thefuzz import fuzz
 
 # Add the src directory to the Python path
 sys.path.append(os.path.join(os.path.dirname(__file__), "../src"))
@@ -250,6 +250,28 @@ def calculate_comprehensive_similarity(
         "lexical_similarity": lexical_scores,
         "combined_score": combined_score,
     }
+
+
+def calculate_geometric_mean(scores: List[float]) -> float:
+    """
+    Calculate the geometric mean of a list of scores.
+
+    Args:
+        scores: A list of floats (e.g., component scores).
+
+    Returns:
+        The geometric mean. Returns 0.0 if the list is empty.
+    """
+    if not scores:
+        return 0.0
+
+    # A small epsilon is added to handle cases where a score is exactly 0.
+    epsilon = 1e-9
+    product = 1.0
+    for score in scores:
+        product *= score + epsilon
+
+    return product ** (1 / len(scores))
 
 
 def calculate_step_similarity_matrix(
