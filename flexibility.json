@@ -537,5 +537,52 @@
       "Continue alternating sides and repeating the movement for the desired amount of time."
     ],
     "notes": ""
+  },
+  {
+    "pk": "9e2af81e-141f-44c9-8115-3370c66d14d1",
+    "name": "Halo Neck Rotation",
+    "slug": "halo-neck-rotation",
+    "primaryMuscles": ["trap"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Stand or sit with your back straight and shoulders relaxed.",
+      "Keep your head looking straight forward.",
+      "Slowly move your neck to draw a halo with the tip of your head, moving it in a circular motion.",
+      "You can start by moving your head in a counter-clockwise direction, then switch to clockwise.",
+      "Continue the movement for the desired amount of time, ensuring you maintain the forward gaze throughout."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "f2fad514-fb0f-4467-8b3d-b65655794591",
+    "name": "One-Arm Prone Rotator Cuff External Rotation",
+    "slug": "one-arm-prone-rotator-cuff-external-rotation",
+    "primaryMuscles": ["rotator cuff - back"],
+    "secondaryMuscles": ["shoulder - back"],
+    "steps": [
+      "Lie on your belly on a padded surface, such as a yoga mat.",
+      "Extend one arm out to the side, in line with your shoulder. Bend your elbow to a 90-degree angle to form a 'cactus' or 'goalpost' shape, with your forearm and palm resting on the floor.",
+      "Keep your elbow pinned to the floor, ensuring it stays in contact with the floor throughout the movement.",
+      "Rotate your hand towards the ceiling as high as possible, keeping the elbow pinned.",
+      "Hold the position for the desired time.",
+      "Repeat exercise on the other side."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "b757312a-49ac-4617-934a-7d02935944b2",
+    "name": "Kneeling Reclining Hero Pose \u2013 Pillow",
+    "slug": "kneeling-reclining-hero-pose-pillow",
+    "primaryMuscles": ["quad"],
+    "secondaryMuscles": ["thigh - inner"],
+    "steps": [
+      "Kneel on a padded and stable surface.",
+      "Place a thick cushion or pillow directly behind you.",
+      "Sit on the floor with your bum between your feet.",
+      "Recline back with your upper body until your upper back is fully supported by the pillow.",
+      "Keep your arms straight overhead.",
+      "Hold the stretch for the desired time."
+    ],
+    "notes": ""
   }
 ]
