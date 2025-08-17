@@ -507,5 +507,21 @@
       "Continue the massage for the desired amount of time."
     ],
     "notes": ""
+  },
+  {
+    "pk": "dab16014-5801-4fd0-bcfd-3db50f9ca801",
+    "name": "One-Leg Seated Ankle Crosses",
+    "slug": "one-leg-seated-ankle-crosses",
+    "primaryMuscles": ["calf"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Sit on a chair or a stable surface with your legs on the ground.",
+      "Pull the target leg's knee towards your chest. Leave the other foot on the ground for stability.",
+      "You're going to draw a bowtie shape, '\u22c8', with your with the toes of your target leg.",
+      "Rotate your foot inwards and then outwards, exploring the full range of motion at the ankle.",
+      "After completing the bowtie shape in one direction, reverse the direction you're drawing with your foot.",
+      "Repeat the shape, forward and backward, for the desired amount of time and switch to target the other leg."
+    ],
+    "notes": ""
   }
 ]
