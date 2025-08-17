@@ -523,5 +523,19 @@
       "Repeat the shape, forward and backward, for the desired amount of time and switch to target the other leg."
     ],
     "notes": ""
+  },
+  {
+    "pk": "48adc847-d455-4a36-b9c2-43a91196a194",
+    "name": "Hamstring Floor Sweep",
+    "slug": "hamstring-floor-sweep",
+    "primaryMuscles": ["glute", "hamstring", "lower back"],
+    "secondaryMuscles": ["shoulder - back"],
+    "steps": [
+      "Stand with one leg straight and extended in front of you, bending the other knee.",
+      "Hinge at the hips, keeping your back straight, and sweep the floor with your arms. Your arms should go in a sweeping motion from behind your back leg to the front of your straight, extended leg.",
+      "Step the front leg back, both feet side-by-side, and alternate sides by stepping forward with the opposite leg and bending the other knee.",
+      "Continue alternating sides and repeating the movement for the desired amount of time."
+    ],
+    "notes": ""
   }
 ]
