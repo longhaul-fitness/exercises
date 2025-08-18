@@ -6,7 +6,7 @@ from typing import List, Tuple
 
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
-from thefuzz import fuzz
+from rapidfuzz import fuzz
 
 # Add the src directory to the Python path
 sys.path.append(os.path.join(os.path.dirname(__file__), "../src"))
