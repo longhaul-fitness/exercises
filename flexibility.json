@@ -599,5 +599,19 @@
       "Continue alternating the movement on each side for the desired amount of time."
     ],
     "notes": ""
+  },
+  {
+    "pk": "d6d575f0-d09b-49ed-a5aa-07215fa12158",
+    "name": "One-Arm Posterior Shoulder Pull \u2013 Dowel",
+    "slug": "one-arm-posterior-shoulder-pull-dowel",
+    "primaryMuscles": ["shoulder - back", "rotator cuff - back"],
+    "secondaryMuscles": ["tricep"],
+    "steps": [
+      "Stand tall with a dowel held behind your back using both hands.",
+      "Place one hand on the dowel at the small of your low back and the other hand behind your head on the dowel.",
+      "Use your top arm to gently pull the target hand up between your shoulder blades.",
+      "Hold the stretch for the desired amount of time and switch sides."
+    ],
+    "notes": ""
   }
 ]
