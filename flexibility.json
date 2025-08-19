@@ -584,5 +584,20 @@
       "Hold the stretch for the desired time."
     ],
     "notes": ""
+  },
+  {
+    "pk": "8e166eae-5d0f-4661-9f9e-996f6859df36",
+    "name": "Wrist Extensor Rotation Stretch",
+    "slug": "wrist-extensor-rotation-stretch",
+    "primaryMuscles": ["forearm - outer"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Bend your hands at the wrists towards you. Place the back of your hands against a stable object like a bench or the floor with your body in a comfortable position that allows you to push down on your wrists.",
+      "Lean your body forwards to push the wrist into extension, staying within tolerable limits.",
+      "Rotate the elbows in and hold the stretch for up to 10 seconds.",
+      "Rotate the elbows out and hold the stretch for up to 10 seconds.",
+      "Continue alternating the movement on each side for the desired amount of time."
+    ],
+    "notes": ""
   }
 ]
