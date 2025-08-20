@@ -301,15 +301,20 @@ def evaluate_end_to_end_results(
                 expected["muscles"], actual["muscles"]
             )
 
-            # Calculate overall score (weighted combination)
+            # Calculate overall score using geometric mean for a balanced evaluation
             name_score = name_eval["combined_score"]
             steps_score = steps_eval["combined_score"]
             muscles_score = muscles_eval["combined_score"]
 
-            # Weight: name (30%), steps (35%), muscles (35%)
+            # Use geometric mean to ensure balanced performance across components.
+            # A low score in any one area will significantly lower the overall score.
+            # A small epsilon is added to handle cases where a score is exactly 0.
+            epsilon = 1e-9
             overall_score = (
-                (name_score * 0.30) + (steps_score * 0.35) + (muscles_score * 0.35)
-            )
+                (name_score + epsilon)
+                * (steps_score + epsilon)
+                * (muscles_score + epsilon)
+            ) ** (1 / 3)
 
             evaluation = {
                 "name_evaluation": name_eval,
