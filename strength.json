@@ -8,7 +8,6 @@
       "bicep",
       "forearm - inner",
       "rotator cuff - back",
-      "rotator cuff - front",
       "shoulder - back"
     ],
     "steps": [
@@ -60,8 +59,6 @@
     "primaryMuscles": ["glute", "hamstring", "lower back"],
     "secondaryMuscles": [
       "calf",
-      "forearm - inner",
-      "forearm - outer",
       "trap",
       "quad"
     ],
@@ -84,8 +81,6 @@
     "primaryMuscles": ["glute", "hamstring", "lower back"],
     "secondaryMuscles": [
       "calf",
-      "forearm - inner",
-      "forearm - outer",
       "trap",
       "quad"
     ],
@@ -105,7 +100,7 @@
     "name": "Single-Leg Romanian Deadlift \u2013 Dumbbell",
     "slug": "single-leg-romanian-deadlift-dumbbell",
     "primaryMuscles": ["calf", "glute", "hamstring", "lower back"],
-    "secondaryMuscles": ["forearm - inner", "forearm - outer", "trap", "quad"],
+    "secondaryMuscles": ["trap", "quad"],
     "steps": [
       "Begin by standing on one leg, with a slight bend in the knee. Keep your other leg off the ground and behind you.",
       "Hold a dumbbell or kettlebell in the opposite hand of the leg you are standing on.",
