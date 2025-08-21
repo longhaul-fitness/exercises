@@ -18,7 +18,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "../utils"))
 import litellm
 from experiment_utils import find_latest_files, save_evaluation_results
 from scoring import (calculate_comprehensive_similarity,
-                     calculate_exact_muscle_metrics)
+                     calculate_exact_muscle_metrics, calculate_geometric_mean)
 
 
 class EmbeddingClient:
@@ -308,13 +308,9 @@ def evaluate_end_to_end_results(
 
             # Use geometric mean to ensure balanced performance across components.
             # A low score in any one area will significantly lower the overall score.
-            # A small epsilon is added to handle cases where a score is exactly 0.
-            epsilon = 1e-9
-            overall_score = (
-                (name_score + epsilon)
-                * (steps_score + epsilon)
-                * (muscles_score + epsilon)
-            ) ** (1 / 3)
+            overall_score = calculate_geometric_mean(
+                [name_score, steps_score, muscles_score]
+            )
 
             evaluation = {
                 "name_evaluation": name_eval,

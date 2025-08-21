@@ -252,6 +252,28 @@ def calculate_comprehensive_similarity(
     }
 
 
+def calculate_geometric_mean(scores: List[float]) -> float:
+    """
+    Calculate the geometric mean of a list of scores.
+
+    Args:
+        scores: A list of floats (e.g., component scores).
+
+    Returns:
+        The geometric mean. Returns 0.0 if the list is empty.
+    """
+    if not scores:
+        return 0.0
+
+    # A small epsilon is added to handle cases where a score is exactly 0.
+    epsilon = 1e-9
+    product = 1.0
+    for score in scores:
+        product *= score + epsilon
+
+    return product ** (1 / len(scores))
+
+
 def calculate_step_similarity_matrix(
     expected_steps: List[str], actual_steps: List[str], embedding_client
 ) -> np.ndarray:
