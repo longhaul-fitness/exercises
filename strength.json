@@ -57,11 +57,7 @@
     "name": "Romanian Deadlift \u2013 Barbell",
     "slug": "romanian-deadlift-barbell",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
-    "secondaryMuscles": [
-      "calf",
-      "trap",
-      "quad"
-    ],
+    "secondaryMuscles": ["calf", "trap", "quad"],
     "steps": [
       "Preferably, start with a loaded barbell at hip height on a squat rack. Alternatively, you can lift the barbell from the floor to the starting position.",
       "Stand with your feet hip-width apart, and grip the barbell with hands just outside your thighs using an overhand grip.",
@@ -79,11 +75,7 @@
     "name": "Romanian Deadlift \u2013 Dumbbell",
     "slug": "romanian-deadlift-dumbbell",
     "primaryMuscles": ["glute", "hamstring", "lower back"],
-    "secondaryMuscles": [
-      "calf",
-      "trap",
-      "quad"
-    ],
+    "secondaryMuscles": ["calf", "trap", "quad"],
     "steps": [
       "Stand with your feet hip-width apart, holding a dumbbell in each hand with palms facing your body.",
       "Begin with a slight bend in your knees, keep your back straight, chest up, and shoulders back throughout the exercise.",
@@ -3664,8 +3656,8 @@
   },
   {
     "pk": "9807a1e2-f8fa-4167-b5af-5ed13d3ae61b",
-    "name": "Clamshells",
-    "slug": "clamshells",
+    "name": "Side-Lying Clamshell",
+    "slug": "side-lying-clamshell",
     "primaryMuscles": ["thigh - outer"],
     "secondaryMuscles": ["glute"],
     "steps": [
@@ -6140,6 +6132,39 @@
       "Hold the lifted position for a moment, ensuring your spine remains neutral.",
       "Slowly lower your pelvis back down to the starting position.",
       "Repeat the movement for your desired number of repetitions."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "82432a9d-fe95-4805-af08-2b8b96126645",
+    "name": "Standing Clamshell",
+    "slug": "standing-clamshell",
+    "primaryMuscles": ["glute", "thigh - outer"],
+    "secondaryMuscles": ["thigh - inner"],
+    "steps": [
+      "Stand with your feet shoulder-width apart and place your hands together, in front of your face, for balance.",
+      "Lower your body by bending your knees until you're in a half-squat position.",
+      "Bring your knees close together, until they're almost touching. This is your starting position.",
+      "Rotate your knees outwards, away from your body, engaging your outer hips and glutes.",
+      "Hold the position for a moment, then slowly bring your knees back to the starting position.",
+      "Continue the movement for your desired number of repetitions."
+    ],
+    "notes": "Use a resistance band around your knees to increase the difficulty of the exercise."
+  },
+  {
+    "pk": "2b395aa2-c563-4001-b639-116928e05231",
+    "name": "One-Leg Front Foot Elevated Split Squat \u2013 Dumbbell",
+    "slug": "one-leg-front-foot-elevated-split-squat-dumbbell",
+    "primaryMuscles": ["glute", "quad"],
+    "secondaryMuscles": ["calf", "hamstring", "lower back"],
+    "steps": [
+      "Place a 12-16 inch plyobox in front of you and hold dumbbells of the desired weight.",
+      "Step onto the plyobox with your front foot, creating a split stance.",
+      "Engage your core and keep your chest lifted.",
+      "Lunge forward by bending the front foot's knee, allowing your back knee to lower towards the ground.",
+      "Lean forward slightly to allow your front knee to move past your toes, ensuring full knee flexion.",
+      "Push through your front heel to return to the standing position.",
+      "Repeat the movement for your desired number of repetitions then switch legs."
     ],
     "notes": ""
   }
