@@ -633,5 +633,24 @@
       "Continue repetitions for the desired amount of time then switch to the other side."
     ],
     "notes": ""
+  },
+  {
+    "pk": "c36cfa8f-b7ea-4571-9e53-778459f7db86",
+    "name": "One-Arm Front Shoulder Active Massage \u2013 Lacrosse Ball",
+    "slug": "one-arm-front-shoulder-active-massage-lacrosse-ball",
+    "primaryMuscles": ["shoulder - front"],
+    "secondaryMuscles": ["bicep", "rotator cuff - front"],
+    "steps": [
+      "Stand with a massage ball in one hand and your other arm, the target arm, in a natural position hanging by your side.",
+      "Reach across your body to place a massage ball along a tender spot on the front of your target shoulder.",
+      "Pin the massage ball in place and compress it within tolerable limits.",
+      "Bend your target arm at the elbow so that there's a right angle between your upper and lower arm. This is your starting position.",
+      "Slowly extend your elbow behind you, keeping it close to your torso, to stretch your shoulder.",
+      "Lift your elbow away from your body about 45\u00b0.",
+      "Extend your arm in front of you, straightening the elbow, until you're comfortably reaching forward.",
+      "Return to the starting position, lowering your elbow close to your body, to complete the circlular motion and one repetition.",
+      "Continue repetitions for the desired amount of time."
+    ],
+    "notes": ""
   }
 ]
