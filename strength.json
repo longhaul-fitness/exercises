@@ -6167,5 +6167,22 @@
       "Repeat the movement for your desired number of repetitions then switch legs."
     ],
     "notes": ""
+  },
+  {
+    "pk": "ca9b99c8-66d3-4fe5-a871-88c2bc2c97ab",
+    "name": "Hip Hinge \u2013 Band",
+    "slug": "hip-hinge-band",
+    "primaryMuscles": ["glute", "hamstring"],
+    "secondaryMuscles": ["lower back"],
+    "steps": [
+      "Place a resistance band around your hips and anchor it behind you at mid-hamstring level.",
+      "Stand with your feet hip-width apart and maintain a light bend in your knees. This is your starting position.",
+      "Engage your core and hinge forward at the hips, keeping your back straight and chest lifted.",
+      "Continue hinging until you feel a stretch in your hamstrings.",
+      "Pause briefly at the bottom, ensuring you maintain a neutral spine.",
+      "Stand straight back up to the starting position.",
+      "Repeat the movement for your desired number of repetitions."
+    ],
+    "notes": ""
   }
 ]
