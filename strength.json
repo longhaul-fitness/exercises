@@ -6184,5 +6184,20 @@
       "Repeat the movement for your desired number of repetitions."
     ],
     "notes": ""
+  },
+  {
+    "pk": "0d1eddbd-2ae9-4cfa-b385-5f2d0d44560c",
+    "name": "Seated Half Good Morning",
+    "slug": "seated-half-good-morning",
+    "primaryMuscles": ["glute", "lower back"],
+    "secondaryMuscles": ["abdominal", "hamstring", "oblique"],
+    "steps": [
+      "Sit on an incline bench set at a 45-degree angle, facing the bench.",
+      "Loop a light monster band around both of your feet and run it across your upper back.",
+      "Maintain a neutral spine and hinge forward at the hips until your torso touches the pad of the bench.",
+      "Hinge backward to return to the neutral position.",
+      "Repeat the movement for your desired number of repetitions."
+    ],
+    "notes": ""
   }
 ]
