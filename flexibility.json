@@ -652,5 +652,21 @@
       "Continue repetitions for the desired amount of time."
     ],
     "notes": ""
+  },
+  {
+    "pk": "894860a3-3fd5-439a-ae31-a60f4f90e6c2",
+    "name": "Seated Knee To Heel Taps",
+    "slug": "seated-knee-to-heel-taps",
+    "primaryMuscles": ["glute", "thigh - inner", "thigh - outer"],
+    "secondaryMuscles": ["lower back", "oblique", "quad"],
+    "steps": [
+      "Sit on the ground leaning backwards with your arms straight and your hands behind you.",
+      "Place your feet just wider than shoulder distance in front of you with your knees bent at 90\u00b0 angles. This is your starting position.",
+      "Rotate one hip outwards until the knee of that leg reaches the ground.",
+      "Rotate the other hip inwards so that the knee of that leg touches the heel of the leg on the ground.",
+      "Return to the starting position and alternate sides.",
+      "Continue alternating the movement on each side for the desired amount of time."
+    ],
+    "notes": "Keep the 90\u00b0 bend in your knees throughout the exercise."
   }
 ]
