@@ -6231,5 +6231,22 @@
       "Repeat the movement for your desired number of repetitions then switch sides."
     ],
     "notes": ""
+  },
+  {
+    "pk": "0e16de0b-235a-4f68-8949-9a3fd3f560b1",
+    "name": "Thumbs-Up Lateral Raise \u2013 Dumbbell",
+    "slug": "thumbs-up-lateral-raise-dumbbell",
+    "primaryMuscles": ["rotator cuff - back", "shoulder - side"],
+    "secondaryMuscles": ["trap"],
+    "steps": [
+      "Stand with your feet shoulder-width apart, holding a dumbbell in each hand with a thumbs up grip (mid pronation).",
+      "Position your arms to your side and about 30 degrees in front of your body.",
+      "Engage your core and keep your elbows slightly bent. This is your starting position.",
+      "Raise the dumbbells to approximately shoulder height, focusing on using your shoulder muscles.",
+      "Pause briefly at the top of the movement.",
+      "Slowly lower the dumbbells back to the starting position with control.",
+      "Repeat the movement for your desired number of repetitions."
+    ],
+    "notes": ""
   }
 ]
