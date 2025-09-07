@@ -6215,5 +6215,21 @@
       "Repeat the movement for your desired number of repetitions."
     ],
     "notes": "Engage your core and keep your chest lifted throughout the exercise."
+  },
+  {
+    "pk": "26815958-5883-49fd-8445-5522409fc9df",
+    "name": "One-Leg Lying Heel Slide",
+    "slug": "one-leg-lying-heel-slide",
+    "primaryMuscles": ["hamstring"],
+    "secondaryMuscles": ["calf", "glute", "lower back"],
+    "steps": [
+      "Lie down on your back on a padded surface with the target leg straight.",
+      "Wear a pair of socks or place a slider disc under the heel of the target leg. The goal is to be able to slide your heel on the floor.",
+      "Engage your core and keep your non-working leg bent with the foot flat on the floor. This is your starting position.",
+      "Slide your heel across the floor towards your buttocks, bending your knee as you go. Focus on contracting your hamstring on the sliding leg.",
+      "Slowly slide your heel back down to return to the straight leg position.",
+      "Repeat the movement for your desired number of repetitions then switch sides."
+    ],
+    "notes": ""
   }
 ]
