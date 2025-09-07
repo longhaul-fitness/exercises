@@ -6199,5 +6199,21 @@
       "Repeat the movement for your desired number of repetitions."
     ],
     "notes": ""
+  },
+  {
+    "pk": "d16cec81-500f-4a0b-8f51-ee2efe91ecee",
+    "name": "Prisoner Squat \u2013 Bodyweight",
+    "slug": "prisoner-squat-bodyweight",
+    "primaryMuscles": ["glute", "quad", "thigh - inner"],
+    "secondaryMuscles": ["abdominal", "calf", "lower back"],
+    "steps": [
+      "Stand with your feet shoulder-width apart and toes pointing forward or slightly away from your body up to 15\u00b0.",
+      "Place your hands behind your head with your elbows pointing out to the sides. This is your starting position.",
+      "Bend your knees and lower your hips back and down as if sitting in a chair, keeping your weight on your heels.",
+      "Lower your body until your thighs are parallel to the ground.",
+      "Push through your heels to stand back up to the starting position.",
+      "Repeat the movement for your desired number of repetitions."
+    ],
+    "notes": "Engage your core and keep your chest lifted throughout the exercise."
   }
 ]
