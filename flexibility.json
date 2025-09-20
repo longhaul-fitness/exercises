@@ -668,5 +668,20 @@
       "Continue alternating the movement on each side for the desired amount of time."
     ],
     "notes": "Keep the 90\u00b0 bend in your knees throughout the exercise."
+  },
+  {
+    "pk": "dd06d4bf-6aa8-4de4-9ad7-f1a4d960cd13",
+    "name": "Assisted Wrist Rotation",
+    "slug": "assisted-wrist-rotation",
+    "primaryMuscles": ["forearm - inner", "forearm - outer"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Raise your arms straight in front of you and clasp your hands together with your thumbs up and fingers interlaced.",
+      "Rotate your wrists together. Imagine tracing an infinity symbol (\u221e) with your knuckles. Aim for the largest rotation possible within tolerable limits.",
+      "Complete 5-8 repetitions in one direction (clockwise).",
+      "Switch direction (counter-clockwise) and repeat.",
+      "Continue alternating the movement in each direction for the desired amount of time."
+    ],
+    "notes": ""
   }
 ]
