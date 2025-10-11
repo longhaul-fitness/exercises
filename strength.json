@@ -6248,5 +6248,22 @@
       "Repeat the movement for your desired number of repetitions."
     ],
     "notes": ""
+  },
+  {
+    "pk": "9281ff5a-ec41-4366-ac71-bf6c126adb7c",
+    "name": "One-Leg Kneeling Bottoms-Up Hold \u2013 Kettlebell",
+    "slug": "one-leg-kneeling-bottoms-up-hold-kettlebell",
+    "primaryMuscles": ["shoulder - front"],
+    "secondaryMuscles": ["rotator cuff - front"],
+    "steps": [
+      "Hold a kettlebell in your left hand.",
+      "Kneel with your left knee and right foot on the ground.",
+      "Raise the kettlebell by the handle so that you're balancing it upside-down.",
+      "Keep your elbow stacked directly below your wrist.",
+      "Flex your shoulder to 90 degrees and bend your elbow to 90 degrees.",
+      "Hold the kettlebell with your arm in this position for the desired amount of time.",
+      "Repeat the exercise on the other side from the same amount of time to complete a set."
+    ],
+    "notes": ""
   }
 ]
