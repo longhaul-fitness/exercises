@@ -683,5 +683,21 @@
       "Continue alternating the movement in each direction for the desired amount of time."
     ],
     "notes": ""
+  },
+  {
+    "pk": "50944578-2377-4973-ba99-77c62de0fd8e",
+    "name": "One-Leg Kneeling Couch Quad Stretch",
+    "slug": "one-leg-kneeling-couch-quad-stretch",
+    "primaryMuscles": ["quad"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Stand in front of a couch, chair, or step stool.",
+      "Bend your right knee to place the top of your right foot on the surface behind you.",
+      "Bend your left knee to kneel to lower your body into a single-leg kneeling position.",
+      "Lower your body until you feel a comfortable stretch or your right knee rests on the floor.",
+      "Sit back towards your heel to increase the stretch in your quad.",
+      "Hold the stretch for the desired time and switch to the other side to complete a set."
+    ],
+    "notes": ""
   }
 ]
