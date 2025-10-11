@@ -713,5 +713,21 @@
       "Continue alternating between flexion and extension for the desired amount of time."
     ],
     "notes": "This exercise differs from a traditional Cat Cow by focusing on each vertebra's slow and deliberate motion through the stretch, hence the \"Segmental\" descriptor."
+  },
+  {
+    "pk": "4670f1ec-73f7-4f18-bcb5-d68b3e2fa6d7",
+    "name": "One-Arm Seated Lower Back Rotation Stretch",
+    "slug": "one-arm-seated-lower-back-rotation-stretch",
+    "primaryMuscles": ["lower back", "oblique"],
+    "secondaryMuscles": ["hamstring", "shoulder - back"],
+    "steps": [
+      "Sit on a stable surface with your legs extended in front of you.",
+      "Place your opposite forearm between both thighs.",
+      "Lean forward slightly and rotate your torso away from the side you want to stretch.",
+      "Reach your back arm towards the ceiling.",
+      "Use the arm between your thighs to provide additional leverage to assist in your rotation.",
+      "Hold the stretch for the desired time and switch to the other side."
+    ],
+    "notes": ""
   }
 ]
