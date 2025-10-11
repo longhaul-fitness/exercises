@@ -699,5 +699,19 @@
       "Hold the stretch for the desired time and switch to the other side to complete a set."
     ],
     "notes": ""
+  },
+  {
+    "pk": "5ea4b519-41ae-45a3-b8ad-c3fd9a15121c",
+    "name": "Hands-And-Knees Segmental Cat Cow",
+    "slug": "hands-and-knees-segmental-cat-cow",
+    "primaryMuscles": ["lower back"],
+    "secondaryMuscles": ["abdominal"],
+    "steps": [
+      "Get on your hands and knees on a padded surface, such as a gym mat or yoga mat.",
+      "Start from the tailbone and shift each vertebra up, towards the ceiling, one at a time. Continue to flex each segment through the lower, middle, and upper spine.",
+      "Once your full spine is in flexion, reverse the motion and push each vertebra, from the top of your spine to the bottom, towards the floor.",
+      "Continue alternating between flexion and extension for the desired amount of time."
+    ],
+    "notes": "This exercise differs from a traditional Cat Cow by focusing on each vertebra's slow and deliberate motion through the stretch, hence the \"Segmental\" descriptor."
   }
 ]
