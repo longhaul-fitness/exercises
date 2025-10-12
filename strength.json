@@ -6265,5 +6265,22 @@
       "Repeat the exercise on the other side from the same amount of time to complete a set."
     ],
     "notes": ""
+  },
+  {
+    "pk": "b4c6d7ac-dc8c-45cb-9b23-988321a15bab",
+    "name": "Alternating Side Lunge Pull \u2013 Plate",
+    "slug": "alternating-side-lunge-pull-plate",
+    "primaryMuscles": ["glute", "quad", "thigh - inner"],
+    "secondaryMuscles": ["abdominal", "calf", "lower back", "thigh - outer"],
+    "steps": [
+      "Stand with a plate between your feet. This is your starting position.",
+      "Take a step to the side with one leg, bending that knee to lower your body into a side lunge.",
+      "Keep the other leg straight and your torso upright.",
+      "As you push through the heel of your bent leg to return to the standing position, use your non-planted leg to pull the weight plate inwards.",
+      "Continue pulling the plate inwards until you are fully standing with the plate close to your feet in the starting position.",
+      "Repeat the movement on the other side to complete a single repetition.",
+      "Continue for your desired number of repetitions, alternating legs with each lunge."
+    ],
+    "notes": ""
   }
 ]
