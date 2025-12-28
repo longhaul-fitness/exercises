@@ -204,8 +204,12 @@
     "slug": "plank",
     "primaryMuscles": ["abdominal", "lower back"],
     "secondaryMuscles": ["oblique", "shoulder - front"],
-    "steps": [],
-    "notes": ""
+    "steps": [
+      "Start on the ground with your weight on your elbows and toes, facing down.",
+      "Keep your elbows under your shoulders and your body in a straight line from head to heels.",
+      "Hold this position for the desired amount of time."
+    ],
+    "notes": "Engage core muscles and maintain a neutral spine position throughout the exercise."
   },
   {
     "pk": "859b2211-9bb0-462b-987c-620a3e37d688",
@@ -407,8 +411,8 @@
   },
   {
     "pk": "47d61f40-0743-47af-95a5-545a6a9a4824",
-    "name": "Leg Extension",
-    "slug": "leg-extension",
+    "name": "Leg Extension \u2013 Machine",
+    "slug": "leg-extension-machine",
     "primaryMuscles": ["quad"],
     "secondaryMuscles": [],
     "steps": [
@@ -1992,8 +1996,8 @@
   },
   {
     "pk": "1ac7c960-3381-40dc-a146-a1e08e0332c8",
-    "name": "Seated Leg Curl",
-    "slug": "seated-leg-curl",
+    "name": "Seated Leg Curl \u2013 Machine",
+    "slug": "seated-leg-curl-machine",
     "primaryMuscles": ["hamstring"],
     "secondaryMuscles": [],
     "steps": [
@@ -2779,8 +2783,8 @@
   },
   {
     "pk": "b8b5d80e-fc68-4e95-84a8-d20cc3a9b95b",
-    "name": "Concentration Curl",
-    "slug": "concentration-curl",
+    "name": "Concentration Curl \u2013 Dumbbell",
+    "slug": "concentration-curl-dumbbell",
     "primaryMuscles": ["bicep"],
     "secondaryMuscles": ["forearm - inner"],
     "steps": [
@@ -2853,8 +2857,8 @@
   },
   {
     "pk": "6ce7b2fa-f145-4864-8b6e-12883465557d",
-    "name": "Seated Calf Raise",
-    "slug": "seated-calf-raise",
+    "name": "Seated Calf Raise \u2013 Machine",
+    "slug": "seated-calf-raise-machine",
     "primaryMuscles": ["calf"],
     "secondaryMuscles": [],
     "steps": [
@@ -3336,8 +3340,8 @@
   },
   {
     "pk": "2bafa5cc-a98f-4113-8ec7-0adf62d190fd",
-    "name": "Lying Leg Curl",
-    "slug": "lying-leg-curl",
+    "name": "Lying Leg Curl \u2013 Machine",
+    "slug": "lying-leg-curl-machine",
     "primaryMuscles": ["hamstring"],
     "secondaryMuscles": [],
     "steps": [
@@ -3958,8 +3962,8 @@
   },
   {
     "pk": "04f4ff32-ec03-4905-99a7-d669ff221de4",
-    "name": "Front Squat",
-    "slug": "front-squat",
+    "name": "Front Squat \u2013 Barbell",
+    "slug": "front-squat-barbell",
     "primaryMuscles": ["glute", "lower back", "quad", "thigh - inner"],
     "secondaryMuscles": ["calf"],
     "steps": [
@@ -5821,7 +5825,7 @@
   },
   {
     "pk": "c029b94a-907a-481d-83b2-079b978deb9a",
-    "name": "Single Arm Half Kneeling High Row \u2013 Cable",
+    "name": "Single-Arm Half Kneeling High Row \u2013 Cable",
     "slug": "single-arm-half-kneeling-high-row-cable",
     "primaryMuscles": ["lat"],
     "secondaryMuscles": [
@@ -6299,5 +6303,418 @@
       "Repeat the movement for your desired number of repetitions."
     ],
     "notes": ""
+  },
+  {
+    "pk": "e3a5a4d0-ab87-478f-8da6-12c2898ce1b5",
+    "name": "Seated Row \u2013 Cable",
+    "slug": "seated-row-cable",
+    "primaryMuscles": ["lat", "lower back"],
+    "secondaryMuscles": ["trap", "shoulder - back", "bicep", "forearm - outer"],
+    "steps": [
+      "Sit on the seat or bench with a slight bend in the knees and your feet firmly on the footrests.",
+      "Grab the cable attachment with both hands using a neutral grip (palms facing each other).",
+      "Pull the attachment to your torso while straightening your lower back and pushing your chest out.",
+      "Return until you feel a slight forward stretch in your shoulders.",
+      "Repeat."
+    ],
+    "notes": "Don't lower weight beyond mild stretch."
+  },
+  {
+    "pk": "c687c6ce-81be-4f96-a0f4-8b77bcb6228d",
+    "name": "Standing Rear Delt Row \u2013 Cable",
+    "slug": "standing-rear-delt-row-cable",
+    "primaryMuscles": ["shoulder - back"],
+    "secondaryMuscles": ["rotator cuff - back", "shoulder - side", "trap", "shoulder - back", "bicep", "forearm - outer"],
+    "steps": [
+      "Attach a rope handle to a high pulley cable machine, at about head height.",
+      "Grasp the rope in a overhand grip while facing the machine and take a step back, staggering your feet for stability.",
+      "Keep your elbows flared out to the sides and your arms extended in front of you.",
+      "Exhale as you pull the rope towards your shoulders, squeezing your shoulder blades together at the peak of the movement.",
+      "Inhale as you return to the starting position, with your shoulders stretching forward.",
+      "Repeat."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "c4b7e804-3293-4d3f-a012-8efc611e7260",
+    "name": "One-Hand Incline Tricep Extension \u2013 Dumbbell",
+    "slug": "one-hand-incline-tricep-extension-dumbbell",
+    "primaryMuscles": ["tricep"],
+    "secondaryMuscles": ["shoulder - front", "chest", "lat", "shoulder - back", "forearm - outer", "forearm - inner"],
+    "steps": [
+      "Set an adjustable bench to a 30-45 degree incline.",
+      "Lie back on the bench with a dumbbell in one hand, arm extended straight up towards the ceiling.",
+      "Keep your upper arm stationary and lower your forearm by bending at the elbow until the dumbbell is beside your head.",
+      "Pause briefly, then extend your arm back to the starting position by straightening your elbow.",
+      "Repeat for the desired number of repetitions, then switch sides and repeat the exercise with your other arm."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "ae5eb597-f426-4369-a787-31b2666d240b",
+    "name": "Preacher Curl \u2013 Machine",
+    "slug": "preacher-curl-machine",
+    "primaryMuscles": ["bicep"],
+    "secondaryMuscles": ["forearm - outer"],
+    "steps": [
+      "Adjust the seat height so that your armpits are resting comfortably on the top of the bench.",
+      "Grab the bar with an underhand grip, hands shoulder-width apart.",
+      "Place your upper arms on the bench pad, keeping your elbows close to your body.",
+      "Exhale and curl the bar up towards your shoulders, keeping your upper arms stationary.",
+      "Pause briefly at the top of the movement, squeezing your biceps.",
+      "Inhale and slowly lower the bar back down to the starting position.",
+      "Repeat."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "5a687e08-f2f7-4ff2-888d-5720342ee373",
+    "name": "Seated Dip \u2013 Machine",
+    "slug": "seated-dip-machine",
+    "primaryMuscles": ["chest"],
+    "secondaryMuscles": ["shoulder - front", "tricep", "shoulder - back", "trap", "lat"],
+    "steps": [
+      "Sit on seat with feet firmly placed on the ground.",
+      "Grab the handles with an overhand grip.",
+      "Lean forward slightly and allow your elbows to flare out to the sides.",
+      "Exhale as you push the handles down by straightening your arms until they are fully extended.",
+      "Inhale as you slowly return to the starting position and repeat for the desired number of repetitions."
+    ],
+    "notes": "Avoid 'shrugging' your shoulders toward your ears during the upward phase."  
+  },
+  {
+    "pk": "95a6b9b5-b2a5-43d2-8102-c9c966b11bb5",
+    "name": "Incline Chest Press \u2013 Machine",
+    "slug": "incline-chest-press-machine",
+    "primaryMuscles": ["chest"],
+    "secondaryMuscles": ["shoulder - front", "tricep"],
+    "steps": [
+      "Sit on seat with upper chest just above the grips on the machine.",
+      "Grab the handles with a wide overhand grip and position elbows out to the sides, slightly below shoulder-height.",
+      "Push arms diagonally forward and upward until arms are fully extended but not locked out.",
+      "Slowly return the weight until your chest muscles are slightly stretched.",
+      "Repeat for desired number of repetitions."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "e257faf5-d027-42a7-9b41-e2cf8ada6dc6",
+    "name": "Pull-Up \u2013 Machine",
+    "slug": "pull-up-machine",
+    "primaryMuscles": ["lat"],
+    "secondaryMuscles": ["bicep", "forearm - outer", "rotator cuff - back", "shoulder - back", "trap"],
+    "steps": [
+      "Step onto the pull-up machine and place your knees on the knee pad. Grasp the handles with an overhand grip, hands slightly wider than shoulder-width apart. Your arms should be fully extended.",
+      "Engage your core and retract your shoulder blades as you pull your body up towards the bar. Keep your elbows pointed downwards and your head in a neutral position.",
+      "Continue pulling your body up until your chin is above the bar. Keep your core tight and your shoulders engaged throughout the movement.",
+      "Pause briefly at the top of the movement, then slowly lower yourself back down to the starting position with control. Make sure to maintain a controlled descent and avoid letting your body swing or drop.",
+      "Repeat the movement for your desired number of repetitions."
+    ],
+    "notes": "Adjust the weight assistance on the machine as needed to ensure proper form and control throughout the exercise."
+  },
+  {
+    "pk": "99a6f1f0-a8c7-4317-9113-a570f3a2c966",
+    "name": "Reverse Wrist Curl \u2013 Dumbbell",
+    "slug": "reverse-wrist-curl-dumbbell",
+    "primaryMuscles": ["forearm - outer"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Start by sitting on a bench with your forearm resting on your knees and your palms facing down, holding a dumbbell with an overhand grip.",
+      "Slowly lift the dumbbell towards your outer forearms by curling your wrist upward.",
+      "Pause for a moment at the top of the movement, then slowly lower the dumbbell back down to the starting position.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "160c14ff-7590-4c96-bff7-64aa013d4766",
+    "name": "Dip \u2013 Machine",
+    "slug": "dip-machine",
+    "primaryMuscles": ["chest"],
+    "secondaryMuscles": ["shoulder - front", "tricep", "shoulder - back", "trap", "lat"],
+    "steps": [
+      "Step onto the dip machine and place your knees on the knee pad. Grasp the handles with an overhand grip, arms fully extended, and your body supported by your arms.",
+      "Slightly lean forward and keep your elbows slightly bent to engage your chest, shoulders, and triceps muscles.",
+      "Lower your body by bending your elbows and leaning forward while keeping your back straight and your knees on the pad. Keep your elbows close to your body throughout the entire exercise.",
+      "Continue lowering yourself until your upper arms are parallel to the ground, or slightly below parallel, while inhaling.",
+      "Push back up by straightening your arms while exhaling. Be sure to push with your triceps, chest, and shoulder muscles to return to your starting position.",
+      "Repeat."
+    ],
+    "notes": "Adjust the weight assistance on the machine as needed to ensure proper form and control throughout the exercise."
+  },
+  {
+    "pk": "bb038ee7-6a9c-413d-a1a8-10dcb1c8f2ca",
+    "name": "Standing Incline Chest Fly \u2013 Cable",
+    "slug": "standing-incline-chest-fly-cable",
+    "primaryMuscles": ["chest"],
+    "secondaryMuscles": ["shoulder - front", "bicep"],
+    "steps": [
+      "Stand in front of a cable machine, facing away from the machine, with your feet shoulder-width apart and knees slightly bent.",
+      "Grasp the handles of the cables with your palms facing forward and your arms extended out to the sides at shoulder height.",
+      "Engage your core and maintain a slight bend in your elbows throughout the exercise. Try not to change the degree of elbow bend during the repetitions.",
+      "Exhale and slowly bring your arms forward and upward at a 20-30 degree angle, until your hands touch.",
+      "Inhale and slowly return your arms back to the starting position, keeping them extended and at shoulder height.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "db9e67ea-cc9a-4641-b72c-f115419e9eaf",
+    "name": "One-Arm Curl \u2013 Cable",
+    "slug": "one-arm-curl-cable",
+    "primaryMuscles": ["bicep"],
+    "secondaryMuscles": ["forearm - outer"],
+    "steps": [
+      "Adjust the cable machine pulley to the lowest setting and attach a handle. Grasp the handle with an overhand grip.",
+      "Take a step back and stand with your feet shoulder-width apart.",
+      "Keep your elbow close to your side and curl the cable up towards your shoulder.",
+      "Slowly lower the cable back down to the starting position, and repeat for the desired number of repetitions before switching to the other arm."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "bdba0072-35ac-42bb-9d65-f1410a630673",
+    "name": "Single-Leg Calf Raise \u2013 Dumbbell",
+    "slug": "single-leg-calf-raise-dumbbell",
+    "primaryMuscles": ["calf"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Stand on the edge of a raised platform or step with the ball of one foot, allowing your heel to hang off the edge.",
+      "Lift the non-working leg off the ground, bending the knee slightly so it doesn't interfere with the movement.",
+      "Hold a dumbbell in the hand on the same side as the working leg; use your free hand to lightly touch a wall or rail for balance.",
+      "Lower your heel toward the floor until you feel a deep stretch in the calf muscle.",
+      "Press through the ball of your foot to raise your heel as high as possible, reaching a full contraction at the top.",
+      "Pause briefly at the peak, then slowly lower your heel back to the starting stretched position.",
+      "Repeat the movement for the desired number of repetitions before switching to the other leg."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "50c010b1-965d-4082-8c36-1e4e3e05db71",
+    "name": "Calf Raise \u2013 Dumbbell",
+    "slug": "calf-raise-dumbbell",
+    "primaryMuscles": ["calf"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Stand on the edge of a raised platform with your feet parallel to each other, allowing your heels to hang off the edge.",
+      "Lower your heels toward the floor until you feel a deep stretch in the calf muscles.",
+      "Press through the balls of your feet to raise your heels as high as possible, reaching a full contraction at the top.",
+      "Hold the raised position for a moment, feeling the contraction in your calf muscles.",
+      "Lower your heels back down in a controlled manner.",
+      "Repeat the movement for the desired number of repetitions."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "3d8b90ce-faa0-427d-9485-9a6b6bce130e",
+    "name": "Walking Lunge \u2013 Dumbbell",
+    "slug": "walking-lunge-dumbbell",
+    "primaryMuscles": ["glute", "quad", "thigh - inner"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Start with your feet hip-width apart and the dumbbells at your sides.",
+      "Take a large step forward with your right foot, lowering your body until your right thigh is parallel to the ground and your left knee is hovering just above the floor.",
+      "Push through your right heel to stand back up, bringing your left foot forward to meet your right foot.",
+      "Repeat the lunge on the other side by stepping forward with your left foot.",
+      "Continue alternating lunges for the desired number of reps or distance."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "1137b9ad-716a-4cf0-a180-3d9cea472646",
+    "name": "Overhead Press \u2013 Barbell",
+    "slug": "overhead-press-barbell",
+    "primaryMuscles": ["shoulder - front"],
+    "secondaryMuscles": ["chest", "tricep", "shoulder - side", "trap"],
+    "steps": [
+      "Hold the barbell with an overhand grip, slightly wider than shoulder-width apart, resting the bar just above the collarbones.",
+      "Keep your chest lifted and core tight as you push the barbell upward while moving your head sluightly back to allow the bar to pass.",
+      "Once the bar passes your forehead, return your head to a neutral position and fully extend your arms overhead without locking your elbows.",
+      "Slowly lower the barbell back to the starting position at collarbone level. Repeat for the desired number of repetitions."
+    ],
+    "notes": "By returning your head to a neutral position after the bar passes your forehead, you avoid unnecessary strain on your arms and shoulders."
+  },
+  {
+    "pk": "89644403-33e3-4296-96ef-730c3ad2f3f6",
+    "name": "Straight Leg Deadlift \u2013 Cable",
+    "slug": "straight-leg-deadlift-cable",
+    "primaryMuscles": ["lower back", "hamstring"],
+    "secondaryMuscles": ["glute", "thigh - inner"],
+    "steps": [
+      "Adjust the cable machine pulley to the lowest setting and attach a straight bar or handle. Grasp the bar with an overhand grip.",
+      "Stand a few feet away facing the machine with your feet shoulder-width apart, and your heels under your lower back.",
+      "Inhale as you slowly bring the bar down, bending at the hips while keeping your knees slightly bent.",
+      "When you feel a slight stretch in your hamstrings, slowly return to the starting position by pushing your hips forward and standing tall.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "f2ac6cbb-e449-4640-9dd1-1eb763a0b782",
+    "name": "Feet-Elevated Oblique Crunch \u2013 Bench",
+    "slug": "feet-elevated-oblique-crunch-bench",
+    "primaryMuscles": ["oblique"],
+    "secondaryMuscles": ["abdominal"],
+    "steps": [
+      "Begin by lying on your back on the ground with your feet and calves resting on a bench placed by your glutes. This is the starting position.",
+      "Place your arms crossed over your chest or hands behind your ears, ensuring not to pull on your head or neck.",
+      "Engage your core muscles and rotate your right shoulder towards your left knee. Lift your shoulder as high as you can while keeping your lower back connected to the ground. Focus on contracting your right oblique muscles.",
+      "Hold the position briefly at the top of the movement while squeezing your obliques.",
+      "Lower your torso back down to the starting position in a controlled manner.",
+      "Continue alternating crunches on each side for the desired number of repetitions."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "a364cd0f-01d5-45d9-966c-ede1abc3fd0a",
+    "name": "Seated Twist \u2013 Machine",
+    "slug": "seated-twist-machine",
+    "primaryMuscles": ["oblique"],
+    "secondaryMuscles": ["lower back"],
+    "steps": [
+      "Sit on the machine with your feet on the footrest and adjust the range of motion setting to one side.",
+      "Place your torso against the pad and grasp the handles or side grips.",
+      "Engage your core and rotate your lower body to the opposite side.",
+      "Slowly return to starting position and repeat for the desired number of repetitions before switching sides."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "dc5cc956-60c0-47c4-9e91-68910d51d717",
+    "name": "One-Handed Chest Press \u2013 Cable",
+    "slug": "one-handed-chest-press-cable",
+    "primaryMuscles": ["chest"],
+    "secondaryMuscles": ["shoulder - front", "tricep", "oblique", "lower back", "thigh - inner"],
+    "steps": [
+      "Set the cable at approximately chest height or slightly lower and attach a single handle.",
+      "Grasp the handle and step forward into a staggered stance, creating tension while keeping the handle near the side of your chest.",      "Square your hips and shoulders forward, engaging your core and inner thighs to prevent the cable from pulling your torso toward the machine.",
+      "Stabilize your body by engaging your core as you press the handle forward until your arm is fully extended in front of you but not locked out.",
+      "Exhale and press the handle straight forward until your arm is fully extended, maintaining a proud chest and stable posture.",
+      "Control the weight as you slowly return to the starting position, resisting any twisting at the waist.",
+      "Repeat for desired number of repetitions, then switch sides and repeat."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "54c4867f-9bb0-4427-a5e1-10e58a72a23f",
+    "name": "Reverse Fly \u2013 Cable",
+    "slug": "reverse-fly-cable",
+    "primaryMuscles": ["shoulder - back"],
+    "secondaryMuscles": ["shoulder - side", "rotator cuff - back", "trap", "shoulder - back"],
+    "steps": [
+      "Adjust the cable machine pulleys to around chest height and attach single handles to each side.",
+      "Stand in the center of the machine with feet shoulder-width apart, holding a handle in each hand with an overhand grip.",
+      "Step back to create tension in the cables and extend your arms in front of you with a slight bend in your elbows. This is your starting position.",
+      "Pull the handles out to the sides in a wide arc, squeezing your shoulder blades together, while maintaining the bend in your elbows.",
+      "Slowly return your arms back to the starting position, and repeat for the desired number of repetitions."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "67a205ee-7632-4456-9bc4-3d0380d4679e",
+    "name": "Single-Leg Leg Press \u2013 Machine",
+    "slug": "single-leg-leg-press-machine",
+    "primaryMuscles": ["quad", "glute"],
+    "secondaryMuscles": ["thigh - inner", "calf"],
+    "steps": [
+      "Adjust the seat of the leg press machine so that your knees are at a ~90-degree angle when your feet are on the footplate.",
+      "Sit on the machine and place your feet shoulder-width apart on the footplate.",
+      "Remove one foot and push the footplate away from your body by extending your leg.",
+      "Lower the footplate back towards your body by bending your leg and keeping your foot flat on the plate.",
+      "Repeat for the desired number of repetitions before switching legs."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "012f37ac-8cc3-49ae-a82d-03de88dab697",
+    "name": "Seated High Row \u2013 Machine",
+    "slug": "seated-high-row-machine",
+    "primaryMuscles": ["lat", "lower back"],
+    "secondaryMuscles": ["trap", "shoulder - back", "rotator cuff - back", "bicep", "forearm - outer", "chest"],
+    "steps": [
+      "Sit on seat with chest against the pad and feet flat on the floor or footrests.",
+      "Grasp lever handles with overhand grip, arms extended.",
+      "Pull handles back until your elbows are behind your back, squeezing your shoulder blades together.",
+      "Slowly return until your arms are extended and shoulders are stretched forward.",
+      "Repeat for desired number of repetitions."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "c95c9665-9d69-4977-aae4-e6af8f616e97",
+    "name": "Upright Row \u2013 Cable",
+    "slug": "upright-row-cable",
+    "primaryMuscles": ["shoulder - side"],
+    "secondaryMuscles": ["shoulder - front", "rotator cuff - front", "bicep", "forearm - outer", "trap", "rotator cuff - back", "shoulder - back"],
+    "steps": [
+      "Set up the cable machine by adjusting the cable to its lowest position and attaching a rope.",
+      "Stand with your feet shoulder-width apart and your knees slightly bent.",
+      "Grasp the rope with an overhand grip, hands narrower than shoulder-width apart.",
+      "Hold the rope in front of your thighs with your arms extended.",
+      "Exhale and lift the rope straight up towards your chin, keeping it close to your body.",
+      "Pause for a moment at the top of the movement, then inhale and slowly lower the rope back down to the starting position.",
+      "Repeat."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "6329a33c-29c4-4f02-b482-df0878d4e8a5",
+    "name": "One-Arm Lateral Raise \u2013 Cable",
+    "slug": "one-arm-lateral-raise-cable",
+    "primaryMuscles": ["shoulder - side"],
+    "secondaryMuscles": ["shoulder - front", "rotator cuff - front", "trap"],
+    "steps": [
+      "Set up the cable machine by adjusting the cable to its lowest position and attaching a single handle.",
+      "Stand sideways to the machine, gripping the handle with the hand furthest from the machine.",
+      "Keep your elbow slightly bent at a 10 to 30 degree angle, and raise your arm to the side away from the pulley until your elbow is at shoulder height.",
+      "Complete all reps on one side before switching hands to work the opposite side."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "38f41814-508f-4052-b522-59e7a35b4e5f",
+    "name": "Tricep Kickback \u2013 Dumbbell",
+    "slug": "tricep-kickback-dumbbell",
+    "primaryMuscles": ["tricep"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Kneel with one leg on a bench and the other foot planted firmly on the floor.",
+      "Hold a dumbbell in the hand opposite the kneeling leg, with your palm facing your torso.",
+      "Bend forward at the hips, keeping your back straight, and position your other hand on the bench for support. This is your starting position.",
+      "Extend your arm until it is straight, keeping the elbow close to your body.",
+      "Return to the starting position and repeat for the desired number of repetitions before switching arms."
+    ],
+    "notes": ""
+  },
+  {
+    "pk": "a2ff75c3-24c3-4269-8b0c-f35192256235",
+    "name": "Bent-Over Tricep Extension \u2013 Cable",
+    "slug": "bent-over-tricep-extension-cable",
+    "primaryMuscles": ["tricep"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Set up the cable machine by adjusting the cable to above shoulder height and attach a bar.",
+      "Turn your body away from the pulley so the loaded end of the cable sits behind your neck.",
+      "Grab the cable bar with an overhand grip, hands shoulder-width apart or slightly narrower.",
+      "Bend at the hips and lunge forward with one leg to create a stable base, allowing the elbows to be pulled back by the cable tension.",
+      "Extend your forearms forward until your elbows are straight, using the triceps to drive the movement.",
+      "Slowly allow the cable to pull the bar back over your neck, controlling the return and maintaining shoulder flexion within your comfortable range.",
+      "Repeat for the desired number of repetitions, switching lead leg as needed for balance."
+    ],
+    "notes": ""
+  },
+
+  {
+    "pk": "bc4d2677-0930-4f59-8538-58789a27de95",
+    "name": "Back Extension \u2013 Machine",
+    "slug": "back-extension-machine",
+    "primaryMuscles": ["lower back"],
+    "secondaryMuscles": [],
+    "steps": [
+      "Sit down on the machine with your feet on the footrest and back against the pad.",
+      "Extend your spine until your back is straight without arching past your natural range.",
+      "Slowly return to starting position and repeat for the desired number of repetitions."
+    ],
+    "notes": "Different machines vary in pad placement and starting angle. Follow the instructions on your specific equipment."
   }
 ]
